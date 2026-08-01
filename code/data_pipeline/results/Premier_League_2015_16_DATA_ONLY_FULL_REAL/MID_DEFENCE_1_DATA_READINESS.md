@@ -1,0 +1,22 @@
+# READY FOR MID DEFENCE 1 DATA REVIEW
+
+| check                                                           | passed   | details                                                                                                                                                      |
+|:----------------------------------------------------------------|:---------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| real full-season mode                                           | True     | mode=real, max_matches=None; required for real defence run                                                                                                   |
+| complete Premier League season                                  | True     | matches=380; 380 required for real defence run                                                                                                               |
+| all key and foreign-key checks pass                             | True     | failed=0                                                                                                                                                     |
+| event scores reconcile with match metadata                      | True     | failed_matches=0                                                                                                                                             |
+| all leakage and integrity tests pass                            | True     | passed=12/12                                                                                                                                                 |
+| one pre-match row per match                                     | True     | prematch=380, matches=380                                                                                                                                    |
+| consistent snapshot coverage per match                          | True     | snapshots_per_match=[21]                                                                                                                                     |
+| strict M90 and full-time snapshots both exist                   | True     | boundaries=['FT', 'HT', 'M00', 'M05', 'M10', 'M15', 'M20', 'M25', 'M30', 'M35', 'M40', 'M45', 'M50', 'M55', 'M60', 'M65', 'M70', 'M75', 'M80', 'M85', 'M90'] |
+| snapshot rows inherit match-level split                         | True     | each match has exactly one split                                                                                                                             |
+| provider and odds-audit fields are excluded from model features | True     | administrative/provider fields are metadata, audit, or baseline-only                                                                                         |
+| raw and clipped margins are both preserved                      | True     | raw observed margin and clipped Task-R target are separate                                                                                                   |
+| strict chronological split summary exists                       | True     | /content/drive/MyDrive/ml_project/code/data_pipeline/results/Premier_League_2015_16_DATA_ONLY_FULL_REAL/audit/split_summary.csv                              |
+| odds tagging coverage is sufficient                             | True     | coverage=1.000                                                                                                                                               |
+| feature distributions and data-quality reports saved            | True     | quality, feature, event-type, and snapshot profiles                                                                                                          |
+| defence plots saved                                             | True     | /content/drive/MyDrive/ml_project/code/data_pipeline/results/Premier_League_2015_16_DATA_ONLY_FULL_REAL/audit/plots                                          |
+
+This gate covers data ingestion, cleaning, integration, feature construction, distributions,
+chronological splitting, odds tagging, and leakage tests. It does not approve a P1 or P2 paper.

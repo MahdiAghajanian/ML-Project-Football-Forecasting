@@ -1,0 +1,2 @@
+project_root,data_mode,competition_id,season_id,competition_name,season_name,football_data_code,football_data_division,max_matches,date_tolerance_days,train_fraction,validation_fraction,snapshot_minutes,rolling_windows,overwrite_downloads,download_360,download_workers,random_seed
+/content/drive/MyDrive/ml_project/code/data_pipeline/results/Premier_League_2015_16_DATA_ONLY_FULL_REAL,real,2,27,Premier League,2015/2016,1516,E0,,1,0.65,0.2,"(0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90)","(3, 5, 10)",False,True,6,42

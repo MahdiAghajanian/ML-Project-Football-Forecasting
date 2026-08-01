@@ -1,0 +1,1065 @@
+match_id,home_team_id,away_team_id,metadata_home_score,metadata_away_score,event_id,event_order,raw_index,period,minute,second,type_name,team_id,team_name,shot_outcome_name,goal_team_id,goal_source
+3754097,39,38,1,0,6a8b0001-bdaa-4f42-a0db-3959f8cbaa72,1028,1029,1,21,36,Own Goal For,39,Manchester United,,39.0,own_goal_for
+3754097,39,38,1,0,ef545a9b-0f1f-4b20-afb3-ef3ce394d6fc,1029,1030,1,21,36,Own Goal Against,38,Tottenham Hotspur,,,own_goal_against_audit_only
+3754128,28,59,0,1,fefdf02b-e313-4a93-a5e7-1dee1cd8d601,2930,2931,2,71,52,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754138,56,31,1,3,b366976a-99a1-4fad-a59e-6d94eef40baf,1370,1371,1,37,58,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754138,56,31,1,3,b2618673-db39-4cb4-8b77-8f0c7416eb44,1855,1856,2,48,57,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754138,56,31,1,3,04804514-faa4-4719-b6dc-a32d637fb104,2356,2357,2,68,8,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754138,56,31,1,3,fcaec8c0-0075-4b10-adcf-743ece6947e9,3040,3041,2,93,37,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754237,22,41,4,2,d6955257-a1ed-4b64-a351-58e16eadc888,375,375,1,10,17,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754237,22,41,4,2,2d39e92c-e350-454b-ac18-2b07bdaac540,609,609,1,17,42,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754237,22,41,4,2,c07f41b5-f11a-4ff6-9460-c265461cdf03,806,806,1,24,29,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754237,22,41,4,2,71c4492a-66e9-49bb-b3b2-1cd406b705a0,2078,2079,2,59,57,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754237,22,41,4,2,c65aaa21-ab26-4414-87b0-36a347a0862d,2230,2231,2,65,25,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754237,22,41,4,2,12af0d50-4b66-438e-9ddd-6a096cc882eb,2383,2384,2,70,18,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754300,29,23,2,2,676ee4e9-0a8f-41e7-81e1-645e3f18cbb5,548,548,1,12,58,Shot,23,Watford,Goal,23.0,shot_goal
+3754300,29,23,2,2,c0895fb7-a9c2-4414-aff5-4dfaf460153b,2949,2950,2,75,12,Shot,29,Everton,Goal,29.0,shot_goal
+3754300,29,23,2,2,35df2511-ea2d-4b82-8e61-d24b3875948d,3199,3200,2,82,40,Shot,23,Watford,Goal,23.0,shot_goal
+3754300,29,23,2,2,82fe9ade-b22c-43e3-b6f0-40dda00807db,3261,3262,2,85,41,Shot,29,Everton,Goal,29.0,shot_goal
+3754078,33,26,2,2,d3c140eb-ec80-43d2-9aca-1ae1d25ef65b,843,843,1,22,8,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754078,33,26,2,2,132624e5-65f2-405e-9842-d26eaa11e939,1069,1069,1,28,17,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754078,33,26,2,2,32124451-ae8e-40b0-82fa-a450314b4e0c,1111,1111,1,29,49,Own Goal For,33,Chelsea,,33.0,own_goal_for
+3754078,33,26,2,2,c49d8042-3ef1-4a10-acf9-1e0bc3eec027,1112,1112,1,29,49,Own Goal Against,26,Swansea City,,,own_goal_against_audit_only
+3754078,33,26,2,2,c6449f88-065a-4ed9-a5a3-5b66eea49733,2012,2013,2,54,5,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754112,37,25,2,2,a077d855-3392-4590-a38c-fb601899cbc0,834,835,1,23,57,Shot,25,Southampton,Goal,25.0,shot_goal
+3754112,37,25,2,2,8c144f11-430f-4279-bcdd-2bcd9f982e63,1461,1462,1,41,55,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754112,37,25,2,2,a942c428-1ffa-45e8-8b52-7f41b22600ea,1698,1699,2,47,10,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754112,37,25,2,2,43db7daf-c181-4956-8309-57a7978f5627,2662,2663,2,78,8,Shot,25,Southampton,Goal,25.0,shot_goal
+3754141,1,40,0,2,6adf52df-9bb2-4a9c-b2f7-fc5a792596ec,1448,1449,1,42,50,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754141,1,40,0,2,a70e732a-152b-442c-96fb-3090f7763982,2181,2182,2,56,27,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753985,30,24,0,1,3309e85b-f74f-41ab-9742-9916331d1fe2,3135,3136,2,85,18,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754145,27,36,0,3,a23db28d-5206-452a-a33c-7dbc6bf41457,495,495,1,8,30,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754145,27,36,0,3,3dceefac-868f-4b60-a6a1-bdee413e445f,1300,1300,1,23,32,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754145,27,36,0,3,7cff9ab8-e960-4b02-bfc1-b9c2eadb40fe,2745,2746,2,58,34,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754107,59,39,0,1,9c6d84e2-59c6-4577-a193-4317b05ed297,1212,1212,1,28,7,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754034,25,29,0,3,c7382287-92df-4472-bb8b-58f5e8307664,842,843,1,21,9,Shot,29,Everton,Goal,29.0,shot_goal
+3754034,25,29,0,3,24763f2e-e97f-4152-972e-22aa3c81d70c,1570,1571,1,44,2,Shot,29,Everton,Goal,29.0,shot_goal
+3754034,25,29,0,3,9ffdddcf-d760-4e1a-905d-3e0781c62335,2906,2907,2,83,11,Shot,29,Everton,Goal,29.0,shot_goal
+3753993,41,56,1,3,0580847e-6f39-4750-b3f5-6f42982b5cee,924,925,1,25,35,Shot,56,Norwich City,Goal,56.0,shot_goal
+3753993,41,56,1,3,7a52585f-afa5-4faf-a18f-e615a7e60d54,1300,1301,1,36,50,Shot,56,Norwich City,Goal,56.0,shot_goal
+3753993,41,56,1,3,7965dd5c-ac42-49de-98e9-3cd1bd043741,2133,2134,2,56,45,Shot,56,Norwich City,Goal,56.0,shot_goal
+3753993,41,56,1,3,f79c0902-8c60-4343-8f9a-be347adc7a28,3293,3294,2,87,32,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754203,40,22,1,2,add6b4f5-f437-4def-9489-46c7c5c3a4c7,870,871,1,26,30,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754203,40,22,1,2,daf11187-707f-4991-b500-4bf2eb0c4623,1228,1229,1,37,21,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754203,40,22,1,2,774805ff-3cf4-442e-b40c-0b5f09d04549,1874,1875,2,54,31,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754270,38,30,2,2,79d76788-337f-45b0-ad7c-f9654688b653,770,770,1,18,27,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754270,38,30,2,2,80ce1a84-a2e2-4c10-a361-edfaab769f6b,1814,1814,1,46,21,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754270,38,30,2,2,616c8457-69c0-48fb-886e-ada1592b77ee,3076,3077,2,77,44,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754270,38,30,2,2,28609d0a-be68-4c09-b678-67a5ebd331a8,3294,3295,2,82,10,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754344,26,37,2,0,1d81da09-2734-4c10-a758-21a89a966ffa,461,461,1,8,49,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754344,26,37,2,0,6fbe5296-2925-4707-b36e-470d20fd1b09,2029,2030,2,51,41,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754312,31,1,1,2,cb989dd4-e339-461b-a7f6-c0441f8e6a30,675,675,1,15,8,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754312,31,1,1,2,55c03999-1c6c-450e-bdf1-7b34005d0be2,1210,1210,1,27,2,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754312,31,1,1,2,26cf50f6-c12b-4926-b013-254e8dd8431b,2341,2342,2,54,18,Own Goal For,1,Arsenal,,1.0,own_goal_for
+3754312,31,1,1,2,427c4492-983d-499d-81e9-60d6c72c7cb8,2342,2343,2,54,18,Own Goal Against,31,Crystal Palace,,,own_goal_against_audit_only
+3754066,36,33,3,0,4f9546ad-2da9-4767-bedf-27ce9767aee3,1267,1268,1,31,0,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754066,36,33,3,0,61c5aa65-5d1b-48c1-9cc6-e342ed42020c,3041,3042,2,77,28,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754066,36,33,3,0,662a9739-1315-40c4-b1cf-3989ef229255,3190,3191,2,82,39,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754020,24,28,1,0,8751e10c-e2c7-4dc2-b553-807af7aa61d2,939,940,1,25,49,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753987,22,38,1,1,13e73a9b-79ba-4df4-9ee0-f593b9bd5cad,2893,2894,2,80,7,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3753987,22,38,1,1,de3ad16c-26d6-4310-a66d-4a41b83d4223,2908,2909,2,81,35,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754104,56,30,1,1,2bf255e3-ff42-4ae7-9a59-e0463ec5573c,356,356,1,10,16,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754104,56,30,1,1,6cd13bb0-1a41-464b-a2fd-e0a5be6892f8,910,910,1,27,15,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754131,40,28,3,4,93a84ac7-533a-4cb9-9b81-db12c32feb73,406,407,1,10,34,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754131,40,28,3,4,9ca4e2e7-9f9e-4732-95ff-a18079cceca8,977,978,1,27,30,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754131,40,28,3,4,9ca0d0da-98dc-4660-be86-efe549bf2480,1695,1696,2,47,5,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754131,40,28,3,4,25aaf2c2-8eaa-4eeb-849f-51aa16f15522,1852,1853,2,52,4,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754131,40,28,3,4,f931e8b3-efe9-4996-88df-bdddcf4e8187,2322,2323,2,65,13,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754131,40,28,3,4,cb839d59-707e-458f-9846-d16a73b4b7cd,2669,2670,2,78,57,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754131,40,28,3,4,5748b221-a375-4c1b-be17-8e3766529eaf,2743,2744,2,81,40,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754180,41,26,1,1,c1570bec-bf01-4d3b-8415-9b1c2162fa8b,1758,1758,1,47,8,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754180,41,26,1,1,24ba74c5-0e0f-47a3-bf1f-5d4d8ad2a2da,2480,2481,2,61,38,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754190,31,59,2,1,92976b54-467f-46c5-a1fe-a0eeee990d39,2340,2341,2,70,34,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754190,31,59,2,1,10a06e41-5bc9-41d7-8224-82431c9e8a2b,2486,2487,2,76,16,Own Goal Against,31,Crystal Palace,,,own_goal_against_audit_only
+3754190,31,59,2,1,f4e2f3af-8706-439d-a48a-7575e506ece1,2487,2488,2,76,16,Own Goal For,59,Aston Villa,,59.0,own_goal_for
+3754190,31,59,2,1,fcf68552-9ec6-4fd8-afbb-b6b1ade586ee,2757,2758,2,86,56,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754059,27,33,2,3,e1e6d412-0503-4465-92df-5cd83e6eb95d,795,796,1,19,31,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754059,27,33,2,3,25caf026-ed73-4942-8cd5-87569b65f2f4,1114,1115,1,29,11,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754059,27,33,2,3,e4814e1d-9e16-4306-ade5-3ec8283590c2,1304,1305,1,34,52,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754059,27,33,2,3,df51ce93-86b1-4742-aa84-039a73072f27,1513,1514,1,41,41,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754059,27,33,2,3,57c957cf-a4c6-4b74-a902-916a5019b6b5,2033,2034,2,58,34,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754233,29,36,0,2,dd597b28-39fe-4f69-8f41-cdbaca073174,2244,2245,2,59,21,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754233,29,36,0,2,2bb2e682-9dd0-453c-a07c-d1de1612e443,3286,3287,2,87,53,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754205,37,1,0,1,daeae52c-8c61-4d26-92bb-6a2702aa56e6,2157,2158,2,51,29,Own Goal For,1,Arsenal,,1.0,own_goal_for
+3754205,37,1,0,1,3520144c-e37a-4293-9763-f4a6fa9446c9,2158,2159,2,51,29,Own Goal Against,37,Newcastle United,,,own_goal_against_audit_only
+3753984,24,40,0,3,ee6e1e29-6ddf-4574-9c9e-5f9a147b3cef,126,126,1,2,25,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753984,24,40,0,3,1ec0293b-8901-4d37-ade1-8a6356bf7127,1068,1068,1,28,20,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753984,24,40,0,3,008aedab-4cdb-4bd5-ad0e-235229686141,3261,3262,2,91,23,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754007,30,27,0,1,61314223-fcd2-40e2-956e-0099a1f97777,1666,1667,1,47,45,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754023,28,22,1,1,075dd9c9-ef15-44eb-8225-8c38da7a4c24,890,890,1,23,28,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754023,28,22,1,1,7cca5992-108c-4faf-8cef-198535adacb4,2790,2791,2,85,45,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754083,33,31,1,2,284efa24-3137-45b4-9cbf-d3e9a6e42199,2552,2553,2,64,34,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754083,33,31,1,2,e809b246-5211-4271-817c-7367d1b7f292,2988,2989,2,78,43,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754083,33,31,1,2,415dd355-ac78-4494-b7fb-049aaaf42913,3043,3044,2,80,31,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754204,59,41,2,2,72f3ff3f-b9c2-4794-b61e-2a45f59328a1,351,352,1,7,57,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754204,59,41,2,2,5b72d176-4dd0-40f4-bd97-4052d66fbd56,425,426,1,11,0,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754204,59,41,2,2,fe173049-5cd4-432b-a8d5-3940848ff69d,1494,1495,1,40,30,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754204,59,41,2,2,68d22bec-6873-4fd3-bba5-f22e3240af36,1880,1881,2,51,33,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754246,36,23,2,0,724371d5-9bad-456c-857f-8532a3777a05,2235,2236,2,46,28,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754246,36,23,2,0,a9749f28-b872-4b6b-8748-3e48057978be,2538,2539,2,55,9,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754337,25,56,3,0,edd4c155-2475-49d7-b178-975eaa93b21e,1726,1727,1,45,43,Shot,25,Southampton,Goal,25.0,shot_goal
+3754337,25,56,3,0,39398f71-6fad-4f14-877a-1e81d0b8fc0d,2433,2434,2,63,47,Shot,25,Southampton,Goal,25.0,shot_goal
+3754337,25,56,3,0,2f428ebc-ca7c-4068-a34f-3ab828326209,2535,2536,2,66,32,Shot,25,Southampton,Goal,25.0,shot_goal
+3754221,26,39,2,1,755f0465-4a19-49b3-8fbe-82316cfbe75f,2035,2036,2,47,59,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754221,26,39,2,1,59d76b51-c67b-4c7b-8f2f-595ab3f8658c,2517,2518,2,60,5,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754221,26,39,2,1,a65651d8-e386-4ddc-bbaf-8e9438e769f4,2664,2665,2,65,14,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754336,29,33,3,1,f8f7eaa8-1ea7-4ffb-80dc-d40410ed9a79,703,703,1,16,18,Shot,29,Everton,Goal,29.0,shot_goal
+3754336,29,33,3,1,aab3491b-5808-494d-8831-cb50f83b92c8,843,843,1,21,21,Shot,29,Everton,Goal,29.0,shot_goal
+3754336,29,33,3,1,1f9e2af5-1d1f-426f-9ab0-bb903784fbd9,1444,1444,1,35,10,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754336,29,33,3,1,5c32a1c8-f9c9-48ae-a63a-52b1aa17d45f,3235,3236,2,81,56,Shot,29,Everton,Goal,29.0,shot_goal
+3754213,23,26,1,0,630bb456-85c5-4e9c-a333-2acfae865313,2213,2214,2,58,24,Shot,23,Watford,Goal,23.0,shot_goal
+3754240,1,30,2,0,ce19f4e5-6561-4bff-8f1a-ed13f4b85ed9,1206,1207,1,30,17,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754240,1,30,2,0,e9c95cf9-b19d-42c7-891b-e8942dcfb210,3205,3206,2,84,28,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754257,31,36,0,1,06f07f5a-ff2e-49bf-96ca-6a0dcc2730cc,3104,3105,2,89,42,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754315,56,28,3,1,4f5bf2f2-8c5f-4501-a62a-7b745e471f23,1181,1181,1,34,32,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754315,56,28,3,1,2c6f5d24-d017-4ae4-8b7b-471b0a262e36,1846,1847,2,51,10,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754315,56,28,3,1,c64c35dd-9d9e-433d-beb9-d0cfd8e792d4,2416,2417,2,66,16,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754315,56,28,3,1,1ac3db48-ace8-4da1-a4a3-2d8311c6d865,2978,2979,2,80,20,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754003,39,24,3,1,19121e60-0f57-4c1e-88d6-0f2c80b85fb3,2189,2190,2,48,19,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754003,39,24,3,1,1fe63d97-82f1-4e4b-819e-913a5aa02e7b,2848,2849,2,69,46,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754003,39,24,3,1,dd14c230-b818-4ff8-819b-119d079d24ee,3263,3264,2,83,48,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754003,39,24,3,1,342de9c9-2835-47bf-a0fd-b8397a0e29f1,3330,3331,2,85,43,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754148,41,38,0,1,7f31d7c8-d822-4769-b460-f784deb716b5,2655,2656,2,81,29,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754106,22,59,3,2,dc152366-1a60-4a4a-9585-2ceb6f14ad67,1370,1371,1,38,54,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754106,22,59,3,2,b89b9758-9877-4eec-a4bd-6fc4d09044a3,2381,2382,2,62,47,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754106,22,59,3,2,1d3cd849-d51a-48fe-8454-025eabdcca20,2648,2649,2,71,11,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754106,22,59,3,2,965e7355-a2dd-4745-8588-a6e3b646b06a,2932,2933,2,81,25,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754106,22,59,3,2,6d6a4f1c-acdc-4601-9bb8-758151f62c6d,3136,3137,2,88,33,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754329,40,37,2,0,c6cbb660-cc1c-4b44-a20d-f3cfdf2c88ae,352,353,1,8,36,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754329,40,37,2,0,b75983ea-4f64-485a-b1f6-0d5237cb2206,1748,1749,2,47,30,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754217,33,1,2,0,a9494c8c-9355-42c5-a020-dcc392b465f0,1933,1934,2,52,11,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754217,33,1,2,0,3ec692f4-d20e-4b0b-867d-726be265e3be,3520,3521,2,90,5,Own Goal For,33,Chelsea,,33.0,own_goal_for
+3754217,33,1,2,0,a956b655-aaf7-46b3-a935-6618d3adf85c,3521,3522,2,90,5,Own Goal Against,1,Arsenal,,,own_goal_against_audit_only
+3754010,37,23,1,2,3c20b0e9-c2bb-4b2a-aabc-53b19dfad6d1,343,344,1,9,3,Shot,23,Watford,Goal,23.0,shot_goal
+3754010,37,23,1,2,33d6a54d-1c90-4c0e-9c1f-ced3b3885a84,997,998,1,27,52,Shot,23,Watford,Goal,23.0,shot_goal
+3754010,37,23,1,2,77254730-bf99-4e4d-9ab9-5c86dee8a83c,2447,2448,2,61,44,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754068,59,27,0,1,236d072f-359b-4d44-9127-a4d10394ae77,1358,1359,1,38,54,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754146,30,22,2,2,828804f8-b591-4f5c-b320-291b68ea1fbb,594,595,1,12,10,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754146,30,22,2,2,86bd2955-975e-44a4-89b5-4d6f188103b9,846,847,1,19,34,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754146,30,22,2,2,7bcc1989-6517-4cb8-ab6b-43dabbabe492,1884,1885,2,50,43,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754146,30,22,2,2,be72462b-bdd4-4981-83d4-161439a5065b,2455,2456,2,68,22,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754169,28,41,2,0,2dc19105-a871-4aaa-a627-1acfdac510c7,163,163,1,3,30,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754169,28,41,2,0,3402932f-7ef9-4e3b-9853-8bdc9e216a5e,277,277,1,8,1,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754077,36,40,1,2,d86af322-ed1a-40ba-84ff-ef30c4307e89,271,272,1,5,20,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754077,36,40,1,2,e8369a50-77e9-44f4-b1e3-8c2c2746aac7,1397,1398,1,30,46,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754077,36,40,1,2,1b41a21e-84c6-4118-8c6e-79099933d987,1845,1846,1,46,13,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754222,38,31,1,0,b8a018d4-95c5-4458-b4b7-2229f41ffbbb,2530,2531,2,67,22,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754011,25,39,2,3,a747a102-98ea-4551-bd35-6ac862bb19ff,530,530,1,12,29,Shot,25,Southampton,Goal,25.0,shot_goal
+3754011,25,39,2,3,d43d568a-a9e5-4fbe-9709-89b166e2f9b8,1393,1393,1,33,57,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754011,25,39,2,3,62981f9f-27cb-4bd8-80e5-af806769e6c5,2004,2005,2,49,34,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754011,25,39,2,3,0757fbb9-0193-458e-89d1-8fe3a29e2eb4,2684,2685,2,67,44,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754011,25,39,2,3,9d02d328-907e-4803-8b3d-0f3bd9ba2b75,3291,3292,2,85,24,Shot,25,Southampton,Goal,25.0,shot_goal
+3754040,24,56,1,1,24ca408f-1305-4049-bbaa-9d61557ff5aa,2166,2167,2,47,54,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754040,24,56,1,1,863945a9-3a6f-4a0b-95e7-c8a7215aa1bf,2621,2622,2,60,55,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754197,38,36,4,1,4c7ccac7-646e-42d0-b498-65b9bfa9db60,1063,1064,1,24,27,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754197,38,36,4,1,a9620104-a844-4e2e-a091-05778a9dbc04,1797,1798,1,44,27,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754197,38,36,4,1,79834398-c704-426e-b1ca-0c9ed4a50852,2036,2037,2,49,31,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754197,38,36,4,1,f4f02971-f70d-4e46-b992-93befdc1de84,2396,2397,2,60,19,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754197,38,36,4,1,86e4b414-b396-4d56-9e92-36858512627e,3094,3095,2,78,11,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3753978,25,26,3,1,8aed860a-0aa4-4ace-af35-58cb80ac71e8,417,417,1,10,22,Shot,25,Southampton,Goal,25.0,shot_goal
+3753978,25,26,3,1,af0364c7-aae1-49ea-b477-de53d73630de,2088,2089,2,53,2,Own Goal For,25,Southampton,,25.0,own_goal_for
+3753978,25,26,3,1,ab295e3c-1c06-41f4-ba67-9458600c4df6,2089,2090,2,53,2,Own Goal Against,26,Swansea City,,,own_goal_against_audit_only
+3753978,25,26,3,1,6517a0bd-37f2-4a00-bee1-f4cca998da7d,2320,2321,2,60,17,Shot,25,Southampton,Goal,25.0,shot_goal
+3753978,25,26,3,1,3ff51b82-2bbe-4d10-a8ea-ca3126a9ae97,3030,3031,2,82,53,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754008,39,41,3,0,45f59531-0fc8-44e3-877c-974bcb933543,1676,1677,1,48,19,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754008,39,41,3,0,808d4e2a-2ca4-4f44-b527-09ebef2d5467,1755,1756,2,45,38,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754008,39,41,3,0,2218abb0-93ce-4411-87cf-cd820d09824c,3289,3290,2,89,29,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754174,22,1,2,5,4686a4fd-753f-4251-baaa-a0c1c807a09f,523,524,1,12,11,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754174,22,1,2,5,a4f04aff-b7b0-47e2-8677-f51a66092e4d,746,747,1,17,31,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754174,22,1,2,5,64146faa-1317-4a30-9bb7-31d5db4ce45b,1388,1389,1,32,52,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754174,22,1,2,5,1752b588-50db-4120-b7a0-75750de02b2c,2334,2335,2,56,55,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754174,22,1,2,5,bce870ed-6a5c-40c5-b054-db569ed3147b,3107,3108,2,80,14,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754174,22,1,2,5,dff3a000-c424-464c-b5b6-a3355e09ba81,3313,3314,2,88,12,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754174,22,1,2,5,a6d1ada3-a5ab-4303-9f53-1245eaa67c8f,3473,3474,2,92,42,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754212,24,59,3,2,b23f9acd-88e3-4be9-b050-7788ae534eef,68,69,1,1,5,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754212,24,59,3,2,38360305-cb9a-47cd-b9ef-bcfd5926a2dc,2136,2137,2,58,0,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754212,24,59,3,2,6809ce54-ed5d-40fa-836b-a027af730f50,2462,2463,2,65,13,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754212,24,59,3,2,1c5d2023-bdad-480c-9ce1-72e8548c2ca6,2498,2499,2,66,20,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754212,24,59,3,2,7ef58a6a-1556-4fb7-ae2a-ab85b490e8c6,2600,2601,2,70,1,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754323,40,56,2,2,1d87deef-330b-4a70-8a4a-31b646a9efb4,263,264,1,8,23,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754323,40,56,2,2,89be8ddc-db7e-45ab-8213-d6468fb44162,1227,1228,1,32,53,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754323,40,56,2,2,3065f692-e7e0-43d1-8f15-9b30d361329e,2918,2919,2,82,48,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754323,40,56,2,2,01eb8f5a-3d0a-4892-972b-657212457e79,3193,3194,2,92,26,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754339,30,28,2,1,57681b24-ddc1-42ba-85a0-7bfce6c27d47,849,850,1,31,34,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754339,30,28,2,1,4927b0fb-c1b5-45b9-a4ef-a2a0a0040fce,2692,2693,2,75,38,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754339,30,28,2,1,918fd6b0-0f85-4359-bd85-d5f598f90b92,2968,2969,2,82,45,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754001,37,33,2,2,8d4741c1-39f6-401e-a952-f268a3407d94,1484,1485,1,41,39,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754001,37,33,2,2,85785d58-a8cc-48f5-af95-e2906987cee2,2326,2327,2,59,25,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754001,37,33,2,2,ce52e331-6273-43f9-ab51-e1d1f5158914,2940,2941,2,78,26,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754001,37,33,2,2,d0bdb347-a686-4a3c-9419-256f1a965f79,3135,3136,2,85,58,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754266,23,31,0,1,1e2a1466-d998-4b9e-a43f-6170c3292405,2206,2207,2,70,32,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754105,27,29,2,3,5ea18536-7319-4016-abcf-4cd1bf95d493,1509,1509,1,40,29,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754105,27,29,2,3,487d5a78-57ee-49e2-87f1-b4e76818f93b,2077,2078,2,53,34,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754105,27,29,2,3,e527bdca-8ea1-4801-9563-3c6b32900444,2107,2108,2,54,57,Shot,29,Everton,Goal,29.0,shot_goal
+3754105,27,29,2,3,8eb12787-bb62-4a26-a9d6-cac941891282,2698,2699,2,74,36,Shot,29,Everton,Goal,29.0,shot_goal
+3754105,27,29,2,3,1e58ade8-6329-4d96-8e81-0745d3b9548d,2964,2965,2,83,15,Shot,29,Everton,Goal,29.0,shot_goal
+3754099,31,27,2,0,42e24396-8b16-4d5a-80c1-99597fe827c2,2233,2234,2,67,19,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754099,31,27,2,0,7bef8a90-cba3-4364-a7d5-1cd6f04e48a9,2842,2843,2,88,3,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754076,41,40,2,2,8462b8b1-53f5-41c7-a60c-8f16c85c9030,363,364,1,9,42,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754076,41,40,2,2,a233a377-4eb5-438e-ad5a-c69d1806595f,819,820,1,21,46,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754076,41,40,2,2,2cf30a66-b85b-4783-97be-c91cffa09939,1669,1670,1,45,36,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754076,41,40,2,2,12e57e9a-d31e-4564-95cd-cd6af70ac03a,2210,2211,2,59,38,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754079,36,37,6,1,2c60dc37-3fb7-4870-a08b-7c324470a14b,686,687,1,16,59,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754079,36,37,6,1,5fa91797-3d7e-4762-9271-1b398ba9480d,1497,1498,1,41,17,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754079,36,37,6,1,d7a770c5-2718-4895-be94-1ac7d649cd0b,1857,1858,2,48,42,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754079,36,37,6,1,46726609-0223-469c-93f6-13daaca333ee,1872,1873,2,49,53,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754079,36,37,6,1,40df1df3-5c1e-4bc5-b746-bdee4a0eed7d,1919,1920,2,52,59,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754079,36,37,6,1,107cf136-5497-4d34-b004-727a48dedd01,2086,2087,2,59,6,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754079,36,37,6,1,fa8b29b3-4707-4967-b58b-43caa84a09d5,2157,2158,2,61,44,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754278,28,23,1,1,8f02e3f1-7e8d-4129-bcf1-37ad23b7d63d,1362,1363,1,27,53,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754278,28,23,1,1,32cb3cc8-3f05-4629-aa92-0df74c095b5b,1914,1915,1,44,46,Shot,23,Watford,Goal,23.0,shot_goal
+3754330,59,30,0,1,8d9c3053-8f10-4de2-8a21-441106560ab9,2165,2166,2,54,21,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754335,56,22,1,2,034fb1c8-75f6-4771-af8d-e985fdb7f587,1077,1077,1,27,13,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754335,56,22,1,2,c82933ca-f6c8-4c3b-a277-1081a75949ca,1771,1772,2,46,25,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754335,56,22,1,2,7a020159-d04b-4e59-8a2d-82e2c31012fa,2408,2409,2,67,26,Shot,56,Norwich City,Goal,56.0,shot_goal
+3753995,33,25,1,3,f653e398-2ec7-4cff-b9ea-6219ce934345,363,364,1,9,29,Shot,33,Chelsea,Goal,33.0,shot_goal
+3753995,33,25,1,3,8e0d0a3f-f433-4011-a8e2-9fca99dc8def,1697,1698,1,42,59,Shot,25,Southampton,Goal,25.0,shot_goal
+3753995,33,25,1,3,5b8dd23f-edf3-4d84-b09c-3a45dc4bc65f,2511,2512,2,59,35,Shot,25,Southampton,Goal,25.0,shot_goal
+3753995,33,25,1,3,651134b0-4cf7-44db-bfa6-65b861ac3267,2870,2871,2,71,55,Shot,25,Southampton,Goal,25.0,shot_goal
+3754060,29,24,1,1,50c023ae-2e6b-492e-be88-1a672726b42b,1335,1336,1,40,59,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754060,29,24,1,1,e01009b0-9bdf-44c8-91f8-39013ce80af4,1487,1488,1,45,58,Shot,29,Everton,Goal,29.0,shot_goal
+3754074,26,38,2,2,984f4c53-0252-4a29-95bc-eabc95731285,672,673,1,14,59,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754074,26,38,2,2,a6c4f9d8-c2df-4117-b114-5b0602b50603,1021,1022,1,26,25,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754074,26,38,2,2,63ac81ac-671d-4db4-80e2-750516a7ea7a,1134,1135,1,30,34,Own Goal For,26,Swansea City,,26.0,own_goal_for
+3754074,26,38,2,2,27ba22df-d6f5-4b60-adf7-372560b9827d,1135,1136,1,30,34,Own Goal Against,38,Tottenham Hotspur,,,own_goal_against_audit_only
+3754074,26,38,2,2,6e97e43f-8fb3-4071-909c-9babcdca879b,2341,2342,2,64,24,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754171,1,39,3,0,2ee90c3e-a2bd-4fb7-bf43-80211c6904f7,206,207,1,5,12,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754171,1,39,3,0,b451c544-7193-45c2-9f5e-84303706b1d5,234,235,1,6,27,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754171,1,39,3,0,4533769a-b7e6-40e0-8ff3-92f3cbb8273e,720,721,1,19,1,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754067,31,40,1,3,012409fc-d929-4080-ae84-d778076d135a,748,748,1,21,57,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754067,31,40,1,3,8d67f6f0-ad39-4e18-842b-8db1cc55818a,773,773,1,24,44,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754067,31,40,1,3,9aabe1d4-5b50-40c5-ae51-e59dfa7dcc73,3167,3168,2,87,16,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754067,31,40,1,3,d5fb4c06-cad3-46d8-bd3f-251718f7962e,3364,3365,2,93,31,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754115,33,59,2,0,518e6c39-0814-41c7-b371-f48914822ab5,1292,1292,1,33,22,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754115,33,59,2,0,048096a7-bfe7-480d-8dab-50f2b00268cf,1974,1975,2,53,5,Own Goal For,33,Chelsea,,33.0,own_goal_for
+3754115,33,59,2,0,5bcf3b5d-c867-4b91-8ed1-b2a06684f3c4,1975,1976,2,53,5,Own Goal Against,59,Aston Villa,,,own_goal_against_audit_only
+3754193,36,28,5,1,2484afc1-779f-49bd-978c-c91f9d2418be,384,384,1,6,47,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754193,36,28,5,1,0a5071ab-bdcc-4539-b770-6ad7c635cb49,524,524,1,10,23,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754193,36,28,5,1,27a252e2-cf82-40cf-8a93-81f5ebfb3e9c,897,897,1,21,16,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754193,36,28,5,1,6a6175ed-71a6-4db0-92fb-df76ce997b15,1094,1094,1,28,15,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754193,36,28,5,1,e7debcb5-a197-480d-9c30-30129c5c6595,1823,1823,1,47,9,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754193,36,28,5,1,9ab2d759-3200-481e-87fd-6c727c321ddc,3522,3523,2,88,38,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754245,27,41,1,0,eb0ada95-00a2-4295-aa18-30c1c3f793b4,1815,1816,2,53,27,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754256,29,39,0,3,d9f9ac5e-b5cb-4236-9726-1197f497cf8b,857,857,1,17,38,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754256,29,39,0,3,6f44d8e1-531e-48b7-b828-9bbeead0000a,1025,1025,1,21,42,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754256,29,39,0,3,549263db-bf63-4a99-9d5d-550f3d738fd9,2529,2530,2,61,12,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754302,25,22,2,2,3efe6af9-a8b4-4047-9c5e-da825f8c99f7,771,771,1,20,16,Shot,25,Southampton,Goal,25.0,shot_goal
+3754302,25,22,2,2,0b92c574-37f1-4477-9afb-4e70c5063aae,1121,1121,1,36,4,Shot,25,Southampton,Goal,25.0,shot_goal
+3754302,25,22,2,2,e47c9aec-cb3a-46d1-a81f-f060feb390d0,2117,2118,2,65,35,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754302,25,22,2,2,befcd2e6-53b4-4e5a-90e0-8a8c14bd6052,2852,2853,2,90,50,Shot,22,Leicester City,Goal,22.0,shot_goal
+3753999,23,1,0,3,59dfd82a-d707-4612-af83-e6c8760c86d3,2479,2480,2,61,52,Shot,1,Arsenal,Goal,1.0,shot_goal
+3753999,23,1,0,3,0fba56f3-e830-4381-9ac5-936125fb5821,2728,2729,2,67,3,Shot,1,Arsenal,Goal,1.0,shot_goal
+3753999,23,1,0,3,cfef9777-8a39-49ff-b21c-36d2fee2a885,2997,2998,2,73,12,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754102,37,56,6,2,7f8aee6a-face-4dd7-ada3-f4fb8de2dac6,611,612,1,13,51,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754102,37,56,6,2,a6eb08a0-8632-4c3d-9cd8-7062262413e5,857,858,1,19,52,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754102,37,56,6,2,d5585826-5155-413f-ad70-c0c8cdc35d58,1000,1001,1,25,11,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754102,37,56,6,2,ce8473d1-8bd0-4e89-b757-25c1ceb89851,1168,1169,1,32,7,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754102,37,56,6,2,ec417844-3d71-417a-af88-5ecdd2b90974,1213,1214,1,33,53,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754102,37,56,6,2,afcb5f34-7535-461e-8e8f-0ece75afb751,2334,2335,2,63,28,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754102,37,56,6,2,b7d1b4f5-8b50-426c-84b5-5b91115f26a6,2389,2390,2,65,27,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754102,37,56,6,2,add4bcd7-cee7-4f0b-928b-8d530e2c71bc,2982,2983,2,84,48,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754269,26,30,0,1,99f2535f-ab43-4fea-be9a-0a4a7765c76f,148,149,1,3,18,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754017,59,26,1,2,47899928-9b1c-46d1-86eb-11a6041c3df5,2214,2215,2,61,44,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754017,59,26,1,2,7a63c80f-ded6-4341-b60e-9f9256227813,2323,2324,2,67,16,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754017,59,26,1,2,46aa7279-f9cc-439c-8641-7c6beb2067f4,2998,2999,2,86,0,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754091,30,23,0,2,3cc23d80-6cad-4593-88fd-a3e3938596ff,1555,1555,1,42,0,Shot,23,Watford,Goal,23.0,shot_goal
+3754091,30,23,0,2,ecd215cc-c8d2-4fdc-a750-0faa04fe382e,2446,2447,2,68,35,Shot,23,Watford,Goal,23.0,shot_goal
+3754133,56,27,0,1,addade1b-c608-43fc-9316-de52f4fc7aaf,1456,1457,2,45,57,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754263,22,31,1,0,bf27a08f-9362-48c3-9bc6-08739d8f4f1b,2242,2243,2,58,54,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754288,40,33,2,1,4b33cc64-b852-45cf-8158-79e748b35efd,618,618,1,16,32,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754288,40,33,2,1,8eeffed9-0d80-4b0b-b6ba-c77e6ff940c7,1995,1996,2,55,27,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754288,40,33,2,1,79f68533-c020-47d2-b28a-b8d7c00320bc,2804,2805,2,78,18,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754126,1,29,2,1,d0c6bfb1-30f7-4a65-a17f-19ceac35f966,1459,1460,1,35,36,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754126,1,29,2,1,2b02c64c-e24a-41be-8edb-a334fa9bf973,1485,1486,1,37,23,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754126,1,29,2,1,7b3d6dfd-758a-48ab-884a-1b5a71bd5f4a,1664,1665,1,43,10,Shot,29,Everton,Goal,29.0,shot_goal
+3754119,41,37,3,0,4da0c744-557c-43af-b9af-2435485661b7,1370,1370,1,47,17,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754119,41,37,3,0,583d7aa7-95d4-4cd4-8754-cf7ca854d2c7,2075,2076,2,64,16,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754119,41,37,3,0,1e332bc4-806a-48cc-9f4e-e7ec1f05d847,2727,2728,2,85,31,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754234,28,38,1,5,222be0e2-1a91-4781-8650-2ff41b96f9bd,49,50,1,0,48,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754234,28,38,1,5,2b606c20-d68a-4572-aa01-a34836bba596,298,299,1,8,29,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754234,28,38,1,5,0e12ec20-ca19-4630-a38b-90458cede12d,602,603,1,16,39,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754234,28,38,1,5,abf43c4a-4cd0-45d2-85fc-6abad94f988b,999,1000,1,28,59,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754234,28,38,1,5,30c94b25-0876-4c61-9290-d222a1fe8942,2102,2103,2,55,40,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754234,28,38,1,5,737f2b24-965c-4991-b9a4-0f9f07040103,2372,2373,2,62,51,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754230,24,25,1,1,27b4cb9e-c30f-401b-99e0-a56103c9a030,3122,3123,2,76,32,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754230,24,25,1,1,cd140595-f7b9-4532-af98-dfb7464173a5,3360,3361,2,85,27,Shot,25,Southampton,Goal,25.0,shot_goal
+3754098,33,24,1,3,9ce7374c-e28c-4d02-83e4-fa68a6004e2e,161,162,1,3,22,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754098,33,24,1,3,61095d00-1b26-4c95-96a8-d4c7e5b801fa,1953,1954,1,47,23,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754098,33,24,1,3,51567e7f-399f-4bff-b347-2e29e47186f0,3040,3041,2,73,35,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754098,33,24,1,3,8c1ec4e2-012d-4355-96d4-7baa9c5a9c1b,3317,3318,2,82,6,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753983,26,1,0,3,52bf288f-570c-4d8f-a7e3-e904ebb5bb54,2014,2015,2,48,18,Shot,1,Arsenal,Goal,1.0,shot_goal
+3753983,26,1,0,3,b84fde25-fc17-433c-9d57-3867a4bd4a1e,2725,2726,2,67,47,Shot,1,Arsenal,Goal,1.0,shot_goal
+3753983,26,1,0,3,46fc73bf-4eec-45da-927c-054e24b8b8d9,2927,2928,2,72,58,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754006,27,22,2,3,7b2675f2-1d3c-4fb8-958e-67dd6aa75dea,878,879,1,29,11,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754006,27,22,2,3,d9dfac98-e063-437a-818c-3f63c4434a67,1704,1705,2,56,30,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754006,27,22,2,3,ac89f40b-fbc3-40f9-92cd-38d28fb0481f,1872,1873,2,63,48,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754006,27,22,2,3,55e1feb6-dffe-4131-be57-fa1cb8a0ca2d,2271,2272,2,76,21,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754006,27,22,2,3,1e241263-5d6e-4d0a-b48b-f62139ba475a,2441,2442,2,83,34,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754167,36,56,2,1,da5045c6-1ad6-46c3-afaa-3fc3d1dc9c8c,2702,2703,2,66,17,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754167,36,56,2,1,5c24c376-0fc5-41d7-8dcb-6b574d31fef6,3335,3336,2,82,41,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754167,36,56,2,1,7553d8c1-75b7-481e-9a53-56eabbdcf00e,3475,3476,2,88,5,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754273,23,40,2,0,5ae0edcb-1fed-4f11-bca3-72febe00d612,1364,1365,1,38,6,Shot,23,Watford,Goal,23.0,shot_goal
+3754273,23,40,2,0,639768cd-0bcd-411b-a851-261c63a704b2,1688,1689,2,47,2,Shot,23,Watford,Goal,23.0,shot_goal
+3754082,29,41,6,2,974bf9ad-abd6-486e-a36f-da0c009f782e,643,644,1,18,13,Shot,29,Everton,Goal,29.0,shot_goal
+3754082,29,41,6,2,8ff56786-0d4e-4518-a100-99f81fc7053d,1082,1083,1,30,28,Shot,29,Everton,Goal,29.0,shot_goal
+3754082,29,41,6,2,ecfaab95-f57e-47fe-b694-1277a4dbfdbc,1796,1797,1,48,2,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754082,29,41,6,2,6d1b6d0b-4ac9-499d-b117-ccd0648138eb,1975,1976,2,49,46,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754082,29,41,6,2,94aebb4e-d5de-439c-a529-8ae17f704dc3,2106,2107,2,54,34,Own Goal Against,41,Sunderland,,,own_goal_against_audit_only
+3754082,29,41,6,2,7ad3fdae-031c-4b0b-a966-cafafb8ddd78,2107,2108,2,54,34,Own Goal For,29,Everton,,29.0,own_goal_for
+3754082,29,41,6,2,4fd97964-597c-4efa-a05a-48c464066884,2319,2320,2,59,42,Shot,29,Everton,Goal,29.0,shot_goal
+3754082,29,41,6,2,10ebb835-f9bc-4dfa-b9a7-4fee5bec0244,2373,2374,2,61,58,Shot,29,Everton,Goal,29.0,shot_goal
+3754082,29,41,6,2,285460ba-b852-4c27-962a-6ffbf3039928,2976,2977,2,75,44,Shot,29,Everton,Goal,29.0,shot_goal
+3754191,25,28,2,0,8251976f-c3cd-403b-ab2e-8c48e757d770,1310,1311,1,30,50,Shot,25,Southampton,Goal,25.0,shot_goal
+3754191,25,28,2,0,05490e1c-5da2-4603-92f7-42ea084b248c,1485,1486,1,35,2,Shot,25,Southampton,Goal,25.0,shot_goal
+3754029,38,59,3,1,7b1055b0-0927-423f-8e74-34a921127f1a,107,108,1,2,22,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754029,38,59,3,1,fa7ad17e-6439-433d-a000-49652c30ebb2,1623,1624,1,45,19,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754029,38,59,3,1,a36b44a1-33b4-453e-8572-d797fedfa267,2903,2904,2,78,48,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754029,38,59,3,1,dfecad19-7f7b-4fd2-9eb3-30856f2f032b,3409,3410,2,92,37,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754238,28,37,0,1,45651468-1d10-4193-ab49-9257a8f41d1a,1149,1149,1,26,31,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754000,41,25,0,1,daf405a6-c36b-4243-8279-ff3e3c2da943,2450,2451,2,68,48,Shot,25,Southampton,Goal,25.0,shot_goal
+3754156,22,23,2,1,453b5b58-f44a-4364-8862-73184b801222,1946,1947,2,51,47,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754156,22,23,2,1,6cc33a3c-18a7-4b09-8977-31cd7bfaa51e,2256,2257,2,64,58,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754156,22,23,2,1,436a54aa-b23b-4688-b103-c38f9ad36f93,2594,2595,2,74,55,Shot,23,Watford,Goal,23.0,shot_goal
+3754194,40,29,1,1,6be3f798-3441-46f7-946f-2d37b8afb39d,1116,1116,1,29,39,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754194,40,29,1,1,07c708e3-2232-4365-9542-9d728dd232ed,1568,1568,1,42,54,Shot,29,Everton,Goal,29.0,shot_goal
+3754297,39,27,2,0,19acd417-9692-4078-9ea5-9f0403fb5509,2065,2066,2,51,27,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754297,39,27,2,0,f69657cc-f919-4d4d-9616-8523c3f99b0e,3497,3498,2,90,53,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754311,56,26,1,0,06aab2e5-1f9b-4c32-a079-ac558de0d711,2809,2810,2,69,53,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754293,30,33,1,0,4d3864d6-2baf-4f92-a113-15cb87a55253,1713,1714,2,52,49,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754265,1,38,1,1,fa89d36d-256a-464b-aad8-023a854885cc,1287,1288,1,31,47,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754265,1,38,1,1,2947ea17-5815-4378-b120-3010c52bbd1d,2999,3000,2,76,2,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754351,24,31,1,2,e1e1421e-aad8-4c9c-8db4-1172030bc3dc,771,772,1,20,3,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754351,24,31,1,2,83b14b7b-3f95-48ad-a3db-70f79048f6f2,1446,1447,1,41,24,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754351,24,31,1,2,a7f4145e-6013-451d-991c-55ebd13e11c4,2771,2772,2,81,17,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754185,23,39,1,2,5ffe3a0a-0ec1-45cc-a2e3-067a882ae116,493,494,1,10,43,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754185,23,39,1,2,b1545a06-cdb9-48e1-bcf1-76bd7e177915,3037,3038,2,86,18,Shot,23,Watford,Goal,23.0,shot_goal
+3754185,23,39,1,2,3e35f4cd-16f0-4bb5-b45b-53d9a08aaf81,3205,3206,2,89,57,Own Goal For,39,Manchester United,,39.0,own_goal_for
+3754185,23,39,1,2,012f9dcd-5ee3-496b-9e1a-f725ee20c912,3206,3207,2,89,57,Own Goal Against,23,Watford,,,own_goal_against_audit_only
+3753972,26,28,2,2,71a9e4f9-5755-4040-8756-18b4b76f77a0,415,415,1,9,47,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3753972,26,28,2,2,ea41074c-9b8f-4276-9228-c4f6930af5ca,1061,1061,1,25,38,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3753972,26,28,2,2,d0069522-abf4-4466-9aa3-a352103cef44,1101,1101,1,27,5,Shot,26,Swansea City,Goal,26.0,shot_goal
+3753972,26,28,2,2,8f2cb467-bd16-435b-b344-89447a21bff3,1397,1397,1,38,17,Shot,26,Swansea City,Goal,26.0,shot_goal
+3753996,33,56,1,0,1d9a3e65-f2d2-4d3c-9a50-d3dfecfbdd38,2497,2498,2,63,1,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754211,37,22,0,3,20d2426c-a5da-413d-a182-e82480a94b92,1645,1646,1,45,50,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754211,37,22,0,3,70d97c90-369d-4f41-a24d-0efbaedcfed8,2284,2285,2,61,7,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754211,37,22,0,3,78c7b2df-580a-4312-aae7-e9256cb98022,2941,2942,2,82,29,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754247,25,30,0,1,1a1314e9-286e-4452-9a41-2548fb5bca73,478,478,1,9,20,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754283,29,59,4,0,14c6ed97-ab93-47ad-92c0-a4962bf96c83,735,735,1,16,21,Shot,29,Everton,Goal,29.0,shot_goal
+3754283,29,59,4,0,9dc57de8-5eb3-4ddf-be1f-1b202423916a,1160,1160,1,27,29,Shot,29,Everton,Goal,29.0,shot_goal
+3754283,29,59,4,0,7f9ec1da-88ed-4873-8bd2-2d32f34523cf,1691,1691,1,41,34,Shot,29,Everton,Goal,29.0,shot_goal
+3754283,29,59,4,0,c59dd6c7-219c-4b11-bea2-5c38949e1fd9,2464,2465,2,58,21,Shot,29,Everton,Goal,29.0,shot_goal
+3754301,27,1,2,1,fc483229-5a65-4b1b-88a6-ada32b3d4156,1058,1059,1,27,11,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754301,27,1,2,1,1be825f0-dd51-48f8-99a2-cd4e0b0ccc3f,1278,1279,1,34,41,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754301,27,1,2,1,148428d5-9f49-4e38-a7a7-5ae8c5f5d67c,1486,1487,1,39,51,Own Goal Against,1,Arsenal,,,own_goal_against_audit_only
+3754301,27,1,2,1,4db6fe80-e051-484b-b122-ac4e82e9ea7c,1487,1488,1,39,51,Own Goal For,27,West Bromwich Albion,,27.0,own_goal_for
+3754208,36,24,1,4,89bb3c4c-23bc-46aa-9b91-01ee5a8e1133,376,376,1,6,57,Own Goal Against,36,Manchester City,,,own_goal_against_audit_only
+3754208,36,24,1,4,6a1678f4-d451-4abe-8d2d-b63d89131919,377,377,1,6,57,Own Goal For,24,Liverpool,,24.0,own_goal_for
+3754208,36,24,1,4,9de93abd-b6b5-4475-83eb-3558daad601f,1076,1076,1,22,32,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754208,36,24,1,4,42c69812-6923-47a2-bc1a-d29084055389,1502,1502,1,31,40,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754208,36,24,1,4,b575527c-7258-463b-a096-d107d98efe64,1911,1911,1,43,9,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754208,36,24,1,4,6801effd-f83c-4600-9ec5-a8c46e2d7543,3340,3341,2,80,40,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754109,38,40,4,1,d1b2c6d7-3819-4e69-97b7-706d7d0ea344,994,995,1,22,25,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754109,38,40,4,1,91c5cd75-8358-44f8-a0c5-2b8068b9dfe4,1299,1300,1,32,55,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754109,38,40,4,1,8500a326-84c0-491e-af62-c9f81175fbc8,1996,1997,2,49,33,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754109,38,40,4,1,45880727-8b91-4494-aaef-0746023de41e,3136,3137,2,83,0,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754109,38,40,4,1,24a9cc7d-f16f-49c3-8b2e-1fc5edbcc442,3242,3243,2,86,14,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753979,31,41,0,1,1bd75673-09bb-487e-b4e0-5a7f1a904f23,2702,2703,2,79,42,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754028,36,25,3,1,a81499e8-7dfd-47f0-a31c-4a6b0ef06976,375,375,1,8,13,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754028,36,25,3,1,1cb3e328-99cc-48a6-8c57-6002b56fb878,684,684,1,19,34,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754028,36,25,3,1,e692a2f4-7aa7-449d-8401-1b53df0a33e4,1774,1775,2,48,52,Shot,25,Southampton,Goal,25.0,shot_goal
+3754028,36,25,3,1,8519063c-d64d-4ef4-9cd0-8e60453babee,2397,2398,2,68,59,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754150,41,30,2,0,e23846df-b5b0-44ca-bdab-db6175330027,2875,2876,2,81,18,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754150,41,30,2,0,238a2691-e729-4587-9c70-5634295ed2ab,2916,2917,2,83,57,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754157,28,29,3,3,11e94af4-7310-4d06-98af-e5fb4e77a300,929,930,1,24,40,Shot,29,Everton,Goal,29.0,shot_goal
+3754157,28,29,3,3,5cfdb96a-2ccc-44d6-bc14-19954bd2657a,1353,1354,1,35,16,Shot,29,Everton,Goal,29.0,shot_goal
+3754157,28,29,3,3,157c36e0-4972-4d7a-b269-2122ea1f348e,3116,3117,2,79,13,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754157,28,29,3,3,d96af42e-8ca0-4343-8e46-5ec9bbb49d99,3353,3354,2,86,11,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754157,28,29,3,3,40d0156f-0997-4993-a4ee-ace62e3aafdd,3646,3647,2,94,44,Shot,29,Everton,Goal,29.0,shot_goal
+3754157,28,29,3,3,1180be8d-82de-4a75-9939-f0a18151aa03,3688,3689,2,97,12,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754178,59,23,2,3,b1a70fb5-33b3-4df0-84c6-38bc2d29dd72,517,518,1,16,33,Shot,23,Watford,Goal,23.0,shot_goal
+3754178,59,23,2,3,dcca56a0-2525-4501-96b3-92cb13d11f94,1326,1327,1,40,11,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754178,59,23,2,3,7346722b-10bd-483a-a1a0-dbc5d8f98eb5,2096,2097,2,68,50,Own Goal Against,59,Aston Villa,,,own_goal_against_audit_only
+3754178,59,23,2,3,d9857ada-12e4-4d3b-a123-9c482a7b8061,2097,2098,2,68,50,Own Goal For,23,Watford,,23.0,own_goal_for
+3754178,59,23,2,3,7f50793a-a5da-4184-beb7-414dc3fa96ff,2614,2615,2,84,19,Shot,23,Watford,Goal,23.0,shot_goal
+3754178,59,23,2,3,eceb57f6-bc7e-4b79-b6cd-6e8e3627f15e,2713,2714,2,88,55,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754304,31,37,5,1,df6e1478-5377-4ab0-ad97-e6a083c140ac,421,421,1,9,1,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754304,31,37,5,1,fd3c6a28-5126-4a88-abeb-5e9d43736cda,536,536,1,13,5,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754304,31,37,5,1,71ee2f86-3193-460f-bbfb-97c4711e3a6f,602,602,1,16,21,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754304,31,37,5,1,1c2f3b10-1202-484d-951e-13ec92868983,1513,1513,1,40,15,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754304,31,37,5,1,f406fcff-b86b-4577-bfaa-db1ae172d064,1725,1726,2,46,38,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754304,31,37,5,1,bd36f404-9267-4d54-855c-5a80c15af4b2,3287,3288,2,92,58,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754186,22,39,1,1,9347ef8f-b8d5-4ac1-a3fe-1eafe55b6eaa,896,897,1,23,26,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754186,22,39,1,1,850afb4f-991c-4563-af4d-be4a115ca92f,1609,1610,1,45,2,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754235,40,27,1,1,bb5b7fa5-0433-4d04-a3c2-1dabf5790316,658,659,1,16,42,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754235,40,27,1,1,455f9e04-3b4a-4da4-bf0f-6d982b35c1c9,1720,1721,2,49,4,Own Goal Against,40,West Ham United,,,own_goal_against_audit_only
+3754235,40,27,1,1,73b80e9b-bd2d-4bcf-ab35-05386e2816c2,1721,1722,2,49,4,Own Goal For,27,West Bromwich Albion,,27.0,own_goal_for
+3754047,24,26,1,0,b5b615ae-6627-4ff5-a387-0a17881260cc,2666,2667,2,61,59,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754038,56,1,1,1,e521219b-8f42-41fe-8f00-bb9a1c784fd6,1141,1141,1,29,13,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754038,56,1,1,1,18e4b3a9-f349-4a73-8016-ba3a4aad3a80,1654,1654,1,42,20,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754135,30,36,2,0,6c7cff77-d1a8-4504-bbf8-206da0944de1,260,261,1,6,7,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754135,30,36,2,0,cb69a103-2d80-4c1f-99c2-415ad9b0d477,629,630,1,14,34,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754160,1,41,3,1,8991100f-ce9f-41c8-b399-1285fa4605ba,1313,1314,1,32,56,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754160,1,41,3,1,5af9c4e5-0bee-45b7-9848-319800d5d892,1678,1679,1,44,55,Own Goal Against,1,Arsenal,,,own_goal_against_audit_only
+3754160,1,41,3,1,4d4298e4-8953-402d-8b0c-b7194002eac5,1679,1680,1,44,55,Own Goal For,41,Sunderland,,41.0,own_goal_for
+3754160,1,41,3,1,0c88b319-a19a-4ebc-87ad-d966a480fb01,2317,2318,2,62,6,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754160,1,41,3,1,51eccd07-cc2f-4918-a928-b4bf0308381d,3417,3418,2,92,36,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754085,26,22,0,3,3a33a7c2-b3e3-4640-8ebe-ec9820eda0ff,193,194,1,4,40,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754085,26,22,0,3,af63688d-00f5-4f4a-991b-828653fc4903,839,840,1,21,51,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754085,26,22,0,3,1bb537d8-137a-4176-890c-8f2669918357,2680,2681,2,66,45,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754113,25,59,1,1,4e037edf-bcd0-4010-aac9-6318f93a5a18,1645,1646,1,43,37,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754113,25,59,1,1,049ef80a-4eab-49f2-b66f-1729dbb70897,2753,2754,2,72,45,Shot,25,Southampton,Goal,25.0,shot_goal
+3754215,27,38,1,1,314745f5-7bd2-4cc9-bf0c-5758919e77b8,558,559,1,14,28,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754215,27,38,1,1,ef61ad0f-2afb-485e-a273-a5eda22c294c,1440,1441,1,38,6,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754286,23,56,2,0,97dfd20e-c1a9-4608-ae3b-2bce1c3e6672,1027,1028,1,29,57,Shot,23,Watford,Goal,23.0,shot_goal
+3754286,23,56,2,0,bc13c8c8-a157-44f5-80e9-6f4bd9066a17,2875,2876,2,90,52,Shot,23,Watford,Goal,23.0,shot_goal
+3754073,33,28,0,1,436ebade-c70e-4a0a-a749-f9726a6a8607,3116,3117,2,81,26,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754143,37,24,2,0,177c9d4e-dc38-4e03-9c60-7a80a3c5e625,2673,2674,2,68,29,Own Goal For,37,Newcastle United,,37.0,own_goal_for
+3754143,37,24,2,0,f8a396ef-d8c6-4aba-bfad-ccc2b1141e6a,2674,2675,2,68,29,Own Goal Against,24,Liverpool,,,own_goal_against_audit_only
+3754143,37,24,2,0,2a76d907-ab07-452d-83d0-e2026038ca5f,3490,3491,2,92,58,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754046,29,31,1,1,7e123fda-cb65-4847-bfb4-49c5a2257ca1,2989,2990,2,75,31,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754046,29,31,1,1,f2a00f9a-f2bf-4c3b-90d6-5fab6ea5ed35,3159,3160,2,80,43,Shot,29,Everton,Goal,29.0,shot_goal
+3754182,56,29,1,1,e15c2a79-a1e3-4234-a0b1-1b4608bee99c,702,703,1,14,48,Shot,29,Everton,Goal,29.0,shot_goal
+3754182,56,29,1,1,330c5fd0-847e-4779-8e55-bfd0f35be17c,1895,1896,2,46,3,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754072,41,23,0,1,af9e2f1b-7e19-43fa-a30f-708cd1831d8b,177,178,1,3,38,Shot,23,Watford,Goal,23.0,shot_goal
+3754218,31,25,1,0,cc4ea415-f797-471a-92ef-bc7afeea0802,1089,1089,1,37,33,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754328,36,26,2,1,dec5aba9-42ce-4417-b140-8953fb37d0ac,1317,1317,1,25,19,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754328,36,26,2,1,4968eb5d-78ac-4745-8897-f0e54e70de2b,3725,3726,2,89,20,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754328,36,26,2,1,8b80327f-88fd-44d9-a1c4-1273b097ae7c,3789,3790,2,91,21,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754162,28,39,2,1,538f0ed8-576f-420c-adab-09e8c97c34b4,38,39,1,1,40,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754162,28,39,2,1,7490e71e-ba73-4305-a9ee-b9f46f1c2049,881,882,1,23,33,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754162,28,39,2,1,02b15213-e4c1-49ea-8caf-9fd1c0766f40,1971,1972,2,53,40,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754117,59,1,0,2,e78b5ec3-97f5-4e71-ae28-68a5c6162125,307,308,1,7,30,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754117,59,1,0,2,26df1fd5-88aa-4723-aada-649d16ea9e0c,1281,1282,1,37,4,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754255,24,27,2,2,efb08c3d-a998-4738-90da-80427cdccaea,926,927,1,20,48,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754255,24,27,2,2,7bd50b8d-c068-4fd2-9076-68c04c7c69ea,1253,1254,1,29,48,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754255,24,27,2,2,7b9823d2-003c-4076-904d-bdc446bce10a,2648,2649,2,72,28,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754255,24,27,2,2,a28fee49-e5d3-4b05-a688-4976b014678a,3294,3295,2,95,22,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754276,38,37,1,2,beb9ea46-4147-4dc6-ab69-5a7d4e176feb,1278,1278,1,38,28,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754276,38,37,1,2,1105e200-b0cc-4bd2-a9b3-d0977144575f,2451,2452,2,73,6,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754276,38,37,1,2,d283d25e-cdb7-49d3-81cf-6be5043be792,3072,3073,2,92,26,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754013,22,33,2,1,4abc9351-e27f-4e9c-bc37-e1ac7bf2aee2,998,998,1,33,4,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754013,22,33,2,1,404aa0ef-763f-48a0-a0d0-d2fa1d017ace,1618,1619,2,47,23,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754013,22,33,2,1,7ece4eb2-5bcc-4f16-8e0c-5916cad6d5d3,2751,2752,2,76,45,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754025,33,41,3,1,2043fb94-b670-447c-8dca-0e680df5d8bb,210,210,1,4,53,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754025,33,41,3,1,72d1ca04-ed06-4b81-9dee-e73012ba4ae0,450,450,1,12,14,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754025,33,41,3,1,bf99e9f3-055c-4735-9134-714ab51febd3,1908,1909,2,49,16,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754025,33,41,3,1,08cb9647-9820-4cb1-9acd-fb4dd5a5b007,1968,1969,2,51,59,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754044,39,56,1,2,3fac1f5e-1279-4d05-9673-7df71b86ad52,1471,1472,1,37,45,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754044,39,56,1,2,12bcbf40-1f17-4103-814c-0782ab6e8157,2083,2084,2,53,56,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754044,39,56,1,2,02d55437-d697-4e2e-96c0-e4a2e645c7df,2558,2559,2,65,49,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754153,30,31,1,2,f85cfeed-b285-4eac-8fe9-7f1a55ab8ca6,1675,1675,1,45,57,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754153,30,31,1,2,28d7b69f-d331-47a2-ba1c-9a86f2d97f8b,2486,2487,2,75,36,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754153,30,31,1,2,c6fcc9c4-5e0a-4f0a-90a2-6521b7b4ee07,2814,2815,2,87,59,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754166,29,22,2,3,9b9a50e8-b6de-435a-86f9-86184ff0c8a6,976,976,1,26,55,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754166,29,22,2,3,07deffef-f162-4476-a73e-a406a69c6760,1113,1113,1,31,3,Shot,29,Everton,Goal,29.0,shot_goal
+3754166,29,22,2,3,3846c695-c47c-45fd-bde9-d5ab9ee53d74,2343,2344,2,64,24,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754166,29,22,2,3,c8bb0fca-bee6-4eb9-99ed-8e811ca954af,2497,2498,2,68,37,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754166,29,22,2,3,e4abc617-7c15-4839-bbef-f7f58601f8ab,3064,3065,2,88,18,Shot,29,Everton,Goal,29.0,shot_goal
+3754188,25,38,0,2,bdd16bb7-5d7a-47fb-86ce-6088c0d03f0a,1475,1475,1,39,32,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754188,25,38,0,2,c0407830-30b9-4530-928d-65a0e31a0f2b,1555,1555,1,42,21,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754219,27,28,1,2,ba9c4a85-1e09-42bb-87fe-07eb67b7b5d3,1954,1955,2,51,7,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754219,27,28,1,2,b6519c7c-e204-41fb-b273-5a55b38e1c9e,2626,2627,2,78,36,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754219,27,28,1,2,2f0e7aa7-27c1-4e8a-9a42-e72c32ca3565,2799,2800,2,86,36,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754136,37,59,1,1,58b8f80c-6544-486c-8329-fdb52321a7ba,1367,1367,1,37,7,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754136,37,59,1,1,fd7a29a2-13b1-4088-bc25-d26d298bd2fc,2234,2235,2,60,37,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754051,23,24,3,0,1810f800-e630-4468-9aeb-d8598422e306,109,110,1,2,5,Shot,23,Watford,Goal,23.0,shot_goal
+3754051,23,24,3,0,02a524a6-a62f-424b-adc0-9af780fde0c8,568,569,1,14,51,Shot,23,Watford,Goal,23.0,shot_goal
+3754051,23,24,3,0,223ab57c-754b-4557-b075-257f9ca1b714,2712,2713,2,84,28,Shot,23,Watford,Goal,23.0,shot_goal
+3754296,1,36,2,1,839244fd-93a2-49ff-bf75-4751447832dd,1436,1437,1,32,43,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754296,1,36,2,1,d9796320-1c8e-4fc3-8a9c-72f6b9afe250,1869,1870,1,45,55,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754296,1,36,2,1,9250c606-a25a-408f-a000-e375499adc27,3442,3443,2,81,34,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754014,30,39,2,0,dc71cfc4-7a05-4e23-bdb2-6109b3bfed30,652,653,1,18,46,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754014,30,39,2,0,0b8bb161-0114-426d-bf2a-066e4957ca24,868,869,1,25,7,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754054,36,41,4,1,8f0b5d6d-5f48-4095-bdc6-fb2f71870fb1,521,522,1,11,57,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754054,36,41,4,1,f3b97dfb-1bb9-4386-adf4-143617091be5,627,628,1,16,23,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754054,36,41,4,1,5773cc5b-ee88-4a0c-8523-b1713d9aadee,758,759,1,21,16,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754054,36,41,4,1,155c82e1-6093-4964-aa62-b3471a4b6ee3,2054,2055,2,53,8,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754054,36,41,4,1,da7aa8f0-d47d-4f4a-ab50-e9ab87a83687,2218,2219,2,58,5,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754057,38,56,3,0,ca813dec-c15e-47de-85d6-106d1dedd719,801,802,1,25,52,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754057,38,56,3,0,d7ecf597-f9eb-4379-84b1-92508b5cd7f6,1337,1338,1,41,21,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754057,38,56,3,0,7f032e6f-a18e-43d9-98ac-e122ff6c707a,2790,2791,2,79,13,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754279,26,27,1,0,0c7551cd-9374-4277-85c2-a13712ca434f,375,375,1,8,23,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754285,59,40,1,1,ec3c4c31-c755-464e-8948-5bf9d7276bee,1476,1477,1,46,53,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754285,59,40,1,1,a07cbb5b-079a-4128-8b94-8651d24188cd,2076,2077,2,61,54,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754287,33,23,2,2,96c6b592-d72c-40bc-9ba1-d7e9bd63a45d,1145,1146,1,31,50,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754287,33,23,2,2,4627c972-5fe9-49bd-89e3-1dcfaf26bc71,1428,1429,1,41,40,Shot,23,Watford,Goal,23.0,shot_goal
+3754287,33,23,2,2,c541c7d3-bf10-4f02-84f3-2109485ec223,1954,1955,2,55,50,Own Goal For,23,Watford,,23.0,own_goal_for
+3754287,33,23,2,2,b1e7a18c-96cf-4a86-b4d5-70c743e4902b,1955,1956,2,55,50,Own Goal Against,33,Chelsea,,,own_goal_against_audit_only
+3754287,33,23,2,2,830283f1-26f7-4f96-acf6-31175378061a,2336,2337,2,64,35,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754343,24,22,1,0,ec2eaaa2-a689-4172-b645-eb0fb809eb09,2155,2156,2,62,23,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753974,37,29,0,1,2eb8a5d5-928e-45c5-9da0-260b8cbf9516,3557,3558,2,92,46,Shot,29,Everton,Goal,29.0,shot_goal
+3754309,25,1,4,0,43ff1089-cc69-4c59-979e-98896ae2323c,750,751,1,18,24,Shot,25,Southampton,Goal,25.0,shot_goal
+3754309,25,1,4,0,897094d6-6750-4714-86df-5866305e9666,2020,2021,2,54,20,Shot,25,Southampton,Goal,25.0,shot_goal
+3754309,25,1,4,0,b4c0ddfc-d883-42e6-8dbe-b7bf1c4657f8,2489,2490,2,68,21,Shot,25,Southampton,Goal,25.0,shot_goal
+3754309,25,1,4,0,a48d94fc-bfe6-4d8c-a0a3-33e0113f8d29,3278,3279,2,91,35,Shot,25,Southampton,Goal,25.0,shot_goal
+3754056,29,30,3,4,b556cedb-5bf5-4ede-985b-20b2f56fe8a5,667,668,1,15,53,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754056,29,30,3,4,72688568-cab5-4f53-a68c-cad7618d4cd9,892,893,1,21,35,Shot,29,Everton,Goal,29.0,shot_goal
+3754056,29,30,3,4,2c6d0e8e-7db2-4efe-a8ad-e5e2350333c6,1804,1805,1,44,26,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754056,29,30,3,4,781b3da4-022a-43b0-8a51-30fb2af6004d,2689,2690,2,63,30,Shot,29,Everton,Goal,29.0,shot_goal
+3754056,29,30,3,4,6cd78f33-505f-439c-b725-79ae6a9a07f5,2891,2892,2,70,11,Shot,29,Everton,Goal,29.0,shot_goal
+3754056,29,30,3,4,9b5e30f9-8d5f-4b5c-ba69-f2a8396bb1e2,3209,3210,2,79,37,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754056,29,30,3,4,b729fb7f-33bf-4f03-901f-a989dcc040f7,3468,3469,2,90,33,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754130,56,59,2,0,12c85155-be0c-4338-b258-ab7e89b0f9c8,792,792,1,23,30,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754130,56,59,2,0,4a256a37-1c62-4b20-b69c-4807409d1bc3,2783,2784,2,86,21,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754195,27,37,1,0,aec2c3d7-bc35-4d7a-8f57-3b0626e108d4,2499,2500,2,77,52,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754291,23,38,1,2,e5492afd-b1ca-44ee-9125-a2609a02effb,620,621,1,16,48,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754291,23,38,1,2,d5690bdf-7c84-4687-a2c0-457d9d3b7f81,1565,1566,1,40,46,Shot,23,Watford,Goal,23.0,shot_goal
+3754291,23,38,1,2,de0e99fe-0aa2-4d7a-922c-103a5ef88a2a,3125,3126,2,88,54,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754173,1,28,2,0,4ba6a916-47a0-40fe-a3f6-51d4b863d242,1265,1266,1,26,47,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754173,1,28,2,0,7ed31c25-7836-450f-a00a-25fe1bc2abcf,2835,2836,2,62,4,Shot,1,Arsenal,Goal,1.0,shot_goal
+3753998,40,25,2,1,fdecd340-c84b-4e44-8cea-480df64b735c,484,484,1,12,31,Own Goal Against,40,West Ham United,,,own_goal_against_audit_only
+3753998,40,25,2,1,d6d89549-429c-47a8-94d6-873518e40ee9,485,485,1,12,31,Own Goal For,25,Southampton,,25.0,own_goal_for
+3753998,40,25,2,1,3dd406e7-e330-453c-a085-2f3e8edd0327,2569,2570,2,68,8,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753998,40,25,2,1,8f3442b1-6100-402c-bcd2-25b3e78a0757,2843,2844,2,78,37,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754226,41,24,0,1,9cba3b9a-61b3-4cfe-b96f-7eb587d9a2e9,1633,1634,2,45,22,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754251,40,24,2,0,821efac5-2728-499b-9136-5b9dba41a06c,393,394,1,9,17,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754251,40,24,2,0,41667921-825f-4486-a0f5-0dbaa6ae129b,2171,2172,2,54,37,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754069,1,37,1,0,00cf1fdf-5c01-46d9-ac2a-a0f03570cbb2,2778,2779,2,71,44,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754036,41,59,3,1,439b9813-385a-4600-be20-cc84ef4123b9,1163,1163,1,29,2,Own Goal For,41,Sunderland,,41.0,own_goal_for
+3754036,41,59,3,1,ec44f857-b4b2-4fc9-b537-bc7842f3c509,1164,1164,1,29,2,Own Goal Against,59,Aston Villa,,,own_goal_against_audit_only
+3754036,41,59,3,1,46a399fb-2318-4453-a66d-12d4bbe4b486,2441,2442,2,62,48,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754036,41,59,3,1,33e67e1e-75ef-4f35-8dac-edf26b52103a,2784,2785,2,71,55,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754036,41,59,3,1,ef878d24-66da-434f-b2fa-5ea148f76b7b,3375,3376,2,91,51,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754101,56,25,1,0,9c3c25f1-a077-499c-aafd-3d2a37c1afe3,2656,2657,2,75,15,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754122,27,30,2,1,75827ef3-ae87-41b2-b0b0-5e37df38c413,2226,2227,2,59,51,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754122,27,30,2,1,c60fa09e-3443-4103-960a-92034efae40d,2829,2830,2,80,26,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754122,27,30,2,1,dcf113c4-89bb-44bd-9879-3442f4c6c761,3104,3105,2,91,57,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754319,39,26,2,1,363039ef-3571-46b9-8bff-2b0f578f62af,1898,1899,2,46,53,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754319,39,26,2,1,4232765f-7cb6-47a5-97bd-6ff36151bb4d,2752,2753,2,69,59,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754319,39,26,2,1,57a9a4a1-b991-4b5c-be5c-02565f0a1fd2,3019,3020,2,76,44,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754346,23,36,1,2,9aa62ced-31d6-440e-aff1-65815420b4b9,2032,2033,2,54,24,Own Goal Against,36,Manchester City,,,own_goal_against_audit_only
+3754346,23,36,1,2,f8976080-8492-4dcd-8a24-acdee5a2da3c,2033,2034,2,54,24,Own Goal For,23,Watford,,23.0,own_goal_for
+3754346,23,36,1,2,308c9b20-a030-40bc-935e-4e5dd1b18b89,2992,2993,2,81,23,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754346,23,36,1,2,d07aa019-cea5-4ed5-9684-64eb1b7a135c,3082,3083,2,83,58,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754114,31,33,0,3,9c3b81bd-8c6e-4940-b281-39836835e0f4,1039,1040,1,28,4,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754114,31,33,0,3,7f1df920-a845-4fc6-b41c-bbe8ed2d7d1a,2415,2416,2,59,49,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754114,31,33,0,3,c154b999-fc8c-4cee-90ff-a9d2e50957a0,2621,2622,2,65,40,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754140,29,38,1,1,b2df620e-db79-4f7f-ac77-a52b8795b474,916,917,1,21,14,Shot,29,Everton,Goal,29.0,shot_goal
+3754140,29,38,1,1,cc8afc95-b8d1-465f-bd43-cca4d0309cf0,1906,1907,1,45,14,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3753981,59,31,1,0,ba84e9dd-23ba-434b-b905-300cfcd1e06f,2340,2341,2,57,38,Own Goal Against,31,Crystal Palace,,,own_goal_against_audit_only
+3753981,59,31,1,0,9103a5c5-6626-49cc-87ac-98d86f3a4447,2341,2342,2,57,38,Own Goal For,59,Aston Villa,,59.0,own_goal_for
+3754021,28,40,1,3,b136d6fe-e6de-4745-bcd1-15c9047071d0,688,689,1,16,52,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754021,28,40,1,3,7d8dd766-3135-473d-b6bd-d42f8f1c3f9f,2687,2688,2,66,38,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754021,28,40,1,3,2eb3925b-3f99-4d03-b525-7ded7583bce1,2971,2972,2,74,1,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754021,28,40,1,3,efa9d29f-f605-49e3-912e-a909e59b747a,3295,3296,2,83,53,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754088,37,39,3,3,2eadd720-134b-4fac-beb1-49174d26ba55,341,342,1,8,57,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754088,37,39,3,3,4bd0f814-8a30-490d-9b34-3e7f1adb4db9,1512,1513,1,37,29,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754088,37,39,3,3,afc44e99-c3d5-4005-a295-313b3cc8a7e6,1646,1647,1,41,18,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754088,37,39,3,3,cb8093b9-ad41-4706-ad39-16061c43d46c,2722,2723,2,66,4,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754088,37,39,3,3,7a60ce70-571e-461c-8214-0d47211f7d97,3195,3196,2,78,33,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754088,37,39,3,3,c1ca0c49-16a1-47ad-afdc-c9d3b886c891,3580,3581,2,89,10,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754032,30,56,3,1,8eb8c211-0e48-4df4-98bc-da01b70171b5,1991,1992,2,48,30,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754032,30,56,3,1,92691de0-5d9f-40af-91d1-74dc7da4ba87,2230,2231,2,54,40,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754032,30,56,3,1,27bcc41b-e66d-4460-9a89-8df2694d15bd,2667,2668,2,66,8,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754032,30,56,3,1,4aae212f-d6c3-48f8-afd4-5989bedf7396,3060,3061,2,77,15,Own Goal Against,56,Norwich City,,,own_goal_against_audit_only
+3754032,30,56,3,1,0629bdb7-14a6-4068-8b81-60252aed7d15,3061,3062,2,77,15,Own Goal For,30,Stoke City,,30.0,own_goal_for
+3754062,33,27,2,2,bfb4ee8a-14a3-4db5-8315-e2246e72be6a,721,721,1,19,35,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754062,33,27,2,2,4bacfb7b-1109-4afd-98d3-084aa51828c7,1226,1226,1,32,43,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754062,33,27,2,2,d4425caa-c2ec-4383-abdd-4e0ab5b972ce,2649,2650,2,72,59,Own Goal Against,27,West Bromwich Albion,,,own_goal_against_audit_only
+3754062,33,27,2,2,10acb55e-f2cd-4b49-9b94-42c2cd0b54cc,2650,2651,2,72,59,Own Goal For,33,Chelsea,,33.0,own_goal_for
+3754062,33,27,2,2,e4c09fae-4f84-4cc7-b582-6742e1747c28,3090,3091,2,84,59,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754071,26,41,2,4,1e97ea6d-3ccb-441c-b993-09accb4391d0,160,160,1,2,53,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754071,26,41,2,4,4bdba452-1190-4aa4-a691-4043a1b3b852,851,851,1,20,40,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754071,26,41,2,4,b10b29d7-231f-427c-b015-de93b6442572,1429,1429,1,39,5,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754071,26,41,2,4,250c62a3-4e00-4c5e-82ba-b4b40e95e865,1806,1807,2,48,8,Own Goal Against,26,Swansea City,,,own_goal_against_audit_only
+3754071,26,41,2,4,846f3e9f-0da4-4873-9487-2a136673d059,1807,1808,2,48,8,Own Goal For,41,Sunderland,,41.0,own_goal_for
+3754071,26,41,2,4,c51525d9-4b01-4e2c-9ba6-f9dc3f0d5131,2278,2279,2,60,16,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754071,26,41,2,4,c57d8e77-667a-4d49-9c2e-8a7db9717b38,2965,2966,2,84,50,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754183,25,23,2,0,34ff2a4a-7125-4aa8-9010-7e9883030f04,787,787,1,15,50,Shot,25,Southampton,Goal,25.0,shot_goal
+3754183,25,23,2,0,56bb187e-2ecf-4caa-a97a-fae4bb214e3c,2736,2737,2,72,44,Shot,25,Southampton,Goal,25.0,shot_goal
+3754065,38,22,0,1,f94b43d7-bc8c-4aa2-9cc7-802b4534ab5d,2794,2795,2,82,43,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754305,24,1,3,3,64459edc-82cc-4040-8fe3-f13a8295fb06,389,389,1,9,6,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754305,24,1,3,3,6ea67778-954c-46a7-89b4-24e1215a7330,553,553,1,13,27,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754305,24,1,3,3,58c5dcaa-30d5-465e-a81f-b21732bea17c,685,685,1,18,51,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754305,24,1,3,3,b91e1d9e-8614-4aaa-bc03-e47e2fc6c575,874,874,1,24,42,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754305,24,1,3,3,a4858420-5af4-4491-a4ae-edae0d82688a,2092,2093,2,54,27,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754305,24,1,3,3,770336c9-48ee-48b4-8a18-b41171b398ad,3401,3402,2,89,34,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754027,38,41,4,1,87f4840d-fa07-469b-a52d-41b1b35c0b73,1510,1511,1,39,59,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754027,38,41,4,1,2cebda04-fbc4-453b-ba77-42a7f6237765,1540,1541,1,41,30,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754027,38,41,4,1,014eee5d-617e-404c-ba57-a499307f8597,2148,2149,2,59,2,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754027,38,41,4,1,5e2a5ed9-b440-42ef-b6ab-090a7e9db345,2485,2486,2,66,30,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754027,38,41,4,1,31636214-316a-4ad3-a856-823ac1311fc8,2904,2905,2,78,41,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754004,28,56,3,0,18f9221b-939a-4964-bba4-f8f22a8d047d,454,455,1,9,7,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754004,28,56,3,0,3e5db0db-6aef-4072-9edc-a4c3f4c1b447,2086,2087,2,53,27,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754004,28,56,3,0,25ac403e-396f-46ef-94e0-a36d61af2cae,2732,2733,2,74,46,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754125,33,29,3,3,e75d5b37-f805-4480-b5e6-cf292dedcab1,2307,2308,2,49,2,Own Goal For,29,Everton,,29.0,own_goal_for
+3754125,33,29,3,3,48819d2f-2e87-4c02-a012-f0bcb24f31f7,2308,2309,2,49,2,Own Goal Against,33,Chelsea,,,own_goal_against_audit_only
+3754125,33,29,3,3,2aa7de6f-aeaf-4202-aeb9-d8f73dda7c1d,2529,2530,2,55,23,Shot,29,Everton,Goal,29.0,shot_goal
+3754125,33,29,3,3,6ed1c5c8-a2c1-4daa-8088-c3e12c4643cf,2830,2831,2,63,25,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754125,33,29,3,3,9bc70f2b-c4c5-437b-9add-61149beb84af,2907,2908,2,65,6,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754125,33,29,3,3,5b906319-148c-4838-a473-cd0a4aca6004,3774,3775,2,89,59,Shot,29,Everton,Goal,29.0,shot_goal
+3754125,33,29,3,3,c88b79da-2a79-49f3-8ccc-a37905853408,4040,4041,2,97,52,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754168,25,27,3,0,94cbe049-a540-4283-9be3-99be5ba7e7c3,223,224,1,4,40,Shot,25,Southampton,Goal,25.0,shot_goal
+3754168,25,27,3,0,27a9303b-8922-4022-969a-068dff7bd2f2,1269,1270,1,34,8,Shot,25,Southampton,Goal,25.0,shot_goal
+3754168,25,27,3,0,1ac1610c-d17d-4576-8bcb-bf8282f00445,2585,2586,2,71,19,Shot,25,Southampton,Goal,25.0,shot_goal
+3754260,36,31,4,0,cb4fe8c3-e34a-4f94-b990-698572c2d526,966,967,1,21,32,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754260,36,31,4,0,48cdc2cc-72d0-4ab0-b426-d77ab0db0a87,1632,1633,1,40,5,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754260,36,31,4,0,19729765-b37d-4e17-83e0-e84e10c8e081,2732,2733,2,67,57,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754260,36,31,4,0,fefdb050-8bd6-4fa6-be58-ff9c47aad173,3295,3296,2,83,19,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754338,37,40,2,1,41d58623-0a8c-4f40-97b1-781dde9ee7fa,251,252,1,5,6,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754338,37,40,2,1,519ce9e9-80f7-4447-a89a-d010ad4682ec,544,545,1,14,30,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754338,37,40,2,1,6540cc63-1db2-4ec6-91b2-6a609ed05f81,1975,1976,2,48,17,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754250,59,22,1,1,35c79e2f-764a-4e59-b311-30b955454bc2,966,966,1,27,56,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754250,59,22,1,1,b8335b1a-183b-4d19-8790-00eb7a8a0b48,2792,2793,2,74,58,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754345,24,39,0,1,0d099262-31ad-498a-a758-1394b2dbc26b,3162,3163,2,77,38,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754161,26,23,1,0,8a88b5e0-6f59-4b63-86f9-9ba17339668e,1202,1202,1,26,36,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754348,56,24,4,5,1db25c47-7025-4628-909f-0bbc89ba49b7,774,775,1,17,48,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754348,56,24,4,5,191ea707-4cf5-493c-860f-3b44a6b44ab7,1057,1058,1,28,3,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754348,56,24,4,5,3f606600-4954-45d7-8e2f-2a65545417f6,1490,1491,1,40,36,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754348,56,24,4,5,f4494432-1f7e-4aff-a42e-5f2ec7e85b39,2012,2013,2,53,7,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754348,56,24,4,5,f90b7672-6433-4a3a-b4a3-3286a38faad1,2053,2054,2,54,44,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754348,56,24,4,5,bb624b8c-ea8f-4921-b25d-ee0b8182b0bc,2399,2400,2,62,37,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754348,56,24,4,5,da626834-120a-43b8-846b-17b5c04c68ee,2778,2779,2,74,6,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754348,56,24,4,5,316b0873-19d9-4c3d-bdd6-054f776aaf82,3439,3440,2,91,57,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754348,56,24,4,5,ca76acf0-9941-48a6-a5be-325d9044b5b4,3491,3492,2,94,17,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753975,41,28,1,1,ab5ed8de-905b-4b83-a590-b9ef4118b2cb,537,537,1,12,20,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3753975,41,28,1,1,4cfb4c2d-297b-4f54-9495-f0f1719ba829,1894,1894,1,45,41,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754179,31,38,1,3,81c05039-e43d-4620-b4db-b44442128863,1240,1241,1,29,13,Own Goal For,31,Crystal Palace,,31.0,own_goal_for
+3754179,31,38,1,3,99cc2db2-f680-4c45-ac07-127d16b1e1ea,1241,1242,1,29,13,Own Goal Against,38,Tottenham Hotspur,,,own_goal_against_audit_only
+3754179,31,38,1,3,dc33dd09-87f3-45eb-907a-521c99c14a44,2401,2402,2,62,35,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754179,31,38,1,3,12a88b74-c1c2-420a-9e68-e15880d23054,2998,2999,2,83,25,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754179,31,38,1,3,7a7565b3-914c-4a2a-9afa-f7136c00914e,3300,3301,2,94,5,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754200,39,25,0,1,5b0227dc-a216-4ce4-879f-4cf6da6973ef,3143,3144,2,86,38,Shot,25,Southampton,Goal,25.0,shot_goal
+3754271,23,37,2,1,215c7109-8c25-4224-9db2-2ee726c07ff4,2119,2120,2,45,43,Shot,23,Watford,Goal,23.0,shot_goal
+3754271,23,37,2,1,02c0860c-9a42-4937-97c2-f4b62abdb4b9,2461,2462,2,57,8,Shot,23,Watford,Goal,23.0,shot_goal
+3754271,23,37,2,1,4e107f99-3a46-4792-b6e1-1966ba97c7b6,2898,2899,2,70,32,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754341,22,30,3,0,2d1cc667-10ec-4bad-88fe-97ee7830fe06,1412,1413,1,41,49,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754341,22,30,3,0,292545cf-5d6a-447f-b1bc-ed2d8e1d8ab4,2328,2329,2,65,55,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754341,22,30,3,0,1e322398-b02a-4051-8aad-b051c2d29ecc,3013,3014,2,86,37,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754110,40,36,2,2,455cdb0c-fe36-44e6-a5e4-cfa01e57422f,68,68,1,0,54,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754110,40,36,2,2,e93110ed-73a5-4858-a1a7-105477a1f925,338,338,1,8,47,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754110,40,36,2,2,80a0333c-9710-430d-9b81-56cc902aa4d6,1975,1976,2,55,26,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754110,40,36,2,2,aa5f4f60-107c-4774-ac47-95d260c06e8a,3013,3014,2,80,4,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754163,29,26,1,2,d4c46966-9e5b-4171-991f-73becca07b19,809,809,1,16,45,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754163,29,26,1,2,5015f4f1-1398-47f7-9875-381a0baf741a,1143,1143,1,25,37,Own Goal For,29,Everton,,29.0,own_goal_for
+3754163,29,26,1,2,26083685-b226-468c-8af7-24e8dfe60745,1144,1144,1,25,37,Own Goal Against,26,Swansea City,,,own_goal_against_audit_only
+3754163,29,26,1,2,aa69664f-60be-4437-a599-d5721ac5c061,1370,1370,1,33,46,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754111,1,33,0,1,b452585b-73e1-4f62-87c3-acda0f94ca3f,836,837,1,22,15,Shot,33,Chelsea,Goal,33.0,shot_goal
+3753997,40,59,2,0,f6d10c88-f61f-44b2-9532-d45fb9cf52d2,2230,2231,2,57,30,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753997,40,59,2,0,f6cf6b7a-3e84-46e3-aee8-eee2c1262490,3354,3355,2,84,35,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754095,41,36,0,1,3917ad28-b37e-4f6c-bb6d-c5cf992c6a17,702,702,1,15,49,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754275,22,24,2,0,1018074f-7b8f-4558-93d7-3aefa07c384b,2379,2380,2,59,6,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754275,22,24,2,0,a60ff303-4263-49df-b338-15d00b7068c6,2871,2872,2,70,58,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754317,56,38,0,3,7a1699e1-0a53-41a6-be9c-6358d0a14047,72,73,1,1,36,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754317,56,38,0,3,4f093729-48dc-4d1e-84cf-88d72d2e4db2,943,944,1,29,34,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754317,56,38,0,3,3cbacbe0-399f-467f-941b-a44e75b407f9,3065,3066,2,89,36,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754089,31,28,1,2,ed0bc635-dcb3-427b-866e-5d217b30d2b7,846,847,1,25,2,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754089,31,28,1,2,7a29c135-885e-49ed-b66a-29fb28ba38f0,1045,1046,1,30,39,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754089,31,28,1,2,8fb6509e-e3df-4294-a3e1-5a32e70eca33,2072,2073,2,56,41,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754094,39,30,3,0,4389a006-d46d-4383-bca4-6c9745fa2fb1,609,610,1,13,19,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754094,39,30,3,0,1ed6d47f-ae99-4c55-923d-b43363313ca1,932,933,1,22,37,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754094,39,30,3,0,f3f1b094-4df0-4498-b417-6f4bfd7088bc,2106,2107,2,52,8,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754340,27,26,1,1,e897eb96-6271-4cd1-b501-7bbe07719ea7,2468,2469,2,63,35,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754340,27,26,1,1,52d89704-730d-42d4-9b5e-7307262999b9,3320,3321,2,91,30,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754252,29,37,3,0,3e6f6ed3-9851-4f76-8f41-e99bffe3ee41,869,869,1,22,29,Shot,29,Everton,Goal,29.0,shot_goal
+3754252,29,37,3,0,cb80c1c6-76b2-436d-aa52-ee484961e8e6,3283,3284,2,87,20,Shot,29,Everton,Goal,29.0,shot_goal
+3754252,29,37,3,0,338e634e-3376-4663-ab5f-625afd384f99,3444,3445,2,93,28,Shot,29,Everton,Goal,29.0,shot_goal
+3754290,36,22,1,3,a314654d-4891-4967-aec7-94e00b776908,90,90,1,2,25,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754290,36,22,1,3,57e8d099-2f03-445d-8d74-b0a635d935d3,1937,1938,2,47,41,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754290,36,22,1,3,b5f29603-d4e5-4249-b89e-d033ff256c03,2276,2277,2,59,16,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754290,36,22,1,3,f68f92e8-fd8a-4ef6-a286-3bdeb7b132d3,3242,3243,2,86,50,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754080,38,23,1,0,1d01d901-c94c-4269-9a1e-576d2d1d0be4,2536,2537,2,63,44,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754127,30,29,0,3,f1d0a5ba-abf6-419a-8f67-e778f0910a21,394,395,1,10,44,Shot,29,Everton,Goal,29.0,shot_goal
+3754127,30,29,0,3,76a2f163-ec1c-4437-a3f4-18fb73a7579e,1153,1154,1,27,29,Shot,29,Everton,Goal,29.0,shot_goal
+3754127,30,29,0,3,bf35fd5b-54a7-456b-bfb6-4a65749cf07e,1603,1604,1,41,6,Shot,29,Everton,Goal,29.0,shot_goal
+3754292,37,27,1,0,2131277a-d31c-424d-aadd-69e0163d8070,991,991,1,31,36,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754303,26,31,1,1,810defa7-97c6-47eb-971c-55f8b141c7e9,523,523,1,12,54,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754303,26,31,1,1,4475e620-4cf9-45b6-9110-ef4ed8f70960,1784,1785,2,46,55,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754306,59,56,2,0,3c6a9fd6-c813-46ac-9339-50f5e6335f08,1573,1573,1,44,29,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754306,59,56,2,0,4c54deb5-66f9-42bb-ba2e-bfb434e1b877,1873,1874,2,50,29,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754316,24,41,2,2,56b05d7a-7056-486c-97ab-e0081801ce56,2367,2368,2,58,43,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754316,24,41,2,2,8c3360cd-27bf-43a9-86ba-3804b4530e91,2797,2798,2,69,1,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754316,24,41,2,2,05f28a88-4497-4efb-9f02-4a0fcdb35451,3211,3212,2,81,15,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754316,24,41,2,2,bac75176-4337-4097-823f-3c2d6468c4fe,3471,3472,2,88,5,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754120,25,40,1,0,89194396-af96-4c4b-8f17-dbbdd5c47c3b,363,364,1,8,50,Shot,25,Southampton,Goal,25.0,shot_goal
+3754253,28,1,0,2,1d4ee9b5-9ef6-4638-a154-25ea1046f8e5,942,942,1,22,8,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754253,28,1,0,2,25e21910-fe19-43fa-90ee-9f2cac472b4a,1007,1007,1,23,36,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754281,33,39,1,1,39abafd6-a289-4f95-8912-a1bd4ded7ae6,2240,2241,2,60,2,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754281,33,39,1,1,d4883171-10cb-4252-8cd5-e85549f7cdc2,3294,3295,2,90,44,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754031,41,39,2,1,b48f1070-e9b1-4b75-9925-5620e7ddf91a,110,111,1,2,27,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754031,41,39,2,1,f406cd04-a584-45f8-a717-743eebe9c4e7,1319,1320,1,38,20,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754031,41,39,2,1,68a71267-755e-49fd-a9e7-64060e359342,2831,2832,2,81,21,Own Goal Against,39,Manchester United,,,own_goal_against_audit_only
+3754031,41,39,2,1,b242970b-3a2c-43fe-940e-f9047f3b0a06,2832,2833,2,81,21,Own Goal For,41,Sunderland,,41.0,own_goal_for
+3754039,31,23,1,2,f6ba8665-c823-437b-b821-573111571903,487,488,1,15,11,Shot,23,Watford,Goal,23.0,shot_goal
+3754039,31,23,1,2,47f5e815-0607-4b58-8940-b690442bd7be,1470,1471,1,44,54,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754039,31,23,1,2,d7d73bc8-a99d-4770-84d1-997fbbdd44bb,2748,2749,2,81,42,Shot,23,Watford,Goal,23.0,shot_goal
+3754139,26,25,0,1,3add0444-dea2-4e2a-a59b-1b791595c092,2579,2580,2,68,58,Shot,25,Southampton,Goal,25.0,shot_goal
+3754244,56,40,2,2,99ef432c-9c03-4097-9402-b9415e19fe26,1949,1950,2,53,54,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754244,56,40,2,2,049d27ff-5c11-425e-88e6-5499561da3ba,2199,2200,2,64,32,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754244,56,40,2,2,6d86892c-6b54-4b35-b827-955927e182d1,2491,2492,2,73,12,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754244,56,40,2,2,07defdc2-966f-4db3-8978-39c39f0cbeb7,2560,2561,2,75,59,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754274,28,30,1,3,11e5a9e9-a954-41c6-95a8-46b3e55cdded,343,343,1,8,30,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754274,28,30,1,3,e1b90884-feb5-44fa-9e9d-02aac89203b1,1854,1855,2,51,41,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754274,28,30,1,3,c38a2244-dcdf-4e4f-8ccd-085adce7b8e2,1918,1919,2,54,13,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754274,28,30,1,3,48129d31-bbde-4601-b6ee-7393a91142d8,1980,1981,2,56,7,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754350,29,27,0,1,66b92fca-5258-4e04-95c5-1489ea3c5a11,508,509,1,13,47,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754264,33,37,5,1,108e8af7-f39f-4b9d-82ec-c11f2e31588e,179,180,1,4,7,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754264,33,37,5,1,aaedb5c1-85b9-40ce-8691-ecc5dfa48cff,308,309,1,8,21,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754264,33,37,5,1,9afbf5c7-d46c-429d-8ad2-3e6dca28aa86,641,642,1,16,11,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754264,33,37,5,1,ec9ddc13-9742-48b0-a7d1-853d5dd7eaaa,2468,2469,2,58,17,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754264,33,37,5,1,5e3a9db8-6ee1-426c-92b9-5d084234e4c1,3591,3592,2,82,47,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754264,33,37,5,1,29a8f2a8-a3d8-4ccc-9cd1-4e66b6feb190,3871,3872,2,89,11,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754261,1,22,2,1,fffe2d4c-9d47-49c5-a8e6-fed289a9d699,1803,1804,1,44,20,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754261,1,22,2,1,fbb74d59-1569-4d9a-a5b6-39d44a4e3ce0,2787,2788,2,69,50,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754261,1,22,2,1,f3534d27-8641-4a59-b0e5-cfdb4641d21c,3770,3771,2,94,29,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754214,59,24,0,6,e41d52c4-8934-4a88-bc03-4d51c0973920,836,836,1,15,14,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754214,59,24,0,6,4b0a501f-93ac-4e22-bc24-97d02c44e471,1247,1247,1,24,12,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754214,59,24,0,6,2fb853bd-1dc5-453d-bb68-2c1b437f4bdd,2680,2681,2,57,51,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754214,59,24,0,6,4febea85-1958-479f-bf49-f58c374ad7b8,2840,2841,2,62,2,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754214,59,24,0,6,45f5d149-7012-46ba-addc-a112f851db56,2915,2916,2,64,35,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754214,59,24,0,6,27500821-3dd0-4327-ac0a-f2c4f9b40c43,3108,3109,2,70,44,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754147,36,38,1,2,6cc5801d-4808-4e13-8360-936b57d72bf4,2371,2372,2,52,58,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754147,36,38,1,2,26020396-9c4b-4a00-a9dc-b22f747a225e,3302,3303,2,73,40,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754147,36,38,1,2,fa48e144-5ae5-46dc-a4be-e944d5f586ca,3697,3698,2,82,43,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754331,40,41,1,0,0ba53b31-2b80-4f61-9a9f-4a0c4b25f951,1152,1152,1,29,28,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754012,25,33,1,2,9882f37c-2134-4c38-9ff8-7dc14dfec7a7,1709,1709,1,41,52,Shot,25,Southampton,Goal,25.0,shot_goal
+3754012,25,33,1,2,fbfb5a48-da5d-4e58-8629-278a4e286fc9,2839,2840,2,74,34,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754012,25,33,1,2,3e456853-d597-4f61-9d7d-276fe347aab8,3372,3373,2,88,1,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754049,22,56,1,0,179881af-7b85-4b66-ae19-f27ac6c753a9,3156,3157,2,88,29,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754321,30,59,2,1,edef0757-20f9-47b4-b2c8-9b07beebdecd,2030,2031,2,50,25,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754321,30,59,2,1,229feb29-bba2-4755-ab6e-46bd436b1259,2238,2239,2,55,10,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754321,30,59,2,1,9e1be3f3-0b0e-417d-8772-5f6729883036,3233,3234,2,78,11,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754236,27,31,3,2,6db0056a-5713-4990-9ca7-abd9ac393fde,525,525,1,11,29,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754236,27,31,3,2,1c6e7ec7-1900-43ab-8b20-c76663c2009f,707,707,1,19,30,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754236,27,31,3,2,c7074b00-e552-4bba-ab7d-a64251b84042,1139,1139,1,30,1,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754236,27,31,3,2,a29650fb-0733-4785-adc2-d14f39177eb1,1792,1793,2,48,0,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754236,27,31,3,2,7532ed2e-a327-4302-8dab-30509cc312f2,2794,2795,2,79,43,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754239,39,1,3,2,753c65c1-dd67-4347-baf1-633642b11789,1092,1092,1,28,20,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754239,39,1,3,2,2f286d72-3e13-462d-a12e-fb5af568569f,1203,1203,1,31,6,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754239,39,1,3,2,fe597e30-fb44-43d9-b928-33c4c914a6fa,1485,1485,1,39,38,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754239,39,1,3,2,6933a6d2-24c1-41d8-8969-2bee6d469866,2537,2538,2,64,1,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754239,39,1,3,2,6248ab1c-2e89-4775-aec5-bbef94c6257a,2700,2701,2,68,41,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754324,38,26,2,1,032ab58d-8385-45d3-a954-646dadbff590,719,720,1,18,21,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754324,38,26,2,1,0115acdc-1b10-4f95-a6e1-f8482aecf11c,2458,2459,2,69,7,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754324,38,26,2,1,2e79d54d-49cb-4476-81e0-45c76334f276,2646,2647,2,76,28,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754050,41,31,2,2,9f980628-31da-4084-99f9-ce8d745be189,1108,1109,1,35,10,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754050,41,31,2,2,8c501e1c-51dd-4108-baa8-e561f42256ff,1966,1967,2,60,25,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754050,41,31,2,2,d64fd9cb-22c3-46c5-a5cd-e23237d54abf,2120,2121,2,66,22,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754050,41,31,2,2,07413db0-cde6-408e-96f1-7c64be42dcf7,2901,2902,2,89,55,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754231,22,27,2,2,e024e8c2-81ab-47ce-a44a-b10b9822aba9,396,397,1,10,54,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754231,22,27,2,2,0b087fd7-e5a2-4823-8c56-54f311f4e484,1090,1091,1,30,1,Own Goal For,22,Leicester City,,22.0,own_goal_for
+3754231,22,27,2,2,fb83afc8-03cf-448f-90e3-30f9ac4cdf90,1091,1092,1,30,1,Own Goal Against,27,West Bromwich Albion,,,own_goal_against_audit_only
+3754231,22,27,2,2,35922391-6d77-4b70-88cb-f939f6eba54e,1559,1560,1,45,6,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754231,22,27,2,2,bf8fcabe-a8f7-459b-97b7-6cf1f1ec2c49,1732,1733,2,49,29,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754280,56,33,1,2,7a6918a1-2e5f-4439-8f71-94a1ab498716,37,37,1,0,39,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754280,56,33,1,2,d866e762-6618-41c2-b49b-c3ac739b71e1,1796,1796,1,45,54,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754280,56,33,1,2,e0362e14-3b9f-40b0-975e-e661a26d28c5,2614,2615,2,67,26,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754327,59,29,1,3,4f57aeae-d948-4095-9f73-14fcfb77fe64,254,254,1,4,44,Shot,29,Everton,Goal,29.0,shot_goal
+3754327,59,29,1,3,39e772bf-aab1-4a72-8ef8-232fecfdff61,1302,1302,1,29,2,Shot,29,Everton,Goal,29.0,shot_goal
+3754327,59,29,1,3,3a625634-bb6a-48eb-adc8-21c30ebfd003,2624,2625,2,59,8,Shot,29,Everton,Goal,29.0,shot_goal
+3754327,59,29,1,3,905d2d13-1f7c-450e-823b-505abf9a4acc,3250,3251,2,78,51,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754334,28,25,2,0,bb3e9c0a-4993-4744-97e8-af2317adde0b,1163,1163,1,30,36,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754334,28,25,2,0,75a0d7b1-1acb-4b3d-b5c4-0ce27525d74d,2725,2726,2,78,56,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3753976,1,26,1,2,357acc56-1a95-4df1-922d-ac050dbf658c,732,733,1,14,13,Shot,1,Arsenal,Goal,1.0,shot_goal
+3753976,1,26,1,2,a11300bb-5989-4a51-b7e4-b89ff33510dc,1536,1537,1,31,35,Shot,26,Swansea City,Goal,26.0,shot_goal
+3753976,1,26,1,2,939cd295-6f43-4203-8512-c98a6be53b7c,3200,3201,2,73,52,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754005,30,37,1,0,c848009a-41f7-4a15-a2f4-d1c92375b795,2879,2880,2,79,35,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754349,40,38,1,0,ad393f88-c83e-4c6a-85e6-5f6147bc4390,288,289,1,6,47,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753991,24,36,3,0,e5f255b0-3074-484e-94f6-097c0cde80b8,1532,1533,1,33,21,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753991,24,36,3,0,41825670-432b-44e5-901e-1441fa2b299c,1844,1845,1,40,13,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753991,24,36,3,0,a10adf5a-0910-4a7e-83b3-2f253cc760ff,2708,2709,2,56,43,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754232,39,23,1,0,309c903c-a5b6-45c0-8852-34a401a914e2,3017,3018,2,82,45,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754318,38,1,2,2,df47916a-38ff-46f7-b095-4ae7072f0397,1643,1644,1,38,7,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754318,38,1,2,2,68da5d74-c50e-4ef6-af8e-4b2d879b80b4,2419,2420,2,59,19,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754318,38,1,2,2,863d253f-d9f9-40f4-b7b2-eb07ad0da3ef,2473,2474,2,61,16,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754318,38,1,2,2,3a70f7a3-ba5d-4b5a-8895-0a046228def5,2857,2858,2,75,1,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754061,33,30,1,1,e4f3820b-0770-415f-abe9-7704c0b95867,1497,1498,1,38,42,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754061,33,30,1,1,36923adb-298e-4506-9b4a-bee221d9b932,3226,3227,2,84,18,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754151,26,56,1,0,f4ee0b30-f4a9-4945-ad4f-4236f8b066e2,1985,1986,2,60,33,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754164,25,41,1,1,3f914af3-5683-40ae-9d12-0f7a92cc4071,2869,2870,2,84,15,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754164,25,41,1,1,e30c65bf-d02c-400c-bf4c-3b20a12a8f33,3100,3101,2,92,44,Shot,25,Southampton,Goal,25.0,shot_goal
+3754177,37,28,1,3,8a3a1673-3c3f-4242-bea9-c6357ed03622,1260,1261,1,27,42,Own Goal For,28,AFC Bournemouth,,28.0,own_goal_for
+3754177,37,28,1,3,6b1a0a63-a54b-4e87-be7f-160bde562da3,1261,1262,1,27,42,Own Goal Against,37,Newcastle United,,,own_goal_against_audit_only
+3754177,37,28,1,3,b64c95ce-013d-4267-b6cc-003fcc2f18e1,3145,3146,2,69,43,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754177,37,28,1,3,5eccaa99-fb9e-4c45-8bb0-18b578ada393,3488,3489,2,79,57,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754177,37,28,1,3,218342a4-0fdf-4d79-8dfd-bc80283654e8,3843,3844,2,91,21,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754249,36,59,4,0,8136bf26-8a0f-4267-82ae-6bb9ccf11584,2113,2114,2,47,41,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754249,36,59,4,0,80babf9d-8911-4c2c-bd3c-6031a45650cf,2167,2168,2,49,31,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754249,36,59,4,0,89d5676f-9b14-46c5-9b76-aaaf61821ef9,2757,2758,2,59,32,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754249,36,59,4,0,fd2610b3-fcd3-4306-bc47-a0ce5be8a6ec,3039,3040,2,65,45,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754277,29,40,2,3,c360b08f-e449-42ee-b97b-f7fc48b0a725,513,513,1,12,49,Shot,29,Everton,Goal,29.0,shot_goal
+3754277,29,40,2,3,720fd25d-fa7f-426e-a91e-b49b18b416f5,2019,2020,2,55,43,Shot,29,Everton,Goal,29.0,shot_goal
+3754277,29,40,2,3,149e9afa-2c9e-406a-9cef-abf7af5ca6ac,2689,2690,2,77,47,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754277,29,40,2,3,b5a347f0-03b3-487b-833c-3dca8b895065,2759,2760,2,80,41,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754277,29,40,2,3,9a393552-6dd6-41b7-915c-73433f47c32a,3142,3143,2,89,57,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754289,23,22,0,1,be6dbf6a-7155-4500-994e-ea8e83a41081,2106,2107,2,55,34,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754220,31,24,1,2,104a5fda-a096-4d2c-995f-777bd820b32c,1811,1812,2,47,50,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754220,31,24,1,2,0cc3a0fa-03dc-4ac7-bfc2-bd08f9db1e09,2766,2767,2,71,34,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754220,31,24,1,2,e63031e1-a24a-468e-9274-82d723323d9f,3571,3572,2,95,11,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754081,27,39,1,0,65f6f0c3-bff1-4ad5-a682-124e94671936,2658,2659,2,65,59,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3753988,28,26,3,2,06692fbc-6f3a-4139-9028-bae5b008ea3d,1314,1315,1,36,22,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3753988,28,26,3,2,1db62bd1-642c-4cdb-9224-5d8a36fec6c8,1389,1390,1,38,23,Shot,26,Swansea City,Goal,26.0,shot_goal
+3753988,28,26,3,2,0552b3b5-4723-4a4e-85b9-141a2a9b7e29,1853,1854,2,49,14,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3753988,28,26,3,2,7b4fce42-78bb-4f24-91ba-b9118d609636,2336,2337,2,61,48,Shot,26,Swansea City,Goal,26.0,shot_goal
+3753988,28,26,3,2,17af0fe1-2a65-48f0-92e8-f3c2e9590061,2948,2949,2,77,29,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754196,30,25,1,2,3066c5c6-7467-47a2-9f9a-94cb67e8f2d0,405,406,1,10,28,Shot,25,Southampton,Goal,25.0,shot_goal
+3754196,30,25,1,2,f191c042-e96c-417b-9cc6-7f4d00abd573,1037,1038,1,29,34,Shot,25,Southampton,Goal,25.0,shot_goal
+3754196,30,25,1,2,b6daf7b8-3742-42fb-ad5e-a633ab009be0,1895,1896,2,51,5,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754053,59,38,0,2,efb12685-67fb-403d-be78-6ef4122ea91a,1638,1638,1,44,57,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754053,59,38,0,2,9985abc3-0eb6-466a-88c5-18a396141db9,1825,1826,2,47,11,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754002,22,37,1,0,8b460fe9-8d35-4870-bbf4-c080b8c9a414,939,939,1,24,6,Shot,22,Leicester City,Goal,22.0,shot_goal
+3753980,29,1,0,2,c70901eb-843a-480f-ad3a-4fa37b9dcdcd,230,231,1,6,22,Shot,1,Arsenal,Goal,1.0,shot_goal
+3753980,29,1,0,2,3ba77dde-6599-4b75-be3a-2ae0c20c36da,1816,1817,1,41,6,Shot,1,Arsenal,Goal,1.0,shot_goal
+3753973,33,40,2,2,f58ea4a3-e524-4bfc-8c55-d38765dfe82e,711,712,1,16,14,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753973,33,40,2,2,038db847-f1bb-4e40-a3ca-44074fe1fcff,1782,1783,1,47,39,Shot,33,Chelsea,Goal,33.0,shot_goal
+3753973,33,40,2,2,00aa6fd6-9d25-4a89-a982-5eba7fa161fb,2453,2454,2,60,50,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753973,33,40,2,2,193bfaa5-f5d7-4677-a25a-20c13163e792,3321,3322,2,88,23,Shot,33,Chelsea,Goal,33.0,shot_goal
+3753977,23,30,1,2,eb5fd308-44c0-490e-aeb8-4607d07f404c,799,800,1,17,40,Shot,30,Stoke City,Goal,30.0,shot_goal
+3753977,23,30,1,2,494fed16-e21b-43cd-a4e0-f8ef2e0ecaf0,1913,1914,2,50,43,Shot,30,Stoke City,Goal,30.0,shot_goal
+3753977,23,30,1,2,caaff822-0a34-4435-b377-3e46a6e3ea5d,3225,3226,2,85,6,Shot,23,Watford,Goal,23.0,shot_goal
+3754052,27,56,0,1,f116686b-2a5c-4a8e-b6a1-2ceea84cade3,1792,1793,2,49,14,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754181,31,22,0,1,05175b74-e3c4-4799-9cef-ee1312ac4aa2,1199,1200,1,33,13,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754224,26,59,1,0,e3641f4e-d6ab-4167-bf5c-11f572f8c644,2152,2153,2,52,56,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754064,25,24,3,2,86b81d3e-903f-4609-a4c3-953d0906357a,666,667,1,16,42,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754064,25,24,3,2,e041ea6b-f1cd-4d35-8779-7e87ea37e6bc,867,868,1,21,1,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754064,25,24,3,2,c122f2e3-a463-4a99-8536-6b3eb547b088,2689,2690,2,63,39,Shot,25,Southampton,Goal,25.0,shot_goal
+3754064,25,24,3,2,ab46fa42-61d1-4f08-8170-cc5e58e13057,3501,3502,2,82,59,Shot,25,Southampton,Goal,25.0,shot_goal
+3754064,25,24,3,2,009f9959-4b5c-4f6d-a73f-792014749389,3597,3598,2,85,21,Shot,25,Southampton,Goal,25.0,shot_goal
+3754100,37,41,1,1,16dd881b-7abb-4284-8044-8b118855cfa2,1406,1407,1,43,19,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754100,37,41,1,1,7b7a4b37-429d-4545-8639-18174ec1cd3f,2867,2868,2,82,25,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754043,38,28,3,0,3a461b8e-e76d-47d4-a294-570919e5db3e,29,29,1,0,43,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754043,38,28,3,0,679b430a-deeb-40c9-baa5-4e1a2c83a9d1,652,652,1,15,35,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754043,38,28,3,0,68bb5d9f-1cd2-4a12-9c63-51c152f557da,2100,2101,2,51,19,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754124,36,39,0,1,94f19cbc-36d2-4590-93f9-a1aaf5e2414f,677,677,1,15,3,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754075,59,33,0,4,be5b1e29-0728-40d4-b84b-4f17e7a4d70a,1070,1071,1,25,18,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754075,59,33,0,4,ff984c0d-052d-4276-9a84-0bda5f54813d,1838,1839,1,47,20,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754075,59,33,0,4,df4f42bd-59c2-4837-8ca0-765d8e445cd5,1940,1941,2,45,48,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754075,59,33,0,4,d9c73e54-eae1-420e-9e92-11def33f028e,2474,2475,2,58,6,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754118,1,23,4,0,55e33fa8-0180-454c-8ea1-27662e162a75,257,257,1,3,57,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754118,1,23,4,0,47f750ac-6930-4771-8dda-de77322147ad,1468,1468,1,37,10,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754118,1,23,4,0,92146ba9-806f-4cae-9401-a10c98b80ece,1935,1936,2,47,41,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754118,1,23,4,0,2c6cba1e-ecde-4eae-a7f8-cae7f3115d30,3678,3679,2,89,21,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754144,28,36,0,4,47face0d-35d8-476d-8ae7-607c19bddadc,317,318,1,6,38,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754144,28,36,0,4,e53c9c8e-cd6c-4c7a-a8fb-51e6a6e44415,448,449,1,11,3,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754144,28,36,0,4,9600932e-a66b-4b77-a26f-3debf7f7dd3d,745,746,1,18,5,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754144,28,36,0,4,04df38c0-65d4-41a6-864d-e65707c60f66,3890,3891,2,92,42,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754176,40,31,2,2,a877954a-4dfb-45b6-978e-c6fa9a7384cf,513,513,1,14,31,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754176,40,31,2,2,fe9f9226-8482-4a38-a1cd-4bbd50414ac1,632,632,1,17,27,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754176,40,31,2,2,6b42d1dc-4f04-44dc-82cb-a9255a73459f,1347,1347,1,40,29,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754176,40,31,2,2,1ebcfe77-eaf0-492f-ae6a-3defb38ed1bd,2448,2449,2,74,33,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754243,56,37,3,2,509cb716-7aa4-4604-a0f5-b0cf59c212fc,1609,1609,1,46,49,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754243,56,37,3,2,3eeb2949-1c9a-4a7d-b7e7-a6fa166378fd,2544,2545,2,70,54,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754243,56,37,3,2,c094bf7b-cb4f-4deb-8af8-85b925779471,2592,2593,2,73,6,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754243,56,37,3,2,aa11e0d6-f64f-4216-b061-328a15bc4746,2948,2949,2,85,55,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754243,56,37,3,2,b7070215-fdde-4e47-88d9-e6766de43fa1,3205,3206,2,92,4,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754272,30,26,2,2,6ccb6088-e6af-40ff-87a1-e39b099b67c3,591,592,1,12,39,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754272,30,26,2,2,6794f4c2-f0ee-4eaa-b162-18346c30a51c,2191,2192,2,52,19,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754272,30,26,2,2,a388dd84-53e7-48e2-b933-e57a26777fdb,2934,2935,2,67,22,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754272,30,26,2,2,99b2f5af-8905-436f-a501-acf2ac78bfbe,3393,3394,2,78,44,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754087,24,38,1,1,bfd419cc-31c0-4ba3-b2e0-a603b6408beb,2300,2301,2,50,36,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754087,24,38,1,1,d2456d16-3530-467b-94e0-4ec0a52035a1,2693,2694,2,62,4,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3753982,22,25,1,0,d92a7283-6ddd-4b57-bfe3-a826d1f3aa01,1378,1378,1,37,20,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754299,39,29,1,0,bbebf852-7ae5-496d-aeb1-d07331f0319b,2200,2201,2,53,2,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754241,40,1,3,3,5d008326-a98a-4da1-ad7b-bdabf7affec1,651,652,1,17,14,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754241,40,1,3,3,55b49497-b681-4f06-bc21-4d3d7df2aee3,1182,1183,1,34,30,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754241,40,1,3,3,da72295e-29bf-4c2a-b5d3-3f2b02cda253,1574,1575,1,43,49,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754241,40,1,3,3,7fca818e-d256-4ec4-9a0c-49f062d7aaa2,1687,1688,1,46,30,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754241,40,1,3,3,2e036fca-cbe4-4773-82ce-189840d1ac20,1932,1933,2,51,5,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754241,40,1,3,3,715fb27a-cffe-4389-93f4-145c55052131,2653,2654,2,69,51,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754016,25,37,3,1,f913ee58-e80a-47c5-95f1-e0dfdd86ff1c,154,155,1,3,22,Shot,25,Southampton,Goal,25.0,shot_goal
+3754016,25,37,3,1,159efd78-bdaa-4be7-a332-b376ca1dbaa2,1263,1264,1,37,27,Shot,25,Southampton,Goal,25.0,shot_goal
+3754016,25,37,3,1,e4d1d4bb-1098-4d43-b5c4-4efc13841909,1994,1995,2,54,43,Shot,25,Southampton,Goal,25.0,shot_goal
+3754016,25,37,3,1,19535f4d-9de4-4e4e-81c1-050b45df3b42,2360,2361,2,64,45,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754022,31,56,1,0,480599c1-1260-4c04-a924-f168439e5457,1957,1958,2,67,39,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754030,23,29,1,1,75e28ab2-85c6-47a0-8fb8-9b9446b8cd2e,1719,1720,1,45,23,Shot,29,Everton,Goal,29.0,shot_goal
+3754030,23,29,1,1,45ea8f9c-8df5-4c21-b082-65dd1e0b2d02,1743,1744,1,47,2,Own Goal Against,29,Everton,,,own_goal_against_audit_only
+3754030,23,29,1,1,d96783b2-18fd-42ec-b716-84208d14c8f6,1744,1745,1,47,2,Own Goal For,23,Watford,,23.0,own_goal_for
+3754116,26,33,1,0,1cf8ff59-71c7-4f87-8134-b95894e39b63,1189,1190,1,24,49,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754262,59,28,1,2,113b992d-0124-4332-8cf5-9a51648cd041,2024,2024,1,46,21,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754262,59,28,1,2,1a7e5ec2-6f05-4ea4-b45b-9e44e477644a,3188,3189,2,73,29,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754262,59,28,1,2,4f397d30-785f-48bc-9696-18307b154d25,3457,3458,2,84,15,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754035,36,27,2,1,4d4317d8-1c5f-44fa-b55f-ea86260efc8d,182,183,1,5,3,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754035,36,27,2,1,931486b1-8649-41cd-acf2-ca00bf6cf97b,514,515,1,18,10,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754035,36,27,2,1,f4ec3831-5e88-4260-b97a-f655d43e95ee,2292,2293,2,65,27,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754152,41,22,0,2,4e566c84-3d1d-4199-8a60-255097610b0f,2319,2320,2,65,18,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754152,41,22,0,2,6a575f7e-0343-471f-8d80-184c43352073,3381,3382,2,94,42,Shot,22,Leicester City,Goal,22.0,shot_goal
+3753986,24,30,4,1,f4594568-e429-4c65-b192-aa42cb936f73,366,367,1,7,37,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753986,24,30,4,1,485ebf8d-1cb7-4058-b6a4-d160de23bec4,876,877,1,21,33,Shot,30,Stoke City,Goal,30.0,shot_goal
+3753986,24,30,4,1,21c49b6a-3846-4978-8b20-771d73e9bd55,1241,1242,1,31,50,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753986,24,30,4,1,3a6e2b0b-483b-4981-949a-d4bfdf7bcf15,1894,1895,2,49,29,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753986,24,30,4,1,28323a24-d792-40ca-aaf1-144cd777002f,2400,2401,2,64,10,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754209,38,39,3,0,9d4d07a0-7d03-42d3-87a1-0c689cc040aa,2739,2740,2,69,19,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754209,38,39,3,0,2091131f-a745-4b08-b678-dfc434869911,2848,2849,2,73,30,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754209,38,39,3,0,6533a8f9-a20a-49ad-9574-2753afff3a2c,2881,2882,2,75,4,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754172,56,41,0,3,0c4c32bd-e610-4935-822b-0a0cc6b2fa60,1270,1271,1,40,28,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754172,56,41,0,3,ac81b881-0b42-419b-8466-be14aec0b9d5,1623,1624,2,52,7,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754172,56,41,0,3,0bf7494a-6813-4e23-9f40-8cb798b313a4,2618,2619,2,90,20,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754024,37,26,3,0,f2405789-493e-4010-bf70-64e794234430,1386,1386,1,40,0,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754024,37,26,3,0,1d7f1186-1288-43c8-babb-ae46b6615bf2,2924,2925,2,81,23,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754024,37,26,3,0,ecd7a8f0-8029-42c3-98b6-efc9f8af52c5,3183,3184,2,88,48,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754137,29,25,1,1,4543392e-ec28-4ea7-8bdb-1b4ee3d412cd,2268,2269,2,67,39,Shot,29,Everton,Goal,29.0,shot_goal
+3754137,29,25,1,1,e1392bc0-9786-45c7-8da7-bb810d8e0bc9,2507,2508,2,75,10,Shot,25,Southampton,Goal,25.0,shot_goal
+3754155,27,23,0,1,b47694a5-f5cb-4bee-a3b6-c63505da8028,915,916,1,26,37,Shot,23,Watford,Goal,23.0,shot_goal
+3754295,39,59,1,0,ca0b8e31-8b03-4468-a316-9c0b866f0649,1152,1152,1,31,18,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754322,33,36,0,3,b41ef618-36b2-4787-9018-4be7ae86268e,1406,1407,1,32,30,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754322,33,36,0,3,a7934420-d2dd-4a60-a2ed-13159fbdf9b3,2361,2362,2,53,35,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754322,33,36,0,3,173f6499-807c-4ae6-a292-6bbc032dbc0d,3334,3335,2,79,51,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754216,28,24,1,2,d978d88e-7015-4e7f-995e-ee56cf772fee,1754,1754,1,40,14,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754216,28,24,1,2,fc3579ef-9fe7-4051-8d58-85cabe74368e,1926,1926,1,46,52,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754216,28,24,1,2,8d1744e5-8cb3-4332-b9f8-ff3d04773375,3840,3841,2,92,55,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754227,22,40,2,2,a4bdb0b9-3701-4481-af2a-8718059b3c4d,584,585,1,17,56,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754227,22,40,2,2,7dee6e7c-462f-4ebc-bf1b-cc5529805ac9,2645,2646,2,83,31,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754227,22,40,2,2,3c93984b-9174-4d3e-8954-ad5399783ebf,2733,2734,2,85,43,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754227,22,40,2,2,cd02d046-73dd-407d-8450-9f6cdcb1a6c6,2932,2933,2,94,45,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754009,1,31,1,1,1da0c1f0-93c0-4f7d-9d49-30d309248fd0,1970,1970,1,45,20,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754009,1,31,1,1,3c5eb701-fa07-4b2a-a8b4-f9510d956928,3451,3452,2,81,0,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754187,30,38,0,4,87e7adcf-0889-49e1-9d3f-c409846cc3ba,389,389,1,8,50,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754187,30,38,0,4,e101712e-3f9a-4d85-b0a0-a28f29a309e9,2496,2497,2,66,53,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754187,30,38,0,4,cf7d64c1-8186-4117-a8fa-664e9c897891,2589,2590,2,70,42,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754187,30,38,0,4,d8c62111-de09-4c07-afc3-179057a5be7d,2957,2958,2,81,14,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754206,37,36,1,1,b4f6a287-e063-4327-b60d-78f36c1e6ba0,599,600,1,13,58,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754206,37,36,1,1,46dd4ff3-750b-44eb-a08c-3a0faf83b4c2,1294,1295,1,30,41,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754086,40,23,3,1,d6f96c90-d06d-42fc-a377-65dc7f759c39,380,381,1,10,20,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754086,40,23,3,1,ae3a797e-7cd5-4ddc-9624-5c62f3fc88ac,1746,1747,1,44,31,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754086,40,23,3,1,b687afd0-6bbb-4006-9a14-dd90aa03b4da,2037,2038,2,52,40,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754086,40,23,3,1,0efb2fba-ab16-468e-a2b5-b33f01e5afaa,2355,2356,2,63,14,Shot,23,Watford,Goal,23.0,shot_goal
+3754294,24,29,4,0,e9b6dca8-5c02-4a69-b01a-a511d5f58008,1603,1604,1,42,31,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754294,24,29,4,0,13e33f22-e065-421b-b363-8537fc0a468e,1769,1770,1,46,58,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754294,24,29,4,0,47a11264-5af1-4093-b15c-e517714fe99b,2179,2180,2,60,0,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754294,24,29,4,0,afd3d89b-3e6c-41bd-8261-2d9888b36b06,2751,2752,2,75,42,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754310,39,31,2,0,03b9c716-9792-4c7c-9554-ba974b68d2de,209,210,1,3,55,Own Goal For,39,Manchester United,,39.0,own_goal_for
+3754310,39,31,2,0,e2f2a618-ed7c-4c2c-a531-510a6ec6a10a,210,211,1,3,55,Own Goal Against,31,Crystal Palace,,,own_goal_against_audit_only
+3754310,39,31,2,0,d89bb928-c384-401e-a15b-8b7cfa87fdac,2226,2227,2,54,33,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754284,1,27,2,0,796aa4ba-bdce-4c29-aa83-d0fde4aaa93e,282,283,1,5,30,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754284,1,27,2,0,bc3eb82e-1d0b-4985-9a53-f9fb350c2a31,1541,1542,1,37,21,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754307,36,30,4,0,0bff95c5-1846-47a1-a8c9-aef4f63e8e42,1384,1385,1,34,7,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754307,36,30,4,0,2f2372f2-83b8-46d6-ab85-19d1af942306,1729,1730,1,42,24,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754307,36,30,4,0,30cc737e-3a91-4151-b8b5-a37a396fa604,2501,2502,2,63,4,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754307,36,30,4,0,07de0dbf-caf6-4315-8302-05edf3aeec76,2877,2878,2,73,53,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754154,24,37,2,2,c8b973b4-046c-4781-b060-1017f3f0b835,34,35,1,1,6,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754154,24,37,2,2,e58ceafd-dd53-4090-bf41-0de236fd9911,1068,1069,1,29,26,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754154,24,37,2,2,eab6322d-511c-440a-aa22-f5eb4021658c,1949,1950,2,47,56,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754154,24,37,2,2,7d99958a-4e69-4a14-8d2a-b6dceee83d80,2665,2666,2,65,35,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754242,28,33,1,4,5b7e2d8b-6f8a-48a2-a393-5c308e08721a,247,247,1,4,54,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754242,28,33,1,4,d9b3295c-0c18-40f7-b8b2-c8fecc1b0797,1434,1434,1,33,46,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754242,28,33,1,4,ad5f9c96-f71b-4866-ae42-cca428006d84,1452,1452,1,35,17,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754242,28,33,1,4,cc607724-3875-410b-a778-6f6751ff1d0f,2921,2922,2,70,30,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754242,28,33,1,4,6714f82d-27df-4e90-a131-33a5d191b2b0,3671,3672,2,90,19,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754282,59,25,2,4,fc544d2f-8ba2-469f-be25-49cb34c089b3,544,544,1,14,40,Shot,25,Southampton,Goal,25.0,shot_goal
+3754282,59,25,2,4,c9a96632-9dd3-4f49-94cf-c6214fc1039b,1556,1556,1,38,33,Shot,25,Southampton,Goal,25.0,shot_goal
+3754282,59,25,2,4,038399ea-edce-4750-9357-34011eb8c8ec,1739,1739,1,45,6,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754282,59,25,2,4,12c3637b-40e5-44a7-aa7e-d9de0a4925f0,2856,2857,2,70,42,Shot,25,Southampton,Goal,25.0,shot_goal
+3754282,59,25,2,4,6f5df405-9e23-4e66-a6da-91ca84fc7e66,3259,3260,2,84,37,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754282,59,25,2,4,54244238-b896-411f-b6f1-83f0aca11676,3562,3563,2,93,18,Shot,25,Southampton,Goal,25.0,shot_goal
+3754228,22,26,4,0,b9931b8f-dc68-4bbd-a6fe-7d17249ba4f4,518,518,1,9,48,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754228,22,26,4,0,f8637228-d08d-4405-9116-f7a1d0d0e18b,1239,1239,1,29,17,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754228,22,26,4,0,eb6a26ec-0265-4393-a350-8306b7641027,2730,2731,2,59,34,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754228,22,26,4,0,67171052-6384-4371-99c1-c727d4ffff20,3654,3655,2,84,22,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754332,38,27,1,1,ec88741f-257f-4097-97c3-46c90b5216d0,1183,1184,1,32,12,Own Goal For,38,Tottenham Hotspur,,38.0,own_goal_for
+3754332,38,27,1,1,dc4b0706-d1c8-442f-a43e-438fecc80fff,1184,1185,1,32,12,Own Goal Against,27,West Bromwich Albion,,,own_goal_against_audit_only
+3754332,38,27,1,1,caa89307-e42a-437f-a721-69abfc0578a7,2651,2652,2,72,3,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754037,29,28,2,1,c2efcf8a-a8cb-4fdb-ae09-b1e9e2fbe8c2,332,332,1,6,42,Shot,29,Everton,Goal,29.0,shot_goal
+3754037,29,28,2,1,9a693352-6c74-42f8-a3f0-407b047cb3c5,404,404,1,8,32,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754037,29,28,2,1,da32d63e-dd67-4ba7-a01d-61b2fdcc379e,2617,2618,2,63,2,Shot,29,Everton,Goal,29.0,shot_goal
+3754063,23,59,3,2,0363fcd4-1c7b-4b06-9904-39c9831a2f92,1226,1227,1,27,13,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754063,23,59,3,2,48461ee7-f64f-4275-b135-e4821e1afdea,1888,1889,1,46,31,Shot,23,Watford,Goal,23.0,shot_goal
+3754063,23,59,3,2,bcd9cff0-057f-4ea3-950c-83f855950df8,2025,2026,2,47,6,Shot,59,Aston Villa,Goal,59.0,shot_goal
+3754063,23,59,3,2,dd61ec12-8256-430c-8cf5-b72a285f74b0,3391,3392,2,89,53,Shot,23,Watford,Goal,23.0,shot_goal
+3754063,23,59,3,2,6a989c21-7233-4d72-b752-6dec96eb26cb,3488,3489,2,92,42,Shot,23,Watford,Goal,23.0,shot_goal
+3754132,30,41,1,1,367d954a-5813-440f-9f1d-17b5e7793fed,1508,1509,2,49,20,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754132,30,41,1,1,d719091d-77ce-49d4-90a4-ab475badb597,2770,2771,2,93,32,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754170,37,31,1,0,c3df9bda-c887-4064-9c37-9954c3a626db,2172,2173,2,57,48,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754192,27,40,0,3,04787fb1-bf96-4638-9611-ffdc37dd729f,1123,1124,1,33,52,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754192,27,40,0,3,6dd3bf0a-0522-48a3-a1db-1c79c8401006,1657,1658,1,46,54,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754192,27,40,0,3,2c34913b-5aec-4678-9cb7-c58ef3ca260d,2776,2777,2,78,17,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754184,1,56,1,0,d3c0c4d1-da59-4438-8844-2478ac27de80,2490,2491,2,58,32,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754018,26,24,3,1,5e47e7f2-b9d6-478d-9a2e-9b2d4bcef568,944,944,1,19,56,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754018,26,24,3,1,e5b65679-2174-44f6-8600-0f313a7fd902,1464,1464,1,32,25,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754018,26,24,3,1,dc3a13c5-e01b-4dfa-9c47-7540aae5cab0,2779,2780,2,64,2,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754018,26,24,3,1,d18202ab-fc3e-4dce-ac30-75e52dc97666,2926,2927,2,66,36,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754165,39,22,1,1,2d9192d4-01e0-4aae-b543-540d6d8658b8,368,369,1,7,31,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754165,39,22,1,1,18c22845-5df0-4d7e-b692-511d8a08ccfb,653,654,1,16,11,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754320,25,36,4,2,3c560664-0d8a-4017-8bbc-6dff4af380bb,1063,1064,1,24,16,Shot,25,Southampton,Goal,25.0,shot_goal
+3754320,25,36,4,2,f09e75f4-2596-4aaf-89cd-29d9612c9426,1227,1228,1,27,53,Shot,25,Southampton,Goal,25.0,shot_goal
+3754320,25,36,4,2,a383dc13-5a2f-4f0d-bf1a-3f439c8351a0,1782,1783,1,43,32,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754320,25,36,4,2,23d4f798-e454-4730-b737-0057f0c673de,2397,2398,2,56,25,Shot,25,Southampton,Goal,25.0,shot_goal
+3754320,25,36,4,2,6e1979d9-0144-4387-989f-385de87a3316,2778,2779,2,67,35,Shot,25,Southampton,Goal,25.0,shot_goal
+3754320,25,36,4,2,b62295c7-83aa-4d1d-b266-2ab94dfe4063,3219,3220,2,77,55,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754092,33,38,2,2,18d44868-eb7b-42ff-89ae-686983fc34fa,1217,1217,1,34,29,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754092,33,38,2,2,009e8f6b-6940-4774-8677-05ccb7c9fed6,1520,1520,1,43,40,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754092,33,38,2,2,860eedaf-2465-4461-939f-f092bcda3c98,2134,2135,2,57,41,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754092,33,38,2,2,d71c1435-acc9-4cf4-8b8a-46b0a29b54db,3064,3065,2,82,39,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754210,56,39,0,1,43eba002-ddc3-441a-8b2e-f341a204cfa9,2754,2755,2,71,21,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754026,31,30,2,1,1243d21c-0b77-4fc5-bae8-cf4dde8933d7,943,944,1,25,47,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754026,31,30,2,1,436e2539-6e0a-4f30-b92a-2b760bfebeec,1727,1728,2,46,7,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754026,31,30,2,1,c16e96ec-5a65-4604-a38d-59b68e83f6b2,2140,2141,2,67,18,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3754108,41,33,3,2,27a961db-05ec-42ed-ae5a-cb467083b349,625,626,1,13,53,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754108,41,33,3,2,07537cec-f8e2-45be-8fe3-4c0323038fb1,1684,1685,1,40,31,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754108,41,33,3,2,01a8abbd-e534-4e86-b654-4f5aaa99da60,1860,1861,1,47,56,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754108,41,33,3,2,113bd876-2e9c-417d-98db-b81ab785157c,2750,2751,2,66,43,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754108,41,33,3,2,98624e74-9904-4b03-b186-3719974efe57,2818,2819,2,69,1,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754158,40,26,1,4,18d02003-a5d5-4c8e-9f23-2e27be3371c9,863,864,1,24,16,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754158,40,26,1,4,242ebca0-2497-4e66-9efb-220dbec7f3ce,1114,1115,1,30,6,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754158,40,26,1,4,55f37d56-9f38-48b6-ac14-e5058b30a22a,1922,1923,2,50,47,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754158,40,26,1,4,2ca69f76-2024-48bd-8fb2-d5e748adec7d,2575,2576,2,67,24,Own Goal For,40,West Ham United,,40.0,own_goal_for
+3754158,40,26,1,4,da8d091f-8f6c-493b-aa06-352057b0b867,2576,2577,2,67,24,Own Goal Against,26,Swansea City,,,own_goal_against_audit_only
+3754158,40,26,1,4,abfb514a-87f1-4cd4-937d-5ad1098f9155,3403,3404,2,92,18,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754225,28,27,1,1,f891554a-6445-46ad-80a2-ac3e90b4c3b3,706,707,1,14,59,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754225,28,27,1,1,ced943b9-4f09-40ef-855e-29caa5b67309,3072,3073,2,81,39,Shot,28,AFC Bournemouth,Goal,28.0,shot_goal
+3754033,22,29,3,1,6c130dff-1ccf-4f0a-90da-fb8444662654,239,240,1,4,58,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754033,22,29,3,1,fafe73ce-239b-473c-918a-4026a21f527e,1323,1324,1,32,12,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754033,22,29,3,1,fe031f5e-f4ec-4e37-944b-1b9865facdd3,2417,2418,2,64,49,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754033,22,29,3,1,531a4860-6821-4561-bf88-c02f4bac37a5,3114,3115,2,87,27,Shot,29,Everton,Goal,29.0,shot_goal
+3753992,38,25,1,2,086d6718-bb3f-42b2-8b2a-fee1909118a0,708,709,1,15,23,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3753992,38,25,1,2,8517e128-3196-4b1b-9bc9-7d5dcea869a4,1247,1248,1,30,20,Shot,25,Southampton,Goal,25.0,shot_goal
+3753992,38,25,1,2,bc7b18cc-c2f5-496b-9662-c21197b32dd3,2699,2700,2,71,8,Shot,25,Southampton,Goal,25.0,shot_goal
+3754314,36,1,2,2,04843885-2ff0-44e1-b2fc-c4755e0ba0ac,323,324,1,7,30,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754314,36,1,2,2,ad8e01af-8914-49f3-94bf-8bc97cc2758a,348,349,1,9,28,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754314,36,1,2,2,99849595-6ed0-4b5b-9823-f349e1e2e3d8,2119,2120,2,50,55,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754314,36,1,2,2,015b262f-8e5f-475e-b870-8a9ee2d1dc26,2735,2736,2,67,36,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754342,24,23,2,0,1af3e13e-f3ee-475e-902d-7a3edaa3e5fc,1320,1320,1,34,56,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754342,24,23,2,0,3e0ee7ba-18e1-4c28-a932-bd60d3dea66b,2675,2676,2,75,11,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754134,40,39,3,2,7e37300e-65de-42f8-b109-5169ec017428,392,392,1,9,20,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754134,40,39,3,2,0f5aa3af-161b-44d4-9516-d7b62889db59,1907,1908,2,50,31,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754134,40,39,3,2,f5226735-3228-4363-abde-229a4a1650a5,2531,2532,2,71,40,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754134,40,39,3,2,439a8410-a90f-4e16-93a8-e882a73190f4,2608,2609,2,75,42,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754134,40,39,3,2,19136cd0-8e3b-420f-ae13-c18cc23cbe6c,2761,2762,2,79,59,Shot,40,West Ham United,Goal,40.0,shot_goal
+3753989,41,29,3,0,9d85c9a9-0898-4bed-8bee-dfb2beb9cebc,1586,1587,1,37,55,Shot,41,Sunderland,Goal,41.0,shot_goal
+3753989,41,29,3,0,00ca5179-9220-4c5b-9b3a-1fad52f2b8d6,1686,1687,1,41,19,Shot,41,Sunderland,Goal,41.0,shot_goal
+3753989,41,29,3,0,b0d810e1-8788-42bd-8b5e-a967798850f7,2204,2205,2,54,57,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754207,56,23,4,2,57484e18-b730-47bb-a6c2-78e8bd1d7a14,388,389,1,10,44,Shot,23,Watford,Goal,23.0,shot_goal
+3754207,56,23,4,2,dc5d9f5a-6a79-4e88-873f-245c5685c8de,515,516,1,14,22,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754207,56,23,4,2,9f4f56fa-acb7-483a-9199-825ef753db91,639,640,1,17,42,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754207,56,23,4,2,0a980e41-3224-4bc1-bd4d-ce45987d74fc,1338,1339,1,36,31,Own Goal For,56,Norwich City,,56.0,own_goal_for
+3754207,56,23,4,2,879a6f11-5fe8-4031-ae3e-8e335b4fc234,1339,1340,1,36,31,Own Goal Against,23,Watford,,,own_goal_against_audit_only
+3754207,56,23,4,2,9938ed3b-8a07-49ce-af54-b0f7ff263dba,1896,1897,2,50,4,Shot,23,Watford,Goal,23.0,shot_goal
+3754207,56,23,4,2,cbee3a0f-1e57-4b34-a02f-8fe5ad5f6c24,2102,2103,2,56,5,Shot,56,Norwich City,Goal,56.0,shot_goal
+3754055,24,33,1,1,7cce8753-7f04-498c-95de-279a8817d818,1334,1335,1,31,5,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754055,24,33,1,1,38fbdba8-4fa2-4133-8c29-44c4a92fd9fd,3908,3909,2,91,35,Shot,24,Liverpool,Goal,24.0,shot_goal
+3753994,25,31,4,1,b050c1da-b45b-4fe5-a6b4-58089c27b3d4,1593,1594,1,42,35,Shot,25,Southampton,Goal,25.0,shot_goal
+3753994,25,31,4,1,2beab1b9-a538-4846-b88f-41b26c960c4a,2301,2302,2,60,39,Shot,25,Southampton,Goal,25.0,shot_goal
+3753994,25,31,4,1,64009aa3-396b-4900-979c-41208f479375,2338,2339,2,63,3,Shot,31,Crystal Palace,Goal,31.0,shot_goal
+3753994,25,31,4,1,cc360ba7-11dc-4738-8bd8-cdd165461582,2748,2749,2,74,38,Shot,25,Southampton,Goal,25.0,shot_goal
+3753994,25,31,4,1,d397055f-8812-4402-bcf8-1541b6b71949,3085,3086,2,86,17,Shot,25,Southampton,Goal,25.0,shot_goal
+3754041,1,59,4,0,582e4334-6a74-4633-bfa3-a43bf56953c9,282,282,1,4,30,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754041,1,59,4,0,167c79d8-3701-4e5d-8acc-820745535f50,3324,3325,2,77,46,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754041,1,59,4,0,230482f0-409f-4530-a7c7-aec660ba6693,3358,3359,2,79,40,Shot,1,Arsenal,Goal,1.0,shot_goal
+3754041,1,59,4,0,2f6a52b4-f622-47a6-970e-a0e9d4f37122,3768,3769,2,91,54,Own Goal Against,59,Aston Villa,,,own_goal_against_audit_only
+3754041,1,59,4,0,55b0d1d2-a0ad-406b-bbe8-5fc455777628,3769,3770,2,91,54,Own Goal For,1,Arsenal,,1.0,own_goal_for
+3754042,27,24,1,1,9a37f581-9233-494c-8824-894983ee9f73,601,602,1,12,49,Shot,27,West Bromwich Albion,Goal,27.0,shot_goal
+3754042,27,24,1,1,25bc6d55-2028-421e-9226-3f14f66e4a79,968,969,1,22,26,Shot,24,Liverpool,Goal,24.0,shot_goal
+3754123,29,56,3,0,ba6aeb7e-a30a-4153-acbe-4e4aa5bb3894,662,663,1,18,28,Shot,29,Everton,Goal,29.0,shot_goal
+3754123,29,56,3,0,2ce42b5e-a637-46b5-bd53-1744637d1fdb,1492,1493,1,43,58,Shot,29,Everton,Goal,29.0,shot_goal
+3754123,29,56,3,0,7b233770-df6e-4084-8d0f-4b86bb6feb95,1711,1712,2,47,55,Shot,29,Everton,Goal,29.0,shot_goal
+3754149,26,36,1,1,91c697cf-2f4a-45b1-b941-3fbf855a8665,283,283,1,4,58,Shot,36,Manchester City,Goal,36.0,shot_goal
+3754149,26,36,1,1,bbd76e70-1e99-4325-91b8-abe427ff6148,2101,2101,1,45,46,Shot,26,Swansea City,Goal,26.0,shot_goal
+3754199,30,40,2,1,5ec72c4d-9566-48c8-903c-b9167b78f38e,726,726,1,22,4,Shot,40,West Ham United,Goal,40.0,shot_goal
+3754199,30,40,2,1,c4840038-2ef9-45de-825c-dd6f392f47b8,2016,2017,2,54,39,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754199,30,40,2,1,384f10f6-391a-452c-a999-f182902c69fd,2889,2890,2,87,53,Shot,30,Stoke City,Goal,30.0,shot_goal
+3754229,33,22,1,1,574fddda-543c-415a-b7fb-d37a260539f5,2866,2867,2,65,15,Shot,33,Chelsea,Goal,33.0,shot_goal
+3754229,33,22,1,1,887df6e7-3fa1-4381-a4e8-89fa5a553a86,3469,3470,2,81,3,Shot,22,Leicester City,Goal,22.0,shot_goal
+3754308,23,41,2,2,7e89baaa-d4c8-480a-9d37-b48e3206db1b,1495,1495,1,38,25,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754308,23,41,2,2,f8e182cc-7a5e-47fc-b0cc-50c0a8f49e8d,1808,1809,2,47,8,Shot,23,Watford,Goal,23.0,shot_goal
+3754308,23,41,2,2,fd1aba1d-7615-46a6-b145-327451b16f0e,1876,1877,2,50,13,Shot,41,Sunderland,Goal,41.0,shot_goal
+3754308,23,41,2,2,be2f4547-6049-48f5-a5eb-4315ba523b6b,2033,2034,2,60,12,Shot,23,Watford,Goal,23.0,shot_goal
+3754333,37,38,5,1,f86dfc68-b137-40b2-9c76-4468ede2546b,961,962,1,18,17,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754333,37,38,5,1,bd8ecca0-efb0-4a58-8157-2993e40c7a17,1750,1751,1,38,45,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754333,37,38,5,1,1c1272e9-3a98-490e-8949-3f62e545a1ea,2627,2628,2,59,59,Shot,38,Tottenham Hotspur,Goal,38.0,shot_goal
+3754333,37,38,5,1,af467069-aea2-4a39-8629-f1a08850637e,2961,2962,2,72,48,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754333,37,38,5,1,ec688290-6d73-4e1b-b126-2f77dd2d15b5,3263,3264,2,83,58,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754333,37,38,5,1,948328b5-db72-464e-8c06-fcc4d5874a82,3275,3276,2,85,20,Shot,37,Newcastle United,Goal,37.0,shot_goal
+3754159,39,28,3,1,b738301b-9d4c-4c73-9e0d-3d88866dd226,1706,1707,1,42,4,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754159,39,28,3,1,0c8de596-37cd-4f1f-b1e4-a6f85dee0fb3,3026,3027,2,73,54,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754159,39,28,3,1,1227613e-c91b-40b3-841c-0d1f6fa17625,3603,3604,2,86,46,Shot,39,Manchester United,Goal,39.0,shot_goal
+3754159,39,28,3,1,99765cbd-e51b-4803-8af7-9ef545291e92,3805,3806,2,92,14,Own Goal Against,39,Manchester United,,,own_goal_against_audit_only
+3754159,39,28,3,1,7a01cd95-8271-4d37-83bc-9f7f0f1c2b14,3806,3807,2,92,14,Own Goal For,28,AFC Bournemouth,,28.0,own_goal_for

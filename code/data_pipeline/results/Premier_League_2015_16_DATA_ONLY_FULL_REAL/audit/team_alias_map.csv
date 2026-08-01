@@ -1,0 +1,21 @@
+team_id,statsbomb_team_name,statsbomb_normalized,football_data_normalized,mapping_method,manual_review
+1,Arsenal,arsenal,arsenal,normalized_exact,False
+22,Leicester City,leicester city,leicester,explicit_alias,False
+23,Watford,watford,watford,normalized_exact,False
+24,Liverpool,liverpool,liverpool,normalized_exact,False
+25,Southampton,southampton,southampton,normalized_exact,False
+26,Swansea City,swansea city,swansea,explicit_alias,False
+27,West Bromwich Albion,west bromwich albion,west brom,explicit_alias,False
+28,AFC Bournemouth,bournemouth,bournemouth,normalized_exact,False
+29,Everton,everton,everton,normalized_exact,False
+30,Stoke City,stoke city,stoke,explicit_alias,False
+31,Crystal Palace,crystal palace,crystal palace,normalized_exact,False
+33,Chelsea,chelsea,chelsea,normalized_exact,False
+36,Manchester City,manchester city,man city,explicit_alias,False
+37,Newcastle United,newcastle united,newcastle,explicit_alias,False
+38,Tottenham Hotspur,tottenham hotspur,tottenham,explicit_alias,False
+39,Manchester United,manchester united,man united,explicit_alias,False
+40,West Ham United,west ham united,west ham,explicit_alias,False
+41,Sunderland,sunderland,sunderland,normalized_exact,False
+56,Norwich City,norwich city,norwich,explicit_alias,False
+59,Aston Villa,aston villa,aston villa,normalized_exact,False

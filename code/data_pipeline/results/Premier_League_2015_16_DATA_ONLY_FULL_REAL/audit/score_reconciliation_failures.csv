@@ -1,0 +1,1 @@
+match_id,event_rows,event_id_unique,raw_index_unique,min_event_order,max_event_order,metadata_home_score,metadata_away_score,event_home_score,event_away_score,score_reconciles,partition_path

@@ -1,0 +1,15 @@
+table,rows,columns,partitions
+competitions,1,12.0,
+matches,380,28.0,
+teams,20,3.0,
+players,644,5.0,
+lineups,15926,17.0,
+match_event_facts,760,16.0,
+event_manifest,380,12.0,
+coverage_360,380,4.0,
+team_match_facts,760,25.0,
+gold_prematch,380,178.0,
+gold_snapshots,7980,214.0,
+split_manifest,380,5.0,
+feature_dictionary,392,9.0,
+events_partitioned,1313773,,380.0

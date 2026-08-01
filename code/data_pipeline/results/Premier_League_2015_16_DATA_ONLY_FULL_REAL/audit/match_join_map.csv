@@ -1,0 +1,381 @@
+match_id,fd_row_id,join_status,join_method,confidence,candidate_count,date_delta_days,expected_home_normalized,expected_away_normalized,reason,manual_review_needed
+3754097,4,accepted,alias+date,1.0,1,0,man united,tottenham,unique pre-match identity match,False
+3754128,0,accepted,normalized_exact+date,1.0,1,0,bournemouth,aston villa,unique pre-match identity match,False
+3754138,5,accepted,alias+date,1.0,1,0,norwich,crystal palace,unique pre-match identity match,False
+3754237,3,accepted,alias+date,1.0,1,0,leicester,sunderland,unique pre-match identity match,False
+3754300,2,accepted,normalized_exact+date,1.0,1,0,everton,watford,unique pre-match identity match,False
+3754078,1,accepted,alias+date,1.0,1,0,chelsea,swansea,unique pre-match identity match,False
+3754112,7,accepted,alias+date,1.0,1,0,newcastle,southampton,unique pre-match identity match,False
+3754141,6,accepted,alias+date,1.0,1,0,arsenal,west ham,unique pre-match identity match,False
+3753985,8,accepted,alias+date,1.0,1,0,stoke,liverpool,unique pre-match identity match,False
+3754145,9,accepted,alias+date,1.0,1,0,west brom,man city,unique pre-match identity match,False
+3754107,10,accepted,alias+date,1.0,1,0,aston villa,man united,unique pre-match identity match,False
+3754034,11,accepted,normalized_exact+date,1.0,1,0,southampton,everton,unique pre-match identity match,False
+3753993,12,accepted,alias+date,1.0,1,0,sunderland,norwich,unique pre-match identity match,False
+3754203,16,accepted,alias+date,1.0,1,0,west ham,leicester,unique pre-match identity match,False
+3754267,15,accepted,alias+date,1.0,1,0,watford,west brom,unique pre-match identity match,False
+3754270,14,accepted,alias+date,1.0,1,0,tottenham,stoke,unique pre-match identity match,False
+3754344,13,accepted,alias+date,1.0,1,0,swansea,newcastle,unique pre-match identity match,False
+3754312,17,accepted,normalized_exact+date,1.0,1,0,crystal palace,arsenal,unique pre-match identity match,False
+3754066,18,accepted,alias+date,1.0,1,0,man city,chelsea,unique pre-match identity match,False
+3754020,19,accepted,normalized_exact+date,1.0,1,0,liverpool,bournemouth,unique pre-match identity match,False
+3754254,22,accepted,alias+date,1.0,1,0,man united,newcastle,unique pre-match identity match,False
+3753987,21,accepted,alias+date,1.0,1,0,leicester,tottenham,unique pre-match identity match,False
+3754104,23,accepted,alias+date,1.0,1,0,norwich,stoke,unique pre-match identity match,False
+3754131,25,accepted,alias+date,1.0,1,0,west ham,bournemouth,unique pre-match identity match,False
+3754180,24,accepted,alias+date,1.0,1,0,sunderland,swansea,unique pre-match identity match,False
+3754190,20,accepted,normalized_exact+date,1.0,1,0,crystal palace,aston villa,unique pre-match identity match,False
+3754059,28,accepted,alias+date,1.0,1,0,west brom,chelsea,unique pre-match identity match,False
+3754189,27,accepted,normalized_exact+date,1.0,1,0,watford,southampton,unique pre-match identity match,False
+3754233,26,accepted,alias+date,1.0,1,0,everton,man city,unique pre-match identity match,False
+3754129,29,accepted,normalized_exact+date,1.0,1,0,arsenal,liverpool,unique pre-match identity match,False
+3754205,35,accepted,alias+date,1.0,1,0,newcastle,arsenal,unique pre-match identity match,False
+3753984,33,accepted,alias+date,1.0,1,0,liverpool,west ham,unique pre-match identity match,False
+3754007,36,accepted,alias+date,1.0,1,0,stoke,west brom,unique pre-match identity match,False
+3754023,31,accepted,alias+date,1.0,1,0,bournemouth,leicester,unique pre-match identity match,False
+3754083,32,accepted,normalized_exact+date,1.0,1,0,chelsea,crystal palace,unique pre-match identity match,False
+3754204,30,accepted,normalized_exact+date,1.0,1,0,aston villa,sunderland,unique pre-match identity match,False
+3754246,34,accepted,alias+date,1.0,1,0,man city,watford,unique pre-match identity match,False
+3754268,37,accepted,alias+date,1.0,1,0,tottenham,everton,unique pre-match identity match,False
+3754337,38,accepted,alias+date,1.0,1,0,southampton,norwich,unique pre-match identity match,False
+3754221,39,accepted,alias+date,1.0,1,0,swansea,man united,unique pre-match identity match,False
+3754336,42,accepted,normalized_exact+date,1.0,1,0,everton,chelsea,unique pre-match identity match,False
+3754213,45,accepted,alias+date,1.0,1,0,watford,swansea,unique pre-match identity match,False
+3754240,40,accepted,alias+date,1.0,1,0,arsenal,stoke,unique pre-match identity match,False
+3754257,41,accepted,alias+date,1.0,1,0,crystal palace,man city,unique pre-match identity match,False
+3754315,44,accepted,alias+date,1.0,1,0,norwich,bournemouth,unique pre-match identity match,False
+3754325,46,accepted,alias+date,1.0,1,0,west brom,southampton,unique pre-match identity match,False
+3754003,43,accepted,alias+date,1.0,1,0,man united,liverpool,unique pre-match identity match,False
+3754148,48,accepted,alias+date,1.0,1,0,sunderland,tottenham,unique pre-match identity match,False
+3754106,47,accepted,alias+date,1.0,1,0,leicester,aston villa,unique pre-match identity match,False
+3754329,49,accepted,alias+date,1.0,1,0,west ham,newcastle,unique pre-match identity match,False
+3754217,52,accepted,normalized_exact+date,1.0,1,0,chelsea,arsenal,unique pre-match identity match,False
+3754010,54,accepted,alias+date,1.0,1,0,newcastle,watford,unique pre-match identity match,False
+3754068,50,accepted,alias+date,1.0,1,0,aston villa,west brom,unique pre-match identity match,False
+3754146,55,accepted,alias+date,1.0,1,0,stoke,leicester,unique pre-match identity match,False
+3754169,51,accepted,normalized_exact+date,1.0,1,0,bournemouth,sunderland,unique pre-match identity match,False
+3754298,56,accepted,alias+date,1.0,1,0,swansea,everton,unique pre-match identity match,False
+3754077,53,accepted,alias+date,1.0,1,0,man city,west ham,unique pre-match identity match,False
+3754222,59,accepted,alias+date,1.0,1,0,tottenham,crystal palace,unique pre-match identity match,False
+3754011,58,accepted,alias+date,1.0,1,0,southampton,man united,unique pre-match identity match,False
+3754040,57,accepted,alias+date,1.0,1,0,liverpool,norwich,unique pre-match identity match,False
+3754197,66,accepted,alias+date,1.0,1,0,tottenham,man city,unique pre-match identity match,False
+3753978,64,accepted,alias+date,1.0,1,0,southampton,swansea,unique pre-match identity match,False
+3754008,62,accepted,alias+date,1.0,1,0,man united,sunderland,unique pre-match identity match,False
+3754174,60,accepted,alias+date,1.0,1,0,leicester,arsenal,unique pre-match identity match,False
+3754212,61,accepted,normalized_exact+date,1.0,1,0,liverpool,aston villa,unique pre-match identity match,False
+3754323,67,accepted,alias+date,1.0,1,0,west ham,norwich,unique pre-match identity match,False
+3754339,65,accepted,alias+date,1.0,1,0,stoke,bournemouth,unique pre-match identity match,False
+3754001,63,accepted,alias+date,1.0,1,0,newcastle,chelsea,unique pre-match identity match,False
+3754266,68,accepted,normalized_exact+date,1.0,1,0,watford,crystal palace,unique pre-match identity match,False
+3754105,69,accepted,alias+date,1.0,1,0,west brom,everton,unique pre-match identity match,False
+3754099,73,accepted,alias+date,1.0,1,0,crystal palace,west brom,unique pre-match identity match,False
+3754076,76,accepted,alias+date,1.0,1,0,sunderland,west ham,unique pre-match identity match,False
+3754079,74,accepted,alias+date,1.0,1,0,man city,newcastle,unique pre-match identity match,False
+3754278,71,accepted,normalized_exact+date,1.0,1,0,bournemouth,watford,unique pre-match identity match,False
+3754330,70,accepted,alias+date,1.0,1,0,aston villa,stoke,unique pre-match identity match,False
+3754335,75,accepted,alias+date,1.0,1,0,norwich,leicester,unique pre-match identity match,False
+3753995,72,accepted,normalized_exact+date,1.0,1,0,chelsea,southampton,unique pre-match identity match,False
+3754060,78,accepted,normalized_exact+date,1.0,1,0,everton,liverpool,unique pre-match identity match,False
+3754074,79,accepted,alias+date,1.0,1,0,swansea,tottenham,unique pre-match identity match,False
+3754171,77,accepted,alias+date,1.0,1,0,arsenal,man united,unique pre-match identity match,False
+3754198,85,accepted,alias+date,1.0,1,0,tottenham,liverpool,unique pre-match identity match,False
+3754067,81,accepted,alias+date,1.0,1,0,crystal palace,west ham,unique pre-match identity match,False
+3754115,80,accepted,normalized_exact+date,1.0,1,0,chelsea,aston villa,unique pre-match identity match,False
+3754193,83,accepted,alias+date,1.0,1,0,man city,bournemouth,unique pre-match identity match,False
+3754245,87,accepted,alias+date,1.0,1,0,west brom,sunderland,unique pre-match identity match,False
+3754256,82,accepted,alias+date,1.0,1,0,everton,man united,unique pre-match identity match,False
+3754302,84,accepted,alias+date,1.0,1,0,southampton,leicester,unique pre-match identity match,False
+3753999,86,accepted,normalized_exact+date,1.0,1,0,watford,arsenal,unique pre-match identity match,False
+3754102,88,accepted,alias+date,1.0,1,0,newcastle,norwich,unique pre-match identity match,False
+3754269,89,accepted,alias+date,1.0,1,0,swansea,stoke,unique pre-match identity match,False
+3754017,91,accepted,alias+date,1.0,1,0,aston villa,swansea,unique pre-match identity match,False
+3754091,94,accepted,alias+date,1.0,1,0,stoke,watford,unique pre-match identity match,False
+3754133,93,accepted,alias+date,1.0,1,0,norwich,west brom,unique pre-match identity match,False
+3754263,92,accepted,alias+date,1.0,1,0,leicester,crystal palace,unique pre-match identity match,False
+3754288,95,accepted,alias+date,1.0,1,0,west ham,chelsea,unique pre-match identity match,False
+3754126,90,accepted,normalized_exact+date,1.0,1,0,arsenal,everton,unique pre-match identity match,False
+3754119,99,accepted,alias+date,1.0,1,0,sunderland,newcastle,unique pre-match identity match,False
+3754015,98,accepted,alias+date,1.0,1,0,man united,man city,unique pre-match identity match,False
+3754234,96,accepted,alias+date,1.0,1,0,bournemouth,tottenham,unique pre-match identity match,False
+3754230,97,accepted,normalized_exact+date,1.0,1,0,liverpool,southampton,unique pre-match identity match,False
+3754098,100,accepted,normalized_exact+date,1.0,1,0,chelsea,liverpool,unique pre-match identity match,False
+3753983,104,accepted,alias+date,1.0,1,0,swansea,arsenal,unique pre-match identity match,False
+3754006,106,accepted,alias+date,1.0,1,0,west brom,leicester,unique pre-match identity match,False
+3754090,103,accepted,alias+date,1.0,1,0,newcastle,stoke,unique pre-match identity match,False
+3754167,102,accepted,alias+date,1.0,1,0,man city,norwich,unique pre-match identity match,False
+3754223,101,accepted,alias+date,1.0,1,0,crystal palace,man united,unique pre-match identity match,False
+3754273,105,accepted,alias+date,1.0,1,0,watford,west ham,unique pre-match identity match,False
+3754082,107,accepted,normalized_exact+date,1.0,1,0,everton,sunderland,unique pre-match identity match,False
+3754191,108,accepted,normalized_exact+date,1.0,1,0,southampton,bournemouth,unique pre-match identity match,False
+3754029,109,accepted,alias+date,1.0,1,0,tottenham,aston villa,unique pre-match identity match,False
+3754238,110,accepted,alias+date,1.0,1,0,bournemouth,newcastle,unique pre-match identity match,False
+3754000,115,accepted,normalized_exact+date,1.0,1,0,sunderland,southampton,unique pre-match identity match,False
+3754156,111,accepted,alias+date,1.0,1,0,leicester,watford,unique pre-match identity match,False
+3754194,116,accepted,alias+date,1.0,1,0,west ham,everton,unique pre-match identity match,False
+3754297,112,accepted,alias+date,1.0,1,0,man united,west brom,unique pre-match identity match,False
+3754311,113,accepted,alias+date,1.0,1,0,norwich,swansea,unique pre-match identity match,False
+3754293,114,accepted,alias+date,1.0,1,0,stoke,chelsea,unique pre-match identity match,False
+3754258,118,accepted,alias+date,1.0,1,0,aston villa,man city,unique pre-match identity match,False
+3754265,117,accepted,alias+date,1.0,1,0,arsenal,tottenham,unique pre-match identity match,False
+3754351,119,accepted,normalized_exact+date,1.0,1,0,liverpool,crystal palace,unique pre-match identity match,False
+3754185,126,accepted,alias+date,1.0,1,0,watford,man united,unique pre-match identity match,False
+3753972,125,accepted,alias+date,1.0,1,0,swansea,bournemouth,unique pre-match identity match,False
+3753996,120,accepted,alias+date,1.0,1,0,chelsea,norwich,unique pre-match identity match,False
+3754211,123,accepted,alias+date,1.0,1,0,newcastle,leicester,unique pre-match identity match,False
+3754247,124,accepted,alias+date,1.0,1,0,southampton,stoke,unique pre-match identity match,False
+3754283,121,accepted,normalized_exact+date,1.0,1,0,everton,aston villa,unique pre-match identity match,False
+3754301,127,accepted,alias+date,1.0,1,0,west brom,arsenal,unique pre-match identity match,False
+3754208,122,accepted,alias+date,1.0,1,0,man city,liverpool,unique pre-match identity match,False
+3754109,128,accepted,alias+date,1.0,1,0,tottenham,west ham,unique pre-match identity match,False
+3753979,129,accepted,normalized_exact+date,1.0,1,0,crystal palace,sunderland,unique pre-match identity match,False
+3754028,134,accepted,alias+date,1.0,1,0,man city,southampton,unique pre-match identity match,False
+3754150,135,accepted,alias+date,1.0,1,0,sunderland,stoke,unique pre-match identity match,False
+3754157,131,accepted,normalized_exact+date,1.0,1,0,bournemouth,everton,unique pre-match identity match,False
+3754178,130,accepted,normalized_exact+date,1.0,1,0,aston villa,watford,unique pre-match identity match,False
+3754304,132,accepted,alias+date,1.0,1,0,crystal palace,newcastle,unique pre-match identity match,False
+3754186,133,accepted,alias+date,1.0,1,0,leicester,man united,unique pre-match identity match,False
+3754093,138,accepted,alias+date,1.0,1,0,tottenham,chelsea,unique pre-match identity match,False
+3754235,139,accepted,alias+date,1.0,1,0,west ham,west brom,unique pre-match identity match,False
+3754047,136,accepted,alias+date,1.0,1,0,liverpool,swansea,unique pre-match identity match,False
+3754038,137,accepted,alias+date,1.0,1,0,norwich,arsenal,unique pre-match identity match,False
+3754135,144,accepted,alias+date,1.0,1,0,stoke,man city,unique pre-match identity match,False
+3754160,140,accepted,normalized_exact+date,1.0,1,0,arsenal,sunderland,unique pre-match identity match,False
+3754085,145,accepted,alias+date,1.0,1,0,swansea,leicester,unique pre-match identity match,False
+3754113,143,accepted,normalized_exact+date,1.0,1,0,southampton,aston villa,unique pre-match identity match,False
+3754215,147,accepted,alias+date,1.0,1,0,west brom,tottenham,unique pre-match identity match,False
+3754286,146,accepted,alias+date,1.0,1,0,watford,norwich,unique pre-match identity match,False
+3754347,142,accepted,alias+date,1.0,1,0,man united,west ham,unique pre-match identity match,False
+3754073,141,accepted,normalized_exact+date,1.0,1,0,chelsea,bournemouth,unique pre-match identity match,False
+3754143,148,accepted,alias+date,1.0,1,0,newcastle,liverpool,unique pre-match identity match,False
+3754046,149,accepted,normalized_exact+date,1.0,1,0,everton,crystal palace,unique pre-match identity match,False
+3754182,153,accepted,alias+date,1.0,1,0,norwich,everton,unique pre-match identity match,False
+3754072,154,accepted,normalized_exact+date,1.0,1,0,sunderland,watford,unique pre-match identity match,False
+3754096,155,accepted,alias+date,1.0,1,0,west ham,stoke,unique pre-match identity match,False
+3754218,151,accepted,normalized_exact+date,1.0,1,0,crystal palace,southampton,unique pre-match identity match,False
+3754328,152,accepted,alias+date,1.0,1,0,man city,swansea,unique pre-match identity match,False
+3754162,150,accepted,alias+date,1.0,1,0,bournemouth,man united,unique pre-match identity match,False
+3754117,156,accepted,normalized_exact+date,1.0,1,0,aston villa,arsenal,unique pre-match identity match,False
+3754255,157,accepted,alias+date,1.0,1,0,liverpool,west brom,unique pre-match identity match,False
+3754276,158,accepted,alias+date,1.0,1,0,tottenham,newcastle,unique pre-match identity match,False
+3754013,159,accepted,alias+date,1.0,1,0,leicester,chelsea,unique pre-match identity match,False
+3754025,160,accepted,normalized_exact+date,1.0,1,0,chelsea,sunderland,unique pre-match identity match,False
+3754044,162,accepted,alias+date,1.0,1,0,man united,norwich,unique pre-match identity match,False
+3754153,165,accepted,alias+date,1.0,1,0,stoke,crystal palace,unique pre-match identity match,False
+3754166,161,accepted,alias+date,1.0,1,0,everton,leicester,unique pre-match identity match,False
+3754188,164,accepted,alias+date,1.0,1,0,southampton,tottenham,unique pre-match identity match,False
+3754219,166,accepted,alias+date,1.0,1,0,west brom,bournemouth,unique pre-match identity match,False
+3754136,163,accepted,alias+date,1.0,1,0,newcastle,aston villa,unique pre-match identity match,False
+3754051,168,accepted,normalized_exact+date,1.0,1,0,watford,liverpool,unique pre-match identity match,False
+3754259,167,accepted,alias+date,1.0,1,0,swansea,west ham,unique pre-match identity match,False
+3754296,169,accepted,alias+date,1.0,1,0,arsenal,man city,unique pre-match identity match,False
+3754014,177,accepted,alias+date,1.0,1,0,stoke,man united,unique pre-match identity match,False
+3754054,174,accepted,alias+date,1.0,1,0,man city,sunderland,unique pre-match identity match,False
+3754057,179,accepted,alias+date,1.0,1,0,tottenham,norwich,unique pre-match identity match,False
+3754248,171,accepted,normalized_exact+date,1.0,1,0,bournemouth,crystal palace,unique pre-match identity match,False
+3754279,178,accepted,alias+date,1.0,1,0,swansea,west brom,unique pre-match identity match,False
+3754285,170,accepted,alias+date,1.0,1,0,aston villa,west ham,unique pre-match identity match,False
+3754287,172,accepted,normalized_exact+date,1.0,1,0,chelsea,watford,unique pre-match identity match,False
+3754343,173,accepted,alias+date,1.0,1,0,liverpool,leicester,unique pre-match identity match,False
+3753974,175,accepted,alias+date,1.0,1,0,newcastle,everton,unique pre-match identity match,False
+3754309,176,accepted,normalized_exact+date,1.0,1,0,southampton,arsenal,unique pre-match identity match,False
+3754056,182,accepted,alias+date,1.0,1,0,everton,stoke,unique pre-match identity match,False
+3754130,184,accepted,alias+date,1.0,1,0,norwich,aston villa,unique pre-match identity match,False
+3754195,186,accepted,alias+date,1.0,1,0,west brom,newcastle,unique pre-match identity match,False
+3754291,185,accepted,alias+date,1.0,1,0,watford,tottenham,unique pre-match identity match,False
+3754326,181,accepted,alias+date,1.0,1,0,crystal palace,swansea,unique pre-match identity match,False
+3754173,180,accepted,normalized_exact+date,1.0,1,0,arsenal,bournemouth,unique pre-match identity match,False
+3753998,187,accepted,alias+date,1.0,1,0,west ham,southampton,unique pre-match identity match,False
+3754019,183,accepted,alias+date,1.0,1,0,man united,chelsea,unique pre-match identity match,False
+3754045,188,accepted,alias+date,1.0,1,0,leicester,man city,unique pre-match identity match,False
+3754226,189,accepted,normalized_exact+date,1.0,1,0,sunderland,liverpool,unique pre-match identity match,False
+3754251,197,accepted,alias+date,1.0,1,0,west ham,liverpool,unique pre-match identity match,False
+3754069,190,accepted,alias+date,1.0,1,0,arsenal,newcastle,unique pre-match identity match,False
+3754036,194,accepted,normalized_exact+date,1.0,1,0,sunderland,aston villa,unique pre-match identity match,False
+3754058,191,accepted,alias+date,1.0,1,0,leicester,bournemouth,unique pre-match identity match,False
+3754101,193,accepted,alias+date,1.0,1,0,norwich,southampton,unique pre-match identity match,False
+3754122,196,accepted,alias+date,1.0,1,0,west brom,stoke,unique pre-match identity match,False
+3754319,192,accepted,alias+date,1.0,1,0,man united,swansea,unique pre-match identity match,False
+3754346,195,accepted,alias+date,1.0,1,0,watford,man city,unique pre-match identity match,False
+3754114,198,accepted,normalized_exact+date,1.0,1,0,crystal palace,chelsea,unique pre-match identity match,False
+3754140,199,accepted,alias+date,1.0,1,0,everton,tottenham,unique pre-match identity match,False
+3753981,200,accepted,normalized_exact+date,1.0,1,0,aston villa,crystal palace,unique pre-match identity match,False
+3754021,201,accepted,alias+date,1.0,1,0,bournemouth,west ham,unique pre-match identity match,False
+3754088,202,accepted,alias+date,1.0,1,0,newcastle,man united,unique pre-match identity match,False
+3754032,207,accepted,alias+date,1.0,1,0,stoke,norwich,unique pre-match identity match,False
+3754062,203,accepted,alias+date,1.0,1,0,chelsea,west brom,unique pre-match identity match,False
+3754071,208,accepted,alias+date,1.0,1,0,swansea,sunderland,unique pre-match identity match,False
+3754142,205,accepted,alias+date,1.0,1,0,man city,everton,unique pre-match identity match,False
+3754183,206,accepted,normalized_exact+date,1.0,1,0,southampton,watford,unique pre-match identity match,False
+3754065,209,accepted,alias+date,1.0,1,0,tottenham,leicester,unique pre-match identity match,False
+3754305,204,accepted,normalized_exact+date,1.0,1,0,liverpool,arsenal,unique pre-match identity match,False
+3754027,216,accepted,alias+date,1.0,1,0,tottenham,sunderland,unique pre-match identity match,False
+3754004,211,accepted,alias+date,1.0,1,0,bournemouth,norwich,unique pre-match identity match,False
+3754125,212,accepted,normalized_exact+date,1.0,1,0,chelsea,everton,unique pre-match identity match,False
+3754168,215,accepted,alias+date,1.0,1,0,southampton,west brom,unique pre-match identity match,False
+3754260,213,accepted,alias+date,1.0,1,0,man city,crystal palace,unique pre-match identity match,False
+3754338,214,accepted,alias+date,1.0,1,0,newcastle,west ham,unique pre-match identity match,False
+3754250,210,accepted,alias+date,1.0,1,0,aston villa,leicester,unique pre-match identity match,False
+3754345,217,accepted,alias+date,1.0,1,0,liverpool,man united,unique pre-match identity match,False
+3754202,218,accepted,alias+date,1.0,1,0,stoke,arsenal,unique pre-match identity match,False
+3754161,219,accepted,alias+date,1.0,1,0,swansea,watford,unique pre-match identity match,False
+3754348,223,accepted,alias+date,1.0,1,0,norwich,liverpool,unique pre-match identity match,False
+3753975,224,accepted,normalized_exact+date,1.0,1,0,sunderland,bournemouth,unique pre-match identity match,False
+3754084,226,accepted,alias+date,1.0,1,0,west brom,aston villa,unique pre-match identity match,False
+3754179,220,accepted,alias+date,1.0,1,0,crystal palace,tottenham,unique pre-match identity match,False
+3754200,222,accepted,alias+date,1.0,1,0,man united,southampton,unique pre-match identity match,False
+3754271,225,accepted,alias+date,1.0,1,0,watford,newcastle,unique pre-match identity match,False
+3754341,221,accepted,alias+date,1.0,1,0,leicester,stoke,unique pre-match identity match,False
+3754110,227,accepted,alias+date,1.0,1,0,west ham,man city,unique pre-match identity match,False
+3754163,229,accepted,alias+date,1.0,1,0,everton,swansea,unique pre-match identity match,False
+3754111,228,accepted,normalized_exact+date,1.0,1,0,arsenal,chelsea,unique pre-match identity match,False
+3753997,237,accepted,alias+date,1.0,1,0,west ham,aston villa,unique pre-match identity match,False
+3754095,235,accepted,alias+date,1.0,1,0,sunderland,man city,unique pre-match identity match,False
+3754201,230,accepted,normalized_exact+date,1.0,1,0,arsenal,southampton,unique pre-match identity match,False
+3754275,232,accepted,alias+date,1.0,1,0,leicester,liverpool,unique pre-match identity match,False
+3754317,234,accepted,alias+date,1.0,1,0,norwich,tottenham,unique pre-match identity match,False
+3754089,231,accepted,normalized_exact+date,1.0,1,0,crystal palace,bournemouth,unique pre-match identity match,False
+3754094,233,accepted,alias+date,1.0,1,0,man united,stoke,unique pre-match identity match,False
+3754340,236,accepted,alias+date,1.0,1,0,west brom,swansea,unique pre-match identity match,False
+3754103,239,accepted,normalized_exact+date,1.0,1,0,watford,chelsea,unique pre-match identity match,False
+3754252,238,accepted,alias+date,1.0,1,0,everton,newcastle,unique pre-match identity match,False
+3754290,242,accepted,alias+date,1.0,1,0,man city,leicester,unique pre-match identity match,False
+3754080,247,accepted,alias+date,1.0,1,0,tottenham,watford,unique pre-match identity match,False
+3754127,245,accepted,alias+date,1.0,1,0,stoke,everton,unique pre-match identity match,False
+3754292,243,accepted,alias+date,1.0,1,0,newcastle,west brom,unique pre-match identity match,False
+3754303,246,accepted,alias+date,1.0,1,0,swansea,crystal palace,unique pre-match identity match,False
+3754306,240,accepted,alias+date,1.0,1,0,aston villa,norwich,unique pre-match identity match,False
+3754316,241,accepted,normalized_exact+date,1.0,1,0,liverpool,sunderland,unique pre-match identity match,False
+3754120,244,accepted,alias+date,1.0,1,0,southampton,west ham,unique pre-match identity match,False
+3754253,248,accepted,normalized_exact+date,1.0,1,0,bournemouth,arsenal,unique pre-match identity match,False
+3754281,249,accepted,alias+date,1.0,1,0,chelsea,man united,unique pre-match identity match,False
+3754031,255,accepted,alias+date,1.0,1,0,sunderland,man united,unique pre-match identity match,False
+3754039,252,accepted,normalized_exact+date,1.0,1,0,crystal palace,watford,unique pre-match identity match,False
+3754139,256,accepted,alias+date,1.0,1,0,swansea,southampton,unique pre-match identity match,False
+3754244,254,accepted,alias+date,1.0,1,0,norwich,west ham,unique pre-match identity match,False
+3754274,250,accepted,alias+date,1.0,1,0,bournemouth,stoke,unique pre-match identity match,False
+3754350,253,accepted,alias+date,1.0,1,0,everton,west brom,unique pre-match identity match,False
+3754264,251,accepted,alias+date,1.0,1,0,chelsea,newcastle,unique pre-match identity match,False
+3754261,257,accepted,alias+date,1.0,1,0,arsenal,leicester,unique pre-match identity match,False
+3754214,258,accepted,normalized_exact+date,1.0,1,0,aston villa,liverpool,unique pre-match identity match,False
+3754147,259,accepted,alias+date,1.0,1,0,man city,tottenham,unique pre-match identity match,False
+3754331,265,accepted,alias+date,1.0,1,0,west ham,sunderland,unique pre-match identity match,False
+3754012,261,accepted,normalized_exact+date,1.0,1,0,southampton,chelsea,unique pre-match identity match,False
+3754049,260,accepted,alias+date,1.0,1,0,leicester,norwich,unique pre-match identity match,False
+3754121,263,accepted,normalized_exact+date,1.0,1,0,watford,bournemouth,unique pre-match identity match,False
+3754321,262,accepted,alias+date,1.0,1,0,stoke,aston villa,unique pre-match identity match,False
+3754236,264,accepted,alias+date,1.0,1,0,west brom,crystal palace,unique pre-match identity match,False
+3754239,267,accepted,alias+date,1.0,1,0,man united,arsenal,unique pre-match identity match,False
+3754324,266,accepted,alias+date,1.0,1,0,tottenham,swansea,unique pre-match identity match,False
+3754050,272,accepted,normalized_exact+date,1.0,1,0,sunderland,crystal palace,unique pre-match identity match,False
+3754231,270,accepted,alias+date,1.0,1,0,leicester,west brom,unique pre-match identity match,False
+3754280,271,accepted,alias+date,1.0,1,0,norwich,chelsea,unique pre-match identity match,False
+3754327,268,accepted,normalized_exact+date,1.0,1,0,aston villa,everton,unique pre-match identity match,False
+3754334,269,accepted,normalized_exact+date,1.0,1,0,bournemouth,southampton,unique pre-match identity match,False
+3753976,273,accepted,alias+date,1.0,1,0,arsenal,swansea,unique pre-match identity match,False
+3754005,276,accepted,alias+date,1.0,1,0,stoke,newcastle,unique pre-match identity match,False
+3754349,277,accepted,alias+date,1.0,1,0,west ham,tottenham,unique pre-match identity match,False
+3753991,274,accepted,alias+date,1.0,1,0,liverpool,man city,unique pre-match identity match,False
+3754232,275,accepted,alias+date,1.0,1,0,man united,watford,unique pre-match identity match,False
+3754318,284,accepted,alias+date,1.0,1,0,tottenham,arsenal,unique pre-match identity match,False
+3754061,278,accepted,alias+date,1.0,1,0,chelsea,stoke,unique pre-match identity match,False
+3754151,283,accepted,alias+date,1.0,1,0,swansea,norwich,unique pre-match identity match,False
+3754164,282,accepted,normalized_exact+date,1.0,1,0,southampton,sunderland,unique pre-match identity match,False
+3754177,281,accepted,alias+date,1.0,1,0,newcastle,bournemouth,unique pre-match identity match,False
+3754249,280,accepted,alias+date,1.0,1,0,man city,aston villa,unique pre-match identity match,False
+3754277,279,accepted,alias+date,1.0,1,0,everton,west ham,unique pre-match identity match,False
+3754289,285,accepted,alias+date,1.0,1,0,watford,leicester,unique pre-match identity match,False
+3754220,286,accepted,normalized_exact+date,1.0,1,0,crystal palace,liverpool,unique pre-match identity match,False
+3754081,287,accepted,alias+date,1.0,1,0,west brom,man united,unique pre-match identity match,False
+3754313,289,accepted,alias+date,1.0,1,0,norwich,man city,unique pre-match identity match,False
+3753988,288,accepted,alias+date,1.0,1,0,bournemouth,swansea,unique pre-match identity match,False
+3754196,290,accepted,alias+date,1.0,1,0,stoke,southampton,unique pre-match identity match,False
+3754053,291,accepted,alias+date,1.0,1,0,aston villa,tottenham,unique pre-match identity match,False
+3754002,292,accepted,alias+date,1.0,1,0,leicester,newcastle,unique pre-match identity match,False
+3753980,295,accepted,normalized_exact+date,1.0,1,0,everton,arsenal,unique pre-match identity match,False
+3753973,293,accepted,alias+date,1.0,1,0,chelsea,west ham,unique pre-match identity match,False
+3753977,297,accepted,alias+date,1.0,1,0,watford,stoke,unique pre-match identity match,False
+3754052,298,accepted,alias+date,1.0,1,0,west brom,norwich,unique pre-match identity match,False
+3754181,294,accepted,alias+date,1.0,1,0,crystal palace,leicester,unique pre-match identity match,False
+3754224,296,accepted,alias+date,1.0,1,0,swansea,aston villa,unique pre-match identity match,False
+3754064,301,accepted,normalized_exact+date,1.0,1,0,southampton,liverpool,unique pre-match identity match,False
+3754100,300,accepted,alias+date,1.0,1,0,newcastle,sunderland,unique pre-match identity match,False
+3754043,302,accepted,alias+date,1.0,1,0,tottenham,bournemouth,unique pre-match identity match,False
+3754124,299,accepted,alias+date,1.0,1,0,man city,man united,unique pre-match identity match,False
+3754075,304,accepted,normalized_exact+date,1.0,1,0,aston villa,chelsea,unique pre-match identity match,False
+3754118,303,accepted,normalized_exact+date,1.0,1,0,arsenal,watford,unique pre-match identity match,False
+3754144,305,accepted,alias+date,1.0,1,0,bournemouth,man city,unique pre-match identity match,False
+3754175,309,accepted,alias+date,1.0,1,0,sunderland,west brom,unique pre-match identity match,False
+3754176,310,accepted,alias+date,1.0,1,0,west ham,crystal palace,unique pre-match identity match,False
+3754243,307,accepted,alias+date,1.0,1,0,norwich,newcastle,unique pre-match identity match,False
+3754272,308,accepted,alias+date,1.0,1,0,stoke,swansea,unique pre-match identity match,False
+3754087,306,accepted,alias+date,1.0,1,0,liverpool,tottenham,unique pre-match identity match,False
+3753982,311,accepted,alias+date,1.0,1,0,leicester,southampton,unique pre-match identity match,False
+3754299,312,accepted,alias+date,1.0,1,0,man united,everton,unique pre-match identity match,False
+3754241,319,accepted,alias+date,1.0,1,0,west ham,arsenal,unique pre-match identity match,False
+3754016,316,accepted,alias+date,1.0,1,0,southampton,newcastle,unique pre-match identity match,False
+3754022,314,accepted,alias+date,1.0,1,0,crystal palace,norwich,unique pre-match identity match,False
+3754030,318,accepted,normalized_exact+date,1.0,1,0,watford,everton,unique pre-match identity match,False
+3754116,317,accepted,alias+date,1.0,1,0,swansea,chelsea,unique pre-match identity match,False
+3754262,313,accepted,normalized_exact+date,1.0,1,0,aston villa,bournemouth,unique pre-match identity match,False
+3754035,315,accepted,alias+date,1.0,1,0,man city,west brom,unique pre-match identity match,False
+3754152,321,accepted,alias+date,1.0,1,0,sunderland,leicester,unique pre-match identity match,False
+3753986,320,accepted,alias+date,1.0,1,0,liverpool,stoke,unique pre-match identity match,False
+3754209,322,accepted,alias+date,1.0,1,0,tottenham,man united,unique pre-match identity match,False
+3754048,323,accepted,normalized_exact+date,1.0,1,0,crystal palace,everton,unique pre-match identity match,False
+3754172,328,accepted,alias+date,1.0,1,0,norwich,sunderland,unique pre-match identity match,False
+3754024,327,accepted,alias+date,1.0,1,0,newcastle,swansea,unique pre-match identity match,False
+3754137,325,accepted,normalized_exact+date,1.0,1,0,everton,southampton,unique pre-match identity match,False
+3754155,329,accepted,alias+date,1.0,1,0,west brom,watford,unique pre-match identity match,False
+3754295,326,accepted,alias+date,1.0,1,0,man united,aston villa,unique pre-match identity match,False
+3754322,324,accepted,alias+date,1.0,1,0,chelsea,man city,unique pre-match identity match,False
+3754216,331,accepted,normalized_exact+date,1.0,1,0,bournemouth,liverpool,unique pre-match identity match,False
+3754227,332,accepted,alias+date,1.0,1,0,leicester,west ham,unique pre-match identity match,False
+3754009,330,accepted,normalized_exact+date,1.0,1,0,arsenal,crystal palace,unique pre-match identity match,False
+3754187,333,accepted,alias+date,1.0,1,0,stoke,tottenham,unique pre-match identity match,False
+3754206,334,accepted,alias+date,1.0,1,0,newcastle,man city,unique pre-match identity match,False
+3754086,337,accepted,alias+date,1.0,1,0,west ham,watford,unique pre-match identity match,False
+3754294,335,accepted,normalized_exact+date,1.0,1,0,liverpool,everton,unique pre-match identity match,False
+3754310,336,accepted,alias+date,1.0,1,0,man united,crystal palace,unique pre-match identity match,False
+3754284,338,accepted,alias+date,1.0,1,0,arsenal,west brom,unique pre-match identity match,False
+3754307,342,accepted,alias+date,1.0,1,0,man city,stoke,unique pre-match identity match,False
+3754154,341,accepted,alias+date,1.0,1,0,liverpool,newcastle,unique pre-match identity match,False
+3754242,340,accepted,normalized_exact+date,1.0,1,0,bournemouth,chelsea,unique pre-match identity match,False
+3754282,339,accepted,normalized_exact+date,1.0,1,0,aston villa,southampton,unique pre-match identity match,False
+3753990,344,accepted,normalized_exact+date,1.0,1,0,sunderland,arsenal,unique pre-match identity match,False
+3754228,343,accepted,alias+date,1.0,1,0,leicester,swansea,unique pre-match identity match,False
+3754332,345,accepted,alias+date,1.0,1,0,tottenham,west brom,unique pre-match identity match,False
+3754037,347,accepted,normalized_exact+date,1.0,1,0,everton,bournemouth,unique pre-match identity match,False
+3754063,350,accepted,normalized_exact+date,1.0,1,0,watford,aston villa,unique pre-match identity match,False
+3754132,349,accepted,alias+date,1.0,1,0,stoke,sunderland,unique pre-match identity match,False
+3754170,348,accepted,alias+date,1.0,1,0,newcastle,crystal palace,unique pre-match identity match,False
+3754192,351,accepted,alias+date,1.0,1,0,west brom,west ham,unique pre-match identity match,False
+3754184,346,accepted,alias+date,1.0,1,0,arsenal,norwich,unique pre-match identity match,False
+3754018,354,accepted,alias+date,1.0,1,0,swansea,liverpool,unique pre-match identity match,False
+3754165,352,accepted,alias+date,1.0,1,0,man united,leicester,unique pre-match identity match,False
+3754320,353,accepted,alias+date,1.0,1,0,southampton,man city,unique pre-match identity match,False
+3754092,355,accepted,alias+date,1.0,1,0,chelsea,tottenham,unique pre-match identity match,False
+3754210,360,accepted,alias+date,1.0,1,0,norwich,man united,unique pre-match identity match,False
+3754026,358,accepted,alias+date,1.0,1,0,crystal palace,stoke,unique pre-match identity match,False
+3754070,356,accepted,alias+date,1.0,1,0,aston villa,newcastle,unique pre-match identity match,False
+3754108,361,accepted,normalized_exact+date,1.0,1,0,sunderland,chelsea,unique pre-match identity match,False
+3754158,362,accepted,alias+date,1.0,1,0,west ham,swansea,unique pre-match identity match,False
+3754225,357,accepted,alias+date,1.0,1,0,bournemouth,west brom,unique pre-match identity match,False
+3754033,359,accepted,alias+date,1.0,1,0,leicester,everton,unique pre-match identity match,False
+3753992,365,accepted,alias+date,1.0,1,0,tottenham,southampton,unique pre-match identity match,False
+3754314,364,accepted,alias+date,1.0,1,0,man city,arsenal,unique pre-match identity match,False
+3754342,363,accepted,normalized_exact+date,1.0,1,0,liverpool,watford,unique pre-match identity match,False
+3754134,366,accepted,alias+date,1.0,1,0,west ham,man united,unique pre-match identity match,False
+3753989,369,accepted,normalized_exact+date,1.0,1,0,sunderland,everton,unique pre-match identity match,False
+3754207,368,accepted,alias+date,1.0,1,0,norwich,watford,unique pre-match identity match,False
+3754055,367,accepted,normalized_exact+date,1.0,1,0,liverpool,chelsea,unique pre-match identity match,False
+3753994,374,accepted,normalized_exact+date,1.0,1,0,southampton,crystal palace,unique pre-match identity match,False
+3754041,370,accepted,normalized_exact+date,1.0,1,0,arsenal,aston villa,unique pre-match identity match,False
+3754042,378,accepted,alias+date,1.0,1,0,west brom,liverpool,unique pre-match identity match,False
+3754123,372,accepted,alias+date,1.0,1,0,everton,norwich,unique pre-match identity match,False
+3754149,376,accepted,alias+date,1.0,1,0,swansea,man city,unique pre-match identity match,False
+3754199,375,accepted,alias+date,1.0,1,0,stoke,west ham,unique pre-match identity match,False
+3754229,371,accepted,alias+date,1.0,1,0,chelsea,leicester,unique pre-match identity match,False
+3754308,377,accepted,normalized_exact+date,1.0,1,0,watford,sunderland,unique pre-match identity match,False
+3754333,373,accepted,alias+date,1.0,1,0,newcastle,tottenham,unique pre-match identity match,False
+3754159,379,accepted,alias+date,1.0,1,0,man united,bournemouth,unique pre-match identity match,False

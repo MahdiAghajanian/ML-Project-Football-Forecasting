@@ -1,0 +1,10 @@
+table,rows,columns,duplicate_rows,missing_cells,missing_cell_rate
+competitions,1,12,0,1,0.08333333333333333
+matches,380,28,0,0,0.0
+teams,20,3,0,0,0.0
+players,644,5,0,470,0.14596273291925466
+lineups,15926,17,0,42400,0.15660665873783897
+event_manifest,380,12,0,0,0.0
+match_event_facts,760,16,0,0,0.0
+gold_prematch,380,178,0,1260,0.01862803075103489
+gold_snapshots,7980,214,0,27277,0.0159727590003045
