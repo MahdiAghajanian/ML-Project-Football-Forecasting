@@ -1,0 +1,15 @@
+check,passed,details
+matches.match_id unique,True,duplicates=0
+match team foreign keys valid,True,teams=20
+one event partition per match,True,"partitions=380, matches=380"
+event IDs unique within each match,True,failures=0
+event indices unique within each match,True,failures=0
+"event partitions, foreign keys, and chronology valid",True,failed_matches=0
+event-derived score reconciles with match metadata,True,failures=0
+lineup match foreign keys valid,True,invalid=0
+lineup team foreign keys valid,True,teams=20
+lineup player foreign keys valid,True,players=644
+event-fact foreign keys valid,True,rows=760
+11 unique starters per team-match,True,team_matches=760/760; min=11; max=11
+gold_prematch one row per match,True,"gold=380, matches=380"
+snapshot match foreign keys valid,True,invalid=0

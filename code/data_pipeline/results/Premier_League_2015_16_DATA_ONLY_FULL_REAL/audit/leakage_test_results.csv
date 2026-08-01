@@ -1,0 +1,13 @@
+test,passed,details,seconds
+pre-match source time contract,True,all max_source_finish values are before target kickoff,0.0022638140000026397
+snapshot cutoff contract,True,all used event orders are at or before cutoff; split inheritance holds,0.020081060000052275
+chronological split contract,True,strict train < validation < test chronology,0.002146735999986049
+target-match perturbation test,True,8 target team-match rows unchanged after each target outcome was replaced by 999,3.8790974830000096
+multi-match future-event perturbation test,True,6 early snapshots across 3 matches unchanged after injecting 85th-minute goals,3.4051200090000293
+half-time boundary test,True,HT includes period-1 stoppage and excludes period-2 minute-45 event,0.02029142799995043
+strict M90 versus full-time boundary test,True,M90 excludes a 90:30 stoppage event; FT includes it,0.01937064100002317
+raw and clipped goal-margin contract,True,raw margins preserve observed scores; modeling margins are clipped only in label_margin,0.008953896000093664
+full foreign-key and event-order contract,True,all foreign-key and event-order contracts pass for 380 event partitions,0.006893327999932808
+canonical own-goal counting,True,Shot Goal and Own Goal For count; paired Own Goal Against and shoot-out goals do not,6.9339999981821165e-06
+odds join uniqueness,True,380 accepted one-to-one joins,0.0007310590000315642
+de-vig probability sum,True,380 tagged rows sum to one,0.0018241770000031465

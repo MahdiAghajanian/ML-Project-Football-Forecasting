@@ -1,0 +1,134 @@
+{
+  "data_mode": "real",
+  "competition": "Premier League",
+  "season": "2015/2016",
+  "competition_id": 2,
+  "season_id": 27,
+  "matches": 380,
+  "event_rows": 1313773,
+  "lineup_rows": 15926,
+  "matches_with_360": 0,
+  "gold_prematch_rows": 380,
+  "gold_snapshot_rows": 7980,
+  "odds_coverage": [
+    {
+      "competition_id": 2,
+      "season_id": 27,
+      "season_name": "2015/2016",
+      "total_matches": 380,
+      "tagged_matches": 380,
+      "coverage_rate": 1.0
+    }
+  ],
+  "leakage_tests_passed": 12,
+  "leakage_tests_total": 12,
+  "snapshots_per_match": 21,
+  "snapshot_boundaries": [
+    {
+      "snapshot_id": "M00",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 0.0
+    },
+    {
+      "snapshot_id": "M05",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 5.0
+    },
+    {
+      "snapshot_id": "M10",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 10.0
+    },
+    {
+      "snapshot_id": "M15",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 15.0
+    },
+    {
+      "snapshot_id": "M20",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 20.0
+    },
+    {
+      "snapshot_id": "M25",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 25.0
+    },
+    {
+      "snapshot_id": "M30",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 30.0
+    },
+    {
+      "snapshot_id": "M35",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 35.0
+    },
+    {
+      "snapshot_id": "M40",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 40.0
+    },
+    {
+      "snapshot_id": "M45",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 45.0
+    },
+    {
+      "snapshot_id": "HT",
+      "snapshot_kind": "half_time_boundary",
+      "snapshot_rank": 45.5
+    },
+    {
+      "snapshot_id": "M50",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 50.0
+    },
+    {
+      "snapshot_id": "M55",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 55.0
+    },
+    {
+      "snapshot_id": "M60",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 60.0
+    },
+    {
+      "snapshot_id": "M65",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 65.0
+    },
+    {
+      "snapshot_id": "M70",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 70.0
+    },
+    {
+      "snapshot_id": "M75",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 75.0
+    },
+    {
+      "snapshot_id": "M80",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 80.0
+    },
+    {
+      "snapshot_id": "M85",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 85.0
+    },
+    {
+      "snapshot_id": "M90",
+      "snapshot_kind": "strict_minute",
+      "snapshot_rank": 90.0
+    },
+    {
+      "snapshot_id": "FT",
+      "snapshot_kind": "full_time_boundary",
+      "snapshot_rank": 90.5
+    }
+  ],
+  "generated_at_utc": "2026-08-01T10:01:49.189959+00:00"
+}
