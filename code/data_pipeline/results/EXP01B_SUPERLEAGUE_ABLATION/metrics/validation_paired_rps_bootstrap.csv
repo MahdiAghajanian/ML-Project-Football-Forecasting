@@ -1,0 +1,2 @@
+left,right,n_matches,delta_definition,mean_delta_rps,ci95_low,ci95_high,bootstrap_resamples,bootstrap_seed,fraction_bootstrap_delta_lt_0
+SUPER_LEAGUE,SINGLE_SEASON,77,RPS(SUPER_LEAGUE) - RPS(SINGLE_SEASON); negative favors Super League,-0.00975132483922898,-0.027929042000356258,0.0072174919816060425,10000,42,0.8669

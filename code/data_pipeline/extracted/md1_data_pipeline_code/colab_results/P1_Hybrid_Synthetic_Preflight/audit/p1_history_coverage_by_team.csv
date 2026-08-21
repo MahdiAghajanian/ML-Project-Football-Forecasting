@@ -1,0 +1,7 @@
+index,team_id,team_name,appearances,min_history,median_history,max_history
+0,101,Alpha FC,10,9,9.0,9
+1,102,Bravo FC,10,9,9.0,9
+2,103,Charlie FC,10,9,9.0,9
+3,104,Delta FC,10,9,9.0,9
+4,105,Echo FC,10,9,9.0,9
+5,106,Foxtrot FC,10,9,9.0,9

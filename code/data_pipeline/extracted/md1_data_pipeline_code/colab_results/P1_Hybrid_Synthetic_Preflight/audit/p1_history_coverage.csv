@@ -1,0 +1,7 @@
+split,side,rows,min_history,median_history,max_history,below_minimum,using_full_selected_n,using_less_than_selected_n,fraction_full_selected_n_among_eligible,fraction_less_than_selected_n_among_eligible
+train,home,19,9,9.0,9,0,19,0,1.0,0.0
+train,away,19,9,9.0,9,0,19,0,1.0,0.0
+validation,home,6,9,9.0,9,0,6,0,1.0,0.0
+validation,away,6,9,9.0,9,0,6,0,1.0,0.0
+test,home,5,9,9.0,9,0,5,0,1.0,0.0
+test,away,5,9,9.0,9,0,5,0,1.0,0.0

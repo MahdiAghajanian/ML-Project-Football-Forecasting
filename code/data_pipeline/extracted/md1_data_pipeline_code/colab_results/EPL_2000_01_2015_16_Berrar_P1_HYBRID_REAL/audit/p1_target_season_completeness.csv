@@ -1,0 +1,2 @@
+season_name,provider,rows,complete_rows,team_count,expected_team_count,expected_matches,duplicate_directed_fixtures,min_matches_per_team,max_matches_per_team,unordered_pair_count,pairs_with_wrong_count,missing_core_values,passed
+2015/2016,statsbomb_target,380,380,20,20,380,0,38,38,190,0,0,True

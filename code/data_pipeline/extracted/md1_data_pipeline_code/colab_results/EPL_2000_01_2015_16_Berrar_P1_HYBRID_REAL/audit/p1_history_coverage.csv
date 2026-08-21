@@ -1,0 +1,7 @@
+split,side,rows,min_history,median_history,max_history,below_minimum,using_full_selected_n,using_less_than_selected_n,fraction_full_selected_n_among_eligible,fraction_less_than_selected_n_among_eligible
+train,home,257,0,28.0,28,3,244,10,0.9606299212598425,0.03937007874015748
+train,away,257,1,28.0,28,3,244,10,0.9606299212598425,0.03937007874015748
+validation,home,77,27,28.0,28,0,76,1,0.987012987012987,0.012987012987012988
+validation,away,77,26,28.0,28,0,76,1,0.987012987012987,0.012987012987012988
+test,home,46,28,28.0,28,0,46,0,1.0,0.0
+test,away,46,28,28.0,28,0,46,0,1.0,0.0

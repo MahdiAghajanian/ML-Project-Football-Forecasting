@@ -1,0 +1,291 @@
+{
+  "experiment": "EXP01_P1_REPRESENTATION_TASK_C",
+  "status": "PASS",
+  "selected_n": 28,
+  "fixed_n": 10,
+  "common_matches": 374,
+  "common_train": 251,
+  "common_validation": 77,
+  "common_test": 46,
+  "representation_feature_counts": {
+    "P1_TOTAL_FIXED": 6,
+    "P1_TOTAL_SELECTED": 6,
+    "P1_HOMEAWAY_SELECTED": 18,
+    "MD1_BASE_COMMON": 128,
+    "MD1_PLUS_P1_TOTAL": 134,
+    "MD1_PLUS_P1_HOMEAWAY": 146
+  },
+  "validation_decision": {
+    "selection_basis": "validation RPS only; test metrics not consulted",
+    "selected_n_frozen_before_experiment": 28,
+    "fixed_n": 10,
+    "preferred_p1_shape_by_validation_rps": "P1_TOTAL_SELECTED",
+    "preferred_project_representation_by_validation_rps": "MD1_PLUS_P1_HOMEAWAY",
+    "validation_rps": {
+      "MARKET": 0.19693130130833358,
+      "P1_TOTAL_SELECTED": 0.21292649904412062,
+      "P1_HOMEAWAY_SELECTED": 0.21313100601322912,
+      "MD1_PLUS_P1_HOMEAWAY": 0.21754663746518116,
+      "MD1_PLUS_P1_TOTAL": 0.2183676777444837,
+      "P1_TOTAL_FIXED": 0.22346614377638807,
+      "MD1_BASE_COMMON": 0.22362884402778582
+    }
+  },
+  "test_stage_run": true,
+  "validation_metrics": [
+    {
+      "representation": "MARKET",
+      "n_matches": 77,
+      "rps": 0.19693130130833358,
+      "log_loss": 0.9746026898740131,
+      "brier": 0.5800263560841732,
+      "accuracy": 0.5454545454545454,
+      "ece": 0.06040292213681777,
+      "feature_count": 0,
+      "model": "De-vigged Football-Data 1X2 market baseline"
+    },
+    {
+      "representation": "P1_TOTAL_SELECTED",
+      "n_matches": 77,
+      "rps": 0.21292649904412062,
+      "log_loss": 1.0396977274261252,
+      "brier": 0.6185262431846137,
+      "accuracy": 0.44155844155844154,
+      "ece": 0.10763721116545781,
+      "feature_count": 6,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "P1_HOMEAWAY_SELECTED",
+      "n_matches": 77,
+      "rps": 0.21313100601322912,
+      "log_loss": 1.038483767882933,
+      "brier": 0.6191905197050347,
+      "accuracy": 0.4675324675324675,
+      "ece": 0.06954680953966663,
+      "feature_count": 18,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "MD1_PLUS_P1_HOMEAWAY",
+      "n_matches": 77,
+      "rps": 0.21754663746518116,
+      "log_loss": 1.0483809971369231,
+      "brier": 0.6262878350301713,
+      "accuracy": 0.4675324675324675,
+      "ece": 0.0789420654609308,
+      "feature_count": 146,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "MD1_PLUS_P1_TOTAL",
+      "n_matches": 77,
+      "rps": 0.2183676777444837,
+      "log_loss": 1.041537178426385,
+      "brier": 0.622437392422151,
+      "accuracy": 0.4675324675324675,
+      "ece": 0.10320132998314818,
+      "feature_count": 134,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "P1_TOTAL_FIXED",
+      "n_matches": 77,
+      "rps": 0.22346614377638807,
+      "log_loss": 1.0519245155967563,
+      "brier": 0.6341795285719833,
+      "accuracy": 0.5064935064935064,
+      "ece": 0.1068903088211339,
+      "feature_count": 6,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "MD1_BASE_COMMON",
+      "n_matches": 77,
+      "rps": 0.22362884402778582,
+      "log_loss": 1.0645251188109928,
+      "brier": 0.6391505905389265,
+      "accuracy": 0.44155844155844154,
+      "ece": 0.03688386180639707,
+      "feature_count": 128,
+      "model": "RandomForest fixed probe"
+    }
+  ],
+  "test_metrics": [
+    {
+      "representation": "MARKET",
+      "n_matches": 46,
+      "rps": 0.17484751790883696,
+      "log_loss": 0.9611379435909696,
+      "brier": 0.5736071648100246,
+      "accuracy": 0.5217391304347826,
+      "ece": 0.14125026697456972,
+      "feature_count": 0,
+      "model": "De-vigged Football-Data 1X2 market baseline"
+    },
+    {
+      "representation": "MD1_BASE_COMMON",
+      "n_matches": 46,
+      "rps": 0.19726784974796796,
+      "log_loss": 1.0162138723557732,
+      "brier": 0.6059643229734915,
+      "accuracy": 0.45652173913043476,
+      "ece": 0.12146394011624694,
+      "feature_count": 128,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "MD1_PLUS_P1_TOTAL",
+      "n_matches": 46,
+      "rps": 0.20021933392129565,
+      "log_loss": 1.0234074798145192,
+      "brier": 0.6127753223047326,
+      "accuracy": 0.41304347826086957,
+      "ece": 0.09863837617696307,
+      "feature_count": 134,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "MD1_PLUS_P1_HOMEAWAY",
+      "n_matches": 46,
+      "rps": 0.2020899129650869,
+      "log_loss": 1.042428698868012,
+      "brier": 0.6225324585934225,
+      "accuracy": 0.45652173913043476,
+      "ece": 0.06649124820640852,
+      "feature_count": 146,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "P1_TOTAL_FIXED",
+      "n_matches": 46,
+      "rps": 0.20830522951222488,
+      "log_loss": 1.0463617362107798,
+      "brier": 0.6237903655828603,
+      "accuracy": 0.5217391304347826,
+      "ece": 0.095419292099631,
+      "feature_count": 6,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "P1_HOMEAWAY_SELECTED",
+      "n_matches": 46,
+      "rps": 0.2207922613852376,
+      "log_loss": 1.1334431744073779,
+      "brier": 0.6853154994435828,
+      "accuracy": 0.3695652173913043,
+      "ece": 0.1367825255662211,
+      "feature_count": 18,
+      "model": "RandomForest fixed probe"
+    },
+    {
+      "representation": "P1_TOTAL_SELECTED",
+      "n_matches": 46,
+      "rps": 0.2294327629596448,
+      "log_loss": 1.1674246659612464,
+      "brier": 0.700289509309376,
+      "accuracy": 0.45652173913043476,
+      "ece": 0.168880796558514,
+      "feature_count": 6,
+      "model": "RandomForest fixed probe"
+    }
+  ],
+  "paired_bootstrap": [
+    {
+      "left": "P1_TOTAL_SELECTED",
+      "right": "P1_TOTAL_FIXED",
+      "n_matches": 46,
+      "delta_definition": "RPS(left) - RPS(right); negative favors left",
+      "mean_delta_rps": 0.02112753344742,
+      "ci95_low": -0.012849372446459225,
+      "ci95_high": 0.056050958419904484,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.1119
+    },
+    {
+      "left": "P1_HOMEAWAY_SELECTED",
+      "right": "P1_TOTAL_SELECTED",
+      "n_matches": 46,
+      "delta_definition": "RPS(left) - RPS(right); negative favors left",
+      "mean_delta_rps": -0.008640501574407216,
+      "ci95_low": -0.027177790808944023,
+      "ci95_high": 0.009186963766596851,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.8233
+    },
+    {
+      "left": "P1_HOMEAWAY_SELECTED",
+      "right": "MD1_BASE_COMMON",
+      "n_matches": 46,
+      "delta_definition": "RPS(left) - RPS(right); negative favors left",
+      "mean_delta_rps": 0.023524411637269642,
+      "ci95_low": -0.003706138508222456,
+      "ci95_high": 0.0491070470401134,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.044
+    },
+    {
+      "left": "MD1_PLUS_P1_TOTAL",
+      "right": "MD1_BASE_COMMON",
+      "n_matches": 46,
+      "delta_definition": "RPS(left) - RPS(right); negative favors left",
+      "mean_delta_rps": 0.0029514841733277093,
+      "ci95_low": -0.0037780105041999475,
+      "ci95_high": 0.009443855469193452,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.1823
+    },
+    {
+      "left": "MD1_PLUS_P1_HOMEAWAY",
+      "right": "MD1_BASE_COMMON",
+      "n_matches": 46,
+      "delta_definition": "RPS(left) - RPS(right); negative favors left",
+      "mean_delta_rps": 0.004822063217118934,
+      "ci95_low": -0.003588804520430132,
+      "ci95_high": 0.013241879451977134,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.1321
+    },
+    {
+      "left": "MD1_BASE_COMMON",
+      "right": "MARKET",
+      "n_matches": 46,
+      "delta_definition": "RPS(left) - RPS(right); negative favors left",
+      "mean_delta_rps": 0.022420331839131006,
+      "ci95_low": -0.003950914506374322,
+      "ci95_high": 0.048824042366081025,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.0464
+    },
+    {
+      "left": "MD1_PLUS_P1_TOTAL",
+      "right": "MARKET",
+      "n_matches": 46,
+      "delta_definition": "RPS(left) - RPS(right); negative favors left",
+      "mean_delta_rps": 0.02537181601245872,
+      "ci95_low": 0.0011793358738173784,
+      "ci95_high": 0.04975680883956947,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.0198
+    },
+    {
+      "left": "MD1_PLUS_P1_HOMEAWAY",
+      "right": "MARKET",
+      "n_matches": 46,
+      "delta_definition": "RPS(left) - RPS(right); negative favors left",
+      "mean_delta_rps": 0.027242395056249934,
+      "ci95_low": 0.002781756577553423,
+      "ci95_high": 0.051308622357794244,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.0136
+    }
+  ]
+}

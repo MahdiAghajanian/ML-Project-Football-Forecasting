@@ -1,0 +1,21 @@
+{
+  "data_source_exception": {
+    "status": "TA_approved",
+    "decision": "Use complete Football-Data EPL results only for Berrar historical context; keep StatsBomb EPL 2015/16 as target/modeling season.",
+    "approval_note": "TA approved Football-Data historical Premier League results for constructing Berrar historical features; StatsBomb EPL 2015/16 remains the primary target/event dataset."
+  },
+  "historical_interval": {
+    "value": "2000/2001 through 2014/2015",
+    "reason": "Complete consecutive pre-target EPL seasons, sufficient for n<=100 and fixed before final evaluation."
+  },
+  "odd_n_policy": {
+    "value": "floor",
+    "status": "paper_aligned_with_documented_ambiguity",
+    "reason": "Paper conceptually uses n/2 venue histories while evaluating every integer n=9..100."
+  },
+  "historical_match_time": {
+    "value": "Football-Data old results treated as complete at end-of-day",
+    "status": "conservative_temporal_rule",
+    "reason": "Old CSV history is used only before the 2015/16 target season; no target feature can use a same-day historical row."
+  }
+}

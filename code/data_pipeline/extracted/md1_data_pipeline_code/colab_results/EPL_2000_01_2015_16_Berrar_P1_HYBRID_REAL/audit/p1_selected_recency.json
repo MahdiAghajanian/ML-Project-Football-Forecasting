@@ -1,0 +1,9 @@
+{
+  "method": "pearson",
+  "selected_n": 28,
+  "selection_scope": "training_only",
+  "candidate_min": 9,
+  "candidate_max": 100,
+  "paper_reference_eng1_n": 60,
+  "paper_reference_is_not_hard_coded": true
+}

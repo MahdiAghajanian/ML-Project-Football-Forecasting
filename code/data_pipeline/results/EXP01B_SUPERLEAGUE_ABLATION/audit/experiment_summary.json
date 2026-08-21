@@ -1,0 +1,99 @@
+{
+  "experiment": "EXP01B_SUPERLEAGUE_ABLATION",
+  "status": "PASS",
+  "selected_n": 28,
+  "feature_count": 6,
+  "single_season_eligible": 320,
+  "superleague_eligible": 374,
+  "superleague_additional_eligible": 54,
+  "common_matches": 320,
+  "common_split_counts": {
+    "train": 197,
+    "validation": 77,
+    "test": 46
+  },
+  "validation_rps_super_minus_single": -0.009751324839228914,
+  "validation_metrics": [
+    {
+      "representation": "SUPER_LEAGUE",
+      "n_matches": 77,
+      "rps": 0.21011995476565143,
+      "log_loss": 1.0155000802943557,
+      "brier": 0.606528654463851,
+      "accuracy": 0.4675324675324675,
+      "ece": 0.1082212977498692,
+      "feature_count": 6,
+      "model": "RandomForest fixed EXP01 probe"
+    },
+    {
+      "representation": "SINGLE_SEASON",
+      "n_matches": 77,
+      "rps": 0.21987127960488034,
+      "log_loss": 1.0582503917372919,
+      "brier": 0.6369826469247681,
+      "accuracy": 0.4935064935064935,
+      "ece": 0.08120886753938708,
+      "feature_count": 6,
+      "model": "RandomForest fixed EXP01 probe"
+    }
+  ],
+  "validation_bootstrap": [
+    {
+      "left": "SUPER_LEAGUE",
+      "right": "SINGLE_SEASON",
+      "n_matches": 77,
+      "delta_definition": "RPS(SUPER_LEAGUE) - RPS(SINGLE_SEASON); negative favors Super League",
+      "mean_delta_rps": -0.00975132483922898,
+      "ci95_low": -0.027929042000356258,
+      "ci95_high": 0.0072174919816060425,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.8669
+    }
+  ],
+  "test_stage_run": true,
+  "test_rps_super_minus_single": 0.016681345422336208,
+  "test_metrics": [
+    {
+      "representation": "SINGLE_SEASON",
+      "n_matches": 46,
+      "rps": 0.19897208888351367,
+      "log_loss": 1.0312455890629069,
+      "brier": 0.6148426136133038,
+      "accuracy": 0.5,
+      "ece": 0.07905522882914186,
+      "feature_count": 6,
+      "model": "RandomForest fixed EXP01 probe"
+    },
+    {
+      "representation": "SUPER_LEAGUE",
+      "n_matches": 46,
+      "rps": 0.21565343430584988,
+      "log_loss": 1.0763551057084648,
+      "brier": 0.6480081748618831,
+      "accuracy": 0.45652173913043476,
+      "ece": 0.1066626799528973,
+      "feature_count": 6,
+      "model": "RandomForest fixed EXP01 probe"
+    }
+  ],
+  "test_bootstrap": [
+    {
+      "left": "SUPER_LEAGUE",
+      "right": "SINGLE_SEASON",
+      "n_matches": 46,
+      "delta_definition": "RPS(SUPER_LEAGUE) - RPS(SINGLE_SEASON); negative favors Super League",
+      "mean_delta_rps": 0.016681345422336277,
+      "ci95_low": -0.002329641551621923,
+      "ci95_high": 0.03672484957118073,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.0424
+    }
+  ],
+  "interpretation_rule": {
+    "coverage": "positive superleague_additional_eligible means cross-season history reduces cold start",
+    "rps_delta": "negative RPS(Super League)-RPS(Single Season) favors Super League",
+    "test": "report-only; must not change n or upstream representation decisions"
+  }
+}

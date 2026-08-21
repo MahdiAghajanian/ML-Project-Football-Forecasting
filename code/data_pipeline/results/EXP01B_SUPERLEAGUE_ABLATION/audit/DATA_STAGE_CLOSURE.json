@@ -1,0 +1,19 @@
+{
+  "status": "DATA_STAGE_EXPERIMENTS_COMPLETE",
+  "condition": "EXP01B readiness passed",
+  "immutable_decisions": {
+    "P1_selected_n": 28,
+    "P1_min_prior_matches": 6,
+    "P1_feature_contracts": "6 total / 18 homeaway",
+    "outer_split": "existing chronological match-level split",
+    "bookmaker_role": "independent market baseline"
+  },
+  "completed_data_experiments": [
+    "MD1 causal StatsBomb pipeline",
+    "Berrar P1 Super-League construction and recency selection",
+    "EXP01 representation ablation",
+    "EXP01B single-season vs Super-League ablation"
+  ],
+  "next_phase": "prediction/modeling: full Task C model suite, then Task R and Task L",
+  "rule": "Do not change P1 n, target split, feature definitions, or eligibility rules based on later test/model results."
+}

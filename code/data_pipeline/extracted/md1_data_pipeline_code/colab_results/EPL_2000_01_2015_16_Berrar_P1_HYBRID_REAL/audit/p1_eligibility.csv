@@ -1,0 +1,381 @@
+match_id,season_name,kickoff,split,home_team_id,home_team_name,away_team_id,away_team_name,home_total_history_available,away_total_history_available,p1_eligible,exclusion_reason
+3754097,2015/2016,2015-08-08 13:45:00,train,39,Manchester United,38,Tottenham Hotspur,28,28,True,eligible
+3754128,2015/2016,2015-08-08 16:00:00,train,28,AFC Bournemouth,59,Aston Villa,0,28,False,home_history_below_minimum
+3754138,2015/2016,2015-08-08 16:00:00,train,56,Norwich City,31,Crystal Palace,28,28,True,eligible
+3754237,2015/2016,2015-08-08 16:00:00,train,22,Leicester City,41,Sunderland,28,28,True,eligible
+3754300,2015/2016,2015-08-08 16:00:00,train,29,Everton,23,Watford,28,28,True,eligible
+3754078,2015/2016,2015-08-08 18:30:00,train,33,Chelsea,26,Swansea City,28,28,True,eligible
+3754112,2015/2016,2015-08-09 14:30:00,train,37,Newcastle United,25,Southampton,28,28,True,eligible
+3754141,2015/2016,2015-08-09 14:30:00,train,1,Arsenal,40,West Ham United,28,28,True,eligible
+3753985,2015/2016,2015-08-09 17:00:00,train,30,Stoke City,24,Liverpool,28,28,True,eligible
+3754145,2015/2016,2015-08-10 21:00:00,train,27,West Bromwich Albion,36,Manchester City,28,28,True,eligible
+3754107,2015/2016,2015-08-14 20:45:00,train,59,Aston Villa,39,Manchester United,28,28,True,eligible
+3754034,2015/2016,2015-08-15 13:45:00,train,25,Southampton,29,Everton,28,28,True,eligible
+3753993,2015/2016,2015-08-15 16:00:00,train,41,Sunderland,56,Norwich City,28,28,True,eligible
+3754203,2015/2016,2015-08-15 16:00:00,train,40,West Ham United,22,Leicester City,28,28,True,eligible
+3754267,2015/2016,2015-08-15 16:00:00,train,23,Watford,27,West Bromwich Albion,28,28,True,eligible
+3754270,2015/2016,2015-08-15 16:00:00,train,38,Tottenham Hotspur,30,Stoke City,28,28,True,eligible
+3754344,2015/2016,2015-08-15 16:00:00,train,26,Swansea City,37,Newcastle United,28,28,True,eligible
+3754312,2015/2016,2015-08-16 14:30:00,train,31,Crystal Palace,1,Arsenal,28,28,True,eligible
+3754066,2015/2016,2015-08-16 17:00:00,train,36,Manchester City,33,Chelsea,28,28,True,eligible
+3754020,2015/2016,2015-08-17 21:00:00,train,24,Liverpool,28,AFC Bournemouth,28,1,False,away_history_below_minimum
+3754254,2015/2016,2015-08-22 13:45:00,train,39,Manchester United,37,Newcastle United,28,28,True,eligible
+3753987,2015/2016,2015-08-22 16:00:00,train,22,Leicester City,38,Tottenham Hotspur,28,28,True,eligible
+3754104,2015/2016,2015-08-22 16:00:00,train,56,Norwich City,30,Stoke City,28,28,True,eligible
+3754131,2015/2016,2015-08-22 16:00:00,train,40,West Ham United,28,AFC Bournemouth,28,2,False,away_history_below_minimum
+3754180,2015/2016,2015-08-22 16:00:00,train,41,Sunderland,26,Swansea City,28,28,True,eligible
+3754190,2015/2016,2015-08-22 16:00:00,train,31,Crystal Palace,59,Aston Villa,28,28,True,eligible
+3754059,2015/2016,2015-08-23 14:30:00,train,27,West Bromwich Albion,33,Chelsea,28,28,True,eligible
+3754189,2015/2016,2015-08-23 17:00:00,train,23,Watford,25,Southampton,28,28,True,eligible
+3754233,2015/2016,2015-08-23 17:00:00,train,29,Everton,36,Manchester City,28,28,True,eligible
+3754129,2015/2016,2015-08-24 19:00:00,train,1,Arsenal,24,Liverpool,28,28,True,eligible
+3754205,2015/2016,2015-08-29 13:45:00,train,37,Newcastle United,1,Arsenal,28,28,True,eligible
+3753984,2015/2016,2015-08-29 16:00:00,train,24,Liverpool,40,West Ham United,28,28,True,eligible
+3754007,2015/2016,2015-08-29 16:00:00,train,30,Stoke City,27,West Bromwich Albion,28,28,True,eligible
+3754023,2015/2016,2015-08-29 16:00:00,train,28,AFC Bournemouth,22,Leicester City,3,28,False,home_history_below_minimum
+3754083,2015/2016,2015-08-29 16:00:00,train,33,Chelsea,31,Crystal Palace,28,28,True,eligible
+3754204,2015/2016,2015-08-29 16:00:00,train,59,Aston Villa,41,Sunderland,28,28,True,eligible
+3754246,2015/2016,2015-08-29 16:00:00,train,36,Manchester City,23,Watford,28,28,True,eligible
+3754268,2015/2016,2015-08-29 18:30:00,train,38,Tottenham Hotspur,29,Everton,28,28,True,eligible
+3754337,2015/2016,2015-08-30 14:30:00,train,25,Southampton,56,Norwich City,28,28,True,eligible
+3754221,2015/2016,2015-08-30 17:00:00,train,26,Swansea City,39,Manchester United,28,28,True,eligible
+3754336,2015/2016,2015-09-12 13:45:00,train,29,Everton,33,Chelsea,28,28,True,eligible
+3754213,2015/2016,2015-09-12 16:00:00,train,23,Watford,26,Swansea City,28,28,True,eligible
+3754240,2015/2016,2015-09-12 16:00:00,train,1,Arsenal,30,Stoke City,28,28,True,eligible
+3754257,2015/2016,2015-09-12 16:00:00,train,31,Crystal Palace,36,Manchester City,28,28,True,eligible
+3754315,2015/2016,2015-09-12 16:00:00,train,56,Norwich City,28,AFC Bournemouth,28,4,False,away_history_below_minimum
+3754325,2015/2016,2015-09-12 16:00:00,train,27,West Bromwich Albion,25,Southampton,28,28,True,eligible
+3754003,2015/2016,2015-09-12 18:30:00,train,39,Manchester United,24,Liverpool,28,28,True,eligible
+3754148,2015/2016,2015-09-13 14:30:00,train,41,Sunderland,38,Tottenham Hotspur,28,28,True,eligible
+3754106,2015/2016,2015-09-13 17:00:00,train,22,Leicester City,59,Aston Villa,28,28,True,eligible
+3754329,2015/2016,2015-09-14 21:00:00,train,40,West Ham United,37,Newcastle United,28,28,True,eligible
+3754217,2015/2016,2015-09-19 11:45:00,train,33,Chelsea,1,Arsenal,28,28,True,eligible
+3754010,2015/2016,2015-09-19 16:00:00,train,37,Newcastle United,23,Watford,28,28,True,eligible
+3754068,2015/2016,2015-09-19 16:00:00,train,59,Aston Villa,27,West Bromwich Albion,28,28,True,eligible
+3754146,2015/2016,2015-09-19 16:00:00,train,30,Stoke City,22,Leicester City,28,28,True,eligible
+3754169,2015/2016,2015-09-19 16:00:00,train,28,AFC Bournemouth,41,Sunderland,5,28,False,home_history_below_minimum
+3754298,2015/2016,2015-09-19 16:00:00,train,26,Swansea City,29,Everton,28,28,True,eligible
+3754077,2015/2016,2015-09-19 18:30:00,train,36,Manchester City,40,West Ham United,28,28,True,eligible
+3754222,2015/2016,2015-09-20 14:30:00,train,38,Tottenham Hotspur,31,Crystal Palace,28,28,True,eligible
+3754011,2015/2016,2015-09-20 17:00:00,train,25,Southampton,39,Manchester United,28,28,True,eligible
+3754040,2015/2016,2015-09-20 17:00:00,train,24,Liverpool,56,Norwich City,28,28,True,eligible
+3754197,2015/2016,2015-09-26 13:45:00,train,38,Tottenham Hotspur,36,Manchester City,28,28,True,eligible
+3753978,2015/2016,2015-09-26 16:00:00,train,25,Southampton,26,Swansea City,28,28,True,eligible
+3754008,2015/2016,2015-09-26 16:00:00,train,39,Manchester United,41,Sunderland,28,28,True,eligible
+3754174,2015/2016,2015-09-26 16:00:00,train,22,Leicester City,1,Arsenal,28,28,True,eligible
+3754212,2015/2016,2015-09-26 16:00:00,train,24,Liverpool,59,Aston Villa,28,28,True,eligible
+3754323,2015/2016,2015-09-26 16:00:00,train,40,West Ham United,56,Norwich City,28,28,True,eligible
+3754339,2015/2016,2015-09-26 16:00:00,train,30,Stoke City,28,AFC Bournemouth,28,6,True,eligible
+3754001,2015/2016,2015-09-26 18:30:00,train,37,Newcastle United,33,Chelsea,28,28,True,eligible
+3754266,2015/2016,2015-09-27 17:00:00,train,23,Watford,31,Crystal Palace,28,28,True,eligible
+3754105,2015/2016,2015-09-28 21:00:00,train,27,West Bromwich Albion,29,Everton,28,28,True,eligible
+3754099,2015/2016,2015-10-03 13:45:00,train,31,Crystal Palace,27,West Bromwich Albion,28,28,True,eligible
+3754076,2015/2016,2015-10-03 16:00:00,train,41,Sunderland,40,West Ham United,28,28,True,eligible
+3754079,2015/2016,2015-10-03 16:00:00,train,36,Manchester City,37,Newcastle United,28,28,True,eligible
+3754278,2015/2016,2015-10-03 16:00:00,train,28,AFC Bournemouth,23,Watford,7,28,True,eligible
+3754330,2015/2016,2015-10-03 16:00:00,train,59,Aston Villa,30,Stoke City,28,28,True,eligible
+3754335,2015/2016,2015-10-03 16:00:00,train,56,Norwich City,22,Leicester City,28,28,True,eligible
+3753995,2015/2016,2015-10-03 18:30:00,train,33,Chelsea,25,Southampton,28,28,True,eligible
+3754060,2015/2016,2015-10-04 14:30:00,train,29,Everton,24,Liverpool,28,28,True,eligible
+3754074,2015/2016,2015-10-04 17:00:00,train,26,Swansea City,38,Tottenham Hotspur,28,28,True,eligible
+3754171,2015/2016,2015-10-04 17:00:00,train,1,Arsenal,39,Manchester United,28,28,True,eligible
+3754198,2015/2016,2015-10-17 13:45:00,train,38,Tottenham Hotspur,24,Liverpool,28,28,True,eligible
+3754067,2015/2016,2015-10-17 16:00:00,train,31,Crystal Palace,40,West Ham United,28,28,True,eligible
+3754115,2015/2016,2015-10-17 16:00:00,train,33,Chelsea,59,Aston Villa,28,28,True,eligible
+3754193,2015/2016,2015-10-17 16:00:00,train,36,Manchester City,28,AFC Bournemouth,28,8,True,eligible
+3754245,2015/2016,2015-10-17 16:00:00,train,27,West Bromwich Albion,41,Sunderland,28,28,True,eligible
+3754256,2015/2016,2015-10-17 16:00:00,train,29,Everton,39,Manchester United,28,28,True,eligible
+3754302,2015/2016,2015-10-17 16:00:00,train,25,Southampton,22,Leicester City,28,28,True,eligible
+3753999,2015/2016,2015-10-17 18:30:00,train,23,Watford,1,Arsenal,28,28,True,eligible
+3754102,2015/2016,2015-10-18 17:00:00,train,37,Newcastle United,56,Norwich City,28,28,True,eligible
+3754269,2015/2016,2015-10-19 21:00:00,train,26,Swansea City,30,Stoke City,28,28,True,eligible
+3754017,2015/2016,2015-10-24 16:00:00,train,59,Aston Villa,26,Swansea City,28,28,True,eligible
+3754091,2015/2016,2015-10-24 16:00:00,train,30,Stoke City,23,Watford,28,28,True,eligible
+3754133,2015/2016,2015-10-24 16:00:00,train,56,Norwich City,27,West Bromwich Albion,28,28,True,eligible
+3754263,2015/2016,2015-10-24 16:00:00,train,22,Leicester City,31,Crystal Palace,28,28,True,eligible
+3754288,2015/2016,2015-10-24 16:00:00,train,40,West Ham United,33,Chelsea,28,28,True,eligible
+3754126,2015/2016,2015-10-24 18:30:00,train,1,Arsenal,29,Everton,28,28,True,eligible
+3754119,2015/2016,2015-10-25 13:00:00,train,41,Sunderland,37,Newcastle United,28,28,True,eligible
+3754015,2015/2016,2015-10-25 15:05:00,train,39,Manchester United,36,Manchester City,28,28,True,eligible
+3754234,2015/2016,2015-10-25 15:05:00,train,28,AFC Bournemouth,38,Tottenham Hotspur,9,28,True,eligible
+3754230,2015/2016,2015-10-25 17:15:00,train,24,Liverpool,25,Southampton,28,28,True,eligible
+3754098,2015/2016,2015-10-31 13:45:00,train,33,Chelsea,24,Liverpool,28,28,True,eligible
+3753983,2015/2016,2015-10-31 14:00:00,train,26,Swansea City,1,Arsenal,28,28,True,eligible
+3754006,2015/2016,2015-10-31 16:00:00,train,27,West Bromwich Albion,22,Leicester City,28,28,True,eligible
+3754090,2015/2016,2015-10-31 16:00:00,train,37,Newcastle United,30,Stoke City,28,28,True,eligible
+3754167,2015/2016,2015-10-31 16:00:00,train,36,Manchester City,56,Norwich City,28,28,True,eligible
+3754223,2015/2016,2015-10-31 16:00:00,train,31,Crystal Palace,39,Manchester United,28,28,True,eligible
+3754273,2015/2016,2015-10-31 16:00:00,train,23,Watford,40,West Ham United,28,28,True,eligible
+3754082,2015/2016,2015-11-01 14:30:00,train,29,Everton,41,Sunderland,28,28,True,eligible
+3754191,2015/2016,2015-11-01 17:00:00,train,25,Southampton,28,AFC Bournemouth,28,10,True,eligible
+3754029,2015/2016,2015-11-02 21:00:00,train,38,Tottenham Hotspur,59,Aston Villa,28,28,True,eligible
+3754238,2015/2016,2015-11-07 13:45:00,train,28,AFC Bournemouth,37,Newcastle United,11,28,True,eligible
+3754000,2015/2016,2015-11-07 16:00:00,train,41,Sunderland,25,Southampton,28,28,True,eligible
+3754156,2015/2016,2015-11-07 16:00:00,train,22,Leicester City,23,Watford,28,28,True,eligible
+3754194,2015/2016,2015-11-07 16:00:00,train,40,West Ham United,29,Everton,28,28,True,eligible
+3754297,2015/2016,2015-11-07 16:00:00,train,39,Manchester United,27,West Bromwich Albion,28,28,True,eligible
+3754311,2015/2016,2015-11-07 16:00:00,train,56,Norwich City,26,Swansea City,28,28,True,eligible
+3754293,2015/2016,2015-11-07 18:30:00,train,30,Stoke City,33,Chelsea,28,28,True,eligible
+3754258,2015/2016,2015-11-08 14:30:00,train,59,Aston Villa,36,Manchester City,28,28,True,eligible
+3754265,2015/2016,2015-11-08 17:00:00,train,1,Arsenal,38,Tottenham Hotspur,28,28,True,eligible
+3754351,2015/2016,2015-11-08 17:00:00,train,24,Liverpool,31,Crystal Palace,28,28,True,eligible
+3754185,2015/2016,2015-11-21 13:45:00,train,23,Watford,39,Manchester United,28,28,True,eligible
+3753972,2015/2016,2015-11-21 16:00:00,train,26,Swansea City,28,AFC Bournemouth,28,12,True,eligible
+3753996,2015/2016,2015-11-21 16:00:00,train,33,Chelsea,56,Norwich City,28,28,True,eligible
+3754211,2015/2016,2015-11-21 16:00:00,train,37,Newcastle United,22,Leicester City,28,28,True,eligible
+3754247,2015/2016,2015-11-21 16:00:00,train,25,Southampton,30,Stoke City,28,28,True,eligible
+3754283,2015/2016,2015-11-21 16:00:00,train,29,Everton,59,Aston Villa,28,28,True,eligible
+3754301,2015/2016,2015-11-21 16:00:00,train,27,West Bromwich Albion,1,Arsenal,28,28,True,eligible
+3754208,2015/2016,2015-11-21 18:30:00,train,36,Manchester City,24,Liverpool,28,28,True,eligible
+3754109,2015/2016,2015-11-22 17:00:00,train,38,Tottenham Hotspur,40,West Ham United,28,28,True,eligible
+3753979,2015/2016,2015-11-23 21:00:00,train,31,Crystal Palace,41,Sunderland,28,28,True,eligible
+3754028,2015/2016,2015-11-28 16:00:00,train,36,Manchester City,25,Southampton,28,28,True,eligible
+3754150,2015/2016,2015-11-28 16:00:00,train,41,Sunderland,30,Stoke City,28,28,True,eligible
+3754157,2015/2016,2015-11-28 16:00:00,train,28,AFC Bournemouth,29,Everton,13,28,True,eligible
+3754178,2015/2016,2015-11-28 16:00:00,train,59,Aston Villa,23,Watford,28,28,True,eligible
+3754304,2015/2016,2015-11-28 16:00:00,train,31,Crystal Palace,37,Newcastle United,28,28,True,eligible
+3754186,2015/2016,2015-11-28 18:30:00,train,22,Leicester City,39,Manchester United,28,28,True,eligible
+3754093,2015/2016,2015-11-29 13:00:00,train,38,Tottenham Hotspur,33,Chelsea,28,28,True,eligible
+3754235,2015/2016,2015-11-29 15:05:00,train,40,West Ham United,27,West Bromwich Albion,28,28,True,eligible
+3754047,2015/2016,2015-11-29 15:15:00,train,24,Liverpool,26,Swansea City,28,28,True,eligible
+3754038,2015/2016,2015-11-29 17:15:00,train,56,Norwich City,1,Arsenal,28,28,True,eligible
+3754135,2015/2016,2015-12-05 13:45:00,train,30,Stoke City,36,Manchester City,28,28,True,eligible
+3754160,2015/2016,2015-12-05 14:00:00,train,1,Arsenal,41,Sunderland,28,28,True,eligible
+3754085,2015/2016,2015-12-05 16:00:00,train,26,Swansea City,22,Leicester City,28,28,True,eligible
+3754113,2015/2016,2015-12-05 16:00:00,train,25,Southampton,59,Aston Villa,28,28,True,eligible
+3754215,2015/2016,2015-12-05 16:00:00,train,27,West Bromwich Albion,38,Tottenham Hotspur,28,28,True,eligible
+3754286,2015/2016,2015-12-05 16:00:00,train,23,Watford,56,Norwich City,28,28,True,eligible
+3754347,2015/2016,2015-12-05 16:00:00,train,39,Manchester United,40,West Ham United,28,28,True,eligible
+3754073,2015/2016,2015-12-05 18:30:00,train,33,Chelsea,28,AFC Bournemouth,28,14,True,eligible
+3754143,2015/2016,2015-12-06 17:00:00,train,37,Newcastle United,24,Liverpool,28,28,True,eligible
+3754046,2015/2016,2015-12-07 21:00:00,train,29,Everton,31,Crystal Palace,28,28,True,eligible
+3754182,2015/2016,2015-12-12 13:45:00,train,56,Norwich City,29,Everton,28,28,True,eligible
+3754072,2015/2016,2015-12-12 16:00:00,train,41,Sunderland,23,Watford,28,28,True,eligible
+3754096,2015/2016,2015-12-12 16:00:00,train,40,West Ham United,30,Stoke City,28,28,True,eligible
+3754218,2015/2016,2015-12-12 16:00:00,train,31,Crystal Palace,25,Southampton,28,28,True,eligible
+3754328,2015/2016,2015-12-12 16:00:00,train,36,Manchester City,26,Swansea City,28,28,True,eligible
+3754162,2015/2016,2015-12-12 18:30:00,train,28,AFC Bournemouth,39,Manchester United,15,28,True,eligible
+3754117,2015/2016,2015-12-13 12:30:00,train,59,Aston Villa,1,Arsenal,28,28,True,eligible
+3754255,2015/2016,2015-12-13 17:00:00,train,24,Liverpool,27,West Bromwich Albion,28,28,True,eligible
+3754276,2015/2016,2015-12-13 17:00:00,train,38,Tottenham Hotspur,37,Newcastle United,28,28,True,eligible
+3754013,2015/2016,2015-12-14 21:00:00,train,22,Leicester City,33,Chelsea,28,28,True,eligible
+3754025,2015/2016,2015-12-19 16:00:00,train,33,Chelsea,41,Sunderland,28,28,True,eligible
+3754044,2015/2016,2015-12-19 16:00:00,train,39,Manchester United,56,Norwich City,28,28,True,eligible
+3754153,2015/2016,2015-12-19 16:00:00,train,30,Stoke City,31,Crystal Palace,28,28,True,eligible
+3754166,2015/2016,2015-12-19 16:00:00,train,29,Everton,22,Leicester City,28,28,True,eligible
+3754188,2015/2016,2015-12-19 16:00:00,train,25,Southampton,38,Tottenham Hotspur,28,28,True,eligible
+3754219,2015/2016,2015-12-19 16:00:00,train,27,West Bromwich Albion,28,AFC Bournemouth,28,16,True,eligible
+3754136,2015/2016,2015-12-19 18:30:00,train,37,Newcastle United,59,Aston Villa,28,28,True,eligible
+3754051,2015/2016,2015-12-20 14:30:00,train,23,Watford,24,Liverpool,28,28,True,eligible
+3754259,2015/2016,2015-12-20 17:00:00,train,26,Swansea City,40,West Ham United,28,28,True,eligible
+3754296,2015/2016,2015-12-21 19:00:00,train,1,Arsenal,36,Manchester City,28,28,True,eligible
+3754014,2015/2016,2015-12-26 13:45:00,train,30,Stoke City,39,Manchester United,28,28,True,eligible
+3754054,2015/2016,2015-12-26 16:00:00,train,36,Manchester City,41,Sunderland,28,28,True,eligible
+3754057,2015/2016,2015-12-26 16:00:00,train,38,Tottenham Hotspur,56,Norwich City,28,28,True,eligible
+3754248,2015/2016,2015-12-26 16:00:00,train,28,AFC Bournemouth,31,Crystal Palace,17,28,True,eligible
+3754279,2015/2016,2015-12-26 16:00:00,train,26,Swansea City,27,West Bromwich Albion,28,28,True,eligible
+3754285,2015/2016,2015-12-26 16:00:00,train,59,Aston Villa,40,West Ham United,28,28,True,eligible
+3754287,2015/2016,2015-12-26 16:00:00,train,33,Chelsea,23,Watford,28,28,True,eligible
+3754343,2015/2016,2015-12-26 16:00:00,train,24,Liverpool,22,Leicester City,28,28,True,eligible
+3753974,2015/2016,2015-12-26 18:30:00,train,37,Newcastle United,29,Everton,28,28,True,eligible
+3754309,2015/2016,2015-12-26 18:45:00,train,25,Southampton,1,Arsenal,28,28,True,eligible
+3754056,2015/2016,2015-12-28 16:00:00,train,29,Everton,30,Stoke City,28,28,True,eligible
+3754130,2015/2016,2015-12-28 16:00:00,train,56,Norwich City,59,Aston Villa,28,28,True,eligible
+3754195,2015/2016,2015-12-28 16:00:00,train,27,West Bromwich Albion,37,Newcastle United,28,28,True,eligible
+3754291,2015/2016,2015-12-28 16:00:00,train,23,Watford,38,Tottenham Hotspur,28,28,True,eligible
+3754326,2015/2016,2015-12-28 16:00:00,train,31,Crystal Palace,26,Swansea City,28,28,True,eligible
+3754173,2015/2016,2015-12-28 16:30:00,train,1,Arsenal,28,AFC Bournemouth,28,18,True,eligible
+3753998,2015/2016,2015-12-28 18:30:00,train,40,West Ham United,25,Southampton,28,28,True,eligible
+3754019,2015/2016,2015-12-28 18:30:00,train,39,Manchester United,33,Chelsea,28,28,True,eligible
+3754045,2015/2016,2015-12-29 20:45:00,train,22,Leicester City,36,Manchester City,28,28,True,eligible
+3754226,2015/2016,2015-12-30 20:45:00,train,41,Sunderland,24,Liverpool,28,28,True,eligible
+3754251,2015/2016,2016-01-02 13:45:00,train,40,West Ham United,24,Liverpool,28,28,True,eligible
+3754069,2015/2016,2016-01-02 14:00:00,train,1,Arsenal,37,Newcastle United,28,28,True,eligible
+3754036,2015/2016,2016-01-02 16:00:00,train,41,Sunderland,59,Aston Villa,28,28,True,eligible
+3754058,2015/2016,2016-01-02 16:00:00,train,22,Leicester City,28,AFC Bournemouth,28,19,True,eligible
+3754101,2015/2016,2016-01-02 16:00:00,train,56,Norwich City,25,Southampton,28,28,True,eligible
+3754122,2015/2016,2016-01-02 16:00:00,train,27,West Bromwich Albion,30,Stoke City,28,28,True,eligible
+3754319,2015/2016,2016-01-02 16:00:00,train,39,Manchester United,26,Swansea City,28,28,True,eligible
+3754346,2015/2016,2016-01-02 18:30:00,train,23,Watford,36,Manchester City,28,28,True,eligible
+3754114,2015/2016,2016-01-03 14:30:00,train,31,Crystal Palace,33,Chelsea,28,28,True,eligible
+3754140,2015/2016,2016-01-03 17:00:00,train,29,Everton,38,Tottenham Hotspur,28,28,True,eligible
+3753981,2015/2016,2016-01-12 20:45:00,train,59,Aston Villa,31,Crystal Palace,28,28,True,eligible
+3754021,2015/2016,2016-01-12 20:45:00,train,28,AFC Bournemouth,40,West Ham United,20,28,True,eligible
+3754088,2015/2016,2016-01-12 20:45:00,train,37,Newcastle United,39,Manchester United,28,28,True,eligible
+3754032,2015/2016,2016-01-13 20:45:00,train,30,Stoke City,56,Norwich City,28,28,True,eligible
+3754062,2015/2016,2016-01-13 20:45:00,train,33,Chelsea,27,West Bromwich Albion,28,28,True,eligible
+3754071,2015/2016,2016-01-13 20:45:00,train,26,Swansea City,41,Sunderland,28,28,True,eligible
+3754142,2015/2016,2016-01-13 20:45:00,train,36,Manchester City,29,Everton,28,28,True,eligible
+3754183,2015/2016,2016-01-13 20:45:00,train,25,Southampton,23,Watford,28,28,True,eligible
+3754065,2015/2016,2016-01-13 21:00:00,train,38,Tottenham Hotspur,22,Leicester City,28,28,True,eligible
+3754305,2015/2016,2016-01-13 21:00:00,train,24,Liverpool,1,Arsenal,28,28,True,eligible
+3754027,2015/2016,2016-01-16 13:45:00,train,38,Tottenham Hotspur,41,Sunderland,28,28,True,eligible
+3754004,2015/2016,2016-01-16 16:00:00,train,28,AFC Bournemouth,56,Norwich City,21,28,True,eligible
+3754125,2015/2016,2016-01-16 16:00:00,train,33,Chelsea,29,Everton,28,28,True,eligible
+3754168,2015/2016,2016-01-16 16:00:00,train,25,Southampton,27,West Bromwich Albion,28,28,True,eligible
+3754260,2015/2016,2016-01-16 16:00:00,train,36,Manchester City,31,Crystal Palace,28,28,True,eligible
+3754338,2015/2016,2016-01-16 16:00:00,train,37,Newcastle United,40,West Ham United,28,28,True,eligible
+3754250,2015/2016,2016-01-16 18:30:00,train,59,Aston Villa,22,Leicester City,28,28,True,eligible
+3754345,2015/2016,2016-01-17 15:05:00,train,24,Liverpool,39,Manchester United,28,28,True,eligible
+3754202,2015/2016,2016-01-17 15:15:00,train,30,Stoke City,1,Arsenal,28,28,True,eligible
+3754161,2015/2016,2016-01-18 21:00:00,train,26,Swansea City,23,Watford,28,28,True,eligible
+3754348,2015/2016,2016-01-23 13:45:00,train,56,Norwich City,24,Liverpool,28,28,True,eligible
+3753975,2015/2016,2016-01-23 16:00:00,train,41,Sunderland,28,AFC Bournemouth,28,22,True,eligible
+3754084,2015/2016,2016-01-23 16:00:00,train,27,West Bromwich Albion,59,Aston Villa,28,28,True,eligible
+3754179,2015/2016,2016-01-23 16:00:00,train,31,Crystal Palace,38,Tottenham Hotspur,28,28,True,eligible
+3754200,2015/2016,2016-01-23 16:00:00,train,39,Manchester United,25,Southampton,28,28,True,eligible
+3754271,2015/2016,2016-01-23 16:00:00,train,23,Watford,37,Newcastle United,28,28,True,eligible
+3754341,2015/2016,2016-01-23 16:00:00,train,22,Leicester City,30,Stoke City,28,28,True,eligible
+3754110,2015/2016,2016-01-23 18:30:00,train,40,West Ham United,36,Manchester City,28,28,True,eligible
+3754163,2015/2016,2016-01-24 14:30:00,train,29,Everton,26,Swansea City,28,28,True,eligible
+3754111,2015/2016,2016-01-24 17:00:00,train,1,Arsenal,33,Chelsea,28,28,True,eligible
+3753997,2015/2016,2016-02-02 20:45:00,train,40,West Ham United,59,Aston Villa,28,28,True,eligible
+3754095,2015/2016,2016-02-02 20:45:00,train,41,Sunderland,36,Manchester City,28,28,True,eligible
+3754201,2015/2016,2016-02-02 20:45:00,train,1,Arsenal,25,Southampton,28,28,True,eligible
+3754275,2015/2016,2016-02-02 20:45:00,train,22,Leicester City,24,Liverpool,28,28,True,eligible
+3754317,2015/2016,2016-02-02 20:45:00,train,56,Norwich City,38,Tottenham Hotspur,28,28,True,eligible
+3754089,2015/2016,2016-02-02 21:00:00,train,31,Crystal Palace,28,AFC Bournemouth,28,23,True,eligible
+3754094,2015/2016,2016-02-02 21:00:00,train,39,Manchester United,30,Stoke City,28,28,True,eligible
+3754340,2015/2016,2016-02-02 21:00:00,train,27,West Bromwich Albion,26,Swansea City,28,28,True,eligible
+3754103,2015/2016,2016-02-03 20:45:00,train,23,Watford,33,Chelsea,28,28,True,eligible
+3754252,2015/2016,2016-02-03 20:45:00,train,29,Everton,37,Newcastle United,28,28,True,eligible
+3754290,2015/2016,2016-02-06 13:45:00,train,36,Manchester City,22,Leicester City,28,28,True,eligible
+3754080,2015/2016,2016-02-06 16:00:00,train,38,Tottenham Hotspur,23,Watford,28,28,True,eligible
+3754127,2015/2016,2016-02-06 16:00:00,train,30,Stoke City,29,Everton,28,28,True,eligible
+3754292,2015/2016,2016-02-06 16:00:00,train,37,Newcastle United,27,West Bromwich Albion,28,28,True,eligible
+3754303,2015/2016,2016-02-06 16:00:00,train,26,Swansea City,31,Crystal Palace,28,28,True,eligible
+3754306,2015/2016,2016-02-06 16:00:00,train,59,Aston Villa,56,Norwich City,28,28,True,eligible
+3754316,2015/2016,2016-02-06 16:00:00,train,24,Liverpool,41,Sunderland,28,28,True,eligible
+3754120,2015/2016,2016-02-06 18:30:00,train,25,Southampton,40,West Ham United,28,28,True,eligible
+3754253,2015/2016,2016-02-07 14:30:00,train,28,AFC Bournemouth,1,Arsenal,24,28,True,eligible
+3754281,2015/2016,2016-02-07 17:00:00,train,33,Chelsea,39,Manchester United,28,28,True,eligible
+3754031,2015/2016,2016-02-13 13:45:00,train,41,Sunderland,39,Manchester United,28,28,True,eligible
+3754039,2015/2016,2016-02-13 16:00:00,train,31,Crystal Palace,23,Watford,28,28,True,eligible
+3754139,2015/2016,2016-02-13 16:00:00,train,26,Swansea City,25,Southampton,28,28,True,eligible
+3754244,2015/2016,2016-02-13 16:00:00,train,56,Norwich City,40,West Ham United,28,28,True,eligible
+3754274,2015/2016,2016-02-13 16:00:00,train,28,AFC Bournemouth,30,Stoke City,25,28,True,eligible
+3754350,2015/2016,2016-02-13 16:00:00,train,29,Everton,27,West Bromwich Albion,28,28,True,eligible
+3754264,2015/2016,2016-02-13 18:30:00,train,33,Chelsea,37,Newcastle United,28,28,True,eligible
+3754261,2015/2016,2016-02-14 11:00:00,validation,1,Arsenal,22,Leicester City,28,28,True,eligible
+3754214,2015/2016,2016-02-14 15:05:00,validation,59,Aston Villa,24,Liverpool,28,28,True,eligible
+3754147,2015/2016,2016-02-14 17:15:00,validation,36,Manchester City,38,Tottenham Hotspur,28,28,True,eligible
+3754331,2015/2016,2016-02-27 13:45:00,validation,40,West Ham United,41,Sunderland,28,28,True,eligible
+3754012,2015/2016,2016-02-27 16:00:00,validation,25,Southampton,33,Chelsea,28,28,True,eligible
+3754049,2015/2016,2016-02-27 16:00:00,validation,22,Leicester City,56,Norwich City,28,28,True,eligible
+3754121,2015/2016,2016-02-27 16:00:00,validation,23,Watford,28,AFC Bournemouth,28,26,True,eligible
+3754321,2015/2016,2016-02-27 16:00:00,validation,30,Stoke City,59,Aston Villa,28,28,True,eligible
+3754236,2015/2016,2016-02-27 18:30:00,validation,27,West Bromwich Albion,31,Crystal Palace,28,28,True,eligible
+3754239,2015/2016,2016-02-28 15:05:00,validation,39,Manchester United,1,Arsenal,28,28,True,eligible
+3754324,2015/2016,2016-02-28 15:05:00,validation,38,Tottenham Hotspur,26,Swansea City,28,28,True,eligible
+3754050,2015/2016,2016-03-01 20:45:00,validation,41,Sunderland,31,Crystal Palace,28,28,True,eligible
+3754231,2015/2016,2016-03-01 20:45:00,validation,22,Leicester City,27,West Bromwich Albion,28,28,True,eligible
+3754280,2015/2016,2016-03-01 20:45:00,validation,56,Norwich City,33,Chelsea,28,28,True,eligible
+3754327,2015/2016,2016-03-01 20:45:00,validation,59,Aston Villa,29,Everton,28,28,True,eligible
+3754334,2015/2016,2016-03-01 20:45:00,validation,28,AFC Bournemouth,25,Southampton,27,28,True,eligible
+3753976,2015/2016,2016-03-02 20:45:00,validation,1,Arsenal,26,Swansea City,28,28,True,eligible
+3754005,2015/2016,2016-03-02 20:45:00,validation,30,Stoke City,37,Newcastle United,28,28,True,eligible
+3754349,2015/2016,2016-03-02 20:45:00,validation,40,West Ham United,38,Tottenham Hotspur,28,28,True,eligible
+3753991,2015/2016,2016-03-02 21:00:00,validation,24,Liverpool,36,Manchester City,28,28,True,eligible
+3754232,2015/2016,2016-03-02 21:00:00,validation,39,Manchester United,23,Watford,28,28,True,eligible
+3754318,2015/2016,2016-03-05 13:45:00,validation,38,Tottenham Hotspur,1,Arsenal,28,28,True,eligible
+3754061,2015/2016,2016-03-05 16:00:00,validation,33,Chelsea,30,Stoke City,28,28,True,eligible
+3754151,2015/2016,2016-03-05 16:00:00,validation,26,Swansea City,56,Norwich City,28,28,True,eligible
+3754164,2015/2016,2016-03-05 16:00:00,validation,25,Southampton,41,Sunderland,28,28,True,eligible
+3754177,2015/2016,2016-03-05 16:00:00,validation,37,Newcastle United,28,AFC Bournemouth,28,28,True,eligible
+3754249,2015/2016,2016-03-05 16:00:00,validation,36,Manchester City,59,Aston Villa,28,28,True,eligible
+3754277,2015/2016,2016-03-05 16:00:00,validation,29,Everton,40,West Ham United,28,28,True,eligible
+3754289,2015/2016,2016-03-05 18:30:00,validation,23,Watford,22,Leicester City,28,28,True,eligible
+3754220,2015/2016,2016-03-06 14:30:00,validation,31,Crystal Palace,24,Liverpool,28,28,True,eligible
+3754081,2015/2016,2016-03-06 17:00:00,validation,27,West Bromwich Albion,39,Manchester United,28,28,True,eligible
+3754313,2015/2016,2016-03-12 13:45:00,validation,56,Norwich City,36,Manchester City,28,28,True,eligible
+3753988,2015/2016,2016-03-12 16:00:00,validation,28,AFC Bournemouth,26,Swansea City,28,28,True,eligible
+3754196,2015/2016,2016-03-12 16:00:00,validation,30,Stoke City,25,Southampton,28,28,True,eligible
+3754053,2015/2016,2016-03-13 17:00:00,validation,59,Aston Villa,38,Tottenham Hotspur,28,28,True,eligible
+3754002,2015/2016,2016-03-14 21:00:00,validation,22,Leicester City,37,Newcastle United,28,28,True,eligible
+3753980,2015/2016,2016-03-19 11:45:00,validation,29,Everton,1,Arsenal,28,28,True,eligible
+3753973,2015/2016,2016-03-19 16:00:00,validation,33,Chelsea,40,West Ham United,28,28,True,eligible
+3753977,2015/2016,2016-03-19 16:00:00,validation,23,Watford,30,Stoke City,28,28,True,eligible
+3754052,2015/2016,2016-03-19 16:00:00,validation,27,West Bromwich Albion,56,Norwich City,28,28,True,eligible
+3754181,2015/2016,2016-03-19 16:00:00,validation,31,Crystal Palace,22,Leicester City,28,28,True,eligible
+3754224,2015/2016,2016-03-19 18:30:00,validation,26,Swansea City,59,Aston Villa,28,28,True,eligible
+3754064,2015/2016,2016-03-20 14:30:00,validation,25,Southampton,24,Liverpool,28,28,True,eligible
+3754100,2015/2016,2016-03-20 14:30:00,validation,37,Newcastle United,41,Sunderland,28,28,True,eligible
+3754043,2015/2016,2016-03-20 17:00:00,validation,38,Tottenham Hotspur,28,AFC Bournemouth,28,28,True,eligible
+3754124,2015/2016,2016-03-20 17:00:00,validation,36,Manchester City,39,Manchester United,28,28,True,eligible
+3754075,2015/2016,2016-04-02 13:45:00,validation,59,Aston Villa,33,Chelsea,28,28,True,eligible
+3754118,2015/2016,2016-04-02 16:00:00,validation,1,Arsenal,23,Watford,28,28,True,eligible
+3754144,2015/2016,2016-04-02 16:00:00,validation,28,AFC Bournemouth,36,Manchester City,28,28,True,eligible
+3754175,2015/2016,2016-04-02 16:00:00,validation,41,Sunderland,27,West Bromwich Albion,28,28,True,eligible
+3754176,2015/2016,2016-04-02 16:00:00,validation,40,West Ham United,31,Crystal Palace,28,28,True,eligible
+3754243,2015/2016,2016-04-02 16:00:00,validation,56,Norwich City,37,Newcastle United,28,28,True,eligible
+3754272,2015/2016,2016-04-02 16:00:00,validation,30,Stoke City,26,Swansea City,28,28,True,eligible
+3754087,2015/2016,2016-04-02 18:30:00,validation,24,Liverpool,38,Tottenham Hotspur,28,28,True,eligible
+3753982,2015/2016,2016-04-03 14:30:00,validation,22,Leicester City,25,Southampton,28,28,True,eligible
+3754299,2015/2016,2016-04-03 17:00:00,validation,39,Manchester United,29,Everton,28,28,True,eligible
+3754241,2015/2016,2016-04-09 13:45:00,validation,40,West Ham United,1,Arsenal,28,28,True,eligible
+3754016,2015/2016,2016-04-09 16:00:00,validation,25,Southampton,37,Newcastle United,28,28,True,eligible
+3754022,2015/2016,2016-04-09 16:00:00,validation,31,Crystal Palace,56,Norwich City,28,28,True,eligible
+3754030,2015/2016,2016-04-09 16:00:00,validation,23,Watford,29,Everton,28,28,True,eligible
+3754116,2015/2016,2016-04-09 16:00:00,validation,26,Swansea City,33,Chelsea,28,28,True,eligible
+3754262,2015/2016,2016-04-09 16:00:00,validation,59,Aston Villa,28,AFC Bournemouth,28,28,True,eligible
+3754035,2015/2016,2016-04-09 18:30:00,validation,36,Manchester City,27,West Bromwich Albion,28,28,True,eligible
+3754152,2015/2016,2016-04-10 14:30:00,validation,41,Sunderland,22,Leicester City,28,28,True,eligible
+3753986,2015/2016,2016-04-10 17:00:00,validation,24,Liverpool,30,Stoke City,28,28,True,eligible
+3754209,2015/2016,2016-04-10 17:30:00,validation,38,Tottenham Hotspur,39,Manchester United,28,28,True,eligible
+3754048,2015/2016,2016-04-13 21:00:00,validation,31,Crystal Palace,29,Everton,28,28,True,eligible
+3754172,2015/2016,2016-04-16 13:45:00,validation,56,Norwich City,41,Sunderland,28,28,True,eligible
+3754024,2015/2016,2016-04-16 16:00:00,validation,37,Newcastle United,26,Swansea City,28,28,True,eligible
+3754137,2015/2016,2016-04-16 16:00:00,validation,29,Everton,25,Southampton,28,28,True,eligible
+3754155,2015/2016,2016-04-16 16:00:00,validation,27,West Bromwich Albion,23,Watford,28,28,True,eligible
+3754295,2015/2016,2016-04-16 16:00:00,validation,39,Manchester United,59,Aston Villa,28,28,True,eligible
+3754322,2015/2016,2016-04-16 18:30:00,validation,33,Chelsea,36,Manchester City,28,28,True,eligible
+3754216,2015/2016,2016-04-17 14:30:00,validation,28,AFC Bournemouth,24,Liverpool,28,28,True,eligible
+3754227,2015/2016,2016-04-17 14:30:00,validation,22,Leicester City,40,West Ham United,28,28,True,eligible
+3754009,2015/2016,2016-04-17 17:00:00,validation,1,Arsenal,31,Crystal Palace,28,28,True,eligible
+3754187,2015/2016,2016-04-18 21:00:00,validation,30,Stoke City,38,Tottenham Hotspur,28,28,True,eligible
+3754206,2015/2016,2016-04-19 20:45:00,test,37,Newcastle United,36,Manchester City,28,28,True,eligible
+3754086,2015/2016,2016-04-20 20:45:00,test,40,West Ham United,23,Watford,28,28,True,eligible
+3754294,2015/2016,2016-04-20 21:00:00,test,24,Liverpool,29,Everton,28,28,True,eligible
+3754310,2015/2016,2016-04-20 21:00:00,test,39,Manchester United,31,Crystal Palace,28,28,True,eligible
+3754284,2015/2016,2016-04-21 20:45:00,test,1,Arsenal,27,West Bromwich Albion,28,28,True,eligible
+3754307,2015/2016,2016-04-23 13:45:00,test,36,Manchester City,30,Stoke City,28,28,True,eligible
+3754154,2015/2016,2016-04-23 16:00:00,test,24,Liverpool,37,Newcastle United,28,28,True,eligible
+3754242,2015/2016,2016-04-23 16:00:00,test,28,AFC Bournemouth,33,Chelsea,28,28,True,eligible
+3754282,2015/2016,2016-04-23 16:00:00,test,59,Aston Villa,25,Southampton,28,28,True,eligible
+3753990,2015/2016,2016-04-24 15:05:00,test,41,Sunderland,1,Arsenal,28,28,True,eligible
+3754228,2015/2016,2016-04-24 17:15:00,test,22,Leicester City,26,Swansea City,28,28,True,eligible
+3754332,2015/2016,2016-04-25 21:00:00,test,38,Tottenham Hotspur,27,West Bromwich Albion,28,28,True,eligible
+3754037,2015/2016,2016-04-30 16:00:00,test,29,Everton,28,AFC Bournemouth,28,28,True,eligible
+3754063,2015/2016,2016-04-30 16:00:00,test,23,Watford,59,Aston Villa,28,28,True,eligible
+3754132,2015/2016,2016-04-30 16:00:00,test,30,Stoke City,41,Sunderland,28,28,True,eligible
+3754170,2015/2016,2016-04-30 16:00:00,test,37,Newcastle United,31,Crystal Palace,28,28,True,eligible
+3754192,2015/2016,2016-04-30 16:00:00,test,27,West Bromwich Albion,40,West Ham United,28,28,True,eligible
+3754184,2015/2016,2016-04-30 18:30:00,test,1,Arsenal,56,Norwich City,28,28,True,eligible
+3754018,2015/2016,2016-05-01 13:00:00,test,26,Swansea City,24,Liverpool,28,28,True,eligible
+3754165,2015/2016,2016-05-01 15:05:00,test,39,Manchester United,22,Leicester City,28,28,True,eligible
+3754320,2015/2016,2016-05-01 17:30:00,test,25,Southampton,36,Manchester City,28,28,True,eligible
+3754092,2015/2016,2016-05-02 21:00:00,test,33,Chelsea,38,Tottenham Hotspur,28,28,True,eligible
+3754210,2015/2016,2016-05-07 13:45:00,test,56,Norwich City,39,Manchester United,28,28,True,eligible
+3754026,2015/2016,2016-05-07 16:00:00,test,31,Crystal Palace,30,Stoke City,28,28,True,eligible
+3754070,2015/2016,2016-05-07 16:00:00,test,59,Aston Villa,37,Newcastle United,28,28,True,eligible
+3754108,2015/2016,2016-05-07 16:00:00,test,41,Sunderland,33,Chelsea,28,28,True,eligible
+3754158,2015/2016,2016-05-07 16:00:00,test,40,West Ham United,26,Swansea City,28,28,True,eligible
+3754225,2015/2016,2016-05-07 16:00:00,test,28,AFC Bournemouth,27,West Bromwich Albion,28,28,True,eligible
+3754033,2015/2016,2016-05-07 18:30:00,test,22,Leicester City,29,Everton,28,28,True,eligible
+3753992,2015/2016,2016-05-08 14:30:00,test,38,Tottenham Hotspur,25,Southampton,28,28,True,eligible
+3754314,2015/2016,2016-05-08 17:00:00,test,36,Manchester City,1,Arsenal,28,28,True,eligible
+3754342,2015/2016,2016-05-08 17:00:00,test,24,Liverpool,23,Watford,28,28,True,eligible
+3754134,2015/2016,2016-05-10 21:30:00,test,40,West Ham United,39,Manchester United,28,28,True,eligible
+3753989,2015/2016,2016-05-11 20:45:00,test,41,Sunderland,29,Everton,28,28,True,eligible
+3754207,2015/2016,2016-05-11 20:45:00,test,56,Norwich City,23,Watford,28,28,True,eligible
+3754055,2015/2016,2016-05-11 21:00:00,test,24,Liverpool,33,Chelsea,28,28,True,eligible
+3753994,2015/2016,2016-05-15 16:00:00,test,25,Southampton,31,Crystal Palace,28,28,True,eligible
+3754041,2015/2016,2016-05-15 16:00:00,test,1,Arsenal,59,Aston Villa,28,28,True,eligible
+3754042,2015/2016,2016-05-15 16:00:00,test,27,West Bromwich Albion,24,Liverpool,28,28,True,eligible
+3754123,2015/2016,2016-05-15 16:00:00,test,29,Everton,56,Norwich City,28,28,True,eligible
+3754149,2015/2016,2016-05-15 16:00:00,test,26,Swansea City,36,Manchester City,28,28,True,eligible
+3754199,2015/2016,2016-05-15 16:00:00,test,30,Stoke City,40,West Ham United,28,28,True,eligible
+3754229,2015/2016,2016-05-15 16:00:00,test,33,Chelsea,22,Leicester City,28,28,True,eligible
+3754308,2015/2016,2016-05-15 16:00:00,test,23,Watford,41,Sunderland,28,28,True,eligible
+3754333,2015/2016,2016-05-15 16:00:00,test,37,Newcastle United,38,Tottenham Hotspur,28,28,True,eligible
+3754159,2015/2016,2016-05-17 21:00:00,test,39,Manchester United,28,AFC Bournemouth,28,28,True,eligible

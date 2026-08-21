@@ -1,0 +1,32 @@
+{
+  "ta_approval_note": "TA approved Football-Data historical Premier League results for constructing Berrar historical features; StatsBomb EPL 2015/16 remains the primary target/event dataset.",
+  "roles": [
+    {
+      "source": "StatsBomb EPL 2015/16",
+      "role": "primary modeling/target season",
+      "admitted_fields": "match metadata, labels, events/lineups in baseline; completed target-season results as causal P1 history",
+      "model_examples": true,
+      "p1_historical_context": true,
+      "market_baseline": false,
+      "approval": "project-required primary source"
+    },
+    {
+      "source": "Football-Data EPL prior seasons",
+      "role": "Berrar historical context only",
+      "admitted_fields": "Date, HomeTeam, AwayTeam, FTHG, FTAG",
+      "model_examples": false,
+      "p1_historical_context": true,
+      "market_baseline": false,
+      "approval": "TA approved Football-Data historical Premier League results for constructing Berrar historical features; StatsBomb EPL 2015/16 remains the primary target/event dataset."
+    },
+    {
+      "source": "Football-Data EPL 2015/16 odds",
+      "role": "independent market benchmark",
+      "admitted_fields": "date, teams, supported 1X2 odds",
+      "model_examples": false,
+      "p1_historical_context": false,
+      "market_baseline": true,
+      "approval": "project-required second source"
+    }
+  ]
+}

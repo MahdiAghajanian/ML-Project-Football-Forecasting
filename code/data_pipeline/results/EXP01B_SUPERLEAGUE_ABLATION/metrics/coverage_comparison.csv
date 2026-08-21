@@ -1,0 +1,5 @@
+split,total_matches,single_eligible,superleague_eligible,common_eligible,superleague_additional_eligible,single_coverage_pct,superleague_coverage_pct
+all,380,320,374,320,54,84.21052631578947,98.42105263157895
+train,257,197,251,197,54,76.65369649805449,97.66536964980544
+validation,77,77,77,77,0,100.0,100.0
+test,46,46,46,46,0,100.0,100.0

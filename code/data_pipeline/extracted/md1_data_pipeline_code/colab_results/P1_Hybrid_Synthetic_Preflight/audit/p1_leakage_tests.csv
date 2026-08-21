@@ -1,0 +1,14 @@
+test,passed,details,seconds
+pre-match source time contract,True,all source finishes precede target kickoff,0.004044696000164549
+target-result perturbation,True,target 800015 unchanged,0.08950473000004422
+future-result perturbation,True,future 800029 did not alter earlier 800010,0.10202427500007616
+historical positive control,True,allowed old history match -15010 changes later target 800000 (positive control),0.10500390600009268
+source-role separation,True,pre-target Football-Data history and StatsBomb target rows are isolated,0.0005342780000319181
+forbidden historical fields,True,canonical P1 history carries no odds/shots/cards/corners fields,7.827099989299313e-05
+season-boundary continuity,True,team 101 carries history 2012/2013->2013/2014,0.004593989000113652
+gap continuity,True,team 106 retains same-league history across gap 2012/2013->2014/2015,0.0060816840000370576
+minimum-six rule,True,>=6 prior total matches per team,0.0006852670001080696
+selected-n isolation,True,selected n=9 unchanged after non-train label mutation,0.1103671610001129
+league-rank temporal safety,True,future target mutation leaves earlier ranks unchanged,0.05737004699994941
+current-season rank population,True,rank population=6 target-season clubs; combined history has 7 clubs,0.00017883500004245434
+feature-count contracts,True,exact 6/18 paper feature contracts,2.8960000008737552e-05

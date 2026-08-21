@@ -1,0 +1,12 @@
+check,passed,details
+upstream P1 readiness,True,15/15
+upstream EXP01 readiness,True,10/10
+selected n frozen,True,n=28
+single-season causal method checks,True,11/11
+Super League eligibility superset,True,"single=320, super=374"
+common train/validation/test population exists,True,"{'train': 197, 'validation': 77, 'test': 46}"
+same six features in both predictive arms,True,"['p1_home_scr_total', 'p1_home_con_total', 'p1_home_rank_total', 'p1_away_scr_total', 'p1_away_con_total', 'p1_away_rank_total']"
+train-only temporal diagnostic generated,True,rows=6
+validation comparison generated,True,"metrics=2, bootstrap=1"
+freeze written before EXP01B test,True,/content/drive/MyDrive/ml_project/code/data_pipeline/results/EXP01B_SUPERLEAGUE_ABLATION/audit/FROZEN_BEFORE_TEST.json
+report-only test comparison generated,True,two matched arms + one paired bootstrap

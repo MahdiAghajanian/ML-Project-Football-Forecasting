@@ -1,0 +1,18 @@
+paper_component,paper_method,our_implementation,status,reason_for_adaptation
+feature source,basic complete match records,Football-Data complete EPL results before 2015/16 + StatsBomb completed target-season matches,project_required_adaptation,TA explicitly approved Football-Data historical results for Berrar history
+super league,all seasons of one league concatenated chronologically,EPL 2000/01--2014/15 history + causal EPL 2015/16 StatsBomb continuation,exact,same-league continuity preserved
+modeling examples,paper uses generated league datasets,final supervised examples remain StatsBomb EPL 2015/16 only,project_required_adaptation,keeps StatsBomb as project primary modeling source
+season boundaries,team histories continue,same,exact,
+team-history gaps,same-league gaps ignored,same; no lower-division matches inserted,exact,
+minimum prior history,6 prior matches per team,6,exact,
+aggregation,mean,mean,exact,
+performance categories,"goals scored, conceded, league success",same,exact,
+total feature set,6,6,exact,
+homeaway feature set,18,18,exact,
+normalized rank,(N-R)/(N-1),"same, with target-season current membership and causal recent histories",faithful_with_clarification,paper leaves some operational details implicit
+n range,9..100,6..10,faithful_with_clarification,synthetic tests deliberately use a smaller range
+Pearson recency,"corr(Δavg GD + Δavg scored, observed goal difference)",same criterion on StatsBomb training rows only,project_required_adaptation,validation/test labels cannot select n
+outer split,paper commonly used random model splits and acknowledged leakage risk,same chronological match split as MD1 baseline,project_required_adaptation,course leakage rule
+Task R,exact home/away score,signed clipped goal margin downstream,project_required_adaptation,course task definition
+Task L,not defined,frozen Berrar pre-match vector can be inherited by live snapshots,project_specific_extension,
+bookmaker odds,independent reference,Football-Data odds remain separate and never enter P1 history,project_required_adaptation,course market-baseline requirement

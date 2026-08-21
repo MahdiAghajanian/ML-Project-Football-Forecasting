@@ -1,0 +1,12 @@
+check,passed,details
+target IDs identical,True,"single=380, super=380"
+six total feature contract,True,feature_count=6
+recency frozen at selected n,True,n=28
+single-season history contains target season only,True,fact_seasons=['2015/2016']
+single-season facts contain no historical synthetic IDs,True,all source match IDs are StatsBomb target-season match IDs
+history resets at season start,True,"first_match=3754097, home_prior=0, away_prior=0"
+single-season minimum-six eligibility,True,minimum=6
+Super League eligibility is a superset,True,"single_eligible=320, super_eligible=374"
+split alignment,True,mismatches=0
+target-result perturbation,True,target=3754348 own result cannot alter own pre-match vector
+future-result perturbation,True,future=3754159 cannot alter earlier=3754135

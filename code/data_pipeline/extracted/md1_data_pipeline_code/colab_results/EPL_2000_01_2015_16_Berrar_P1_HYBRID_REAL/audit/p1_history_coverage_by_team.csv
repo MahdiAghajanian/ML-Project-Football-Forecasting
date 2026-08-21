@@ -1,0 +1,21 @@
+index,team_id,team_name,appearances,min_history,median_history,max_history
+0,1,Arsenal,38,28,28.0,28
+1,22,Leicester City,38,28,28.0,28
+2,23,Watford,38,28,28.0,28
+3,24,Liverpool,38,28,28.0,28
+4,25,Southampton,38,28,28.0,28
+5,26,Swansea City,38,28,28.0,28
+6,27,West Bromwich Albion,38,28,28.0,28
+7,28,AFC Bournemouth,38,0,18.5,28
+8,29,Everton,38,28,28.0,28
+9,30,Stoke City,38,28,28.0,28
+10,31,Crystal Palace,38,28,28.0,28
+11,33,Chelsea,38,28,28.0,28
+12,36,Manchester City,38,28,28.0,28
+13,37,Newcastle United,38,28,28.0,28
+14,38,Tottenham Hotspur,38,28,28.0,28
+15,39,Manchester United,38,28,28.0,28
+16,40,West Ham United,38,28,28.0,28
+17,41,Sunderland,38,28,28.0,28
+18,56,Norwich City,38,28,28.0,28
+19,59,Aston Villa,38,28,28.0,28

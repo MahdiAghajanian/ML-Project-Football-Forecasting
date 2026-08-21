@@ -1,0 +1,375 @@
+match_id,split,kickoff,home_team_id,home_team_name,away_team_id,away_team_name,label_outcome,label_margin_raw,label_margin,odds_tagged
+3754097,train,2015-08-08 13:45:00,39,Manchester United,38,Tottenham Hotspur,H,1,1,1
+3754138,train,2015-08-08 16:00:00,56,Norwich City,31,Crystal Palace,A,-2,-2,1
+3754237,train,2015-08-08 16:00:00,22,Leicester City,41,Sunderland,H,2,2,1
+3754300,train,2015-08-08 16:00:00,29,Everton,23,Watford,D,0,0,1
+3754078,train,2015-08-08 18:30:00,33,Chelsea,26,Swansea City,D,0,0,1
+3754112,train,2015-08-09 14:30:00,37,Newcastle United,25,Southampton,D,0,0,1
+3754141,train,2015-08-09 14:30:00,1,Arsenal,40,West Ham United,A,-2,-2,1
+3753985,train,2015-08-09 17:00:00,30,Stoke City,24,Liverpool,A,-1,-1,1
+3754145,train,2015-08-10 21:00:00,27,West Bromwich Albion,36,Manchester City,A,-3,-3,1
+3754107,train,2015-08-14 20:45:00,59,Aston Villa,39,Manchester United,A,-1,-1,1
+3754034,train,2015-08-15 13:45:00,25,Southampton,29,Everton,A,-3,-3,1
+3753993,train,2015-08-15 16:00:00,41,Sunderland,56,Norwich City,A,-2,-2,1
+3754203,train,2015-08-15 16:00:00,40,West Ham United,22,Leicester City,A,-1,-1,1
+3754267,train,2015-08-15 16:00:00,23,Watford,27,West Bromwich Albion,D,0,0,1
+3754270,train,2015-08-15 16:00:00,38,Tottenham Hotspur,30,Stoke City,D,0,0,1
+3754344,train,2015-08-15 16:00:00,26,Swansea City,37,Newcastle United,H,2,2,1
+3754312,train,2015-08-16 14:30:00,31,Crystal Palace,1,Arsenal,A,-1,-1,1
+3754066,train,2015-08-16 17:00:00,36,Manchester City,33,Chelsea,H,3,3,1
+3754254,train,2015-08-22 13:45:00,39,Manchester United,37,Newcastle United,D,0,0,1
+3753987,train,2015-08-22 16:00:00,22,Leicester City,38,Tottenham Hotspur,D,0,0,1
+3754104,train,2015-08-22 16:00:00,56,Norwich City,30,Stoke City,D,0,0,1
+3754180,train,2015-08-22 16:00:00,41,Sunderland,26,Swansea City,D,0,0,1
+3754190,train,2015-08-22 16:00:00,31,Crystal Palace,59,Aston Villa,H,1,1,1
+3754059,train,2015-08-23 14:30:00,27,West Bromwich Albion,33,Chelsea,A,-1,-1,1
+3754189,train,2015-08-23 17:00:00,23,Watford,25,Southampton,D,0,0,1
+3754233,train,2015-08-23 17:00:00,29,Everton,36,Manchester City,A,-2,-2,1
+3754129,train,2015-08-24 19:00:00,1,Arsenal,24,Liverpool,D,0,0,1
+3754205,train,2015-08-29 13:45:00,37,Newcastle United,1,Arsenal,A,-1,-1,1
+3753984,train,2015-08-29 16:00:00,24,Liverpool,40,West Ham United,A,-3,-3,1
+3754007,train,2015-08-29 16:00:00,30,Stoke City,27,West Bromwich Albion,A,-1,-1,1
+3754083,train,2015-08-29 16:00:00,33,Chelsea,31,Crystal Palace,A,-1,-1,1
+3754204,train,2015-08-29 16:00:00,59,Aston Villa,41,Sunderland,D,0,0,1
+3754246,train,2015-08-29 16:00:00,36,Manchester City,23,Watford,H,2,2,1
+3754268,train,2015-08-29 18:30:00,38,Tottenham Hotspur,29,Everton,D,0,0,1
+3754337,train,2015-08-30 14:30:00,25,Southampton,56,Norwich City,H,3,3,1
+3754221,train,2015-08-30 17:00:00,26,Swansea City,39,Manchester United,H,1,1,1
+3754336,train,2015-09-12 13:45:00,29,Everton,33,Chelsea,H,2,2,1
+3754213,train,2015-09-12 16:00:00,23,Watford,26,Swansea City,H,1,1,1
+3754240,train,2015-09-12 16:00:00,1,Arsenal,30,Stoke City,H,2,2,1
+3754257,train,2015-09-12 16:00:00,31,Crystal Palace,36,Manchester City,A,-1,-1,1
+3754325,train,2015-09-12 16:00:00,27,West Bromwich Albion,25,Southampton,D,0,0,1
+3754003,train,2015-09-12 18:30:00,39,Manchester United,24,Liverpool,H,2,2,1
+3754148,train,2015-09-13 14:30:00,41,Sunderland,38,Tottenham Hotspur,A,-1,-1,1
+3754106,train,2015-09-13 17:00:00,22,Leicester City,59,Aston Villa,H,1,1,1
+3754329,train,2015-09-14 21:00:00,40,West Ham United,37,Newcastle United,H,2,2,1
+3754217,train,2015-09-19 11:45:00,33,Chelsea,1,Arsenal,H,2,2,1
+3754010,train,2015-09-19 16:00:00,37,Newcastle United,23,Watford,A,-1,-1,1
+3754068,train,2015-09-19 16:00:00,59,Aston Villa,27,West Bromwich Albion,A,-1,-1,1
+3754146,train,2015-09-19 16:00:00,30,Stoke City,22,Leicester City,D,0,0,1
+3754298,train,2015-09-19 16:00:00,26,Swansea City,29,Everton,D,0,0,1
+3754077,train,2015-09-19 18:30:00,36,Manchester City,40,West Ham United,A,-1,-1,1
+3754222,train,2015-09-20 14:30:00,38,Tottenham Hotspur,31,Crystal Palace,H,1,1,1
+3754011,train,2015-09-20 17:00:00,25,Southampton,39,Manchester United,A,-1,-1,1
+3754040,train,2015-09-20 17:00:00,24,Liverpool,56,Norwich City,D,0,0,1
+3754197,train,2015-09-26 13:45:00,38,Tottenham Hotspur,36,Manchester City,H,3,3,1
+3753978,train,2015-09-26 16:00:00,25,Southampton,26,Swansea City,H,2,2,1
+3754008,train,2015-09-26 16:00:00,39,Manchester United,41,Sunderland,H,3,3,1
+3754174,train,2015-09-26 16:00:00,22,Leicester City,1,Arsenal,A,-3,-3,1
+3754212,train,2015-09-26 16:00:00,24,Liverpool,59,Aston Villa,H,1,1,1
+3754323,train,2015-09-26 16:00:00,40,West Ham United,56,Norwich City,D,0,0,1
+3754339,train,2015-09-26 16:00:00,30,Stoke City,28,AFC Bournemouth,H,1,1,1
+3754001,train,2015-09-26 18:30:00,37,Newcastle United,33,Chelsea,D,0,0,1
+3754266,train,2015-09-27 17:00:00,23,Watford,31,Crystal Palace,A,-1,-1,1
+3754105,train,2015-09-28 21:00:00,27,West Bromwich Albion,29,Everton,A,-1,-1,1
+3754099,train,2015-10-03 13:45:00,31,Crystal Palace,27,West Bromwich Albion,H,2,2,1
+3754076,train,2015-10-03 16:00:00,41,Sunderland,40,West Ham United,D,0,0,1
+3754079,train,2015-10-03 16:00:00,36,Manchester City,37,Newcastle United,H,5,5,1
+3754278,train,2015-10-03 16:00:00,28,AFC Bournemouth,23,Watford,D,0,0,1
+3754330,train,2015-10-03 16:00:00,59,Aston Villa,30,Stoke City,A,-1,-1,1
+3754335,train,2015-10-03 16:00:00,56,Norwich City,22,Leicester City,A,-1,-1,1
+3753995,train,2015-10-03 18:30:00,33,Chelsea,25,Southampton,A,-2,-2,1
+3754060,train,2015-10-04 14:30:00,29,Everton,24,Liverpool,D,0,0,1
+3754074,train,2015-10-04 17:00:00,26,Swansea City,38,Tottenham Hotspur,D,0,0,1
+3754171,train,2015-10-04 17:00:00,1,Arsenal,39,Manchester United,H,3,3,1
+3754198,train,2015-10-17 13:45:00,38,Tottenham Hotspur,24,Liverpool,D,0,0,1
+3754067,train,2015-10-17 16:00:00,31,Crystal Palace,40,West Ham United,A,-2,-2,1
+3754115,train,2015-10-17 16:00:00,33,Chelsea,59,Aston Villa,H,2,2,1
+3754193,train,2015-10-17 16:00:00,36,Manchester City,28,AFC Bournemouth,H,4,4,1
+3754245,train,2015-10-17 16:00:00,27,West Bromwich Albion,41,Sunderland,H,1,1,1
+3754256,train,2015-10-17 16:00:00,29,Everton,39,Manchester United,A,-3,-3,1
+3754302,train,2015-10-17 16:00:00,25,Southampton,22,Leicester City,D,0,0,1
+3753999,train,2015-10-17 18:30:00,23,Watford,1,Arsenal,A,-3,-3,1
+3754102,train,2015-10-18 17:00:00,37,Newcastle United,56,Norwich City,H,4,4,1
+3754269,train,2015-10-19 21:00:00,26,Swansea City,30,Stoke City,A,-1,-1,1
+3754017,train,2015-10-24 16:00:00,59,Aston Villa,26,Swansea City,A,-1,-1,1
+3754091,train,2015-10-24 16:00:00,30,Stoke City,23,Watford,A,-2,-2,1
+3754133,train,2015-10-24 16:00:00,56,Norwich City,27,West Bromwich Albion,A,-1,-1,1
+3754263,train,2015-10-24 16:00:00,22,Leicester City,31,Crystal Palace,H,1,1,1
+3754288,train,2015-10-24 16:00:00,40,West Ham United,33,Chelsea,H,1,1,1
+3754126,train,2015-10-24 18:30:00,1,Arsenal,29,Everton,H,1,1,1
+3754119,train,2015-10-25 13:00:00,41,Sunderland,37,Newcastle United,H,3,3,1
+3754015,train,2015-10-25 15:05:00,39,Manchester United,36,Manchester City,D,0,0,1
+3754234,train,2015-10-25 15:05:00,28,AFC Bournemouth,38,Tottenham Hotspur,A,-4,-4,1
+3754230,train,2015-10-25 17:15:00,24,Liverpool,25,Southampton,D,0,0,1
+3754098,train,2015-10-31 13:45:00,33,Chelsea,24,Liverpool,A,-2,-2,1
+3753983,train,2015-10-31 14:00:00,26,Swansea City,1,Arsenal,A,-3,-3,1
+3754006,train,2015-10-31 16:00:00,27,West Bromwich Albion,22,Leicester City,A,-1,-1,1
+3754090,train,2015-10-31 16:00:00,37,Newcastle United,30,Stoke City,D,0,0,1
+3754167,train,2015-10-31 16:00:00,36,Manchester City,56,Norwich City,H,1,1,1
+3754223,train,2015-10-31 16:00:00,31,Crystal Palace,39,Manchester United,D,0,0,1
+3754273,train,2015-10-31 16:00:00,23,Watford,40,West Ham United,H,2,2,1
+3754082,train,2015-11-01 14:30:00,29,Everton,41,Sunderland,H,4,4,1
+3754191,train,2015-11-01 17:00:00,25,Southampton,28,AFC Bournemouth,H,2,2,1
+3754029,train,2015-11-02 21:00:00,38,Tottenham Hotspur,59,Aston Villa,H,2,2,1
+3754238,train,2015-11-07 13:45:00,28,AFC Bournemouth,37,Newcastle United,A,-1,-1,1
+3754000,train,2015-11-07 16:00:00,41,Sunderland,25,Southampton,A,-1,-1,1
+3754156,train,2015-11-07 16:00:00,22,Leicester City,23,Watford,H,1,1,1
+3754194,train,2015-11-07 16:00:00,40,West Ham United,29,Everton,D,0,0,1
+3754297,train,2015-11-07 16:00:00,39,Manchester United,27,West Bromwich Albion,H,2,2,1
+3754311,train,2015-11-07 16:00:00,56,Norwich City,26,Swansea City,H,1,1,1
+3754293,train,2015-11-07 18:30:00,30,Stoke City,33,Chelsea,H,1,1,1
+3754258,train,2015-11-08 14:30:00,59,Aston Villa,36,Manchester City,D,0,0,1
+3754265,train,2015-11-08 17:00:00,1,Arsenal,38,Tottenham Hotspur,D,0,0,1
+3754351,train,2015-11-08 17:00:00,24,Liverpool,31,Crystal Palace,A,-1,-1,1
+3754185,train,2015-11-21 13:45:00,23,Watford,39,Manchester United,A,-1,-1,1
+3753972,train,2015-11-21 16:00:00,26,Swansea City,28,AFC Bournemouth,D,0,0,1
+3753996,train,2015-11-21 16:00:00,33,Chelsea,56,Norwich City,H,1,1,1
+3754211,train,2015-11-21 16:00:00,37,Newcastle United,22,Leicester City,A,-3,-3,1
+3754247,train,2015-11-21 16:00:00,25,Southampton,30,Stoke City,A,-1,-1,1
+3754283,train,2015-11-21 16:00:00,29,Everton,59,Aston Villa,H,4,4,1
+3754301,train,2015-11-21 16:00:00,27,West Bromwich Albion,1,Arsenal,H,1,1,1
+3754208,train,2015-11-21 18:30:00,36,Manchester City,24,Liverpool,A,-3,-3,1
+3754109,train,2015-11-22 17:00:00,38,Tottenham Hotspur,40,West Ham United,H,3,3,1
+3753979,train,2015-11-23 21:00:00,31,Crystal Palace,41,Sunderland,A,-1,-1,1
+3754028,train,2015-11-28 16:00:00,36,Manchester City,25,Southampton,H,2,2,1
+3754150,train,2015-11-28 16:00:00,41,Sunderland,30,Stoke City,H,2,2,1
+3754157,train,2015-11-28 16:00:00,28,AFC Bournemouth,29,Everton,D,0,0,1
+3754178,train,2015-11-28 16:00:00,59,Aston Villa,23,Watford,A,-1,-1,1
+3754304,train,2015-11-28 16:00:00,31,Crystal Palace,37,Newcastle United,H,4,4,1
+3754186,train,2015-11-28 18:30:00,22,Leicester City,39,Manchester United,D,0,0,1
+3754093,train,2015-11-29 13:00:00,38,Tottenham Hotspur,33,Chelsea,D,0,0,1
+3754235,train,2015-11-29 15:05:00,40,West Ham United,27,West Bromwich Albion,D,0,0,1
+3754047,train,2015-11-29 15:15:00,24,Liverpool,26,Swansea City,H,1,1,1
+3754038,train,2015-11-29 17:15:00,56,Norwich City,1,Arsenal,D,0,0,1
+3754135,train,2015-12-05 13:45:00,30,Stoke City,36,Manchester City,H,2,2,1
+3754160,train,2015-12-05 14:00:00,1,Arsenal,41,Sunderland,H,2,2,1
+3754085,train,2015-12-05 16:00:00,26,Swansea City,22,Leicester City,A,-3,-3,1
+3754113,train,2015-12-05 16:00:00,25,Southampton,59,Aston Villa,D,0,0,1
+3754215,train,2015-12-05 16:00:00,27,West Bromwich Albion,38,Tottenham Hotspur,D,0,0,1
+3754286,train,2015-12-05 16:00:00,23,Watford,56,Norwich City,H,2,2,1
+3754347,train,2015-12-05 16:00:00,39,Manchester United,40,West Ham United,D,0,0,1
+3754073,train,2015-12-05 18:30:00,33,Chelsea,28,AFC Bournemouth,A,-1,-1,1
+3754143,train,2015-12-06 17:00:00,37,Newcastle United,24,Liverpool,H,2,2,1
+3754046,train,2015-12-07 21:00:00,29,Everton,31,Crystal Palace,D,0,0,1
+3754182,train,2015-12-12 13:45:00,56,Norwich City,29,Everton,D,0,0,1
+3754072,train,2015-12-12 16:00:00,41,Sunderland,23,Watford,A,-1,-1,1
+3754096,train,2015-12-12 16:00:00,40,West Ham United,30,Stoke City,D,0,0,1
+3754218,train,2015-12-12 16:00:00,31,Crystal Palace,25,Southampton,H,1,1,1
+3754328,train,2015-12-12 16:00:00,36,Manchester City,26,Swansea City,H,1,1,1
+3754162,train,2015-12-12 18:30:00,28,AFC Bournemouth,39,Manchester United,H,1,1,1
+3754117,train,2015-12-13 12:30:00,59,Aston Villa,1,Arsenal,A,-2,-2,1
+3754255,train,2015-12-13 17:00:00,24,Liverpool,27,West Bromwich Albion,D,0,0,1
+3754276,train,2015-12-13 17:00:00,38,Tottenham Hotspur,37,Newcastle United,A,-1,-1,1
+3754013,train,2015-12-14 21:00:00,22,Leicester City,33,Chelsea,H,1,1,1
+3754025,train,2015-12-19 16:00:00,33,Chelsea,41,Sunderland,H,2,2,1
+3754044,train,2015-12-19 16:00:00,39,Manchester United,56,Norwich City,A,-1,-1,1
+3754153,train,2015-12-19 16:00:00,30,Stoke City,31,Crystal Palace,A,-1,-1,1
+3754166,train,2015-12-19 16:00:00,29,Everton,22,Leicester City,A,-1,-1,1
+3754188,train,2015-12-19 16:00:00,25,Southampton,38,Tottenham Hotspur,A,-2,-2,1
+3754219,train,2015-12-19 16:00:00,27,West Bromwich Albion,28,AFC Bournemouth,A,-1,-1,1
+3754136,train,2015-12-19 18:30:00,37,Newcastle United,59,Aston Villa,D,0,0,1
+3754051,train,2015-12-20 14:30:00,23,Watford,24,Liverpool,H,3,3,1
+3754259,train,2015-12-20 17:00:00,26,Swansea City,40,West Ham United,D,0,0,1
+3754296,train,2015-12-21 19:00:00,1,Arsenal,36,Manchester City,H,1,1,1
+3754014,train,2015-12-26 13:45:00,30,Stoke City,39,Manchester United,H,2,2,1
+3754054,train,2015-12-26 16:00:00,36,Manchester City,41,Sunderland,H,3,3,1
+3754057,train,2015-12-26 16:00:00,38,Tottenham Hotspur,56,Norwich City,H,3,3,1
+3754248,train,2015-12-26 16:00:00,28,AFC Bournemouth,31,Crystal Palace,D,0,0,1
+3754279,train,2015-12-26 16:00:00,26,Swansea City,27,West Bromwich Albion,H,1,1,1
+3754285,train,2015-12-26 16:00:00,59,Aston Villa,40,West Ham United,D,0,0,1
+3754287,train,2015-12-26 16:00:00,33,Chelsea,23,Watford,D,0,0,1
+3754343,train,2015-12-26 16:00:00,24,Liverpool,22,Leicester City,H,1,1,1
+3753974,train,2015-12-26 18:30:00,37,Newcastle United,29,Everton,A,-1,-1,1
+3754309,train,2015-12-26 18:45:00,25,Southampton,1,Arsenal,H,4,4,1
+3754056,train,2015-12-28 16:00:00,29,Everton,30,Stoke City,A,-1,-1,1
+3754130,train,2015-12-28 16:00:00,56,Norwich City,59,Aston Villa,H,2,2,1
+3754195,train,2015-12-28 16:00:00,27,West Bromwich Albion,37,Newcastle United,H,1,1,1
+3754291,train,2015-12-28 16:00:00,23,Watford,38,Tottenham Hotspur,A,-1,-1,1
+3754326,train,2015-12-28 16:00:00,31,Crystal Palace,26,Swansea City,D,0,0,1
+3754173,train,2015-12-28 16:30:00,1,Arsenal,28,AFC Bournemouth,H,2,2,1
+3753998,train,2015-12-28 18:30:00,40,West Ham United,25,Southampton,H,1,1,1
+3754019,train,2015-12-28 18:30:00,39,Manchester United,33,Chelsea,D,0,0,1
+3754045,train,2015-12-29 20:45:00,22,Leicester City,36,Manchester City,D,0,0,1
+3754226,train,2015-12-30 20:45:00,41,Sunderland,24,Liverpool,A,-1,-1,1
+3754251,train,2016-01-02 13:45:00,40,West Ham United,24,Liverpool,H,2,2,1
+3754069,train,2016-01-02 14:00:00,1,Arsenal,37,Newcastle United,H,1,1,1
+3754036,train,2016-01-02 16:00:00,41,Sunderland,59,Aston Villa,H,2,2,1
+3754058,train,2016-01-02 16:00:00,22,Leicester City,28,AFC Bournemouth,D,0,0,1
+3754101,train,2016-01-02 16:00:00,56,Norwich City,25,Southampton,H,1,1,1
+3754122,train,2016-01-02 16:00:00,27,West Bromwich Albion,30,Stoke City,H,1,1,1
+3754319,train,2016-01-02 16:00:00,39,Manchester United,26,Swansea City,H,1,1,1
+3754346,train,2016-01-02 18:30:00,23,Watford,36,Manchester City,A,-1,-1,1
+3754114,train,2016-01-03 14:30:00,31,Crystal Palace,33,Chelsea,A,-3,-3,1
+3754140,train,2016-01-03 17:00:00,29,Everton,38,Tottenham Hotspur,D,0,0,1
+3753981,train,2016-01-12 20:45:00,59,Aston Villa,31,Crystal Palace,H,1,1,1
+3754021,train,2016-01-12 20:45:00,28,AFC Bournemouth,40,West Ham United,A,-2,-2,1
+3754088,train,2016-01-12 20:45:00,37,Newcastle United,39,Manchester United,D,0,0,1
+3754032,train,2016-01-13 20:45:00,30,Stoke City,56,Norwich City,H,2,2,1
+3754062,train,2016-01-13 20:45:00,33,Chelsea,27,West Bromwich Albion,D,0,0,1
+3754071,train,2016-01-13 20:45:00,26,Swansea City,41,Sunderland,A,-2,-2,1
+3754142,train,2016-01-13 20:45:00,36,Manchester City,29,Everton,D,0,0,1
+3754183,train,2016-01-13 20:45:00,25,Southampton,23,Watford,H,2,2,1
+3754065,train,2016-01-13 21:00:00,38,Tottenham Hotspur,22,Leicester City,A,-1,-1,1
+3754305,train,2016-01-13 21:00:00,24,Liverpool,1,Arsenal,D,0,0,1
+3754027,train,2016-01-16 13:45:00,38,Tottenham Hotspur,41,Sunderland,H,3,3,1
+3754004,train,2016-01-16 16:00:00,28,AFC Bournemouth,56,Norwich City,H,3,3,1
+3754125,train,2016-01-16 16:00:00,33,Chelsea,29,Everton,D,0,0,1
+3754168,train,2016-01-16 16:00:00,25,Southampton,27,West Bromwich Albion,H,3,3,1
+3754260,train,2016-01-16 16:00:00,36,Manchester City,31,Crystal Palace,H,4,4,1
+3754338,train,2016-01-16 16:00:00,37,Newcastle United,40,West Ham United,H,1,1,1
+3754250,train,2016-01-16 18:30:00,59,Aston Villa,22,Leicester City,D,0,0,1
+3754345,train,2016-01-17 15:05:00,24,Liverpool,39,Manchester United,A,-1,-1,1
+3754202,train,2016-01-17 15:15:00,30,Stoke City,1,Arsenal,D,0,0,1
+3754161,train,2016-01-18 21:00:00,26,Swansea City,23,Watford,H,1,1,1
+3754348,train,2016-01-23 13:45:00,56,Norwich City,24,Liverpool,A,-1,-1,1
+3753975,train,2016-01-23 16:00:00,41,Sunderland,28,AFC Bournemouth,D,0,0,1
+3754084,train,2016-01-23 16:00:00,27,West Bromwich Albion,59,Aston Villa,D,0,0,1
+3754179,train,2016-01-23 16:00:00,31,Crystal Palace,38,Tottenham Hotspur,A,-2,-2,1
+3754200,train,2016-01-23 16:00:00,39,Manchester United,25,Southampton,A,-1,-1,1
+3754271,train,2016-01-23 16:00:00,23,Watford,37,Newcastle United,H,1,1,1
+3754341,train,2016-01-23 16:00:00,22,Leicester City,30,Stoke City,H,3,3,1
+3754110,train,2016-01-23 18:30:00,40,West Ham United,36,Manchester City,D,0,0,1
+3754163,train,2016-01-24 14:30:00,29,Everton,26,Swansea City,A,-1,-1,1
+3754111,train,2016-01-24 17:00:00,1,Arsenal,33,Chelsea,A,-1,-1,1
+3753997,train,2016-02-02 20:45:00,40,West Ham United,59,Aston Villa,H,2,2,1
+3754095,train,2016-02-02 20:45:00,41,Sunderland,36,Manchester City,A,-1,-1,1
+3754201,train,2016-02-02 20:45:00,1,Arsenal,25,Southampton,D,0,0,1
+3754275,train,2016-02-02 20:45:00,22,Leicester City,24,Liverpool,H,2,2,1
+3754317,train,2016-02-02 20:45:00,56,Norwich City,38,Tottenham Hotspur,A,-3,-3,1
+3754089,train,2016-02-02 21:00:00,31,Crystal Palace,28,AFC Bournemouth,A,-1,-1,1
+3754094,train,2016-02-02 21:00:00,39,Manchester United,30,Stoke City,H,3,3,1
+3754340,train,2016-02-02 21:00:00,27,West Bromwich Albion,26,Swansea City,D,0,0,1
+3754103,train,2016-02-03 20:45:00,23,Watford,33,Chelsea,D,0,0,1
+3754252,train,2016-02-03 20:45:00,29,Everton,37,Newcastle United,H,3,3,1
+3754290,train,2016-02-06 13:45:00,36,Manchester City,22,Leicester City,A,-2,-2,1
+3754080,train,2016-02-06 16:00:00,38,Tottenham Hotspur,23,Watford,H,1,1,1
+3754127,train,2016-02-06 16:00:00,30,Stoke City,29,Everton,A,-3,-3,1
+3754292,train,2016-02-06 16:00:00,37,Newcastle United,27,West Bromwich Albion,H,1,1,1
+3754303,train,2016-02-06 16:00:00,26,Swansea City,31,Crystal Palace,D,0,0,1
+3754306,train,2016-02-06 16:00:00,59,Aston Villa,56,Norwich City,H,2,2,1
+3754316,train,2016-02-06 16:00:00,24,Liverpool,41,Sunderland,D,0,0,1
+3754120,train,2016-02-06 18:30:00,25,Southampton,40,West Ham United,H,1,1,1
+3754253,train,2016-02-07 14:30:00,28,AFC Bournemouth,1,Arsenal,A,-2,-2,1
+3754281,train,2016-02-07 17:00:00,33,Chelsea,39,Manchester United,D,0,0,1
+3754031,train,2016-02-13 13:45:00,41,Sunderland,39,Manchester United,H,1,1,1
+3754039,train,2016-02-13 16:00:00,31,Crystal Palace,23,Watford,A,-1,-1,1
+3754139,train,2016-02-13 16:00:00,26,Swansea City,25,Southampton,A,-1,-1,1
+3754244,train,2016-02-13 16:00:00,56,Norwich City,40,West Ham United,D,0,0,1
+3754274,train,2016-02-13 16:00:00,28,AFC Bournemouth,30,Stoke City,A,-2,-2,1
+3754350,train,2016-02-13 16:00:00,29,Everton,27,West Bromwich Albion,A,-1,-1,1
+3754264,train,2016-02-13 18:30:00,33,Chelsea,37,Newcastle United,H,4,4,1
+3754261,validation,2016-02-14 11:00:00,1,Arsenal,22,Leicester City,H,1,1,1
+3754214,validation,2016-02-14 15:05:00,59,Aston Villa,24,Liverpool,A,-6,-5,1
+3754147,validation,2016-02-14 17:15:00,36,Manchester City,38,Tottenham Hotspur,A,-1,-1,1
+3754331,validation,2016-02-27 13:45:00,40,West Ham United,41,Sunderland,H,1,1,1
+3754012,validation,2016-02-27 16:00:00,25,Southampton,33,Chelsea,A,-1,-1,1
+3754049,validation,2016-02-27 16:00:00,22,Leicester City,56,Norwich City,H,1,1,1
+3754121,validation,2016-02-27 16:00:00,23,Watford,28,AFC Bournemouth,D,0,0,1
+3754321,validation,2016-02-27 16:00:00,30,Stoke City,59,Aston Villa,H,1,1,1
+3754236,validation,2016-02-27 18:30:00,27,West Bromwich Albion,31,Crystal Palace,H,1,1,1
+3754239,validation,2016-02-28 15:05:00,39,Manchester United,1,Arsenal,H,1,1,1
+3754324,validation,2016-02-28 15:05:00,38,Tottenham Hotspur,26,Swansea City,H,1,1,1
+3754050,validation,2016-03-01 20:45:00,41,Sunderland,31,Crystal Palace,D,0,0,1
+3754231,validation,2016-03-01 20:45:00,22,Leicester City,27,West Bromwich Albion,D,0,0,1
+3754280,validation,2016-03-01 20:45:00,56,Norwich City,33,Chelsea,A,-1,-1,1
+3754327,validation,2016-03-01 20:45:00,59,Aston Villa,29,Everton,A,-2,-2,1
+3754334,validation,2016-03-01 20:45:00,28,AFC Bournemouth,25,Southampton,H,2,2,1
+3753976,validation,2016-03-02 20:45:00,1,Arsenal,26,Swansea City,A,-1,-1,1
+3754005,validation,2016-03-02 20:45:00,30,Stoke City,37,Newcastle United,H,1,1,1
+3754349,validation,2016-03-02 20:45:00,40,West Ham United,38,Tottenham Hotspur,H,1,1,1
+3753991,validation,2016-03-02 21:00:00,24,Liverpool,36,Manchester City,H,3,3,1
+3754232,validation,2016-03-02 21:00:00,39,Manchester United,23,Watford,H,1,1,1
+3754318,validation,2016-03-05 13:45:00,38,Tottenham Hotspur,1,Arsenal,D,0,0,1
+3754061,validation,2016-03-05 16:00:00,33,Chelsea,30,Stoke City,D,0,0,1
+3754151,validation,2016-03-05 16:00:00,26,Swansea City,56,Norwich City,H,1,1,1
+3754164,validation,2016-03-05 16:00:00,25,Southampton,41,Sunderland,D,0,0,1
+3754177,validation,2016-03-05 16:00:00,37,Newcastle United,28,AFC Bournemouth,A,-2,-2,1
+3754249,validation,2016-03-05 16:00:00,36,Manchester City,59,Aston Villa,H,4,4,1
+3754277,validation,2016-03-05 16:00:00,29,Everton,40,West Ham United,A,-1,-1,1
+3754289,validation,2016-03-05 18:30:00,23,Watford,22,Leicester City,A,-1,-1,1
+3754220,validation,2016-03-06 14:30:00,31,Crystal Palace,24,Liverpool,A,-1,-1,1
+3754081,validation,2016-03-06 17:00:00,27,West Bromwich Albion,39,Manchester United,H,1,1,1
+3754313,validation,2016-03-12 13:45:00,56,Norwich City,36,Manchester City,D,0,0,1
+3753988,validation,2016-03-12 16:00:00,28,AFC Bournemouth,26,Swansea City,H,1,1,1
+3754196,validation,2016-03-12 16:00:00,30,Stoke City,25,Southampton,A,-1,-1,1
+3754053,validation,2016-03-13 17:00:00,59,Aston Villa,38,Tottenham Hotspur,A,-2,-2,1
+3754002,validation,2016-03-14 21:00:00,22,Leicester City,37,Newcastle United,H,1,1,1
+3753980,validation,2016-03-19 11:45:00,29,Everton,1,Arsenal,A,-2,-2,1
+3753973,validation,2016-03-19 16:00:00,33,Chelsea,40,West Ham United,D,0,0,1
+3753977,validation,2016-03-19 16:00:00,23,Watford,30,Stoke City,A,-1,-1,1
+3754052,validation,2016-03-19 16:00:00,27,West Bromwich Albion,56,Norwich City,A,-1,-1,1
+3754181,validation,2016-03-19 16:00:00,31,Crystal Palace,22,Leicester City,A,-1,-1,1
+3754224,validation,2016-03-19 18:30:00,26,Swansea City,59,Aston Villa,H,1,1,1
+3754064,validation,2016-03-20 14:30:00,25,Southampton,24,Liverpool,H,1,1,1
+3754100,validation,2016-03-20 14:30:00,37,Newcastle United,41,Sunderland,D,0,0,1
+3754043,validation,2016-03-20 17:00:00,38,Tottenham Hotspur,28,AFC Bournemouth,H,3,3,1
+3754124,validation,2016-03-20 17:00:00,36,Manchester City,39,Manchester United,A,-1,-1,1
+3754075,validation,2016-04-02 13:45:00,59,Aston Villa,33,Chelsea,A,-4,-4,1
+3754118,validation,2016-04-02 16:00:00,1,Arsenal,23,Watford,H,4,4,1
+3754144,validation,2016-04-02 16:00:00,28,AFC Bournemouth,36,Manchester City,A,-4,-4,1
+3754175,validation,2016-04-02 16:00:00,41,Sunderland,27,West Bromwich Albion,D,0,0,1
+3754176,validation,2016-04-02 16:00:00,40,West Ham United,31,Crystal Palace,D,0,0,1
+3754243,validation,2016-04-02 16:00:00,56,Norwich City,37,Newcastle United,H,1,1,1
+3754272,validation,2016-04-02 16:00:00,30,Stoke City,26,Swansea City,D,0,0,1
+3754087,validation,2016-04-02 18:30:00,24,Liverpool,38,Tottenham Hotspur,D,0,0,1
+3753982,validation,2016-04-03 14:30:00,22,Leicester City,25,Southampton,H,1,1,1
+3754299,validation,2016-04-03 17:00:00,39,Manchester United,29,Everton,H,1,1,1
+3754241,validation,2016-04-09 13:45:00,40,West Ham United,1,Arsenal,D,0,0,1
+3754016,validation,2016-04-09 16:00:00,25,Southampton,37,Newcastle United,H,2,2,1
+3754022,validation,2016-04-09 16:00:00,31,Crystal Palace,56,Norwich City,H,1,1,1
+3754030,validation,2016-04-09 16:00:00,23,Watford,29,Everton,D,0,0,1
+3754116,validation,2016-04-09 16:00:00,26,Swansea City,33,Chelsea,H,1,1,1
+3754262,validation,2016-04-09 16:00:00,59,Aston Villa,28,AFC Bournemouth,A,-1,-1,1
+3754035,validation,2016-04-09 18:30:00,36,Manchester City,27,West Bromwich Albion,H,1,1,1
+3754152,validation,2016-04-10 14:30:00,41,Sunderland,22,Leicester City,A,-2,-2,1
+3753986,validation,2016-04-10 17:00:00,24,Liverpool,30,Stoke City,H,3,3,1
+3754209,validation,2016-04-10 17:30:00,38,Tottenham Hotspur,39,Manchester United,H,3,3,1
+3754048,validation,2016-04-13 21:00:00,31,Crystal Palace,29,Everton,D,0,0,1
+3754172,validation,2016-04-16 13:45:00,56,Norwich City,41,Sunderland,A,-3,-3,1
+3754024,validation,2016-04-16 16:00:00,37,Newcastle United,26,Swansea City,H,3,3,1
+3754137,validation,2016-04-16 16:00:00,29,Everton,25,Southampton,D,0,0,1
+3754155,validation,2016-04-16 16:00:00,27,West Bromwich Albion,23,Watford,A,-1,-1,1
+3754295,validation,2016-04-16 16:00:00,39,Manchester United,59,Aston Villa,H,1,1,1
+3754322,validation,2016-04-16 18:30:00,33,Chelsea,36,Manchester City,A,-3,-3,1
+3754216,validation,2016-04-17 14:30:00,28,AFC Bournemouth,24,Liverpool,A,-1,-1,1
+3754227,validation,2016-04-17 14:30:00,22,Leicester City,40,West Ham United,D,0,0,1
+3754009,validation,2016-04-17 17:00:00,1,Arsenal,31,Crystal Palace,D,0,0,1
+3754187,validation,2016-04-18 21:00:00,30,Stoke City,38,Tottenham Hotspur,A,-4,-4,1
+3754206,test,2016-04-19 20:45:00,37,Newcastle United,36,Manchester City,D,0,0,1
+3754086,test,2016-04-20 20:45:00,40,West Ham United,23,Watford,H,2,2,1
+3754294,test,2016-04-20 21:00:00,24,Liverpool,29,Everton,H,4,4,1
+3754310,test,2016-04-20 21:00:00,39,Manchester United,31,Crystal Palace,H,2,2,1
+3754284,test,2016-04-21 20:45:00,1,Arsenal,27,West Bromwich Albion,H,2,2,1
+3754307,test,2016-04-23 13:45:00,36,Manchester City,30,Stoke City,H,4,4,1
+3754154,test,2016-04-23 16:00:00,24,Liverpool,37,Newcastle United,D,0,0,1
+3754242,test,2016-04-23 16:00:00,28,AFC Bournemouth,33,Chelsea,A,-3,-3,1
+3754282,test,2016-04-23 16:00:00,59,Aston Villa,25,Southampton,A,-2,-2,1
+3753990,test,2016-04-24 15:05:00,41,Sunderland,1,Arsenal,D,0,0,1
+3754228,test,2016-04-24 17:15:00,22,Leicester City,26,Swansea City,H,4,4,1
+3754332,test,2016-04-25 21:00:00,38,Tottenham Hotspur,27,West Bromwich Albion,D,0,0,1
+3754037,test,2016-04-30 16:00:00,29,Everton,28,AFC Bournemouth,H,1,1,1
+3754063,test,2016-04-30 16:00:00,23,Watford,59,Aston Villa,H,1,1,1
+3754132,test,2016-04-30 16:00:00,30,Stoke City,41,Sunderland,D,0,0,1
+3754170,test,2016-04-30 16:00:00,37,Newcastle United,31,Crystal Palace,H,1,1,1
+3754192,test,2016-04-30 16:00:00,27,West Bromwich Albion,40,West Ham United,A,-3,-3,1
+3754184,test,2016-04-30 18:30:00,1,Arsenal,56,Norwich City,H,1,1,1
+3754018,test,2016-05-01 13:00:00,26,Swansea City,24,Liverpool,H,2,2,1
+3754165,test,2016-05-01 15:05:00,39,Manchester United,22,Leicester City,D,0,0,1
+3754320,test,2016-05-01 17:30:00,25,Southampton,36,Manchester City,H,2,2,1
+3754092,test,2016-05-02 21:00:00,33,Chelsea,38,Tottenham Hotspur,D,0,0,1
+3754210,test,2016-05-07 13:45:00,56,Norwich City,39,Manchester United,A,-1,-1,1
+3754026,test,2016-05-07 16:00:00,31,Crystal Palace,30,Stoke City,H,1,1,1
+3754070,test,2016-05-07 16:00:00,59,Aston Villa,37,Newcastle United,D,0,0,1
+3754108,test,2016-05-07 16:00:00,41,Sunderland,33,Chelsea,H,1,1,1
+3754158,test,2016-05-07 16:00:00,40,West Ham United,26,Swansea City,A,-3,-3,1
+3754225,test,2016-05-07 16:00:00,28,AFC Bournemouth,27,West Bromwich Albion,D,0,0,1
+3754033,test,2016-05-07 18:30:00,22,Leicester City,29,Everton,H,2,2,1
+3753992,test,2016-05-08 14:30:00,38,Tottenham Hotspur,25,Southampton,A,-1,-1,1
+3754314,test,2016-05-08 17:00:00,36,Manchester City,1,Arsenal,D,0,0,1
+3754342,test,2016-05-08 17:00:00,24,Liverpool,23,Watford,H,2,2,1
+3754134,test,2016-05-10 21:30:00,40,West Ham United,39,Manchester United,H,1,1,1
+3753989,test,2016-05-11 20:45:00,41,Sunderland,29,Everton,H,3,3,1
+3754207,test,2016-05-11 20:45:00,56,Norwich City,23,Watford,H,2,2,1
+3754055,test,2016-05-11 21:00:00,24,Liverpool,33,Chelsea,D,0,0,1
+3753994,test,2016-05-15 16:00:00,25,Southampton,31,Crystal Palace,H,3,3,1
+3754041,test,2016-05-15 16:00:00,1,Arsenal,59,Aston Villa,H,4,4,1
+3754042,test,2016-05-15 16:00:00,27,West Bromwich Albion,24,Liverpool,D,0,0,1
+3754123,test,2016-05-15 16:00:00,29,Everton,56,Norwich City,H,3,3,1
+3754149,test,2016-05-15 16:00:00,26,Swansea City,36,Manchester City,D,0,0,1
+3754199,test,2016-05-15 16:00:00,30,Stoke City,40,West Ham United,H,1,1,1
+3754229,test,2016-05-15 16:00:00,33,Chelsea,22,Leicester City,D,0,0,1
+3754308,test,2016-05-15 16:00:00,23,Watford,41,Sunderland,D,0,0,1
+3754333,test,2016-05-15 16:00:00,37,Newcastle United,38,Tottenham Hotspur,H,4,4,1
+3754159,test,2016-05-17 21:00:00,39,Manchester United,28,AFC Bournemouth,H,2,2,1

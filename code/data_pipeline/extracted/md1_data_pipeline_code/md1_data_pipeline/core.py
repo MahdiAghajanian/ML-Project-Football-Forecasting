@@ -48,6 +48,41 @@ class MD1Config:
     download_workers: int = 6
     random_seed: int = 42
 
+    # Optional P1 (Berrar et al. 2024) branch. Defaults preserve the verified
+    # Mid Defence 1 baseline because P1 is opt-in.
+    p1_enabled: bool = False
+    # P1 source design approved by the TA: StatsBomb EPL 2015/16 remains the
+    # target/modeling season; complete Football-Data EPL results from prior
+    # seasons provide only the long causal history required by Berrar.
+    p1_history_provider: str = "football_data"
+    p1_competition_name: str = "Premier League"
+    p1_include_season_names: tuple[str, ...] = tuple(
+        f"{year}/{year + 1}" for year in range(2000, 2015)
+    )
+    p1_history_start_season: str = "2000/2001"
+    p1_history_end_season: str = "2014/2015"
+    p1_history_division: str = "E0"
+    p1_require_complete_seasons: bool = True
+    p1_expected_team_count: int = 20
+    p1_expected_matches_per_season: int = 380
+    p1_target_from_statsbomb: bool = True
+    p1_ta_approval_note: str = (
+        "TA approved Football-Data historical Premier League results for constructing "
+        "Berrar historical features; StatsBomb EPL 2015/16 remains the primary target/event dataset."
+    )
+    p1_recency_min: int = 9
+    p1_recency_max: int = 100
+    p1_min_prior_matches: int = 6
+    p1_odd_n_policy: str = "floor"
+    p1_primary_recency_method: str = "pearson"
+    p1_feature_view: str = "both"
+    p1_fixed_baseline_n: int = 10
+    p1_cache_all_n: bool = True
+    p1_run_knn_search: bool = False
+    p1_knn_mode: str = "project_temporal"
+    p1_knn_k_values: tuple[int, ...] = tuple(range(3, 351))
+    p1_max_matches_per_season: int | None = None
+
     @property
     def bronze_root(self) -> Path:
         return self.project_root / "data" / "bronze"

@@ -1,0 +1,14 @@
+provider,provider_team_name,provider_normalized,canonical_team_key,longitudinal_team_id,statsbomb_team_id,statsbomb_team_name,mapping_method,is_target_season_team,passed
+football_data_history,Alpha FC,alpha,alpha,101,101.0,Alpha FC,normalized_exact,True,True
+football_data_history,Bravo FC,bravo,bravo,102,102.0,Bravo FC,normalized_exact,True,True
+football_data_history,Charlie FC,charlie,charlie,103,103.0,Charlie FC,normalized_exact,True,True
+football_data_history,Delta FC,delta,delta,104,104.0,Delta FC,normalized_exact,True,True
+football_data_history,Echo FC,echo,echo,105,105.0,Echo FC,normalized_exact,True,True
+football_data_history,Foxtrot FC,foxtrot,foxtrot,106,106.0,Foxtrot FC,normalized_exact,True,True
+football_data_history,Golf FC,golf,golf,-1,,,normalized_exact,False,True
+statsbomb_target,Alpha FC,alpha,alpha,101,101.0,Alpha FC,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Bravo FC,bravo,bravo,102,102.0,Bravo FC,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Charlie FC,charlie,charlie,103,103.0,Charlie FC,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Delta FC,delta,delta,104,104.0,Delta FC,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Echo FC,echo,echo,105,105.0,Echo FC,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Foxtrot FC,foxtrot,foxtrot,106,106.0,Foxtrot FC,statsbomb_id_normalized_exact,True,True

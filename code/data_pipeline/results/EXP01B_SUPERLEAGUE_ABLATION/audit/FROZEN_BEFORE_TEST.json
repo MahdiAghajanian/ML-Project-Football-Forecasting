@@ -1,0 +1,243 @@
+{
+  "experiment": "EXP01B_SUPERLEAGUE_ABLATION",
+  "purpose": "diagnostic isolation of cross-season Super-League history",
+  "test_status_at_write": "NOT_EVALUATED_IN_EXP01B_YET",
+  "selected_n": 28,
+  "recency_policy": "same frozen n for both arms; no single-season re-selection",
+  "feature_family": "Berrar total",
+  "feature_count_each_arm": 6,
+  "paper_total_features": [
+    "p1_home_scr_total",
+    "p1_home_con_total",
+    "p1_home_rank_total",
+    "p1_away_scr_total",
+    "p1_away_con_total",
+    "p1_away_rank_total"
+  ],
+  "minimum_prior_matches": 6,
+  "single_season_history_source": "StatsBomb EPL 2015/16 completed earlier target matches only",
+  "superleague_history_source": "frozen TA-approved P1 Super-League output",
+  "common_population_n": 320,
+  "common_split_counts": {
+    "train": 197,
+    "validation": 77,
+    "test": 46
+  },
+  "coverage_summary": [
+    {
+      "split": "all",
+      "total_matches": 380,
+      "single_eligible": 320,
+      "superleague_eligible": 374,
+      "common_eligible": 320,
+      "superleague_additional_eligible": 54,
+      "single_coverage_pct": 84.21052631578947,
+      "superleague_coverage_pct": 98.42105263157895
+    },
+    {
+      "split": "train",
+      "total_matches": 257,
+      "single_eligible": 197,
+      "superleague_eligible": 251,
+      "common_eligible": 197,
+      "superleague_additional_eligible": 54,
+      "single_coverage_pct": 76.65369649805449,
+      "superleague_coverage_pct": 97.66536964980544
+    },
+    {
+      "split": "validation",
+      "total_matches": 77,
+      "single_eligible": 77,
+      "superleague_eligible": 77,
+      "common_eligible": 77,
+      "superleague_additional_eligible": 0,
+      "single_coverage_pct": 100.0,
+      "superleague_coverage_pct": 100.0
+    },
+    {
+      "split": "test",
+      "total_matches": 46,
+      "single_eligible": 46,
+      "superleague_eligible": 46,
+      "common_eligible": 46,
+      "superleague_additional_eligible": 0,
+      "single_coverage_pct": 100.0,
+      "superleague_coverage_pct": 100.0
+    }
+  ],
+  "rf_probe_from_exp01_freeze": {
+    "n_estimators": 500,
+    "max_depth": null,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt",
+    "class_weight": null,
+    "random_state": 42,
+    "n_jobs": -1,
+    "imputer_strategy": "median",
+    "ece_bins": 10,
+    "bootstrap_resamples": 10000,
+    "temporal_splits": 3
+  },
+  "validation_metrics": [
+    {
+      "representation": "SUPER_LEAGUE",
+      "n_matches": 77,
+      "rps": 0.21011995476565143,
+      "log_loss": 1.0155000802943557,
+      "brier": 0.606528654463851,
+      "accuracy": 0.4675324675324675,
+      "ece": 0.1082212977498692,
+      "feature_count": 6,
+      "model": "RandomForest fixed EXP01 probe"
+    },
+    {
+      "representation": "SINGLE_SEASON",
+      "n_matches": 77,
+      "rps": 0.21987127960488034,
+      "log_loss": 1.0582503917372919,
+      "brier": 0.6369826469247681,
+      "accuracy": 0.4935064935064935,
+      "ece": 0.08120886753938708,
+      "feature_count": 6,
+      "model": "RandomForest fixed EXP01 probe"
+    }
+  ],
+  "validation_bootstrap": [
+    {
+      "left": "SUPER_LEAGUE",
+      "right": "SINGLE_SEASON",
+      "n_matches": 77,
+      "delta_definition": "RPS(SUPER_LEAGUE) - RPS(SINGLE_SEASON); negative favors Super League",
+      "mean_delta_rps": -0.00975132483922898,
+      "ci95_low": -0.027929042000356258,
+      "ci95_high": 0.0072174919816060425,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 42,
+      "fraction_bootstrap_delta_lt_0": 0.8669
+    }
+  ],
+  "temporal_fold_metrics": [
+    {
+      "fold": 1,
+      "representation": "SINGLE_SEASON",
+      "train_n": 50,
+      "validation_n": 49,
+      "rps": 0.25124621543587655,
+      "status": "ok"
+    },
+    {
+      "fold": 1,
+      "representation": "SUPER_LEAGUE",
+      "train_n": 50,
+      "validation_n": 49,
+      "rps": 0.26428704125102503,
+      "status": "ok"
+    },
+    {
+      "fold": 2,
+      "representation": "SINGLE_SEASON",
+      "train_n": 99,
+      "validation_n": 49,
+      "rps": 0.23379140212151248,
+      "status": "ok"
+    },
+    {
+      "fold": 2,
+      "representation": "SUPER_LEAGUE",
+      "train_n": 99,
+      "validation_n": 49,
+      "rps": 0.232930255866672,
+      "status": "ok"
+    },
+    {
+      "fold": 3,
+      "representation": "SINGLE_SEASON",
+      "train_n": 148,
+      "validation_n": 49,
+      "rps": 0.23511113437486153,
+      "status": "ok"
+    },
+    {
+      "fold": 3,
+      "representation": "SUPER_LEAGUE",
+      "train_n": 148,
+      "validation_n": 49,
+      "rps": 0.2216764618674168,
+      "status": "ok"
+    }
+  ],
+  "input_manifest": [
+    {
+      "name": "p1_berrar_module",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/md1_data_pipeline/p1_berrar.py",
+      "bytes": 75433,
+      "sha256": "3dee0a8993c8aba8dd967dabbb52641bf7d859232f7be984cf7b5c81ad4aa588"
+    },
+    {
+      "name": "workflow_module",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/md1_data_pipeline/workflow.py",
+      "bytes": 7377,
+      "sha256": "dbf0172e9e2843e457a76c5b8baf463318eb498294eac1bd01a5a159f0adba0f"
+    },
+    {
+      "name": "requirements",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/requirements_colab.txt",
+      "bytes": 132,
+      "sha256": "f188ba576a74fff4da5b4201301bd70e8e908cf7670cedfc5a26c917566f3ca7"
+    },
+    {
+      "name": "p1_target_statsbomb",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/colab_results/EPL_2000_01_2015_16_Berrar_P1_HYBRID_REAL/data/silver/p1_target_statsbomb_matches.parquet",
+      "bytes": 25894,
+      "sha256": "facdac05aff3dfbb378de566dc602ee1943f5bbe802103c70e6bbb7b724a9108"
+    },
+    {
+      "name": "p1_superleague_selected",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/colab_results/EPL_2000_01_2015_16_Berrar_P1_HYBRID_REAL/data/gold/p1_features_total_selected.parquet",
+      "bytes": 29980,
+      "sha256": "941d42742e420d7901ae988489e60d805fe74e6af61a03e4f01a6d5f41c510af"
+    },
+    {
+      "name": "p1_split",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/colab_results/EPL_2000_01_2015_16_Berrar_P1_HYBRID_REAL/data/gold/p1_split_manifest.csv",
+      "bytes": 15207,
+      "sha256": "f3439213b68d5d79d54b065992027fafb62fcd858d31f21f3cea9f41cbd6d8ab"
+    },
+    {
+      "name": "p1_summary",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/colab_results/EPL_2000_01_2015_16_Berrar_P1_HYBRID_REAL/audit/p1_run_summary.json",
+      "bytes": 1354,
+      "sha256": "36bdfec4d3a24e0d8b93328e8ee7b407711ebdd3635f3b81db2b62376ee9b56a"
+    },
+    {
+      "name": "p1_selected_recency",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/colab_results/EPL_2000_01_2015_16_Berrar_P1_HYBRID_REAL/audit/p1_selected_recency.json",
+      "bytes": 206,
+      "sha256": "3b4c88fd23d1e300292978d3475b5129aa76f4c075e3edd40e37db33a350575d"
+    },
+    {
+      "name": "p1_readiness",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/colab_results/EPL_2000_01_2015_16_Berrar_P1_HYBRID_REAL/audit/p1_readiness.csv",
+      "bytes": 1017,
+      "sha256": "8aa9a23fad20987f770f1014a68c351627de32f2b9edef8801f3168056b73722"
+    },
+    {
+      "name": "p1_leakage",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/extracted/md1_data_pipeline_code/colab_results/EPL_2000_01_2015_16_Berrar_P1_HYBRID_REAL/audit/p1_leakage_tests.csv",
+      "bytes": 1380,
+      "sha256": "3da4e555ceb06380f24e050f4fcc37eda9c1777aa1440c302be130846a6468aa"
+    },
+    {
+      "name": "exp01_freeze",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/results/EXP01_P1_REPRESENTATION_TASK_C/audit/FROZEN_BEFORE_TEST.json",
+      "bytes": 19687,
+      "sha256": "3bf9db822250e3fa3164eec14a3738fef9f823a51dbd251508f6fc2741ad71ee"
+    },
+    {
+      "name": "exp01_readiness",
+      "path": "/content/drive/MyDrive/ml_project/code/data_pipeline/results/EXP01_P1_REPRESENTATION_TASK_C/audit/exp01_readiness.csv",
+      "bytes": 722,
+      "sha256": "da28c24ab75dc461840ae1bb56b4aa4b8f5217b583816b3343cbf5b147dbecd4"
+    }
+  ]
+}

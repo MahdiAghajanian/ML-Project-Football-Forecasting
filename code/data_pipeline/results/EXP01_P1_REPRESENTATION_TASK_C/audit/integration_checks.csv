@@ -1,0 +1,21 @@
+check,passed,details
+baseline one row per match,True,"rows=380, unique=380"
+P1 selected one row per match,True,"rows=380, unique=380"
+P1 homeaway one row per match,True,"rows=380, unique=380"
+P1 fixed one row per match,True,"rows=380, unique=380"
+380 target IDs align,True,"baseline=380, p1=380, intersection=380, base_only=0, p1_only=0"
+split manifests align,True,mismatches=0
+baseline Gold split matches manifest,True,mismatches=0
+P1 Gold split matches manifest,True,mismatches=0
+cross-pipeline identity/labels align,True,mismatches=0
+baseline feature dictionary resolves,True,"features=128, missing=[]"
+baseline feature contract = 128,True,feature_count=128
+P1 total contract = 6,True,present=6/6
+P1 homeaway contract = 18,True,present=18/18
+selected recency frozen,True,"summary=28, total=[28], homeaway=[28]"
+fixed recency frozen,True,"summary=10, fixed=[10]"
+P1 eligibility population consistent,True,"selected=374, fixed=374, homeaway=374"
+P1 common population = 374,True,eligible=374
+common split counts = 251/77/46,True,"{'train': 251, 'validation': 77, 'test': 46}"
+market baseline available on common validation/test,True,"rows=123, tagged=123"
+baseline model features exclude non-feature roles,True,bad=[]

@@ -1,0 +1,4 @@
+season_name,provider,rows,complete_rows,team_count,expected_team_count,expected_matches,duplicate_directed_fixtures,min_matches_per_team,max_matches_per_team,unordered_pair_count,pairs_with_wrong_count,missing_core_values,passed
+2012/2013,football_data_history,30,30,6,6,30,0,10,10,15,0,0,True
+2013/2014,football_data_history,30,30,6,6,30,0,10,10,15,0,0,True
+2014/2015,football_data_history,30,30,6,6,30,0,10,10,15,0,0,True

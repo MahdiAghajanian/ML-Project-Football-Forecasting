@@ -1,0 +1,4 @@
+split,all_matches,p1_eligible_matches,common_train_n,common_validation_n,common_test_n
+train,19,19,19.0,,
+validation,6,6,,6.0,
+test,5,5,,,5.0

@@ -1,0 +1,61 @@
+provider,provider_team_name,provider_normalized,canonical_team_key,longitudinal_team_id,statsbomb_team_id,statsbomb_team_name,mapping_method,is_target_season_team,passed
+football_data_history,Arsenal,arsenal,arsenal,1,1.0,Arsenal,normalized_exact,True,True
+football_data_history,Aston Villa,aston villa,aston villa,59,59.0,Aston Villa,normalized_exact,True,True
+football_data_history,Birmingham,birmingham,birmingham,-1,,,normalized_exact,False,True
+football_data_history,Blackburn,blackburn,blackburn,-2,,,normalized_exact,False,True
+football_data_history,Blackpool,blackpool,blackpool,-3,,,normalized_exact,False,True
+football_data_history,Bolton,bolton,bolton,-4,,,normalized_exact,False,True
+football_data_history,Bradford,bradford,bradford,-5,,,normalized_exact,False,True
+football_data_history,Burnley,burnley,burnley,-6,,,normalized_exact,False,True
+football_data_history,Cardiff,cardiff,cardiff,-7,,,normalized_exact,False,True
+football_data_history,Charlton,charlton,charlton,-8,,,normalized_exact,False,True
+football_data_history,Chelsea,chelsea,chelsea,33,33.0,Chelsea,normalized_exact,True,True
+football_data_history,Coventry,coventry,coventry,-9,,,normalized_exact,False,True
+football_data_history,Crystal Palace,crystal palace,crystal palace,31,31.0,Crystal Palace,normalized_exact,True,True
+football_data_history,Derby,derby,derby,-10,,,normalized_exact,False,True
+football_data_history,Everton,everton,everton,29,29.0,Everton,normalized_exact,True,True
+football_data_history,Fulham,fulham,fulham,-11,,,normalized_exact,False,True
+football_data_history,Hull,hull,hull,-12,,,normalized_exact,False,True
+football_data_history,Ipswich,ipswich,ipswich,-13,,,normalized_exact,False,True
+football_data_history,Leeds,leeds,leeds,-14,,,normalized_exact,False,True
+football_data_history,Leicester,leicester,leicester,22,22.0,Leicester City,normalized_exact,True,True
+football_data_history,Liverpool,liverpool,liverpool,24,24.0,Liverpool,normalized_exact,True,True
+football_data_history,Man City,man city,man city,36,36.0,Manchester City,normalized_exact,True,True
+football_data_history,Man United,man united,man united,39,39.0,Manchester United,normalized_exact,True,True
+football_data_history,Middlesbrough,middlesbrough,middlesbrough,-15,,,normalized_exact,False,True
+football_data_history,Newcastle,newcastle,newcastle,37,37.0,Newcastle United,normalized_exact,True,True
+football_data_history,Norwich,norwich,norwich,56,56.0,Norwich City,normalized_exact,True,True
+football_data_history,Portsmouth,portsmouth,portsmouth,-16,,,normalized_exact,False,True
+football_data_history,QPR,qpr,qpr,-17,,,normalized_exact,False,True
+football_data_history,Reading,reading,reading,-18,,,normalized_exact,False,True
+football_data_history,Sheffield United,sheffield united,sheffield united,-19,,,normalized_exact,False,True
+football_data_history,Southampton,southampton,southampton,25,25.0,Southampton,normalized_exact,True,True
+football_data_history,Stoke,stoke,stoke,30,30.0,Stoke City,normalized_exact,True,True
+football_data_history,Sunderland,sunderland,sunderland,41,41.0,Sunderland,normalized_exact,True,True
+football_data_history,Swansea,swansea,swansea,26,26.0,Swansea City,normalized_exact,True,True
+football_data_history,Tottenham,tottenham,tottenham,38,38.0,Tottenham Hotspur,normalized_exact,True,True
+football_data_history,Watford,watford,watford,23,23.0,Watford,normalized_exact,True,True
+football_data_history,West Brom,west brom,west brom,27,27.0,West Bromwich Albion,normalized_exact,True,True
+football_data_history,West Ham,west ham,west ham,40,40.0,West Ham United,normalized_exact,True,True
+football_data_history,Wigan,wigan,wigan,-20,,,normalized_exact,False,True
+football_data_history,Wolves,wolves,wolves,-21,,,normalized_exact,False,True
+statsbomb_target,Arsenal,arsenal,arsenal,1,1.0,Arsenal,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Aston Villa,aston villa,aston villa,59,59.0,Aston Villa,statsbomb_id_normalized_exact,True,True
+statsbomb_target,AFC Bournemouth,bournemouth,bournemouth,28,28.0,AFC Bournemouth,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Chelsea,chelsea,chelsea,33,33.0,Chelsea,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Crystal Palace,crystal palace,crystal palace,31,31.0,Crystal Palace,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Everton,everton,everton,29,29.0,Everton,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Leicester City,leicester city,leicester,22,22.0,Leicester City,statsbomb_id_plus_explicit_alias,True,True
+statsbomb_target,Liverpool,liverpool,liverpool,24,24.0,Liverpool,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Manchester City,manchester city,man city,36,36.0,Manchester City,statsbomb_id_plus_explicit_alias,True,True
+statsbomb_target,Manchester United,manchester united,man united,39,39.0,Manchester United,statsbomb_id_plus_explicit_alias,True,True
+statsbomb_target,Newcastle United,newcastle united,newcastle,37,37.0,Newcastle United,statsbomb_id_plus_explicit_alias,True,True
+statsbomb_target,Norwich City,norwich city,norwich,56,56.0,Norwich City,statsbomb_id_plus_explicit_alias,True,True
+statsbomb_target,Southampton,southampton,southampton,25,25.0,Southampton,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Stoke City,stoke city,stoke,30,30.0,Stoke City,statsbomb_id_plus_explicit_alias,True,True
+statsbomb_target,Sunderland,sunderland,sunderland,41,41.0,Sunderland,statsbomb_id_normalized_exact,True,True
+statsbomb_target,Swansea City,swansea city,swansea,26,26.0,Swansea City,statsbomb_id_plus_explicit_alias,True,True
+statsbomb_target,Tottenham Hotspur,tottenham hotspur,tottenham,38,38.0,Tottenham Hotspur,statsbomb_id_plus_explicit_alias,True,True
+statsbomb_target,Watford,watford,watford,23,23.0,Watford,statsbomb_id_normalized_exact,True,True
+statsbomb_target,West Bromwich Albion,west bromwich albion,west brom,27,27.0,West Bromwich Albion,statsbomb_id_plus_explicit_alias,True,True
+statsbomb_target,West Ham United,west ham united,west ham,40,40.0,West Ham United,statsbomb_id_plus_explicit_alias,True,True

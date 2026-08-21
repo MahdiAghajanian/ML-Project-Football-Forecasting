@@ -1,0 +1,16 @@
+{
+  "selection_basis": "validation RPS only; test metrics not consulted",
+  "selected_n_frozen_before_experiment": 28,
+  "fixed_n": 10,
+  "preferred_p1_shape_by_validation_rps": "P1_TOTAL_SELECTED",
+  "preferred_project_representation_by_validation_rps": "MD1_PLUS_P1_HOMEAWAY",
+  "validation_rps": {
+    "MARKET": 0.19693130130833358,
+    "P1_TOTAL_SELECTED": 0.21292649904412062,
+    "P1_HOMEAWAY_SELECTED": 0.21313100601322912,
+    "MD1_PLUS_P1_HOMEAWAY": 0.21754663746518116,
+    "MD1_PLUS_P1_TOTAL": 0.2183676777444837,
+    "P1_TOTAL_FIXED": 0.22346614377638807,
+    "MD1_BASE_COMMON": 0.22362884402778582
+  }
+}

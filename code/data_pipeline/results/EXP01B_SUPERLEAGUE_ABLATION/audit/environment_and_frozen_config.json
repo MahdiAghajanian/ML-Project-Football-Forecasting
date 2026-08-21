@@ -1,0 +1,29 @@
+{
+  "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "numpy": "2.0.2",
+  "pandas": "2.2.3",
+  "sklearn": "1.6.1",
+  "selected_n": 28,
+  "paper_total_features": [
+    "p1_home_scr_total",
+    "p1_home_con_total",
+    "p1_home_rank_total",
+    "p1_away_scr_total",
+    "p1_away_con_total",
+    "p1_away_rank_total"
+  ],
+  "probe_config_from_exp01": {
+    "n_estimators": 500,
+    "max_depth": null,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt",
+    "class_weight": null,
+    "random_state": 42,
+    "n_jobs": -1,
+    "imputer_strategy": "median",
+    "ece_bins": 10,
+    "bootstrap_resamples": 10000,
+    "temporal_splits": 3
+  }
+}
