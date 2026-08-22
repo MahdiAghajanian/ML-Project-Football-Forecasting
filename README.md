@@ -18,6 +18,7 @@ The final test set contains 46 matches and 966 in-play snapshots. Model and repr
 |---|---|---|---:|
 | Pre-match outcome (Task C) | De-vigged market | RPS | **0.1748** |
 | Pre-match outcome (Task C) | Random Forest, raw | RPS | **0.1958** |
+| Pre-match outcome (Task C) | Dummy, Platt calibrated | RPS | **0.2104** |
 | Pre-match outcome (Task C) | NGBoost, Platt calibrated | RPS | **0.2142** |
 | Pre-match margin (Task R) | Kernel Ridge, Nyström | RMSE | **1.7878** |
 | Pre-match margin (Task R) | NGBoost | RMSE | **1.8665** |
@@ -25,15 +26,19 @@ The final test set contains 46 matches and 966 in-play snapshots. Model and repr
 | In-play margin (Task L) | Gradient Boosting | RMSE | **1.4477** |
 | In-play margin (Task L) | NGBoost | RMSE | **1.4667** |
 
-The main findings are:
+### Interpretation and Conclusion
 
-- the bookmaker market remained the strongest pre-match probabilistic benchmark;
-- NGBoost produced the best aggregate in-play outcome RPS;
-- live match information reduced NGBoost RPS from 0.2082 at minute 0 to 0.0698 at full time;
-- validation-only scale calibration improved Task R NGBoost test NLL from 3.1862 to 2.1749;
-- the multivariate Gaussian NGBoost experiment was strongly under-dispersed, so its raw uncertainty intervals are reported as a limitation rather than presented as calibrated forecasts.
+**Pre-match outcome prediction was not a strength of NGBoost in this experiment.** The de-vigged market achieved the best Task C RPS at 0.1748, followed by the raw Random Forest at 0.1958. Platt calibration improved NGBoost from a raw RPS of 0.2392 to 0.2142, but calibrated NGBoost still finished behind both the market and the 0.2104 Dummy reference. Because RPS is the primary Task C metric and lower is better, the project does not claim that NGBoost is competitive for pre-match outcome forecasting on this test period.
 
-These results describe one competition-season and a 46-match test period. Rankings therefore have substantial sampling uncertainty and should not be generalized to other leagues or seasons without additional evaluation.
+**Pre-match margin prediction produced a mixed result.** Kernel Ridge with Nyström approximation achieved the best Task R RMSE at 1.7878. NGBoost reached 1.8665, only a modest improvement over the Dummy RMSE of 1.9000. Its additional value was probabilistic: it supplied a predictive distribution rather than only a point estimate. Validation-only scale calibration reduced NGBoost test NLL from 3.1862 to 2.1749 and substantially improved interval coverage, although the calibrated intervals remained slightly under-covered.
+
+**In-play outcome forecasting was the clear NGBoost success.** Raw NGBoost achieved the best aggregate Task L RPS at 0.1590, ahead of raw XGBoost at 0.1736 and raw Random Forest at 0.1745. It also achieved a macro-F1 of 0.5533. As causal match events accumulated, NGBoost RPS improved from 0.2082 at minute 0 to 0.0698 at full time, demonstrating that the live pipeline converted new match information into progressively better outcome probabilities. NGBoost was also competitive for live margin prediction at RMSE 1.4667, although Gradient Boosting was better at 1.4477.
+
+**The multivariate Gaussian experiment remains a documented limitation.** Its covariance matrices were numerically valid, but the predicted marginal and joint intervals were strongly under-dispersed for football goal counts. The notebook therefore reports its NLL, Energy Score, covariance, and coverage diagnostics without claiming calibrated multivariate uncertainty.
+
+Overall, the evidence does not support the claim that NGBoost is universally superior. It supports a narrower and more credible conclusion: NGBoost was weak for pre-match outcomes, modest for pre-match margins, and strongest for updating outcome probabilities during live play. The project's value lies in establishing those boundaries through a complete, leakage-safe comparison rather than selecting only favorable results.
+
+These findings describe one competition-season and a 46-match test period. Model rankings have substantial sampling uncertainty and should not be generalized to other leagues or seasons without additional evaluation.
 
 ## Project Scope
 
