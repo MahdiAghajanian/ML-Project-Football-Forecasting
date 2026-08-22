@@ -1,1 +1,0 @@
-Git history unavailable: CalledProcessError: Command '['git', 'log', '--oneline', '--all']' returned non-zero exit status 128.

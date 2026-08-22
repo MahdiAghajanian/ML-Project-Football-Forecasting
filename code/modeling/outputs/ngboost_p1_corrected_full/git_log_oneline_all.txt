@@ -1,0 +1,10 @@
+91d3988 code changed Task R not good enough
+25493c2 add result of full run and standard run
+2819407 integration with P1
+986b241 implement the p1 paper
+437dd81 updated .gitignore
+70a2347 the notebook is ready
+19311b6 Merge branch 'main' of https://github.com/MahdiAghajanian/ML-Project-Football-Forecasting
+fec31c7 Updated README.md
+cc19e3a first commit-datapipeline and its result
+dbb6f81 Initial commit

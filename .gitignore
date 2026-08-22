@@ -1,3 +1,8 @@
 code/modeling/build_ngboost_notebook.py
 # Local continuity notes; intentionally not versioned.
 .project/PROJECT_MEMORY.md
+# Reusable local Python environment; large and machine-specific.
+.venv/
+# Python bytecode produced by local validation and notebook runs.
+__pycache__/
+*.py[cod]
