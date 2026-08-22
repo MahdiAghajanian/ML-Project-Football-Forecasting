@@ -1,0 +1,19 @@
+{
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:23) [GCC 11.4.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "pyarrow": "20.0.0",
+    "scikit-learn": "1.7.2",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.6.0",
+    "ngboost": "0.5.11",
+    "imbalanced-learn": "0.14.0",
+    "shap": "0.48.0",
+    "seaborn": "0.13.2",
+    "psutil": "7.0.0",
+    "joblib": "1.5.3"
+  }
+}
