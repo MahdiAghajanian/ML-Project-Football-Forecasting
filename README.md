@@ -8,37 +8,25 @@
 Probabilistic pre-match and in-play football forecasting with leakage-safe event pipelines, Berrar-style longitudinal representations, and Natural Gradient Boosting.
 </p>
 
-This repository contains the complete data-engineering, modeling, evaluation, and interpretation workflow for Premier League 2015/16. The final experiment uses a chronological holdout, validation-only model selection and calibration, an independent de-vigged bookmaker baseline, and a paper-aligned NGBoost implementation.
+This repository contains the data-engineering, modeling, evaluation, and interpretation workflow for Premier League 2015/16. It uses a chronological holdout, validation-only model selection and calibration, an independent de-vigged bookmaker baseline, and two paper-reproduction tracks.
 
-## Final Held-Out Results
+## Model results currently retained
 
-The final test set contains 46 matches and 966 in-play snapshots. Model and representation choices were frozen using training and validation data before test evaluation. Lower is better for RPS, RMSE, and negative log-likelihood.
+The table below is the completed **general model-suite / official-library baseline run**. Rows labelled NGBoost were produced with the external `ngboost==0.5.11` library and are retained as reference baselines. They must not be reported as the required P2 project reimplementation.
 
-| Task | Model | Evaluation | Final result |
+| Task | Model | Evaluation | Held-out result |
 |---|---|---|---:|
 | Pre-match outcome (Task C) | De-vigged market | RPS | **0.1748** |
 | Pre-match outcome (Task C) | Random Forest, raw | RPS | **0.1958** |
 | Pre-match outcome (Task C) | Dummy, Platt calibrated | RPS | **0.2104** |
-| Pre-match outcome (Task C) | NGBoost, Platt calibrated | RPS | **0.2142** |
+| Pre-match outcome (Task C) | Official NGBoost library, Platt | RPS | **0.2142** |
 | Pre-match margin (Task R) | Kernel Ridge, Nyström | RMSE | **1.7878** |
-| Pre-match margin (Task R) | NGBoost | RMSE | **1.8665** |
-| In-play outcome (Task L) | NGBoost, raw | RPS | **0.1590** |
+| Pre-match margin (Task R) | Official NGBoost library | RMSE | **1.8665** |
+| In-play outcome (Task L) | Official NGBoost library, raw | RPS | **0.1590** |
 | In-play margin (Task L) | Gradient Boosting | RMSE | **1.4477** |
-| In-play margin (Task L) | NGBoost | RMSE | **1.4667** |
+| In-play margin (Task L) | Official NGBoost library | RMSE | **1.4667** |
 
-### Interpretation and Conclusion
-
-**Pre-match outcome prediction was not a strength of NGBoost in this experiment.** The de-vigged market achieved the best Task C RPS at 0.1748, followed by the raw Random Forest at 0.1958. Platt calibration improved NGBoost from a raw RPS of 0.2392 to 0.2142, but calibrated NGBoost still finished behind both the market and the 0.2104 Dummy reference. Because RPS is the primary Task C metric and lower is better, the project does not claim that NGBoost is competitive for pre-match outcome forecasting on this test period.
-
-**Pre-match margin prediction produced a mixed result.** Kernel Ridge with Nyström approximation achieved the best Task R RMSE at 1.7878. NGBoost reached 1.8665, only a modest improvement over the Dummy RMSE of 1.9000. Its additional value was probabilistic: it supplied a predictive distribution rather than only a point estimate. Validation-only scale calibration reduced NGBoost test NLL from 3.1862 to 2.1749 and substantially improved interval coverage, although the calibrated intervals remained slightly under-covered.
-
-**In-play outcome forecasting was the clear NGBoost success.** Raw NGBoost achieved the best aggregate Task L RPS at 0.1590, ahead of raw XGBoost at 0.1736 and raw Random Forest at 0.1745. It also achieved a macro-F1 of 0.5533. As causal match events accumulated, NGBoost RPS improved from 0.2082 at minute 0 to 0.0698 at full time, demonstrating that the live pipeline converted new match information into progressively better outcome probabilities. NGBoost was also competitive for live margin prediction at RMSE 1.4667, although Gradient Boosting was better at 1.4477.
-
-**The multivariate Gaussian experiment remains a documented limitation.** Its covariance matrices were numerically valid, but the predicted marginal and joint intervals were strongly under-dispersed for football goal counts. The notebook therefore reports its NLL, Energy Score, covariance, and coverage diagnostics without claiming calibrated multivariate uncertainty.
-
-Overall, the evidence does not support the claim that NGBoost is universally superior. It supports a narrower and more credible conclusion: NGBoost was weak for pre-match outcomes, modest for pre-match margins, and strongest for updating outcome probabilities during live play. The project's value lies in establishing those boundaries through a complete, leakage-safe comparison rather than selecting only favorable results.
-
-These findings describe one competition-season and a 46-match test period. Model rankings have substantial sampling uncertainty and should not be generalized to other leagues or seasons without additional evaluation.
+The required P2 results are generated separately by `code/modeling/P2_Reimplementation_Colab.ipynb`. Until that notebook completes successfully, no numerical row should be claimed for the P2 reimplementation. The P2 runner writes a direct comparison against these official-library rows after the held-out run.
 
 ## Project Scope
 
@@ -50,11 +38,11 @@ The system supports three forecasting settings:
 | Task R | Pre-match | Same pre-match representation | Goal margin clipped to `[-5, 5]` |
 | Task L | In-play | Pre-match context and event prefix available at time `t` | Updated outcome probabilities and final margin |
 
-The modeling suite includes Dummy, SVM, Random Forest, Gradient Boosting, XGBoost, LightGBM, kernel methods, and NGBoost where applicable. It also includes probability calibration, class-imbalance experiments, uncertainty coverage, market comparison, kernel-scaling analysis, per-minute evaluation, feature-group ablation, SHAP explanations, runtime measurement, and failure-case analysis.
+The general model suite includes Dummy, SVM, Random Forest, Gradient Boosting, XGBoost, LightGBM, kernel methods, and the official NGBoost library baseline where applicable. It also includes probability calibration, class-imbalance experiments, uncertainty coverage, market comparison, kernel-scaling analysis, per-minute evaluation, SHAP explanations, runtime measurement, and failure-case analysis.
 
-## Final Experiment Configuration
+## Experiment Configuration
 
-| Item | Final value |
+| Item | Value |
 |---|---:|
 | StatsBomb target matches | 380 |
 | P1-eligible matches | 374 |
@@ -65,21 +53,12 @@ The modeling suite includes Dummy, SVM, Random Forest, Gradient Boosting, XGBoos
 | In-play features | 207 |
 | Selected Berrar recency | 28 matches |
 | Hyperparameter candidates per family | 3 |
-| Notebook execution | 31 / 31 code cells |
-| Final completion checks | 25 / 25 passed |
 
-The pre-match representation combines 128 MD1 features with the validation-selected 18-feature Berrar home/away representation. Those 18 pre-match values remain fixed across all snapshots of the same match; only leakage-safe event-prefix features evolve during play.
+The pre-match representation combines 128 MD1 features with the validation-selected 18-feature Berrar home/away representation. Those 18 pre-match values remain fixed across snapshots of the same match; only leakage-safe event-prefix features evolve during play.
 
 ## Data and Representation Pipeline
 
-StatsBomb Open Data is the primary modeling source. It supplies match metadata, labels, lineups, and 1,313,773 event rows for Premier League 2015/16. Football-Data.co.uk is used in two explicitly separated roles:
-
-1. EPL 2015/16 bookmaker odds provide the independent de-vigged market benchmark.
-2. Basic completed-match results from EPL 2000/01–2014/15 provide approved historical context for the Berrar Super League representation.
-
-Historical Football-Data rows are not supervised target examples, and bookmaker probabilities never enter the predictive feature matrices.
-
-The data architecture follows immutable Bronze, normalized Silver, and modeling-ready Gold stages:
+StatsBomb Open Data is the primary modeling source. It supplies match metadata, labels, lineups, and event rows for Premier League 2015/16. Football-Data.co.uk is used separately for the de-vigged market benchmark and for completed historical EPL results used by the Berrar longitudinal representation. Historical Football-Data rows are not supervised target examples, and bookmaker probabilities never enter predictive feature matrices.
 
 ```text
 StatsBomb events, matches, lineups       Football-Data results and odds
@@ -103,17 +82,26 @@ StatsBomb events, matches, lineups       Football-Data results and odds
 
 ## Paper Reimplementations
 
-### Berrar et al. — longitudinal representation
+### P1 — Berrar et al. longitudinal representation
 
-The P1 stage reproduces the paper's same-league longitudinal history, cross-season Super League construction, six-feature `total` representation, 18-feature `homeaway` representation, minimum-six-history rule, mean aggregation, normalized league success, and Pearson recency selection.
+The P1 stage reproduces the paper's same-league longitudinal history, cross-season Super League construction, six-feature `total` representation, 18-feature `homeaway` representation, minimum-six-history rule, mean aggregation, normalized league success, and Pearson recency selection. Training-only selection froze the recency at `n = 28`.
 
-The combined history contains 5,700 Football-Data matches and 380 StatsBomb target-season matches. Training-only Pearson selection froze the recency at `n = 28`. Carrying history across seasons increased P1 eligibility from 84.2% to 98.4%, although it did not establish a robust held-out predictive improvement.
+### P2 — O'Malley et al. Natural Gradient Boosting
 
-### O'Malley et al. — Natural Gradient Boosting
+The **required P2 path is the project reimplementation**, not the historical PyPI NGBoost notebook. Its canonical workflow is:
 
-The modeling stage uses NGBoost for categorical outcome distributions and Normal goal-margin distributions. It additionally adapts the supplied multivariate method to predict a bivariate Gaussian distribution over home and away goals, including conditional means, variances, and covariance.
+```text
+code/modeling/P2_Reimplementation_Colab.ipynb
+code/modeling/prepare_p2_reimplementation.py
+code/modeling/run_p2_reimplementation_final.py
+code/modeling/requirements_colab_p2_reimplementation.txt
+```
 
-The multivariate experiment reports joint NLL, Energy Score, marginal coverage, joint elliptical coverage, and covariance eigenvalue diagnostics. Its poor raw coverage is retained transparently as an empirical limitation of the Gaussian adaptation to football goal counts.
+The preparation step verifies the committed P2 source archive and all 28 Python-file SHA-256 hashes before reconstructing `code/modeling/p2_reimplementation/`. It applies only documented namespace/runtime compatibility patches. The P2 environment does not install or import the external `ngboost` package.
+
+The P2 evaluator covers categorical Task C, Normal Task R, live Task L, and the paper-faithful conditional bivariate Gaussian experiment over home/away goals. It generates raw/calibrated reliability evidence, row-level predictions, ten-worst cases, frozen pre-match live baselines, metric-vs-minute and per-phase tables, predictive-interval coverage, multivariate covariance diagnostics, sampled peak RSS, prediction latency, and a comparison with the separately labelled official-library baseline.
+
+See `code/modeling/P2_REIMPLEMENTATION_PATCHES.md` for the exact integration changes and `code/modeling/P2_REIMPLEMENTATION_STATUS.md` for what still requires a successful full execution.
 
 ## Leakage and Evaluation Controls
 
@@ -121,62 +109,61 @@ The multivariate experiment reports joint NLL, Energy Score, marginal coverage, 
 - Every snapshot from a match remains in the same partition.
 - Historical matches must finish strictly before the target kickoff.
 - Live features use only events available at or before each snapshot cutoff.
-- Imputers, scalers, model selection, calibration, and uncertainty scaling use training or validation data only.
+- Imputers, model selection, calibration, and uncertainty scaling use training or validation data only.
 - Test labels do not select the P1 recency, representation, model configuration, or calibrator.
-- Market probabilities are evaluated on the same held-out match IDs but remain outside all feature matrices.
-- Perturbation and readiness tests fail if target or future information can affect an earlier feature vector.
+- Market probabilities remain outside all feature matrices.
+- The P2 feature contract is reconstructed from the data-pipeline audit plus the frozen P1 schema, not from the historical NGBoost model-output configuration.
 
-## Final Artifacts
+## Artifacts
 
-- [Source modeling notebook](code/modeling/Football_Forecasting_NGBoost_Colab.ipynb)
-- [Executed full notebook](code/modeling/outputs/ngboost_p1_corrected_full/Football_Forecasting_NGBoost_executed_full.ipynb)
-- [Final results narrative](code/modeling/outputs/ngboost_p1_corrected_full/automatic_results_narrative.md)
-- [Completion checklist](code/modeling/outputs/ngboost_p1_corrected_full/completion_checklist.json)
-- [Final evidence archive](code/modeling/outputs/ngboost_p1_corrected_full_evidence.zip)
-- [Modeling instructions](code/modeling/README.md)
+### Required P2 reimplementation
 
-The retained final result directory contains evaluation tables, figures, fitted models, row-level predictions, runtime versions, environment metadata, and the fully executed notebook. Earlier exploratory and superseded model-output folders are intentionally excluded.
+- [P2 Colab notebook](code/modeling/P2_Reimplementation_Colab.ipynb)
+- [Verified source preparation](code/modeling/prepare_p2_reimplementation.py)
+- [P2 evaluation entry point](code/modeling/run_p2_reimplementation_final.py)
+- [P2 mathematical/API tests](code/modeling/test_p2_reimplementation.py)
+- [P2 integration patch record](code/modeling/P2_REIMPLEMENTATION_PATCHES.md)
+- [P2 status](code/modeling/P2_REIMPLEMENTATION_STATUS.md)
+- [Appendix A derivation](code/modeling/P2_APPENDIX_A_DERIVATION.md)
+
+A successful full run creates `code/modeling/outputs/p2_reimplementation_full/`. Those generated files—not the historical library outputs—are the evidence source for P2 report Sections 4.2, 4.2.1 and 6.5.
+
+### Historical official-library baseline
+
+- `code/modeling/Football_Forecasting_NGBoost_Colab.ipynb`
+- `code/modeling/outputs/ngboost_p1_corrected_full/`
+- `code/modeling/outputs/ngboost_p1_corrected_full_evidence.zip`
+
+These artifacts remain useful for the general model comparison and for direct P2-vs-library evaluation, but are not the P2 reimplementation.
 
 ## Reproduction
 
-The notebook is configured for the final three-candidate `full` run.
+For the required P2 reproduction, open `code/modeling/P2_Reimplementation_Colab.ipynb` in Colab and run all cells. The notebook resolves both `/content/drive/MyDrive/ml_project` and `/content/drive/MyDrive/ML-Project-Football-Forecasting` in addition to a standard Colab checkout.
 
-For Google Colab, open `code/modeling/Football_Forecasting_NGBoost_Colab.ipynb`, attach the repository from Google Drive, and choose **Runtime → Run all**.
-
-For local CPU execution, follow [the modeling setup instructions](code/modeling/README.md). After the one-time environment installation, run:
-
-```powershell
-.\.venv\Scripts\python.exe code\modeling\run_notebook_local.py
-```
-
-Dependencies are reused on subsequent runs. Local environments and Python bytecode are excluded through `.gitignore`.
+For local CPU execution, follow `code/modeling/README.md`.
 
 ## Repository Structure
 
 ```text
 .
 ├── assets/
-│   └── github-banner.png
 ├── code/
 │   ├── data_pipeline/
-│   │   ├── extracted/md1_data_pipeline_code/
 │   │   └── results/
-│   │       ├── Premier_League_2015_16_DATA_ONLY_FULL_REAL/
-│   │       ├── EXP01_P1_REPRESENTATION_TASK_C/
-│   │       └── EXP01B_SUPERLEAGUE_ABLATION/
 │   └── modeling/
-│       ├── Football_Forecasting_NGBoost_Colab.ipynb
-│       ├── requirements_colab_ngboost.txt
-│       ├── run_notebook_local.py
+│       ├── P2_Reimplementation_Colab.ipynb
+│       ├── prepare_p2_reimplementation.py
+│       ├── run_p2_reimplementation_final.py
+│       ├── test_p2_reimplementation.py
+│       ├── P2_APPENDIX_A_DERIVATION.md
+│       ├── Football_Forecasting_NGBoost_Colab.ipynb   # official-library baseline
 │       └── outputs/
-│           ├── ngboost_p1_corrected_full/
-│           └── ngboost_p1_corrected_full_evidence.zip
 └── README.md
 ```
 
 ## References
 
-- Berrar, D., Lopes, P., & Dubitzky, W. (2024). *A data- and knowledge-driven framework for developing machine learning models to predict soccer match outcomes*. Machine Learning, 113, 8165–8204. [DOI](https://doi.org/10.1007/s10994-024-06625-9)
-- O'Malley, M., Sykulski, A. M., Lumpkin, R., & Schuler, A. (2023). *Probabilistic Prediction of Oceanographic Velocities with Multivariate Gaussian Natural Gradient Boosting*. Environmental Data Science, 2, e10. [DOI](https://doi.org/10.1017/eds.2023.4)
-- [StatsBomb Open Data](https://github.com/statsbomb/open-data)
-- [Football-Data.co.uk](https://www.football-data.co.uk/)
+- Berrar, D., Lopes, P., & Dubitzky, W. (2024). *A data- and knowledge-driven framework for developing machine learning models to predict soccer match outcomes*. Machine Learning, 113, 8165–8204. DOI: 10.1007/s10994-024-06625-9.
+- O'Malley, M., Sykulski, A. M., Lumpkin, R., & Schuler, A. (2023). *Probabilistic Prediction of Oceanographic Velocities with Multivariate Gaussian Natural Gradient Boosting*. Environmental Data Science, 2, e10. DOI: 10.1017/eds.2023.4.
+- StatsBomb Open Data.
+- Football-Data.co.uk.

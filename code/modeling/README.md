@@ -1,50 +1,56 @@
-# NGBoost Modeling and Evaluation
+# Modeling and P2 Evaluation
 
-`Football_Forecasting_NGBoost_Colab.ipynb` is the final modeling notebook for pre-match outcome classification, pre-match goal-margin regression, and in-play forecasting. It is configured in `full` mode with three validation candidates per model family.
+This directory now contains two explicitly different NGBoost-related workflows.
 
-The retained final run is located at:
+## Required P2 — project reimplementation
+
+The required paper-reproduction path is:
+
+```text
+code/modeling/P2_Reimplementation_Colab.ipynb
+code/modeling/prepare_p2_reimplementation.py
+code/modeling/run_p2_reimplementation_final.py
+code/modeling/p2_reimplementation/              # generated after verified preparation
+code/modeling/requirements_colab_p2_reimplementation.txt
+```
+
+The P2 workflow reconstructs the committed project source under a non-conflicting local namespace, verifies the source archive and per-file SHA-256 manifest before patching, and does **not** install or import the external `ngboost` package. The exact integration patches are documented in `P2_REIMPLEMENTATION_PATCHES.md`.
+
+Run in Colab by opening `P2_Reimplementation_Colab.ipynb` and choosing **Runtime → Run all**. For a local run:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r code\modeling\requirements_colab_p2_reimplementation.txt
+.\.venv\Scripts\python.exe code\modeling\prepare_p2_reimplementation.py
+$env:PYTHONPATH = "code\modeling"
+.\.venv\Scripts\python.exe -m pytest code\modeling\test_p2_reimplementation.py -q
+.\.venv\Scripts\python.exe code\modeling\run_p2_reimplementation_final.py --mode full
+```
+
+A successful full run writes report/evidence material to:
+
+```text
+code/modeling/outputs/p2_reimplementation_full/
+```
+
+The P2 evaluator includes Task C raw/calibrated metrics, class diagnostics, reliability, confusion matrices, row predictions and worst cases; Task R point/distributional metrics, interval coverage and worst cases; Task L live-versus-frozen evaluation by minute and phase; multivariate validation selection and covariance diagnostics; sampled peak RSS and prediction latency; and a P2-versus-official-library comparison table.
+
+### Feature and split contract
+
+The reimplementation retains the chronological 251/77/46 P1-eligible match split. It reconstructs the 128 MD1 pre-match and 189 MD1 live feature sets from the **data-pipeline audit** (`feature_distribution_summary.csv`) and takes the 18 P1 fields from the frozen P1 parquet schema. It therefore does not depend on an old modeling `run_config.json` to define its input features.
+
+## Historical official-library NGBoost baseline
+
+`Football_Forecasting_NGBoost_Colab.ipynb`, `requirements_colab_ngboost.txt`, and:
 
 ```text
 code/modeling/outputs/ngboost_p1_corrected_full/
 ```
 
-The neighboring `ngboost_p1_corrected_full_evidence.zip` archive contains the complete reproducibility bundle.
+are retained as the completed **official NGBoost library baseline/model-suite experiment**. That notebook imports PyPI `ngboost==0.5.11`. Its results are useful as a reference comparator, but they are **not** the required P2 project reimplementation and should be labelled accordingly in the report and unified result tables.
 
-## Google Colab
+The P2 runner may read the historical metric CSVs at the end of a run solely to produce a side-by-side comparison. Those files are not used for feature selection, P2 tuning, model fitting, calibration or P2 predictions.
 
-1. Place the repository in Google Drive.
-2. Open `Football_Forecasting_NGBoost_Colab.ipynb` in Colab.
-3. If the repository folder was renamed, set `PROJECT_ROOT_OVERRIDE` in Section 3.
-4. Choose **Runtime → Run all**.
+## Reporting rule
 
-The notebook installs and verifies its pinned environment, locates the frozen Phase 1 data, executes all required experiments, and writes a new full-result directory.
-
-## Local CPU
-
-From the repository root, prepare the isolated environment once:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r code\modeling\requirements_colab_ngboost.txt
-.\.venv\Scripts\python.exe -m ipykernel install --prefix .venv --name ngboost-local --display-name "Python (.venv NGBoost)"
-```
-
-Run the complete notebook with:
-
-```powershell
-.\.venv\Scripts\python.exe code\modeling\run_notebook_local.py
-```
-
-The environment is reused on later runs. The runner keeps the source notebook clean, saves a fully executed notebook in the result directory, and refreshes the evidence archive after successful completion.
-
-## Data Contract
-
-The notebook consumes the frozen Phase 1 experiment at:
-
-```text
-code/data_pipeline/results/EXP01_P1_REPRESENTATION_TASK_C/
-```
-
-The final representation contains 128 MD1 pre-match features plus 18 validation-selected Berrar home/away features. Those 18 values are inherited unchanged by every eligible live snapshot. The notebook verifies the upstream selection, readiness, leakage, feature, and split contracts before fitting any model.
-
-Point-regression candidates are selected by validation RMSE. NGBoost regression candidates are selected by validation negative log-likelihood, and uncertainty scaling is estimated from validation residuals only. The multivariate experiment reports both marginal and joint coverage alongside NLL, Energy Score, and covariance diagnostics.
+Do not copy historical NGBoost numbers into the P2 reimplementation rows. Report P2 numbers only after `P2_Reimplementation_Colab.ipynb` completes successfully. The generated `P2_REPORT_INSERT.md`, tables, figures, resource measurements and row-level predictions are the evidence source for the final P2 report sections.
