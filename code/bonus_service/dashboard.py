@@ -11,7 +11,6 @@ API_URL = os.getenv("FOOTBALL_API_URL", "http://127.0.0.1:8000")
 
 st.set_page_config(page_title="Football Forecasting Live Replay", layout="wide")
 st.title("Forecasting Competitive Football — Live Replay")
-st.caption("Bonus dashboard backed by the same frozen MD1 + P1 representation used during training.")
 
 
 @st.cache_data(ttl=30)
