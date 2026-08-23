@@ -10,12 +10,16 @@ client = TestClient(app)
 def main() -> None:
     health = client.get("/health")
     health.raise_for_status()
-    assert health.json()["status"] == "ok"
+    health_payload = health.json()
+    assert health_payload["status"] == "ok"
+    assert health_payload["matches_named"] == health_payload["matches_loaded"]
 
     test_matches = client.get("/matches", params={"split": "test"})
     test_matches.raise_for_status()
     matches = test_matches.json()
     assert matches, "No held-out matches available"
+    assert matches[0]["home_team"] != "Home"
+    assert matches[0]["away_team"] != "Away"
 
     match_id = int(matches[0]["match_id"])
     pre = client.get(f"/prematch/{match_id}")
@@ -27,7 +31,7 @@ def main() -> None:
     live = client.get(f"/predict/{match_id}", params={"minute": requested_minute})
     live.raise_for_status()
     payload = live.json()
-    assert float(payload["snapshot_rank"]) <= requested_minute
+    assert float(payload["snapshot_minute"]) <= requested_minute
     assert abs(sum(payload["outcome_probabilities"].values()) - 1.0) < 1e-6
 
     replay = client.get(f"/replay/{match_id}")
