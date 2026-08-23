@@ -32,6 +32,9 @@ def _find_one(filename: str) -> Path:
 
 
 SNAPSHOT_PATH = _find_one("gold_snapshots.parquet")
+DATA_ROOT = SNAPSHOT_PATH.parent.parent
+STATSBOMB_MATCHES_ROOT = DATA_ROOT / "bronze/statsbomb/matches"
+
 with RUN_CONFIG.open("r", encoding="utf-8") as fh:
     CONFIG = json.load(fh)
 PRE_FEATURES: list[str] = CONFIG["pre_features"]
@@ -58,6 +61,36 @@ PRE_MARGIN_MODEL = joblib.load(PRE_MARGIN_MODEL_PATH)
 LIVE_OUTCOME_MODEL = _load_classifier(LIVE_OUTCOME_MODEL_PATH)
 LIVE_MARGIN_MODEL = joblib.load(LIVE_MARGIN_MODEL_PATH)
 
+
+def _load_match_metadata() -> dict[int, dict[str, Any]]:
+    metadata: dict[int, dict[str, Any]] = {}
+    for path in sorted(STATSBOMB_MATCHES_ROOT.rglob("*.json")):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if not isinstance(payload, list):
+            continue
+        for match in payload:
+            try:
+                match_id = int(match["match_id"])
+            except Exception:
+                continue
+            home = match.get("home_team") or {}
+            away = match.get("away_team") or {}
+            metadata[match_id] = {
+                "home_team": str(home.get("home_team_name", "Home")),
+                "away_team": str(away.get("away_team_name", "Away")),
+                "match_date": str(match.get("match_date", "")),
+                "kick_off": str(match.get("kick_off", "")),
+                "final_home_score": int(match.get("home_score", 0)),
+                "final_away_score": int(match.get("away_score", 0)),
+            }
+    return metadata
+
+
+MATCH_META = _load_match_metadata()
+
 # Recreate the exact frozen MD1 + P1 representation used by the modeling notebook:
 # the raw Gold snapshot table carries the 189 MD1 live features, while the selected
 # 18 P1 pre-match values are joined many-to-one to every snapshot of a match.
@@ -83,6 +116,20 @@ if missing_features:
     raise RuntimeError(f"Enriched Gold snapshot table is missing model features: {missing_features[:10]}")
 SNAPSHOTS = SNAPSHOTS.sort_values(["match_id", "snapshot_rank"]).reset_index(drop=True)
 MATCH_GROUPS = {int(mid): g.reset_index(drop=True) for mid, g in SNAPSHOTS.groupby("match_id", sort=False)}
+
+
+def _match_meta(match_id: int) -> dict[str, Any]:
+    return MATCH_META.get(
+        int(match_id),
+        {
+            "home_team": "Home",
+            "away_team": "Away",
+            "match_date": "",
+            "kick_off": "",
+            "final_home_score": 0,
+            "final_away_score": 0,
+        },
+    )
 
 
 def _class_mapping(probabilities: np.ndarray) -> dict[str, float]:
@@ -155,6 +202,7 @@ def _tree_shap(row: pd.Series, top_k: int = 8) -> list[dict[str, Any]]:
 @lru_cache(maxsize=1024)
 def _prematch_cached(match_id: int) -> dict[str, Any]:
     row = MATCH_GROUPS[int(match_id)].iloc[0]
+    meta = _match_meta(match_id)
     x = _frame(row, PRE_FEATURES)
     start = time.perf_counter()
     proba = np.asarray(PRE_OUTCOME_MODEL.predict_proba(x))[0]
@@ -162,8 +210,9 @@ def _prematch_cached(match_id: int) -> dict[str, Any]:
     model_ms = (time.perf_counter() - start) * 1000.0
     return {
         "match_id": int(match_id),
-        "home_team": str(row.get("home_team_name", "Home")),
-        "away_team": str(row.get("away_team_name", "Away")),
+        "home_team": meta["home_team"],
+        "away_team": meta["away_team"],
+        "match_date": meta["match_date"],
         "outcome_probabilities": _class_mapping(proba),
         "expected_final_margin": margin,
         "model_inference_ms": model_ms,
@@ -176,6 +225,7 @@ def _prematch_cached(match_id: int) -> dict[str, Any]:
 @lru_cache(maxsize=4096)
 def _predict_cached(match_id: int, snapshot_id: str) -> dict[str, Any]:
     row = _select_snapshot(match_id, None, snapshot_id)
+    meta = _match_meta(match_id)
     x = _frame(row, LIVE_FEATURES)
     start = time.perf_counter()
     proba = np.asarray(LIVE_OUTCOME_MODEL.predict_proba(x))[0]
@@ -183,6 +233,8 @@ def _predict_cached(match_id: int, snapshot_id: str) -> dict[str, Any]:
     model_ms = (time.perf_counter() - start) * 1000.0
     return {
         "match_id": int(match_id),
+        "home_team": meta["home_team"],
+        "away_team": meta["away_team"],
         "snapshot_id": str(row["snapshot_id"]),
         "snapshot_minute": float(row.get("snapshot_minute", row["snapshot_rank"])),
         "snapshot_rank": float(row["snapshot_rank"]),
@@ -206,7 +258,7 @@ class PredictionRequest(BaseModel):
 
 app = FastAPI(
     title="Football Forecasting Bonus Service",
-    version="1.1.0",
+    version="1.2.0",
     description="Low-latency pre-match and in-play serving over the frozen MD1 + P1 representation used during training.",
 )
 
@@ -216,6 +268,7 @@ def health() -> dict[str, Any]:
     return {
         "status": "ok",
         "matches_loaded": len(MATCH_GROUPS),
+        "matches_named": sum(mid in MATCH_META for mid in MATCH_GROUPS),
         "snapshots_loaded": len(SNAPSHOTS),
         "pre_features": len(PRE_FEATURES),
         "live_features": len(LIVE_FEATURES),
@@ -229,12 +282,18 @@ def matches(split: str | None = Query(default="test")) -> list[dict[str, Any]]:
     if split and "split" in frame.columns:
         frame = frame[frame["split"].astype(str).str.lower() == split.lower()]
     first = frame.groupby("match_id", as_index=False).first()
-    return [{
-        "match_id": int(row["match_id"]),
-        "home_team": str(row.get("home_team_name", "Home")),
-        "away_team": str(row.get("away_team_name", "Away")),
-        "split": str(row.get("split", "unknown")),
-    } for _, row in first.iterrows()]
+    result = []
+    for _, row in first.iterrows():
+        match_id = int(row["match_id"])
+        meta = _match_meta(match_id)
+        result.append({
+            "match_id": match_id,
+            "home_team": meta["home_team"],
+            "away_team": meta["away_team"],
+            "match_date": meta["match_date"],
+            "split": str(row.get("split", "unknown")),
+        })
+    return result
 
 
 @app.get("/prematch/{match_id}")
