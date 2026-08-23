@@ -13,10 +13,14 @@ import shap
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
 
+from compat import CalibratedClassifierBundle, install_pickle_compat
+
 ROOT = Path(__file__).resolve().parents[2]
 FINAL_RUN = ROOT / "code/modeling/outputs/ngboost_p1_corrected_full"
 MODEL_DIR = FINAL_RUN / "models"
 RUN_CONFIG = FINAL_RUN / "run_config.json"
+P1_DATA = ROOT / "code/data_pipeline/results/EXP01_P1_REPRESENTATION_TASK_C/data"
+P1_AUGMENTED = P1_DATA / "prematch_md1_plus_p1_homeaway.parquet"
 
 
 def _find_one(filename: str) -> Path:
@@ -32,44 +36,62 @@ with RUN_CONFIG.open("r", encoding="utf-8") as fh:
     CONFIG = json.load(fh)
 PRE_FEATURES: list[str] = CONFIG["pre_features"]
 LIVE_FEATURES: list[str] = CONFIG["live_features"]
+P1_FEATURES: list[str] = CONFIG["p1_features"]
 
-# Pre-kickoff Models 1/2 and live Model-3 variants are loaded once at startup.
+# The training notebook serialized its custom Platt calibrator from __main__.
+# Register a byte-compatible compatibility class before loading any artifact.
+install_pickle_compat()
+
 PRE_OUTCOME_MODEL_PATH = MODEL_DIR / "task_c_lightgbm.joblib"
 PRE_MARGIN_MODEL_PATH = MODEL_DIR / "task_r_kernel_ridge_nystroem.joblib"
 LIVE_OUTCOME_MODEL_PATH = MODEL_DIR / "task_l_classifier_lightgbm.joblib"
 LIVE_MARGIN_MODEL_PATH = MODEL_DIR / "task_l_regressor_gbm.joblib"
-PRE_OUTCOME_MODEL = joblib.load(PRE_OUTCOME_MODEL_PATH)
+
+
+def _load_classifier(path: Path):
+    payload = joblib.load(path)
+    return CalibratedClassifierBundle(payload) if isinstance(payload, dict) else payload
+
+
+PRE_OUTCOME_MODEL = _load_classifier(PRE_OUTCOME_MODEL_PATH)
 PRE_MARGIN_MODEL = joblib.load(PRE_MARGIN_MODEL_PATH)
-LIVE_OUTCOME_MODEL = joblib.load(LIVE_OUTCOME_MODEL_PATH)
+LIVE_OUTCOME_MODEL = _load_classifier(LIVE_OUTCOME_MODEL_PATH)
 LIVE_MARGIN_MODEL = joblib.load(LIVE_MARGIN_MODEL_PATH)
 
+# Recreate the exact frozen MD1 + P1 representation used by the modeling notebook:
+# the raw Gold snapshot table carries the 189 MD1 live features, while the selected
+# 18 P1 pre-match values are joined many-to-one to every snapshot of a match.
 SNAPSHOTS = pd.read_parquet(SNAPSHOT_PATH)
+if not P1_AUGMENTED.exists():
+    raise FileNotFoundError(f"Missing frozen P1 representation: {P1_AUGMENTED}")
+p1_augmented = pd.read_parquet(P1_AUGMENTED)
+missing_p1 = [c for c in ["match_id", *P1_FEATURES] if c not in p1_augmented.columns]
+if missing_p1:
+    raise RuntimeError(f"Frozen P1 table is missing required columns: {missing_p1[:10]}")
+p1_payload = p1_augmented[["match_id", *P1_FEATURES]].copy()
+if p1_payload["match_id"].duplicated().any():
+    raise RuntimeError("Frozen P1 table must contain one row per match_id")
+SNAPSHOTS = SNAPSHOTS.merge(
+    p1_payload,
+    on="match_id",
+    how="inner",
+    validate="many_to_one",
+)
+
 missing_features = [c for c in set(PRE_FEATURES + LIVE_FEATURES) if c not in SNAPSHOTS.columns]
 if missing_features:
-    raise RuntimeError(f"Gold snapshot table is missing model features: {missing_features[:10]}")
+    raise RuntimeError(f"Enriched Gold snapshot table is missing model features: {missing_features[:10]}")
 SNAPSHOTS = SNAPSHOTS.sort_values(["match_id", "snapshot_rank"]).reset_index(drop=True)
 MATCH_GROUPS = {int(mid): g.reset_index(drop=True) for mid, g in SNAPSHOTS.groupby("match_id", sort=False)}
 
 
-def _class_mapping(model: Any, probabilities: np.ndarray) -> dict[str, float]:
-    classes = list(getattr(model, "classes_", []))
-    if not classes and hasattr(model, "named_steps"):
-        classes = list(getattr(model.named_steps.get("model"), "classes_", []))
-    if len(classes) != len(probabilities):
-        classes = ["A", "D", "H"]
-    aliases = {
-        "A": "away", "Away": "away", "away": "away", "0": "away",
-        "D": "draw", "Draw": "draw", "draw": "draw", "1": "draw",
-        "H": "home", "Home": "home", "home": "home", "2": "home",
-    }
-    normalized = {"away": 0.0, "draw": 0.0, "home": 0.0}
-    for cls, value in zip(classes, probabilities):
-        key = str(cls)
-        if key in aliases:
-            normalized[aliases[key]] = float(value)
-    if sum(normalized.values()) == 0:
-        normalized = dict(zip(["away", "draw", "home"], map(float, probabilities)))
-    return normalized
+def _class_mapping(probabilities: np.ndarray) -> dict[str, float]:
+    # Training labels were encoded 0=Away, 1=Draw, 2=Home.
+    values = np.asarray(probabilities, dtype=float).reshape(-1)
+    if len(values) != 3:
+        raise RuntimeError(f"Expected three outcome probabilities, got {len(values)}")
+    values = values / values.sum()
+    return {"away": float(values[0]), "draw": float(values[1]), "home": float(values[2])}
 
 
 def _select_snapshot(match_id: int, minute: float | None, snapshot_id: str | None) -> pd.Series:
@@ -81,9 +103,9 @@ def _select_snapshot(match_id: int, minute: float | None, snapshot_id: str | Non
         if exact.empty:
             raise HTTPException(status_code=404, detail=f"snapshot_id {snapshot_id!r} not available for match")
         return exact.iloc[-1]
-    if minute is None:
-        minute = 0.0
-    eligible = group[group["snapshot_rank"].astype(float) <= float(minute)]
+    requested = 0.0 if minute is None else float(minute)
+    time_column = "snapshot_minute" if "snapshot_minute" in group.columns else "snapshot_rank"
+    eligible = group[group[time_column].astype(float) <= requested]
     return eligible.iloc[-1] if not eligible.empty else group.iloc[0]
 
 
@@ -91,35 +113,40 @@ def _frame(row: pd.Series, features: list[str]) -> pd.DataFrame:
     return row[features].to_frame().T
 
 
-def _tree_shap(row: pd.Series, top_k: int = 8) -> list[dict[str, float | str]]:
+def _tree_shap(row: pd.Series, top_k: int = 8) -> list[dict[str, Any]]:
     try:
         x = _frame(row, LIVE_FEATURES)
-        if hasattr(LIVE_OUTCOME_MODEL, "named_steps"):
-            prep = LIVE_OUTCOME_MODEL.named_steps.get("prep")
-            tree = LIVE_OUTCOME_MODEL.named_steps.get("model")
+        underlying = getattr(LIVE_OUTCOME_MODEL, "model", LIVE_OUTCOME_MODEL)
+        if hasattr(underlying, "named_steps"):
+            prep = underlying.named_steps.get("prep")
+            tree = underlying.named_steps.get("model")
             x_trans = prep.transform(x) if prep is not None else x.to_numpy()
             try:
                 names = list(prep.get_feature_names_out(LIVE_FEATURES)) if prep is not None else LIVE_FEATURES
             except Exception:
                 names = LIVE_FEATURES[: np.asarray(x_trans).shape[1]]
         else:
-            tree = LIVE_OUTCOME_MODEL
+            tree = underlying
             x_trans = x
             names = LIVE_FEATURES
         values = shap.TreeExplainer(tree).shap_values(x_trans)
         arr = np.asarray(values)
         if arr.ndim == 3:
+            # LightGBM multiclass SHAP can be sample x feature x class.
             if arr.shape[0] == 1:
                 arr = arr[0]
-            elif arr.shape[1] == 1:
-                arr = arr[:, 0, :]
-            if arr.ndim == 2 and arr.shape[0] != len(names):
-                arr = arr[np.argmax(np.abs(arr).sum(axis=1))]
+            if arr.ndim == 2 and arr.shape[1] == 3:
+                class_id = int(np.argmax(LIVE_OUTCOME_MODEL.predict_proba(x)[0]))
+                arr = arr[:, class_id]
         if arr.ndim == 2:
             arr = arr[0] if arr.shape[0] == 1 else arr[:, -1]
         arr = np.ravel(arr)
         n = min(len(arr), len(names))
-        ranked = sorted(((names[i], float(arr[i])) for i in range(n)), key=lambda z: abs(z[1]), reverse=True)[:top_k]
+        ranked = sorted(
+            ((names[i], float(arr[i])) for i in range(n)),
+            key=lambda z: abs(z[1]),
+            reverse=True,
+        )[:top_k]
         return [{"feature": str(name), "shap_value": value} for name, value in ranked]
     except Exception as exc:
         return [{"feature": "SHAP unavailable", "shap_value": 0.0, "detail": str(exc)[:180]}]
@@ -137,10 +164,10 @@ def _prematch_cached(match_id: int) -> dict[str, Any]:
         "match_id": int(match_id),
         "home_team": str(row.get("home_team_name", "Home")),
         "away_team": str(row.get("away_team_name", "Away")),
-        "outcome_probabilities": _class_mapping(PRE_OUTCOME_MODEL, proba),
+        "outcome_probabilities": _class_mapping(proba),
         "expected_final_margin": margin,
         "model_inference_ms": model_ms,
-        "feature_source": str(SNAPSHOT_PATH.relative_to(ROOT)),
+        "feature_source": "MD1 gold_snapshots + frozen EXP01 P1 home/away join",
         "outcome_model": PRE_OUTCOME_MODEL_PATH.name,
         "margin_model": PRE_MARGIN_MODEL_PATH.name,
     }
@@ -161,11 +188,11 @@ def _predict_cached(match_id: int, snapshot_id: str) -> dict[str, Any]:
         "snapshot_rank": float(row["snapshot_rank"]),
         "score": {"home": int(row.get("current_home_score", 0)), "away": int(row.get("current_away_score", 0))},
         "red_cards": {"home": int(row.get("home_live_red_cards", 0)), "away": int(row.get("away_live_red_cards", 0))},
-        "outcome_probabilities": _class_mapping(LIVE_OUTCOME_MODEL, proba),
+        "outcome_probabilities": _class_mapping(proba),
         "expected_final_margin": margin,
         "top_shap": _tree_shap(row),
         "model_inference_ms": model_ms,
-        "feature_source": str(SNAPSHOT_PATH.relative_to(ROOT)),
+        "feature_source": "MD1 gold_snapshots + frozen EXP01 P1 home/away join",
         "outcome_model": LIVE_OUTCOME_MODEL_PATH.name,
         "margin_model": LIVE_MARGIN_MODEL_PATH.name,
     }
@@ -179,14 +206,21 @@ class PredictionRequest(BaseModel):
 
 app = FastAPI(
     title="Football Forecasting Bonus Service",
-    version="1.0.0",
-    description="Low-latency pre-match and in-play serving over the exact Gold representation used during training.",
+    version="1.1.0",
+    description="Low-latency pre-match and in-play serving over the frozen MD1 + P1 representation used during training.",
 )
 
 
 @app.get("/health")
 def health() -> dict[str, Any]:
-    return {"status": "ok", "matches_loaded": len(MATCH_GROUPS), "snapshots_loaded": len(SNAPSHOTS), "pre_features": len(PRE_FEATURES), "live_features": len(LIVE_FEATURES)}
+    return {
+        "status": "ok",
+        "matches_loaded": len(MATCH_GROUPS),
+        "snapshots_loaded": len(SNAPSHOTS),
+        "pre_features": len(PRE_FEATURES),
+        "live_features": len(LIVE_FEATURES),
+        "p1_features": len(P1_FEATURES),
+    }
 
 
 @app.get("/matches")
