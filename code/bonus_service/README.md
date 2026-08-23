@@ -34,7 +34,7 @@ pip install -r code/bonus_service/requirements_bonus.txt
 From the repository root:
 
 ```bash
-uvicorn code.bonus_service.app:app --host 127.0.0.1 --port 8000
+uvicorn app:app --app-dir code/bonus_service --host 127.0.0.1 --port 8000
 ```
 
 Interactive API docs are available at `/docs`.
