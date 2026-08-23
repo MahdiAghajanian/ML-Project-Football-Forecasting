@@ -10,6 +10,10 @@ import app as core  # noqa: E402
 
 patch_loaded_app(core)
 
-# Expose the FastAPI application for uvicorn: colab_app:app
+# Expose the FastAPI application and useful service state for Colab/uvicorn.
 app = core.app
 MATCH_GROUPS = core.MATCH_GROUPS
+PRE_FEATURES = core.PRE_FEATURES
+LIVE_FEATURES = core.LIVE_FEATURES
+P1_FEATURES = core.P1_FEATURES
+SNAPSHOTS = core.SNAPSHOTS
