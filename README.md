@@ -91,13 +91,16 @@ The P1 stage reproduces the paper's same-league longitudinal history, cross-seas
 The **required P2 path is the project reimplementation**, not the historical PyPI NGBoost notebook. Its canonical workflow is:
 
 ```text
+code/modeling/p2_source/                     # visible canonical implementation
+code/modeling/ngboost/__init__.py            # repository-local import facade
+code/modeling/p2_source_manifest_sha256.json # normalized source-integrity record
 code/modeling/P2_Reimplementation_Colab.ipynb
 code/modeling/prepare_p2_reimplementation.py
 code/modeling/run_p2_reimplementation_final.py
 code/modeling/requirements_colab_p2_reimplementation.txt
 ```
 
-The preparation step verifies the committed P2 source archive and all 28 Python-file SHA-256 hashes before reconstructing `code/modeling/p2_reimplementation/`. It applies only documented namespace/runtime compatibility patches. The P2 environment does not install or import the external `ngboost` package.
+The preparation step verifies all 28 committed Python files directly from `code/modeling/p2_source/` against the SHA-256 manifest after normalizing text line endings to LF, so the same reviewed source verifies on Linux/Colab and Windows CRLF checkouts. It compiles the source and confirms that imports resolve through the repository-local `ngboost` facade. No source archive is unpacked, reconstructed, or rewritten, and the P2 environment does not install the external PyPI `ngboost` package.
 
 The P2 evaluator covers categorical Task C, Normal Task R, live Task L, and the paper-faithful conditional bivariate Gaussian experiment over home/away goals. It generates raw/calibrated reliability evidence, row-level predictions, ten-worst cases, frozen pre-match live baselines, metric-vs-minute and per-phase tables, predictive-interval coverage, multivariate covariance diagnostics, sampled peak RSS, prediction latency, and a comparison with the separately labelled official-library baseline.
 
@@ -119,6 +122,7 @@ See `code/modeling/P2_REIMPLEMENTATION_PATCHES.md` for the exact integration cha
 ### Required P2 reimplementation
 
 - [P2 Colab notebook](code/modeling/P2_Reimplementation_Colab.ipynb)
+- [Visible P2 source](code/modeling/p2_source/)
 - [Verified source preparation](code/modeling/prepare_p2_reimplementation.py)
 - [P2 evaluation entry point](code/modeling/run_p2_reimplementation_final.py)
 - [P2 mathematical/API tests](code/modeling/test_p2_reimplementation.py)
@@ -151,6 +155,8 @@ For local CPU execution, follow `code/modeling/README.md`.
 │   ├── data_pipeline/
 │   │   └── results/
 │   └── modeling/
+│       ├── p2_source/
+│       ├── ngboost/
 │       ├── P2_Reimplementation_Colab.ipynb
 │       ├── prepare_p2_reimplementation.py
 │       ├── run_p2_reimplementation_final.py
