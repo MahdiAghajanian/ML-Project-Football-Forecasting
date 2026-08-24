@@ -3,8 +3,8 @@
   "run_id": 32708226319,
   "run_attempt": 1,
   "start_sha": "39f4717bb41977a6ce3a433beae9583986101b75",
-  "notebook_outcome": "running",
-  "full_output_exists": false,
-  "completion_checklist_exists": false,
+  "notebook_outcome": "success",
+  "full_output_exists": true,
+  "completion_checklist_exists": true,
   "artifact_name": "p2-full-notebook-and-outputs"
 }
