@@ -38,9 +38,13 @@ jobs:
         id: notebook
         continue-on-error: true
         run: |
+          # nbconvert executes relative to the input notebook directory. Copy the
+          # notebook to the repository root so its PROJECT_ROOT discovery sees
+          # the checked-out data tree exactly as it does in the documented flow.
+          cp code/modeling/P2_Reimplementation_Colab.ipynb ./P2_Reimplementation_Colab.ipynb
           python -m jupyter nbconvert \
             --to notebook \
-            --execute code/modeling/P2_Reimplementation_Colab.ipynb \
+            --execute P2_Reimplementation_Colab.ipynb \
             --output P2_Reimplementation_Colab.executed.ipynb \
             --output-dir code/modeling \
             --ExecutePreprocessor.timeout=-1 \
