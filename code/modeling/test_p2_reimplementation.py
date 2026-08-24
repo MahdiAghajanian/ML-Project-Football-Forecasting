@@ -19,6 +19,7 @@ if not (HERE / "p2_reimplementation").exists():
 
 from p2_reimplementation import NGBClassifier, NGBRegressor
 from p2_reimplementation.distns import MultivariateNormal, Normal, k_categorical
+from p2_reimplementation.manifold import manifold
 from p2_reimplementation.scores import LogScore
 
 SEED = 42
@@ -47,15 +48,16 @@ def test_classifier_clone_pipeline_and_determinism():
 def test_normal_gradient_and_fisher_against_finite_difference():
     params = np.array([[0.4, -0.2], [np.log(1.3), np.log(.8)]])
     y = np.array([1.1, -0.7])
-    D = Normal.implementation(LogScore)(params)
+    NormalManifold = manifold(LogScore, Normal)
+    D = NormalManifold(params)
     analytic = D.d_score(y)
     eps = 1e-6
     for obs in range(2):
         for j in range(2):
             plus = params.copy(); minus = params.copy()
             plus[j, obs] += eps; minus[j, obs] -= eps
-            sp = Normal.implementation(LogScore)(plus).score(y)[obs]
-            sm = Normal.implementation(LogScore)(minus).score(y)[obs]
+            sp = NormalManifold(plus).score(y)[obs]
+            sm = NormalManifold(minus).score(y)[obs]
             assert abs((sp - sm) / (2 * eps) - analytic[obs, j]) < 1e-5
     fisher = D.metric()
     assert np.allclose(fisher, np.swapaxes(fisher, 1, 2))
