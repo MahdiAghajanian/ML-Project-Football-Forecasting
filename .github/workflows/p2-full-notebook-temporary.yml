@@ -22,6 +22,34 @@ jobs:
       - name: Checkout p2-reimplementation
         uses: actions/checkout@v4
 
+      - name: Record run start on branch
+        env:
+          RUN_ID: ${{ github.run_id }}
+          RUN_ATTEMPT: ${{ github.run_attempt }}
+          START_SHA: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('code/modeling/P2_ACTION_STATUS.json')
+          p.write_text(json.dumps({
+              'workflow': 'P2 Full Notebook Temporary',
+              'run_id': int(os.environ['RUN_ID']),
+              'run_attempt': int(os.environ['RUN_ATTEMPT']),
+              'start_sha': os.environ['START_SHA'],
+              'notebook_outcome': 'running',
+              'full_output_exists': False,
+              'completion_checklist_exists': False,
+              'artifact_name': 'p2-full-notebook-and-outputs',
+          }, indent=2) + '\n', encoding='utf-8')
+          print(p.read_text())
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add code/modeling/P2_ACTION_STATUS.json
+          git commit -m 'Record P2 notebook run start [skip ci]'
+          git push origin HEAD:p2-reimplementation
+
       - name: Set up Python 3.13
         uses: actions/setup-python@v5
         with:
@@ -70,7 +98,7 @@ jobs:
             code/modeling/P2_Reimplementation_Colab.executed.ipynb
             code/modeling/outputs/p2_reimplementation_full/
 
-      - name: Record run status on branch
+      - name: Record run completion on branch
         if: always()
         env:
           NOTEBOOK_OUTCOME: ${{ steps.notebook.outcome }}
@@ -95,10 +123,8 @@ jobs:
           p.write_text(json.dumps(payload, indent=2) + '\n', encoding='utf-8')
           print(p.read_text())
           PY
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add code/modeling/P2_ACTION_STATUS.json
-          git commit -m 'Record P2 notebook run status [skip ci]' || true
+          git commit -m 'Record P2 notebook run completion [skip ci]' || true
           git push origin HEAD:p2-reimplementation
 
       - name: Fail workflow if notebook failed
