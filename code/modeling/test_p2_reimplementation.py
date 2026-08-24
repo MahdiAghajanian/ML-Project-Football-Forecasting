@@ -19,7 +19,7 @@ if not (HERE / "p2_reimplementation").exists():
 
 from p2_reimplementation import NGBClassifier, NGBRegressor
 from p2_reimplementation.distns import MultivariateNormal, Normal, k_categorical
-from p2_reimplementation.manifold import manifold
+from ngboost.manifold import manifold
 from p2_reimplementation.scores import LogScore
 
 SEED = 42
