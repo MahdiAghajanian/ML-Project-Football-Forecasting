@@ -1,0 +1,10 @@
+{
+  "workflow": "P2 Full Notebook Temporary",
+  "run_id": 32707735237,
+  "run_attempt": 1,
+  "start_sha": "8fb16dfdf9b60943100d910cd2a9ddd605ac3052",
+  "notebook_outcome": "failure",
+  "full_output_exists": false,
+  "completion_checklist_exists": false,
+  "artifact_name": "p2-full-notebook-and-outputs"
+}
