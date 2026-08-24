@@ -110,7 +110,7 @@ def cmetrics(y, p):
 
 def rmetrics(y, pred):
     y, pred = np.asarray(y, float), np.asarray(pred, float)
-    corr = np.nan if np.std(y) == 0 or np.std(pred) == 0 else float(pearsonr(y, pred).statistic)
+    corr = np.nan if len(y) < 2 or np.std(y) == 0 or np.std(pred) == 0 else float(pearsonr(y, pred).statistic)
     return {"MAE": float(mean_absolute_error(y, pred)), "RMSE": float(mean_squared_error(y, pred) ** .5), "Correlation": corr}
 
 
@@ -314,9 +314,9 @@ def main():
         lrows[f"rps_{tag}"]=row_rps(ylc["test"],p)
     lrows["phase"]=lrows.snapshot_minute.map(phase); lrows.to_csv(tab/"p2_task_l_outcome_predictions.csv",index=False); lrows.nlargest(10,"rps_calibrated").to_csv(tab/"p2_task_l_outcome_worst10.csv",index=False)
     minute=[]; phase_rows=[]; phase_rel=[]
-    for key,g in lrows.groupby(["snapshot_id","snapshot_minute"],sort=False):
-        pos=g.index.to_numpy();
-        for label,p in [("Live Raw",lraw),("Live Platt",lprob),("Frozen P2 Pre-match",fpc)]: minute.append({"snapshot_id":key[0],"snapshot_minute":key[1],"Evaluation":label,"Rows":len(pos),**cmetrics(ylc["test"][pos],p[pos])})
+    for rank,g in lrows.groupby("snapshot_rank",sort=True):
+        pos=g.index.to_numpy(); minute_value=float(g["snapshot_minute"].median())
+        for label,p in [("Live Raw",lraw),("Live Platt",lprob),("Frozen P2 Pre-match",fpc)]: minute.append({"snapshot_rank":int(rank),"snapshot_minute":minute_value,"Evaluation":label,"Rows":len(pos),**cmetrics(ylc["test"][pos],p[pos])})
     for ph,g in lrows.groupby("phase",sort=False):
         pos=g.index.to_numpy()
         for label,p in [("Live Raw",lraw),("Live Platt",lprob),("Frozen P2 Pre-match",fpc)]:
@@ -324,7 +324,7 @@ def main():
             phase_rel.append(reliability(ylc["test"][pos],p[pos]).assign(Phase=ph,Evaluation=label))
     mdf=pd.DataFrame(minute); mdf.to_csv(tab/"p2_task_l_outcome_by_minute.csv",index=False); pd.DataFrame(phase_rows).to_csv(tab/"p2_task_l_outcome_by_phase.csv",index=False); pd.concat(phase_rel).to_csv(tab/"p2_task_l_phase_reliability.csv",index=False)
     fig,ax=plt.subplots(figsize=(8,4));
-    for label,g in mdf.groupby("Evaluation"): ax.plot(g.snapshot_minute,g.RPS,marker="o",label=label)
+    for label,g in mdf.groupby("Evaluation"): g=g.sort_values("snapshot_rank"); ax.plot(g.snapshot_minute,g.RPS,marker="o",label=label)
     ax.set(title="P2 Task L outcome RPS vs minute",xlabel="Minute",ylabel="RPS"); ax.legend(); fig.tight_layout(); fig.savefig(figdir/"p2_task_l_outcome_rps_vs_minute.png",dpi=180); plt.close(fig)
     summary["task_l_classification"]={r.Evaluation:r.drop(labels="Evaluation").to_dict() for _,r in lctab.iterrows()}; compute.append({**lcres,**latency(lm,Xl["test"])}); joblib.dump(lm,mdl/"p2_task_l_classifier.joblib"); joblib.dump(lcal,mdl/"p2_task_l_platt.joblib")
 
@@ -335,15 +335,15 @@ def main():
     pd.DataFrame([live_reg,frozen_reg]).to_csv(tab/"p2_task_l_margin_metrics.csv",index=False); lrt.to_csv(tab/"p2_task_l_margin_tuning.csv",index=False)
     lrrows=ls["test"][[c for c in ["match_id","snapshot_id","snapshot_minute","snapshot_rank","label_margin"] if c in ls["test"].columns]].copy(); lrrows["phase"]=lrrows.snapshot_minute.map(phase); lrrows["live_mean"]=lmu; lrrows["live_sigma"]=lsig; lrrows["frozen_mean"]=fmr.mu.to_numpy(); lrrows["frozen_sigma"]=fmr.sigma.to_numpy(); lrrows["live_abs_error"]=np.abs(ylr["test"]-lmu); lrrows.to_csv(tab/"p2_task_l_margin_predictions.csv",index=False); lrrows.nlargest(10,"live_abs_error").to_csv(tab/"p2_task_l_margin_worst10.csv",index=False)
     mr=[]; pr=[]
-    for keys,g in lrrows.groupby(["snapshot_id","snapshot_minute"],sort=False):
-        pos=g.index.to_numpy()
-        for label,pm,sg in [("Live",lmu,lsig),("Frozen P2 Pre-match",fmr.mu.to_numpy(),fmr.sigma.to_numpy())]: mr.append({"snapshot_id":keys[0],"snapshot_minute":keys[1],"Evaluation":label,"Rows":len(pos),**rmetrics(ylr["test"][pos],pm[pos]),"NLL":float(-np.mean(norm.logpdf(ylr["test"][pos],pm[pos],sg[pos]))),**coverage(ylr["test"][pos],pm[pos],sg[pos])})
+    for rank,g in lrrows.groupby("snapshot_rank",sort=True):
+        pos=g.index.to_numpy(); minute_value=float(g["snapshot_minute"].median())
+        for label,pm,sg in [("Live",lmu,lsig),("Frozen P2 Pre-match",fmr.mu.to_numpy(),fmr.sigma.to_numpy())]: mr.append({"snapshot_rank":int(rank),"snapshot_minute":minute_value,"Evaluation":label,"Rows":len(pos),**rmetrics(ylr["test"][pos],pm[pos]),"NLL":float(-np.mean(norm.logpdf(ylr["test"][pos],pm[pos],sg[pos]))),**coverage(ylr["test"][pos],pm[pos],sg[pos])})
     for ph,g in lrrows.groupby("phase",sort=False):
         pos=g.index.to_numpy()
         for label,pm,sg in [("Live",lmu,lsig),("Frozen P2 Pre-match",fmr.mu.to_numpy(),fmr.sigma.to_numpy())]: pr.append({"Phase":ph,"Evaluation":label,"Rows":len(pos),**rmetrics(ylr["test"][pos],pm[pos]),"NLL":float(-np.mean(norm.logpdf(ylr["test"][pos],pm[pos],sg[pos]))),**coverage(ylr["test"][pos],pm[pos],sg[pos])})
     mrdf=pd.DataFrame(mr); mrdf.to_csv(tab/"p2_task_l_margin_by_minute.csv",index=False); pd.DataFrame(pr).to_csv(tab/"p2_task_l_margin_by_phase.csv",index=False)
     fig,ax=plt.subplots(figsize=(8,4));
-    for label,g in mrdf.groupby("Evaluation"): ax.plot(g.snapshot_minute,g.RMSE,marker="o",label=label)
+    for label,g in mrdf.groupby("Evaluation"): g=g.sort_values("snapshot_rank"); ax.plot(g.snapshot_minute,g.RMSE,marker="o",label=label)
     ax.set(title="P2 Task L margin RMSE vs minute",xlabel="Minute",ylabel="RMSE"); ax.legend(); fig.tight_layout(); fig.savefig(figdir/"p2_task_l_margin_rmse_vs_minute.png",dpi=180); plt.close(fig)
     summary["task_l_regression"]={"Live":live_reg,"Frozen":frozen_reg,"ValidationScaleFactor":lsf}; compute.append({**lrres,**latency(lrm,Xl["test"])}); joblib.dump(lrm,mdl/"p2_task_l_regressor.joblib")
 
@@ -361,7 +361,8 @@ def main():
         fig,ax=plt.subplots(figsize=(7,4)); ax.scatter(np.arange(len(corr)),corr,s=14); ax.axhline(0,linewidth=1); ax.set(title="P2 predicted home-away goal correlation",xlabel="Test match index",ylabel="Predicted correlation"); fig.tight_layout(); fig.savefig(figdir/"p2_multivariate_predicted_correlation.png",dpi=180); plt.close(fig)
         summary["multivariate"]={"Raw":rawmv,"Calibrated":calmv,"CovarianceScale":cov_scale}; compute.append({**mvres,**latency(mv,Xp["test"])}); joblib.dump(mv,mdl/"p2_multivariate_goals.joblib")
 
-    # Explicit official-library comparison only.
+    # Explicit official-library comparison only. The finalizer rebuilds the
+    # complete C/R/L comparison and records any baseline-read errors.
     old=root/"code/modeling/outputs/ngboost_p1_corrected_full/tables"; comps=[]
     if old.exists():
         try:
@@ -372,13 +373,9 @@ def main():
         except Exception as exc: (out/"official_baseline_comparison_warning.txt").write_text(str(exc),encoding="utf-8")
     pd.DataFrame(comps).to_csv(tab/"p2_vs_official_library.csv",index=False); pd.DataFrame(compute).to_csv(tab/"p2_compute_and_peak_memory.csv",index=False)
 
-    cfg={"seed":SEED,"mode":a.mode,"implementation":"P2 project reimplementation","package":"code/modeling/p2_reimplementation","external_ngboost_runtime_dependency":False,"feature_contract_source":contract["source"],"split_matches":SPLITS,"pre_feature_count":len(contract["pre_features"]),"live_feature_count":len(contract["live_features"]),"p1_feature_count":len(contract["p1_features"]),"python":platform.python_version()}
+    cfg={"seed":SEED,"mode":a.mode,"implementation":"P2 project reimplementation","package":"code/modeling/ngboost facade -> code/modeling/p2_source","external_ngboost_runtime_dependency":False,"feature_contract_source":contract["source"],"split_matches":SPLITS,"pre_feature_count":len(contract["pre_features"]),"live_feature_count":len(contract["live_features"]),"p1_feature_count":len(contract["p1_features"]),"python":platform.python_version()}
     (out/"run_config.json").write_text(json.dumps(cfg,indent=2),encoding="utf-8"); (out/"p2_summary.json").write_text(json.dumps(summary,indent=2,default=float),encoding="utf-8")
-    checklist={"verified_source_reconstruction":True,"project_p2_reimplementation_used":True,"official_ngboost_only_baseline":True,"task_c_complete_evidence":True,"task_r_complete_evidence":True,"task_l_outcome_live_frozen_minute_phase":True,"task_l_margin_live_frozen_minute_phase":True,"peak_memory_sampling":True,"prediction_latency":True,"multivariate_evidence":not a.skip_multivariate,"official_library_comparison":bool(comps)}; (out/"p2_completion_checklist.json").write_text(json.dumps(checklist,indent=2),encoding="utf-8")
-    report=["# P2 report insert — project reimplementation","","## 4.2 P2 — Model Paper Reproduction","","The P2 project reimplementation was evaluated separately from the official NGBoost library baseline. Source reconstruction was checksum- and manifest-verified before documented runtime-compatibility patches were applied. The P2 evaluation path did not import the external `ngboost` package. Model selection used validation data only and retained the chronological 251/77/46 match split.","","## 6.5 P2 Reimplementation Results","",f"Task C calibrated RPS: **{summary['task_c']['Platt']['RPS']:.4f}**. Task R RMSE: **{summary['task_r']['RMSE']:.4f}**. Task L live calibrated RPS: **{summary['task_l_classification']['Live Platt']['RPS']:.4f}**. Task L live margin RMSE: **{summary['task_l_regression']['Live']['RMSE']:.4f}**."]
-    if "multivariate" in summary: report += ["",f"The raw multivariate experiment obtained joint NLL **{summary['multivariate']['Raw']['JointNLL']:.4f}**; validation-only dispersion correction obtained joint NLL **{summary['multivariate']['Calibrated']['JointNLL']:.4f}**."]
-    report += ["","Detailed reliability, frozen-baseline, minute/phase, worst-case, predictive-interval, multivariate diagnostic, resource, and official-library comparison evidence is stored in the generated `tables/` and `figures/` directories.","","## Appendix A","","Use `code/modeling/P2_APPENDIX_A_DERIVATION.md` for the hand derivation."]
-    (out/"P2_REPORT_INSERT.md").write_text("\n".join(report),encoding="utf-8"); print("P2 reimplementation run complete:",out)
+    print("P2 core evaluation complete; strict checklist/report finalization pending:",out)
 
 
 if __name__ == "__main__":
