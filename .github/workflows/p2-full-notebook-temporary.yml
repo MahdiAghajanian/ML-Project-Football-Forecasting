@@ -8,12 +8,16 @@ on:
       - '.github/workflows/p2-full-notebook-temporary.yml'
   workflow_dispatch:
 
+concurrency:
+  group: p2-full-notebook-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   run-p2-notebook:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     permissions:
-      contents: read
+      contents: write
     steps:
       - name: Checkout p2-reimplementation
         uses: actions/checkout@v4
@@ -31,6 +35,8 @@ jobs:
           python -m pip install nbconvert ipykernel jupyter-core
 
       - name: Execute P2 notebook end to end
+        id: notebook
+        continue-on-error: true
         run: |
           python -m jupyter nbconvert \
             --to notebook \
@@ -59,3 +65,38 @@ jobs:
           path: |
             code/modeling/P2_Reimplementation_Colab.executed.ipynb
             code/modeling/outputs/p2_reimplementation_full/
+
+      - name: Record run status on branch
+        if: always()
+        env:
+          NOTEBOOK_OUTCOME: ${{ steps.notebook.outcome }}
+          RUN_ID: ${{ github.run_id }}
+          RUN_ATTEMPT: ${{ github.run_attempt }}
+          START_SHA: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path('code/modeling/P2_ACTION_STATUS.json')
+          payload = {
+              'workflow': 'P2 Full Notebook Temporary',
+              'run_id': int(os.environ['RUN_ID']),
+              'run_attempt': int(os.environ['RUN_ATTEMPT']),
+              'start_sha': os.environ['START_SHA'],
+              'notebook_outcome': os.environ['NOTEBOOK_OUTCOME'],
+              'full_output_exists': Path('code/modeling/outputs/p2_reimplementation_full').is_dir(),
+              'completion_checklist_exists': Path('code/modeling/outputs/p2_reimplementation_full/p2_completion_checklist.json').is_file(),
+              'artifact_name': 'p2-full-notebook-and-outputs',
+          }
+          p.write_text(json.dumps(payload, indent=2) + '\n', encoding='utf-8')
+          print(p.read_text())
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add code/modeling/P2_ACTION_STATUS.json
+          git commit -m 'Record P2 notebook run status [skip ci]' || true
+          git push origin HEAD:p2-reimplementation
+
+      - name: Fail workflow if notebook failed
+        if: steps.notebook.outcome != 'success'
+        run: exit 1
