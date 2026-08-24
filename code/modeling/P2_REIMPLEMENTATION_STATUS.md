@@ -2,49 +2,40 @@
 
 Branch: `p2-reimplementation`
 
-This branch separates two roles clearly:
+## Canonical roles
 
-- **P2 project reimplementation** — `p2_reimplementation/`, prepared and evaluated by the new P2 workflow.
-- **Official NGBoost library baseline** — historical `ngboost==0.5.11` notebook/output, retained only for an explicit paper-vs-library comparison.
+- **Required P2 implementation:** `code/modeling/p2_source/`, used through the repository-local `code/modeling/ngboost/` facade.
+- **Official NGBoost library baseline:** historical `ngboost==0.5.11` notebook/output, read only for labelled comparison after the P2 run.
 
 ## Static implementation status
 
 | Requirement | Status before full run |
 |---|---|
-| Verified P2 source reconstruction | Ready; checksum + 28-file manifest fail closed |
-| No external `ngboost` runtime dependency in P2 path | Ready |
-| sklearn clone/Pipeline compatibility | Patched and testable |
-| Task C full metrics + class P/R/F1 | Implemented |
-| Task C reliability + confusion matrices | Implemented |
-| Task C row predictions + ten worst | Implemented |
-| Task R MAE/RMSE/correlation/NLL | Implemented |
-| Task R raw/calibrated 50/80/95% coverage | Implemented |
-| Task R row predictions + intervals + ten worst | Implemented |
-| Task L classification raw/calibrated/frozen pre-match | Implemented |
-| Task L classification metrics by minute and phase | Implemented |
-| Task L phase reliability + row predictions + worst cases | Implemented |
-| Task L regression live/frozen metrics by minute and phase | Implemented |
-| Task L regression NLL/coverage + row predictions | Implemented |
-| Multivariate validation selection | Implemented |
-| Multivariate NLL/Energy/coverage/eigenvalues/correlation | Implemented |
-| Multivariate derived H/D/A probabilities | Implemented |
+| Visible direct P2 source tree | Ready: `p2_source/` |
+| 28-file source integrity verification | Ready: fail-closed SHA-256 manifest |
+| External `ngboost` excluded from P2 requirements | Ready |
+| Old-style `from ngboost import ...` integration | Ready via local facade |
+| sklearn clone/Pipeline compatibility | Ready via facade |
+| Task C full metrics + per-class P/R/F1 | Implemented |
+| Task C reliability + confusion + row predictions + worst 10 | Implemented |
+| Task R MAE/RMSE/correlation/NLL + 50/80/95% coverage | Implemented |
+| Task R intervals + row predictions + worst 10 | Implemented |
+| Task L outcome live/raw/calibrated/frozen pre-match | Implemented |
+| Task L outcome metrics by minute and phase | Implemented |
+| Task L phase reliability figures | Implemented by finalizer |
+| Task L margin live/frozen metrics by minute and phase | Implemented |
+| Multivariate validation selection + NLL/Energy/coverage/eigenvalues/correlation | Implemented |
+| Derived multivariate H/D/A probabilities | Implemented |
 | Validation-only covariance dispersion correction | Implemented |
-| Background peak-RSS sampling | Implemented |
-| Prediction p50/p95/p99 timing | Implemented |
-| Official-library comparison table | Implemented if historical results are present |
-| Feature contract independent of old model run_config | Implemented from data-pipeline audit + P1 schema |
-| Complete pinned dependencies | Implemented |
-| Appendix A derivation source | Present; expand/review before final PDF |
+| Sampled peak RSS + p50/p95/p99 latency | Implemented |
+| Unified official-library comparison C/R/L outcome/L margin | Implemented by finalizer |
+| Feature contract independent of historical model run_config | Implemented |
+| Explanatory Colab workflow | Expanded |
+| Strict evidence-derived completion checklist | Implemented by finalizer |
+| Expanded P2 report insert | Implemented by finalizer |
 
 ## Not complete until execution
 
-No metric in this branch should be reported as a result until the full P2 run succeeds. The following evidence must be generated and committed or included in the final submission bundle:
+No new P2 metric should be reported until the full notebook succeeds. A complete run must generate `code/modeling/outputs/p2_reimplementation_full/`, including metric tables, row-level predictions, reliability/interval figures, fitted models, compute/latency evidence, the unified official-library comparison, the strict completion checklist, and the report insert.
 
-- executed P2 notebook;
-- `outputs/p2_reimplementation_full/` metric tables, row predictions, figures and fitted models;
-- resource/latency evidence;
-- `P2_REPORT_INSERT.md` populated by the held-out run;
-- final unified Task C/R/L tables containing both the official-library baseline and the P2 reimplementation;
-- updated report PDF and submission evidence archive.
-
-TA paper sign-off and any authorship/provenance attestation are external requirements and are not manufactured by this branch.
+The executed notebook, final report PDF, final evidence archive, and any TA paper/sign-off or authorship attestation remain submission-stage requirements outside the static code changes.
