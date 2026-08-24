@@ -1,22 +1,26 @@
-# P2 project reimplementation: source verification and integration patches
+# P2 project reimplementation: direct-source integration
 
-The required P2 workflow is the **project reimplementation** under `code/modeling/p2_reimplementation/`. The official PyPI `ngboost` implementation remains a separately labelled historical/library baseline and is not imported by the P2 evaluation path.
+The required P2 implementation is the visible source tree under `code/modeling/p2_source/`. The historical PyPI `ngboost==0.5.11` workflow remains only as a separately labelled library baseline.
 
-## Verified source reconstruction
+## Runtime integration
 
-`p2_user_source/source_tree.tar.xz` is a lossless snapshot of the P2 source supplied for this project. `prepare_p2_reimplementation.py` verifies the archive checksum and then verifies every Python file against `p2_user_source/source_manifest_sha256.json` before producing the runnable package. Verification is fail-closed; checksum or manifest mismatches stop execution.
+The project now uses the P2 source the same way the earlier modeling workflow used the `ngboost` package: modeling code imports `from ngboost import NGBClassifier, NGBRegressor`, but `code/modeling/ngboost/__init__.py` is a repository-local facade whose submodules resolve directly to `p2_source/`. The P2 requirements file does not install external `ngboost`.
 
-## Integration-only patches
+The source files in `p2_source/` are not reconstructed from an archive and are not copied into another implementation tree. `prepare_p2_reimplementation.py` is now a verifier only: it checks the exact 28-file Python source list and SHA-256 manifest, compiles the source, and confirms that the local `ngboost` facade imports successfully.
 
-After verification, the preparation step applies four runtime/integration patches:
+## Compatibility layer
 
-1. Internal imports are moved from the collision-prone `ngboost.*` namespace to `p2_reimplementation.*`.
-2. Package-version lookup through installed distribution metadata is replaced by a local project version string because this source is executed directly from the repository.
-3. `NGBClassifier` exposes `validation_fraction` and `early_stopping_rounds`, matching the parameters returned by the inherited estimator API and therefore allowing `sklearn.clone()` and Pipelines to work.
-4. `__sklearn_is_fitted__` is added so modern scikit-learn fitted-state checks recognize trained estimators.
+The facade adds only integration behavior needed by the existing sklearn-based evaluator:
 
-These patches do not change the P2 task definition, distribution equations, Fisher-information calculations, tree fitting, natural-gradient update, or line-search algorithm.
+1. It exposes `p2_source` under the project-local `ngboost` package name so existing imports continue to work without PyPI NGBoost.
+2. It supplies a local version string instead of requiring installed-package metadata.
+3. Its `NGBClassifier` facade exposes `validation_fraction` and `early_stopping_rounds` so `sklearn.clone()` and Pipelines see a constructor consistent with inherited estimator parameters.
+4. It adds `__sklearn_is_fitted__` to the shared NGBoost class for modern sklearn fitted-state checks.
 
-## Provenance statement
+These integration changes do not replace or rewrite the natural-gradient loop, Fisher-information calculations, distribution equations, base-tree fitting, subsampling, line search, or boosting update in `p2_source/`.
 
-The repository records the exact source snapshot and the mechanical changes made for integration. That record establishes reproducibility of the evaluated code; it does not, by itself, prove who originally authored each source line. Any coursework authorship statement should match the actual development history and be defensible independently of the packaging mechanism.
+## Source integrity
+
+`p2_source_manifest_sha256.json` records the expected SHA-256 digest of every Python source file. Verification is fail-closed: missing, extra, or modified source files stop the P2 run before tests or training.
+
+Authorship statements in the coursework should reflect the real development history; the repository does not infer authorship merely from packaging or hashes.
