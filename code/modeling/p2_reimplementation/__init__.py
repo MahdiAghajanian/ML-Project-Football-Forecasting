@@ -6,11 +6,10 @@ same import style as before without installing the external PyPI package.
 """
 from __future__ import annotations
 
+import importlib
 import sys
 
 import ngboost as _project_ngboost
-import ngboost.distns as _distns
-import ngboost.scores as _scores
 
 NGBClassifier = _project_ngboost.NGBClassifier
 NGBRegressor = _project_ngboost.NGBRegressor
@@ -18,10 +17,10 @@ NGBSurvival = _project_ngboost.NGBSurvival
 NGBoost = _project_ngboost.NGBoost
 load_ngboost_model = _project_ngboost.load_ngboost_model
 
-# Preserve imports used by the existing P2 evaluator without loading a second
-# copy of distribution/score classes under a different module name.
-sys.modules[__name__ + ".distns"] = _distns
-sys.modules[__name__ + ".scores"] = _scores
+# Preserve imports used by older P2 evaluator/test code without loading second
+# copies of distribution, score, or manifold classes under another namespace.
+for _name in ("distns", "scores", "manifold"):
+    sys.modules[__name__ + "." + _name] = importlib.import_module("ngboost." + _name)
 
 __version__ = _project_ngboost.__version__
 __all__ = ["NGBClassifier", "NGBRegressor", "NGBSurvival", "NGBoost", "load_ngboost_model"]
